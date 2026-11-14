@@ -1,0 +1,183 @@
+table,field,type,required,allowed_values,unit,unique,primary_key,foreign_key,rule
+employees,employee_id,str,Y,EMP-NNNNNN,-,Y,Y,,Zero-padded 6 digits; immutable
+employees,full_name,str,Y,synthetic name,-,N,N,,Synthetic combination of common first/last names; not a real person
+employees,email,str,Y,first.last.<n>@example.test,-,Y,N,,Lower-case; reserved example.test domain; unique
+employees,department,str,Y,"enum:Engineering,Product,Sales,Marketing,Finance,HR,Operations,Customer Success",-,N,N,,Home department (does not change on manager transfer)
+employees,job_level,str,Y,"enum:L1,L2,L3,L4,L5,L6,L7",-,N,N,,Managers must be L4 or above; level follows org depth
+employees,job_title,str,Y,free text,-,N,N,,Derived from level + department
+employees,location,str,Y,"enum:Hyderabad,Bengaluru,Pune,Mumbai,Delhi NCR,Remote",-,N,N,,Work location
+employees,hire_date,date,Y,2012-01-02..2026-10-01,-,N,N,,<= as-of date (2026-10-22)
+employees,termination_date,date,N,date,-,N,N,,Present iff employment_status=terminated; > hire_date
+employees,employment_status,str,Y,"enum:active,on_leave,terminated",-,N,N,,Terminated employees are excluded from open-cycle participation
+employees,system_role,str,Y,"enum:employee,manager,hr_partner,it_ops,sysadmin",-,N,N,,'manager' iff the employee has a row in managers
+employees,manager_id,str,N,MGR-NNNNNN,-,N,N,managers.manager_id,FK:managers.manager_id; equals the open row of manager_assignments; NULL only for organisation root
+managers,manager_id,str,Y,MGR-NNNNNN,-,Y,Y,,Immutable; one manager role per employee
+managers,employee_id,str,Y,EMP-NNNNNN,-,Y,N,employees.employee_id,FK:employees.employee_id; the employee who holds the manager role; unique (1:1)
+managers,parent_manager_id,str,N,MGR-NNNNNN,-,N,N,managers.manager_id,FK:managers.manager_id; NULL only for root; hierarchy must be acyclic
+managers,department,str,Y,department names,-,N,N,,Home department of the manager
+managers,org_level,int,Y,1..6,level,N,N,,1 = root; child level = parent level + 1
+managers,effective_from,date,Y,date,-,N,N,,>= manager's hire_date
+managers,status,str,Y,"enum:active,inactive",-,N,N,,All generated managers are active
+manager_assignments,assignment_id,str,Y,MA-NNNNNN,-,Y,Y,,Immutable
+manager_assignments,employee_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; reportee
+manager_assignments,manager_id,str,Y,MGR-NNNNNN,-,N,N,managers.manager_id,FK:managers.manager_id; may not be the employee's own manager role
+manager_assignments,effective_from,date,Y,date,-,N,N,,Start of reporting line (>= hire_date)
+manager_assignments,effective_to,date,N,date,-,N,N,,NULL = current line; intervals per employee must not overlap; exactly one open row per reportee
+manager_assignments,change_reason,str,Y,"enum:initial_hire,transfer,reorg",-,N,N,,Transfers create a new row; history is never overwritten
+review_cycles,cycle_id,str,Y,CYCLE-YYYY-Hn,-,Y,Y,,Immutable
+review_cycles,cycle_name,str,Y,free text,-,N,N,,
+review_cycles,start_date,date,Y,date,-,N,N,,< end_date
+review_cycles,end_date,date,Y,date,-,N,N,,
+review_cycles,goal_setting_deadline,date,Y,date,-,N,N,,>= start_date
+review_cycles,review_window_start,date,Y,date,-,N,N,,>= start_date
+review_cycles,review_window_end,date,Y,date,-,N,N,,>= review_window_start
+review_cycles,closed_at,datetime,N,ISO-8601,-,N,N,,NULL while open; after closed_at goals are locked (changes need an approved reopen)
+review_cycles,status,str,Y,"enum:planned,open,closed",-,N,N,,closed iff closed_at is not NULL
+review_cycles,max_progress_pct,float,Y,120,percent,N,N,,Defined progress scale cap; progress > 100 requires a rationale
+competencies,competency_id,str,Y,COMP-NN,-,Y,Y,,Immutable
+competencies,competency_name,str,Y,free text,-,Y,N,,
+competencies,category,str,Y,"enum:Execution,Collaboration,Leadership,Craft",-,N,N,,
+competencies,description,str,Y,free text,-,N,N,,
+competencies,rating_scale_min,int,Y,1,rating,N,N,,
+competencies,rating_scale_max,int,Y,5,rating,N,N,,
+goals,goal_id,str,Y,GOAL-<employee-id>-NNN,-,Y,Y,,Embeds owner employee id; sequence is per employee across cycles
+goals,employee_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; owner; must equal the id embedded in goal_id
+goals,cycle_id,str,Y,CYCLE-YYYY-Hn,-,N,N,review_cycles.cycle_id,FK:review_cycles.cycle_id
+goals,title,str,Y,free text,-,N,N,,Current title (history in state_events)
+goals,description,str,Y,free text,-,N,N,,
+goals,category,str,Y,"enum:performance,development,strategic",-,N,N,,
+goals,weight_pct,float,Y,5..100,percent,N,N,,Initial weights per employee+cycle sum to 100
+goals,start_date,date,Y,date,-,N,N,,<= due_date
+goals,due_date,date,Y,date,-,N,N,,<= cycle end_date
+goals,status,str,Y,"enum:draft,active,completed,not_achieved,cancelled",-,N,N,,completed if progress_pct >= 70; not_achieved = closed cycle with progress < 70
+goals,version,int,Y,>=1,count,N,N,,1 + number of approved change events (target/title/due-date) in state_events
+goals,created_at,datetime,Y,ISO-8601,-,N,N,,
+goals,approved_by,str,N,MGR-NNNNNN,-,N,N,managers.manager_id,FK:managers.manager_id; manager of record on approval date; NULL for draft
+goals,approved_at,datetime,N,ISO-8601,-,N,N,,>= created_at
+goals,updated_at,datetime,Y,ISO-8601,-,N,N,,Last content change; > cycle closed_at only for silent-edit anomalies
+goals,progress_pct,float,Y,0..120,percent,N,N,,DERIVED: sum(kr.weight * kr.scoring_progress_pct)
+goals,cancelled_reason,str,N,free text,-,N,N,,Present iff status=cancelled
+key_results,kr_id,str,Y,KR-<goal-id>-NN,-,Y,Y,,Immutable
+key_results,goal_id,str,Y,GOAL-...,-,N,N,goals.goal_id,FK:goals.goal_id
+key_results,description,str,Y,free text,-,N,N,,
+key_results,metric_type,str,Y,"enum:percentage,count,currency_usd,score,duration_days,defect_rate_pct",-,N,N,,
+key_results,unit,str,Y,free text,-,N,N,,
+key_results,direction,str,Y,"enum:increase,decrease",-,N,N,,decrease = lower is better
+key_results,baseline_value,float,Y,number,metric unit,N,N,,
+key_results,target_value,float,Y,number != baseline,metric unit,N,N,,Current definition; changes are in state_events
+key_results,weight,float,Y,0..1,ratio,N,N,,Weights per goal sum to 1.0
+key_results,current_value,float,Y,number,metric unit,N,N,,"DERIVED: latest reported value in check_in_kr_values, else baseline"
+key_results,progress_pct,float,Y,>=0,percent,N,N,,"DERIVED raw: (current-baseline)/(target-baseline)*100, floored at 0"
+key_results,scoring_progress_pct,float,Y,0..120,percent,N,N,,"DERIVED: min(progress_pct,120) if rationale present else min(progress_pct,100)"
+key_results,over_achievement_rationale,str,N,free text,-,N,N,,Required when progress_pct > 100
+key_results,max_progress_pct,float,Y,120,percent,N,N,,Defined scale cap
+check_ins,checkin_id,str,Y,CHK-NNNNNN,-,Y,Y,,Numbered in chronological order
+check_ins,goal_id,str,Y,GOAL-...,-,N,N,goals.goal_id,FK:goals.goal_id
+check_ins,employee_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; goal owner at creation time
+check_ins,submitted_by,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; owner or the manager of record on checkin_date
+check_ins,checkin_date,date,Y,date,-,N,N,,Within goal start/cycle window and <= as-of date
+check_ins,checkin_type,str,Y,"enum:self_update,manager_review",-,N,N,,manager_review iff submitted_by is not the owner
+check_ins,cumulative_progress_pct,float,Y,0..120,percent,N,N,,DERIVED: weighted scoring progress after applying this check-in
+check_ins,expected_progress_pct,float,Y,0..100,percent,N,N,,DERIVED: linear time elapsed between goal start and due date
+check_ins,confidence,str,Y,"enum:on_track,at_risk,off_track",-,N,N,,"DERIVED: cumulative/expected >=0.9 on_track, >=0.6 at_risk, else off_track"
+check_ins,comment,str,Y,free text,-,N,N,,
+check_ins,evidence_required,bool,Y,0/1,-,N,N,,DERIVED: 1 if any KR reported >= 80% progress
+check_ins,evidence_count,int,Y,>=0,count,N,N,,DERIVED: rows in evidence_links; must be >=1 when evidence_required
+check_in_kr_values,value_id,str,Y,CKV-NNNNNN,-,Y,Y,,Bridge: check_ins N:M key_results
+check_in_kr_values,checkin_id,str,Y,CHK-NNNNNN,-,N,N,check_ins.checkin_id,FK:check_ins.checkin_id
+check_in_kr_values,kr_id,str,Y,KR-...,-,N,N,key_results.kr_id,FK:key_results.kr_id; KR must belong to the check-in's goal
+check_in_kr_values,reported_value,float,Y,number,metric unit,N,N,,
+check_in_kr_values,progress_pct,float,Y,>=0,percent,N,N,,DERIVED raw progress at this check-in
+evidence_links,evidence_id,str,Y,EVD-NNNNNN,-,Y,Y,,
+evidence_links,checkin_id,str,Y,CHK-NNNNNN,-,N,N,check_ins.checkin_id,FK:check_ins.checkin_id
+evidence_links,evidence_type,str,Y,"enum:document,dashboard,ticket,pull_request,report,presentation",-,N,N,,
+evidence_links,url,str,Y,https://evidence.example.test/...,-,Y,N,,Synthetic non-resolvable URL
+evidence_links,added_at,datetime,Y,ISO-8601,-,N,N,,Same day as the check-in
+reviews,review_id,str,Y,REV-YYYY-NNNNNN,-,Y,Y,,Counter is continuous within a year
+reviews,employee_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; reviewee; unique per cycle
+reviews,cycle_id,str,Y,CYCLE-YYYY-Hn,-,N,N,review_cycles.cycle_id,FK:review_cycles.cycle_id
+reviews,manager_id,str,Y,MGR-NNNNNN,-,N,N,managers.manager_id,"FK:managers.manager_id; manager of record at min(cycle end, as-of)"
+reviews,status,str,Y,"enum:not_started,self_submitted,manager_submitted,finalized,closed_incomplete",-,N,N,,Terminal in a closed cycle: finalized or closed_incomplete
+reviews,manager_changed_in_cycle,bool,Y,0/1,-,N,N,,DERIVED: a manager_assignments row starts inside the cycle
+reviews,self_submitted_at,datetime,N,ISO-8601,-,N,N,,
+reviews,manager_submitted_at,datetime,N,ISO-8601,-,N,N,,> self_submitted_at
+reviews,finalized_at,datetime,N,ISO-8601,-,N,N,,>= manager_submitted_at; <= cycle closed_at
+reviews,goal_count,int,Y,>=0,count,N,N,,DERIVED: goals owned (stored owner) in cycle excluding draft/cancelled
+reviews,goal_progress_score,float,N,0..120,percent,N,N,,DERIVED: weight_pct-weighted mean of goals.progress_pct
+reviews,avg_self_rating,float,N,1..5,rating,N,N,,DERIVED from feedback
+reviews,avg_manager_rating,float,N,1..5,rating,N,N,,DERIVED from feedback
+reviews,avg_peer_rating,float,N,1..5,rating,N,N,,DERIVED from feedback
+reviews,required_inputs,int,Y,4,count,N,N,,Self + manager + 2 peers
+reviews,received_inputs,int,Y,>=0,count,N,N,,DERIVED: submitted reviewer_assignments
+reviews,completion_pct,float,Y,0..100,percent,N,N,,"DERIVED: min(received/required,1)*100"
+reviews,feedback_conflict_flag,bool,Y,0/1,-,N,N,,DERIVED: abs(avg_self-avg_manager)>=1.5 or any competency rating spread >=3
+reviews,final_rating,float,N,1..5,rating,N,N,,"DERIVED (finalized only): 0.6*(1+4*min(score,120)/120)+0.4*avg_manager_rating"
+reviews,rating_band,str,N,"enum:Needs Improvement,Developing,Meets Expectations,Exceeds Expectations,Outstanding",-,N,N,,DERIVED from final_rating thresholds 2/3/4/4.5
+reviews,score_as_of,date,Y,date,-,N,N,,"min(cycle end, as-of date)"
+reviewer_assignments,assignment_id,str,Y,RA-NNNNNN,-,Y,Y,,Authorises a reviewer to give feedback (bridge reviews N:M employees)
+reviewer_assignments,review_id,str,Y,REV-...,-,N,N,reviews.review_id,FK:reviews.review_id
+reviewer_assignments,reviewee_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id
+reviewer_assignments,reviewer_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id
+reviewer_assignments,relationship_type,str,Y,"enum:self,manager,peer",-,N,N,,manager reviewer must be the manager of record
+reviewer_assignments,relationship_basis,str,Y,"enum:self,direct_manager,same_team,same_department,cross_functional_approved",-,N,N,,Peers need a documented basis
+reviewer_assignments,approved_by,str,N,MGR-NNNNNN,-,N,N,managers.manager_id,FK:managers.manager_id; required for cross_functional_approved
+reviewer_assignments,status,str,Y,"enum:requested,submitted,declined,expired",-,N,N,,
+reviewer_assignments,requested_at,datetime,Y,ISO-8601,-,N,N,,
+reviewer_assignments,due_date,date,Y,date,-,N,N,,
+reviewer_assignments,responded_at,datetime,N,ISO-8601,-,N,N,,NULL when expired
+feedback,feedback_id,str,Y,FB-NNNNNN,-,Y,Y,,
+feedback,review_id,str,Y,REV-...,-,N,N,reviews.review_id,FK:reviews.review_id
+feedback,assignment_id,str,N,RA-NNNNNN,-,N,N,reviewer_assignments.assignment_id,FK:reviewer_assignments.assignment_id; NULL only for labelled anomalies
+feedback,reviewee_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id
+feedback,reviewer_id,str,N,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; NULL only for untraceable anomalies
+feedback,feedback_type,str,Y,"enum:self,manager,peer",-,N,N,,
+feedback,competency_id,str,Y,COMP-NN,-,N,N,competencies.competency_id,FK:competencies.competency_id
+feedback,rating,int,Y,1..5,rating,N,N,,
+feedback,comment,str,Y,free text,-,N,N,,
+feedback,evidence_ref_type,str,N,"enum:goal,check_in",-,N,N,,Optional link to evidence
+feedback,evidence_ref_id,str,N,GOAL-... or CHK-...,-,N,N,,Must exist in the referenced table when present
+feedback,submitted_at,datetime,Y,ISO-8601,-,N,N,,
+feedback,submission_channel,str,Y,"enum:app,import",-,N,N,,import only for untraceable anomalies
+development_plans,dev_plan_id,str,Y,DP-NNNNNN,-,Y,Y,,
+development_plans,review_id,str,Y,REV-...,-,N,N,reviews.review_id,FK:reviews.review_id; only finalized reviews
+development_plans,employee_id,str,Y,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id
+development_plans,competency_id,str,Y,COMP-NN,-,N,N,competencies.competency_id,FK:competencies.competency_id
+development_plans,plan_type,str,Y,"enum:mandatory,voluntary",-,N,N,,mandatory when manager rating <= 2 on a competency or band = Needs Improvement
+development_plans,activity_type,str,Y,"enum:course,mentoring,stretch_assignment,certification,coaching",-,N,N,,
+development_plans,action_description,str,Y,free text,-,N,N,,
+development_plans,budget_usd,int,Y,0..3000,USD,N,N,,budget > 1500 requires HR approval
+development_plans,created_at,datetime,Y,ISO-8601,-,N,N,,> review finalized_at
+development_plans,submitted_at,datetime,N,ISO-8601,-,N,N,,>= created_at
+development_plans,manager_approver_id,str,N,MGR-NNNNNN,-,N,N,managers.manager_id,FK:managers.manager_id; manager of record
+development_plans,manager_decision,str,N,"enum:approved,rejected",-,N,N,,
+development_plans,manager_decided_at,datetime,N,ISO-8601,-,N,N,,>= submitted_at
+development_plans,requires_hr_approval,bool,Y,0/1,-,N,N,,DERIVED: budget_usd > 1500
+development_plans,hr_approver_id,str,N,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; must hold system_role hr_partner
+development_plans,hr_decision,str,N,"enum:approved,rejected",-,N,N,,Only after manager approval
+development_plans,hr_decided_at,datetime,N,ISO-8601,-,N,N,,>= manager_decided_at
+development_plans,start_date,date,Y,date,-,N,N,,
+development_plans,target_date,date,Y,date,-,N,N,,> start_date
+development_plans,completed_at,date,N,date,-,N,N,,Only for status completed
+development_plans,status,str,Y,"enum:draft,pending_manager,pending_hr,rejected,approved,in_progress,completed",-,N,N,,DERIVED from decisions and dates
+state_events,event_id,str,Y,EVT-NNNNNN,-,Y,Y,,Append-only; numbered in chronological order
+state_events,entity_type,str,Y,"enum:Goal,Review,DevelopmentPlan",-,N,N,,Polymorphic reference with entity_id
+state_events,entity_id,str,Y,GOAL-/REV-/DP- id,-,N,N,,Must exist in the entity's table
+state_events,event_type,str,Y,"enum:created,approved,submitted,status_change,target_changed,title_changed,due_date_changed,cancelled,edit_after_close,manager_decision,hr_decision,finalized,closed_incomplete",-,N,N,,
+state_events,from_state,str,N,status,-,N,N,,NULL for creation or pure field edits
+state_events,to_state,str,N,status,-,N,N,,
+state_events,field_changed,str,N,free text,-,N,N,,
+state_events,old_value,str,N,free text,-,N,N,,
+state_events,new_value,str,N,free text,-,N,N,,
+state_events,actor_id,str,N,EMP-NNNNNN,-,N,N,employees.employee_id,FK:employees.employee_id; NULL = system
+state_events,approved_by,str,N,MGR-NNNNNN,-,N,N,managers.manager_id,FK:managers.manager_id
+state_events,approval_status,str,Y,"enum:approved,not_required,none",-,N,N,,none on a post-close content edit = silent edit
+state_events,reason,str,N,free text,-,N,N,,
+state_events,occurred_at,datetime,Y,ISO-8601,-,N,N,,
+ground_truth,gt_id,str,Y,GT-NNNNNN,-,Y,Y,,Kept in a separate file; never an input feature
+ground_truth,entity_type,str,Y,table name,-,N,N,,Table holding the labelled row
+ground_truth,entity_id,str,Y,PK value,-,N,N,,Primary key of the labelled row
+ground_truth,issue_type,str,Y,"enum:goal_owner_mismatch,progress_exceeds_scale_no_rationale,reviewer_lacks_relationship,closed_cycle_silent_edit,feedback_untraceable,incomplete_review,conflicting_feedback,manager_transfer_mid_cycle,goal_changed",-,N,N,,
+ground_truth,label_class,str,Y,"enum:injected_anomaly,natural_exception",-,N,N,,injected = deliberate rule violation
+ground_truth,expected_decision,str,Y,"enum:reject,flag_for_review,accept_with_note",-,N,N,,Expected system/HR decision
+ground_truth,rule_violated,str,Y,free text,-,N,N,,Documented rule
+ground_truth,related_entity_id,str,N,id,-,N,N,,Parent or counterpart record

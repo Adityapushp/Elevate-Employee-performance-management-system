@@ -1,0 +1,1001 @@
+checkin_id,goal_id,employee_id,submitted_by,checkin_date,checkin_type,cumulative_progress_pct,expected_progress_pct,confidence,comment,evidence_required,evidence_count
+CHK-000001,GOAL-EMP-000009-002,EMP-000009,EMP-000009,2026-01-11,self_update,6.99,3.41,on_track,"Good momentum, no blockers.",0,1
+CHK-000002,GOAL-EMP-000002-001,EMP-000002,EMP-000002,2026-01-13,self_update,18.06,8.41,on_track,Progress is on plan.,0,0
+CHK-000003,GOAL-EMP-000091-001,EMP-000091,EMP-000059,2026-01-15,manager_review,5.03,4.05,on_track,"Good momentum, no blockers.",0,0
+CHK-000004,GOAL-EMP-000047-001,EMP-000047,EMP-000013,2026-01-16,manager_review,1.27,4.07,off_track,Scope needs re-planning.,0,1
+CHK-000005,GOAL-EMP-000071-002,EMP-000071,EMP-000071,2026-01-16,self_update,8.87,2.94,on_track,Milestones met this period.,0,1
+CHK-000006,GOAL-EMP-000073-002,EMP-000073,EMP-000073,2026-01-16,self_update,8.5,8.33,on_track,"Good momentum, no blockers.",0,0
+CHK-000007,GOAL-EMP-000077-001,EMP-000077,EMP-000077,2026-01-17,self_update,8.38,4.1,on_track,"Good momentum, no blockers.",0,0
+CHK-000008,GOAL-EMP-000012-001,EMP-000012,EMP-000012,2026-01-18,self_update,8.87,3.82,on_track,Milestones met this period.,0,1
+CHK-000009,GOAL-EMP-000020-002,EMP-000020,EMP-000020,2026-01-18,self_update,8.04,9.4,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000010,GOAL-EMP-000109-003,EMP-000109,EMP-000109,2026-01-18,self_update,13.31,7.39,on_track,"Good momentum, no blockers.",0,0
+CHK-000011,GOAL-EMP-000030-003,EMP-000030,EMP-000030,2026-01-19,self_update,6.21,12.5,off_track,Significantly behind; support requested.,0,0
+CHK-000012,GOAL-EMP-000088-002,EMP-000088,EMP-000088,2026-01-19,self_update,15.51,6.9,on_track,Milestones met this period.,0,1
+CHK-000013,GOAL-EMP-000134-002,EMP-000134,EMP-000134,2026-01-19,self_update,7.82,4.95,on_track,Milestones met this period.,0,1
+CHK-000014,GOAL-EMP-000124-001,EMP-000124,EMP-000062,2026-01-20,manager_review,12.28,8.52,on_track,"Good momentum, no blockers.",0,1
+CHK-000015,GOAL-EMP-000083-002,EMP-000083,EMP-000083,2026-01-21,self_update,13.2,6.98,on_track,Progress is on plan.,0,1
+CHK-000016,GOAL-EMP-000115-002,EMP-000115,EMP-000115,2026-01-21,self_update,11.71,5.88,on_track,Progress is on plan.,0,0
+CHK-000017,GOAL-EMP-000048-002,EMP-000048,EMP-000048,2026-01-22,self_update,12.87,7.3,on_track,"Good momentum, no blockers.",0,0
+CHK-000018,GOAL-EMP-000091-004,EMP-000091,EMP-000091,2026-01-22,self_update,18.2,8.51,on_track,Progress is on plan.,0,0
+CHK-000019,GOAL-EMP-000102-001,EMP-000102,EMP-000102,2026-01-22,self_update,5.73,3.64,on_track,Milestones met this period.,0,0
+CHK-000020,GOAL-EMP-000112-002,EMP-000112,EMP-000112,2026-01-22,self_update,5.0,4.22,on_track,"Good momentum, no blockers.",0,1
+CHK-000021,GOAL-EMP-000129-001,EMP-000129,EMP-000129,2026-01-22,self_update,17.71,7.83,on_track,Milestones met this period.,0,0
+CHK-000022,GOAL-EMP-000038-002,EMP-000038,EMP-000038,2026-01-23,self_update,6.25,3.76,on_track,Progress is on plan.,0,1
+CHK-000023,GOAL-EMP-000035-003,EMP-000035,EMP-000035,2026-01-24,self_update,7.61,12.29,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000024,GOAL-EMP-000068-002,EMP-000068,EMP-000068,2026-01-24,self_update,17.78,7.1,on_track,"Good momentum, no blockers.",0,0
+CHK-000025,GOAL-EMP-000095-001,EMP-000095,EMP-000095,2026-01-24,self_update,10.8,3.68,on_track,Progress is on plan.,0,1
+CHK-000026,GOAL-EMP-000125-001,EMP-000125,EMP-000125,2026-01-24,self_update,6.96,4.35,on_track,Progress is on plan.,0,1
+CHK-000027,GOAL-EMP-000148-002,EMP-000148,EMP-000148,2026-01-24,self_update,10.42,14.29,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000028,GOAL-EMP-000005-001,EMP-000005,EMP-000005,2026-01-25,self_update,11.46,9.3,on_track,Milestones met this period.,0,0
+CHK-000029,GOAL-EMP-000056-001,EMP-000056,EMP-000056,2026-01-25,self_update,7.8,10.86,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000030,GOAL-EMP-000086-001,EMP-000086,EMP-000086,2026-01-25,self_update,5.45,8.84,at_risk,Dependency delay is a risk.,0,1
+CHK-000031,GOAL-EMP-000011-001,EMP-000011,EMP-000011,2026-01-26,self_update,12.85,10.4,on_track,Milestones met this period.,0,1
+CHK-000032,GOAL-EMP-000115-001,EMP-000115,EMP-000115,2026-01-26,self_update,13.45,10.92,on_track,"Good momentum, no blockers.",0,0
+CHK-000033,GOAL-EMP-000116-001,EMP-000116,EMP-000116,2026-01-26,self_update,36.67,18.63,on_track,Milestones met this period.,0,1
+CHK-000034,GOAL-EMP-000146-002,EMP-000146,EMP-000146,2026-01-26,self_update,9.88,12.24,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000035,GOAL-EMP-000147-004,EMP-000147,EMP-000056,2026-01-26,manager_review,22.86,10.69,on_track,"Good momentum, no blockers.",0,1
+CHK-000036,GOAL-EMP-000009-003,EMP-000009,EMP-000009,2026-01-27,self_update,7.38,3.6,on_track,Milestones met this period.,0,0
+CHK-000037,GOAL-EMP-000050-001,EMP-000050,EMP-000034,2026-01-27,manager_review,13.46,9.35,on_track,Progress is on plan.,0,2
+CHK-000038,GOAL-EMP-000097-001,EMP-000097,EMP-000097,2026-01-27,self_update,1.78,5.52,off_track,Blocked on external input.,0,0
+CHK-000039,GOAL-EMP-000149-001,EMP-000149,EMP-000149,2026-01-27,self_update,14.9,9.09,on_track,Milestones met this period.,0,1
+CHK-000040,GOAL-EMP-000007-001,EMP-000007,EMP-000007,2026-01-28,self_update,7.17,7.83,on_track,Progress is on plan.,0,0
+CHK-000041,GOAL-EMP-000006-001,EMP-000006,EMP-000006,2026-01-29,self_update,16.08,10.89,on_track,"Good momentum, no blockers.",0,1
+CHK-000042,GOAL-EMP-000021-002,EMP-000021,EMP-000073,2026-01-29,manager_review,20.33,16.26,on_track,Progress is on plan.,0,2
+CHK-000043,GOAL-EMP-000027-002,EMP-000027,EMP-000027,2026-01-29,self_update,10.41,13.64,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000044,GOAL-EMP-000049-002,EMP-000049,EMP-000049,2026-01-29,self_update,17.56,8.43,on_track,Progress is on plan.,0,1
+CHK-000045,GOAL-EMP-000053-001,EMP-000053,EMP-000053,2026-01-29,self_update,29.76,13.64,on_track,Progress is on plan.,0,1
+CHK-000046,GOAL-EMP-000067-002,EMP-000067,EMP-000067,2026-01-29,self_update,11.49,8.43,on_track,Milestones met this period.,0,1
+CHK-000047,GOAL-EMP-000075-001,EMP-000075,EMP-000075,2026-01-29,self_update,4.59,5.59,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000048,GOAL-EMP-000080-001,EMP-000080,EMP-000080,2026-01-29,self_update,18.52,22.12,at_risk,Dependency delay is a risk.,0,0
+CHK-000049,GOAL-EMP-000099-001,EMP-000099,EMP-000099,2026-01-29,self_update,10.73,7.89,on_track,Progress is on plan.,0,1
+CHK-000050,GOAL-EMP-000148-001,EMP-000148,EMP-000137,2026-01-29,manager_review,13.57,13.93,on_track,"Good momentum, no blockers.",0,0
+CHK-000051,GOAL-EMP-000023-001,EMP-000023,EMP-000030,2026-01-30,manager_review,14.84,7.36,on_track,Milestones met this period.,0,0
+CHK-000052,GOAL-EMP-000031-001,EMP-000031,EMP-000031,2026-01-30,self_update,5.78,8.82,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000053,GOAL-EMP-000089-001,EMP-000089,EMP-000089,2026-01-30,self_update,3.57,6.02,off_track,Significantly behind; support requested.,0,0
+CHK-000054,GOAL-EMP-000126-002,EMP-000126,EMP-000126,2026-01-30,self_update,0.0,8.48,off_track,Scope needs re-planning.,0,0
+CHK-000055,GOAL-EMP-000128-002,EMP-000128,EMP-000128,2026-01-30,self_update,13.21,7.02,on_track,Progress is on plan.,0,2
+CHK-000056,GOAL-EMP-000128-003,EMP-000128,EMP-000128,2026-01-30,self_update,12.78,6.21,on_track,Milestones met this period.,0,1
+CHK-000057,GOAL-EMP-000135-002,EMP-000135,EMP-000135,2026-01-30,self_update,3.75,11.18,off_track,Scope needs re-planning.,0,0
+CHK-000058,GOAL-EMP-000138-003,EMP-000138,EMP-000138,2026-01-30,self_update,16.57,6.21,on_track,"Good momentum, no blockers.",0,2
+CHK-000059,GOAL-EMP-000102-002,EMP-000102,EMP-000102,2026-01-31,self_update,17.7,7.98,on_track,Progress is on plan.,0,0
+CHK-000060,GOAL-EMP-000030-002,EMP-000030,EMP-000030,2026-02-01,self_update,27.57,15.56,on_track,Milestones met this period.,0,0
+CHK-000061,GOAL-EMP-000105-001,EMP-000105,EMP-000105,2026-02-01,self_update,10.0,3.45,on_track,Progress is on plan.,0,0
+CHK-000062,GOAL-EMP-000124-002,EMP-000124,EMP-000062,2026-02-01,manager_review,11.11,5.1,on_track,Milestones met this period.,0,0
+CHK-000063,GOAL-EMP-000145-002,EMP-000145,EMP-000145,2026-02-01,self_update,25.27,13.6,on_track,"Good momentum, no blockers.",0,1
+CHK-000064,GOAL-EMP-000060-003,EMP-000060,EMP-000060,2026-02-02,self_update,6.25,10.61,off_track,Significantly behind; support requested.,0,0
+CHK-000065,GOAL-EMP-000062-002,EMP-000062,EMP-000062,2026-02-02,self_update,12.55,7.95,on_track,Progress is on plan.,0,2
+CHK-000066,GOAL-EMP-000084-001,EMP-000084,EMP-000084,2026-02-02,self_update,15.99,6.33,on_track,Progress is on plan.,0,1
+CHK-000067,GOAL-EMP-000136-002,EMP-000136,EMP-000136,2026-02-02,self_update,7.66,18.6,off_track,Scope needs re-planning.,0,1
+CHK-000068,GOAL-EMP-000141-004,EMP-000141,EMP-000141,2026-02-02,self_update,7.24,8.07,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000069,GOAL-EMP-000146-001,EMP-000146,EMP-000146,2026-02-02,self_update,18.22,11.88,on_track,Progress is on plan.,0,0
+CHK-000070,GOAL-EMP-000027-001,EMP-000027,EMP-000027,2026-02-04,self_update,26.71,15.61,on_track,Milestones met this period.,0,1
+CHK-000071,GOAL-EMP-000088-001,EMP-000088,EMP-000088,2026-02-04,self_update,22.39,15.94,on_track,Milestones met this period.,0,0
+CHK-000072,GOAL-EMP-000103-001,EMP-000103,EMP-000103,2026-02-04,self_update,3.29,15.61,off_track,Significantly behind; support requested.,0,2
+CHK-000073,GOAL-EMP-000021-003,EMP-000021,EMP-000021,2026-02-05,self_update,9.83,12.65,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000074,GOAL-EMP-000023-002,EMP-000023,EMP-000023,2026-02-05,self_update,18.65,9.42,on_track,Progress is on plan.,0,1
+CHK-000075,GOAL-EMP-000080-001,EMP-000080,EMP-000080,2026-02-05,self_update,33.58,28.85,on_track,Progress is on plan.,0,0
+CHK-000076,GOAL-EMP-000093-001,EMP-000093,EMP-000093,2026-02-05,self_update,17.5,13.17,on_track,Progress is on plan.,0,0
+CHK-000077,GOAL-EMP-000122-002,EMP-000122,EMP-000122,2026-02-05,self_update,18.16,22.22,at_risk,Dependency delay is a risk.,0,1
+CHK-000078,GOAL-EMP-000123-002,EMP-000123,EMP-000050,2026-02-05,manager_review,24.0,10.48,on_track,Milestones met this period.,0,0
+CHK-000079,GOAL-EMP-000032-001,EMP-000032,EMP-000032,2026-02-06,self_update,6.87,12.2,off_track,Significantly behind; support requested.,0,0
+CHK-000080,GOAL-EMP-000069-001,EMP-000069,EMP-000116,2026-02-06,manager_review,13.43,12.73,on_track,"Good momentum, no blockers.",0,0
+CHK-000081,GOAL-EMP-000137-003,EMP-000137,EMP-000137,2026-02-06,self_update,16.91,15.03,on_track,Progress is on plan.,0,0
+CHK-000082,GOAL-EMP-000145-003,EMP-000145,EMP-000145,2026-02-06,self_update,33.47,19.1,on_track,Progress is on plan.,0,0
+CHK-000083,GOAL-EMP-000075-002,EMP-000075,EMP-000075,2026-02-07,self_update,39.07,28.57,on_track,"Good momentum, no blockers.",0,0
+CHK-000084,GOAL-EMP-000110-001,EMP-000110,EMP-000091,2026-02-07,manager_review,14.46,14.55,on_track,Milestones met this period.,0,1
+CHK-000085,GOAL-EMP-000112-001,EMP-000112,EMP-000112,2026-02-07,self_update,24.3,20.19,on_track,Milestones met this period.,0,1
+CHK-000086,GOAL-EMP-000008-001,EMP-000008,EMP-000008,2026-02-08,self_update,10.83,12.88,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000087,GOAL-EMP-000053-002,EMP-000053,EMP-000053,2026-02-08,self_update,35.57,18.44,on_track,"Good momentum, no blockers.",0,0
+CHK-000088,GOAL-EMP-000107-001,EMP-000107,EMP-000013,2026-02-08,manager_review,20.28,15.48,on_track,"Good momentum, no blockers.",0,1
+CHK-000089,GOAL-EMP-000122-001,EMP-000122,EMP-000122,2026-02-08,self_update,32.86,18.44,on_track,Progress is on plan.,0,0
+CHK-000090,GOAL-EMP-000130-001,EMP-000130,EMP-000130,2026-02-08,self_update,24.04,13.46,on_track,Progress is on plan.,0,1
+CHK-000091,GOAL-EMP-000135-001,EMP-000135,EMP-000135,2026-02-08,self_update,35.06,18.39,on_track,"Good momentum, no blockers.",0,0
+CHK-000092,GOAL-EMP-000137-002,EMP-000137,EMP-000137,2026-02-08,self_update,22.77,18.86,on_track,Progress is on plan.,0,0
+CHK-000093,GOAL-EMP-000006-002,EMP-000006,EMP-000013,2026-02-09,manager_review,16.0,17.54,on_track,Milestones met this period.,0,1
+CHK-000094,GOAL-EMP-000017-001,EMP-000017,EMP-000017,2026-02-09,self_update,35.78,20.34,on_track,Milestones met this period.,0,1
+CHK-000095,GOAL-EMP-000043-001,EMP-000043,EMP-000043,2026-02-09,self_update,16.93,14.0,on_track,Milestones met this period.,0,1
+CHK-000096,GOAL-EMP-000131-001,EMP-000131,EMP-000059,2026-02-09,manager_review,21.88,16.38,on_track,"Good momentum, no blockers.",0,1
+CHK-000097,GOAL-EMP-000071-001,EMP-000071,EMP-000071,2026-02-10,self_update,27.27,14.95,on_track,Milestones met this period.,0,1
+CHK-000098,GOAL-EMP-000118-001,EMP-000118,EMP-000118,2026-02-10,self_update,10.72,17.16,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000099,GOAL-EMP-000147-003,EMP-000147,EMP-000147,2026-02-10,self_update,16.73,19.23,at_risk,Dependency delay is a risk.,0,1
+CHK-000100,GOAL-EMP-000058-001,EMP-000058,EMP-000058,2026-02-11,self_update,22.73,20.11,on_track,Progress is on plan.,0,1
+CHK-000101,GOAL-EMP-000073-001,EMP-000073,EMP-000073,2026-02-12,self_update,31.57,19.3,on_track,Milestones met this period.,0,0
+CHK-000102,GOAL-EMP-000077-001,EMP-000077,EMP-000077,2026-02-12,self_update,29.88,25.41,on_track,"Good momentum, no blockers.",0,0
+CHK-000103,GOAL-EMP-000085-003,EMP-000085,EMP-000085,2026-02-12,self_update,11.09,19.3,off_track,Significantly behind; support requested.,0,0
+CHK-000104,GOAL-EMP-000134-004,EMP-000134,EMP-000134,2026-02-12,self_update,1.87,11.54,off_track,Significantly behind; support requested.,0,0
+CHK-000105,GOAL-EMP-000017-002,EMP-000017,EMP-000017,2026-02-13,self_update,15.56,20.19,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000106,GOAL-EMP-000024-001,EMP-000024,EMP-000024,2026-02-13,self_update,32.8,24.03,on_track,Milestones met this period.,0,1
+CHK-000107,GOAL-EMP-000037-001,EMP-000037,EMP-000037,2026-02-13,self_update,28.0,19.88,on_track,Progress is on plan.,0,1
+CHK-000108,GOAL-EMP-000045-001,EMP-000045,EMP-000045,2026-02-13,self_update,36.01,26.37,on_track,"Good momentum, no blockers.",0,0
+CHK-000109,GOAL-EMP-000045-002,EMP-000045,EMP-000013,2026-02-13,manager_review,24.57,15.95,on_track,Milestones met this period.,0,1
+CHK-000110,GOAL-EMP-000054-002,EMP-000054,EMP-000054,2026-02-13,self_update,39.1,27.69,on_track,Milestones met this period.,0,0
+CHK-000111,GOAL-EMP-000079-001,EMP-000079,EMP-000079,2026-02-13,self_update,20.96,19.88,on_track,Milestones met this period.,0,1
+CHK-000112,GOAL-EMP-000096-002,EMP-000096,EMP-000096,2026-02-13,self_update,13.25,14.91,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000113,GOAL-EMP-000104-001,EMP-000104,EMP-000016,2026-02-13,manager_review,28.14,28.95,on_track,Milestones met this period.,0,0
+CHK-000114,GOAL-EMP-000109-001,EMP-000109,EMP-000109,2026-02-13,self_update,22.72,16.97,on_track,Milestones met this period.,0,0
+CHK-000115,GOAL-EMP-000015-001,EMP-000015,EMP-000015,2026-02-14,self_update,17.0,22.29,at_risk,Dependency delay is a risk.,0,0
+CHK-000116,GOAL-EMP-000060-001,EMP-000060,EMP-000060,2026-02-14,self_update,45.33,33.67,on_track,Milestones met this period.,0,1
+CHK-000117,GOAL-EMP-000064-001,EMP-000064,EMP-000064,2026-02-14,self_update,31.85,16.05,on_track,"Good momentum, no blockers.",0,0
+CHK-000118,GOAL-EMP-000090-001,EMP-000090,EMP-000090,2026-02-14,self_update,29.59,23.93,on_track,Progress is on plan.,0,2
+CHK-000119,GOAL-EMP-000101-001,EMP-000101,EMP-000149,2026-02-14,manager_review,37.43,23.6,on_track,"Good momentum, no blockers.",0,0
+CHK-000120,GOAL-EMP-000141-003,EMP-000141,EMP-000141,2026-02-14,self_update,32.5,20.0,on_track,"Good momentum, no blockers.",0,2
+CHK-000121,GOAL-EMP-000109-002,EMP-000109,EMP-000109,2026-02-15,self_update,21.72,26.67,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000122,GOAL-EMP-000010-001,EMP-000010,EMP-000010,2026-02-16,self_update,34.0,24.38,on_track,Progress is on plan.,0,2
+CHK-000123,GOAL-EMP-000054-001,EMP-000054,EMP-000054,2026-02-16,self_update,34.65,33.65,on_track,"Good momentum, no blockers.",0,1
+CHK-000124,GOAL-EMP-000066-002,EMP-000066,EMP-000066,2026-02-17,self_update,6.83,17.8,off_track,Significantly behind; support requested.,0,1
+CHK-000125,GOAL-EMP-000094-002,EMP-000094,EMP-000094,2026-02-17,self_update,32.84,22.22,on_track,"Good momentum, no blockers.",0,0
+CHK-000126,GOAL-EMP-000139-001,EMP-000139,EMP-000116,2026-02-17,manager_review,43.05,34.65,on_track,Milestones met this period.,0,1
+CHK-000127,GOAL-EMP-000113-001,EMP-000113,EMP-000113,2026-02-18,self_update,25.87,19.75,on_track,"Good momentum, no blockers.",0,0
+CHK-000128,GOAL-EMP-000123-001,EMP-000123,EMP-000123,2026-02-18,self_update,33.34,26.92,on_track,Progress is on plan.,0,0
+CHK-000129,GOAL-EMP-000014-001,EMP-000014,EMP-000014,2026-02-19,self_update,40.96,22.49,on_track,Progress is on plan.,0,0
+CHK-000130,GOAL-EMP-000020-002,EMP-000020,EMP-000020,2026-02-19,self_update,21.07,36.75,off_track,Significantly behind; support requested.,0,1
+CHK-000131,GOAL-EMP-000048-001,EMP-000048,EMP-000048,2026-02-19,self_update,35.19,26.79,on_track,Milestones met this period.,0,0
+CHK-000132,GOAL-EMP-000058-001,EMP-000058,EMP-000058,2026-02-19,self_update,28.41,24.71,on_track,Progress is on plan.,0,1
+CHK-000133,GOAL-EMP-000093-003,EMP-000093,EMP-000093,2026-02-19,self_update,19.6,17.61,on_track,"Good momentum, no blockers.",0,0
+CHK-000134,GOAL-EMP-000094-003,EMP-000094,EMP-000094,2026-02-19,self_update,19.69,15.65,on_track,"Good momentum, no blockers.",0,0
+CHK-000135,GOAL-EMP-000134-001,EMP-000134,EMP-000131,2026-02-19,manager_review,7.01,20.67,off_track,Scope needs re-planning.,0,0
+CHK-000136,GOAL-EMP-000028-001,EMP-000028,EMP-000028,2026-02-20,self_update,37.31,22.16,on_track,Progress is on plan.,0,1
+CHK-000137,GOAL-EMP-000030-001,EMP-000030,EMP-000030,2026-02-20,self_update,18.54,42.11,off_track,Blocked on external input.,0,0
+CHK-000138,GOAL-EMP-000048-002,EMP-000048,EMP-000048,2026-02-20,self_update,26.66,28.47,on_track,"Good momentum, no blockers.",0,0
+CHK-000139,GOAL-EMP-000055-001,EMP-000055,EMP-000055,2026-02-20,self_update,7.38,20.73,off_track,Significantly behind; support requested.,0,1
+CHK-000140,GOAL-EMP-000060-001,EMP-000060,EMP-000060,2026-02-20,self_update,47.15,39.8,on_track,Progress is on plan.,0,1
+CHK-000141,GOAL-EMP-000122-002,EMP-000122,EMP-000122,2026-02-20,self_update,45.97,36.11,on_track,Progress is on plan.,0,0
+CHK-000142,GOAL-EMP-000138-002,EMP-000138,EMP-000138,2026-02-20,self_update,32.73,23.98,on_track,Progress is on plan.,0,0
+CHK-000143,GOAL-EMP-000141-002,EMP-000141,EMP-000141,2026-02-20,self_update,41.23,22.62,on_track,Milestones met this period.,0,1
+CHK-000144,GOAL-EMP-000069-002,EMP-000069,EMP-000069,2026-02-21,self_update,27.09,34.86,at_risk,Dependency delay is a risk.,0,1
+CHK-000145,GOAL-EMP-000080-002,EMP-000080,EMP-000080,2026-02-21,self_update,38.14,23.21,on_track,Milestones met this period.,0,0
+CHK-000146,GOAL-EMP-000101-002,EMP-000101,EMP-000101,2026-02-21,self_update,30.69,25.0,on_track,"Good momentum, no blockers.",0,1
+CHK-000147,GOAL-EMP-000119-002,EMP-000119,EMP-000140,2026-02-21,manager_review,28.77,17.83,on_track,Progress is on plan.,0,0
+CHK-000148,GOAL-EMP-000127-001,EMP-000127,EMP-000127,2026-02-21,self_update,35.96,24.12,on_track,Progress is on plan.,0,0
+CHK-000149,GOAL-EMP-000144-003,EMP-000144,EMP-000144,2026-02-21,self_update,31.0,22.75,on_track,Milestones met this period.,0,1
+CHK-000150,GOAL-EMP-000044-002,EMP-000044,EMP-000044,2026-02-22,self_update,41.38,30.17,on_track,Milestones met this period.,0,0
+CHK-000151,GOAL-EMP-000062-001,EMP-000062,EMP-000062,2026-02-22,self_update,35.38,26.44,on_track,Milestones met this period.,0,1
+CHK-000152,GOAL-EMP-000063-001,EMP-000063,EMP-000063,2026-02-22,self_update,36.95,23.81,on_track,Milestones met this period.,0,1
+CHK-000153,GOAL-EMP-000085-001,EMP-000085,EMP-000085,2026-02-22,self_update,12.07,19.5,at_risk,Dependency delay is a risk.,0,0
+CHK-000154,GOAL-EMP-000018-001,EMP-000018,EMP-000018,2026-02-23,self_update,2.8,18.59,off_track,Blocked on external input.,0,0
+CHK-000155,GOAL-EMP-000062-001,EMP-000062,EMP-000062,2026-02-23,self_update,35.78,27.01,on_track,Milestones met this period.,0,2
+CHK-000156,GOAL-EMP-000096-001,EMP-000096,EMP-000096,2026-02-23,self_update,20.66,19.11,on_track,Milestones met this period.,0,1
+CHK-000157,GOAL-EMP-000104-002,EMP-000104,EMP-000016,2026-02-23,manager_review,13.17,18.06,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000158,GOAL-EMP-000109-002,EMP-000109,EMP-000109,2026-02-23,self_update,24.32,34.29,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000159,GOAL-EMP-000022-002,EMP-000022,EMP-000022,2026-02-24,self_update,32.85,26.87,on_track,Milestones met this period.,0,2
+CHK-000160,GOAL-EMP-000100-001,EMP-000100,EMP-000100,2026-02-24,self_update,22.03,19.23,on_track,Progress is on plan.,0,0
+CHK-000161,GOAL-EMP-000137-003,EMP-000137,EMP-000137,2026-02-24,self_update,25.62,26.8,on_track,"Good momentum, no blockers.",0,1
+CHK-000162,GOAL-EMP-000147-003,EMP-000147,EMP-000147,2026-02-24,self_update,24.83,32.69,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000163,GOAL-EMP-000037-001,EMP-000037,EMP-000037,2026-02-25,self_update,34.0,26.9,on_track,"Good momentum, no blockers.",0,0
+CHK-000164,GOAL-EMP-000049-001,EMP-000049,EMP-000049,2026-02-25,self_update,36.67,28.57,on_track,Milestones met this period.,0,1
+CHK-000165,GOAL-EMP-000004-001,EMP-000004,EMP-000004,2026-02-26,self_update,36.91,21.52,on_track,"Good momentum, no blockers.",0,0
+CHK-000166,GOAL-EMP-000024-001,EMP-000024,EMP-000116,2026-02-27,manager_review,42.56,34.88,on_track,Milestones met this period.,0,1
+CHK-000167,GOAL-EMP-000035-002,EMP-000035,EMP-000035,2026-02-27,self_update,35.14,30.48,on_track,Progress is on plan.,0,0
+CHK-000168,GOAL-EMP-000136-001,EMP-000136,EMP-000136,2026-02-27,self_update,40.38,34.04,on_track,Milestones met this period.,0,1
+CHK-000169,GOAL-EMP-000003-001,EMP-000003,EMP-000003,2026-02-28,self_update,40.0,38.85,on_track,Milestones met this period.,0,0
+CHK-000170,GOAL-EMP-000035-001,EMP-000035,EMP-000035,2026-02-28,self_update,31.14,26.06,on_track,Progress is on plan.,0,0
+CHK-000171,GOAL-EMP-000098-001,EMP-000098,EMP-000098,2026-02-28,self_update,21.68,28.24,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000172,GOAL-EMP-000115-002,EMP-000115,EMP-000028,2026-02-28,manager_review,25.78,28.24,on_track,"Good momentum, no blockers.",0,0
+CHK-000173,GOAL-EMP-000015-003,EMP-000015,EMP-000015,2026-03-01,self_update,50.01,36.8,on_track,Progress is on plan.,0,1
+CHK-000174,GOAL-EMP-000045-001,EMP-000045,EMP-000045,2026-03-01,self_update,49.87,43.96,on_track,"Good momentum, no blockers.",0,1
+CHK-000175,GOAL-EMP-000067-001,EMP-000067,EMP-000067,2026-03-01,self_update,40.73,50.47,at_risk,Dependency delay is a risk.,0,0
+CHK-000176,GOAL-EMP-000090-001,EMP-000090,EMP-000090,2026-03-01,self_update,33.03,33.13,on_track,"Good momentum, no blockers.",0,1
+CHK-000177,GOAL-EMP-000108-001,EMP-000108,EMP-000140,2026-03-01,manager_review,50.05,50.43,on_track,"Good momentum, no blockers.",0,0
+CHK-000178,GOAL-EMP-000142-001,EMP-000142,EMP-000142,2026-03-01,self_update,42.36,27.98,on_track,Milestones met this period.,0,1
+CHK-000179,GOAL-EMP-000006-001,EMP-000006,EMP-000006,2026-03-02,self_update,41.21,42.57,on_track,Progress is on plan.,0,1
+CHK-000180,GOAL-EMP-000020-001,EMP-000020,EMP-000020,2026-03-02,self_update,29.58,26.83,on_track,Milestones met this period.,0,1
+CHK-000181,GOAL-EMP-000044-003,EMP-000044,EMP-000015,2026-03-02,manager_review,25.69,25.47,on_track,Progress is on plan.,0,0
+CHK-000182,GOAL-EMP-000122-003,EMP-000122,EMP-000122,2026-03-02,self_update,42.83,25.47,on_track,"Good momentum, no blockers.",0,0
+CHK-000183,GOAL-EMP-000141-001,EMP-000141,EMP-000141,2026-03-02,self_update,37.49,22.08,on_track,"Good momentum, no blockers.",0,0
+CHK-000184,GOAL-EMP-000008-001,EMP-000008,EMP-000008,2026-03-03,self_update,18.47,30.3,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000185,GOAL-EMP-000036-001,EMP-000036,EMP-000051,2026-03-03,manager_review,36.42,44.2,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000186,GOAL-EMP-000040-001,EMP-000040,EMP-000040,2026-03-03,self_update,28.77,31.61,on_track,Progress is on plan.,0,2
+CHK-000187,GOAL-EMP-000046-001,EMP-000046,EMP-000046,2026-03-03,self_update,14.15,26.09,off_track,Significantly behind; support requested.,0,1
+CHK-000188,GOAL-EMP-000047-003,EMP-000047,EMP-000047,2026-03-03,self_update,23.04,33.79,at_risk,Dependency delay is a risk.,0,0
+CHK-000189,GOAL-EMP-000073-001,EMP-000073,EMP-000073,2026-03-03,self_update,39.82,30.41,on_track,"Good momentum, no blockers.",0,1
+CHK-000190,GOAL-EMP-000122-001,EMP-000122,EMP-000122,2026-03-03,self_update,54.29,34.75,on_track,Progress is on plan.,0,1
+CHK-000191,GOAL-EMP-000130-001,EMP-000130,EMP-000130,2026-03-03,self_update,47.42,35.58,on_track,Milestones met this period.,0,0
+CHK-000192,GOAL-EMP-000149-001,EMP-000149,EMP-000149,2026-03-03,self_update,49.66,48.86,on_track,Milestones met this period.,0,2
+CHK-000193,GOAL-EMP-000013-001,EMP-000013,EMP-000013,2026-03-04,self_update,27.25,41.13,at_risk,Dependency delay is a risk.,0,0
+CHK-000194,GOAL-EMP-000039-002,EMP-000039,EMP-000039,2026-03-04,self_update,7.21,25.79,off_track,Scope needs re-planning.,0,1
+CHK-000195,GOAL-EMP-000094-001,EMP-000094,EMP-000094,2026-03-04,self_update,36.6,28.06,on_track,Milestones met this period.,0,1
+CHK-000196,GOAL-EMP-000115-001,EMP-000115,EMP-000115,2026-03-04,self_update,30.85,32.18,on_track,"Good momentum, no blockers.",0,0
+CHK-000197,GOAL-EMP-000125-002,EMP-000125,EMP-000125,2026-03-04,self_update,21.41,33.33,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000198,GOAL-EMP-000136-002,EMP-000136,EMP-000136,2026-03-04,self_update,11.71,36.05,off_track,Blocked on external input.,0,1
+CHK-000199,GOAL-EMP-000017-001,EMP-000017,EMP-000017,2026-03-05,self_update,49.94,33.9,on_track,Milestones met this period.,0,2
+CHK-000200,GOAL-EMP-000054-002,EMP-000054,EMP-000054,2026-03-05,self_update,46.28,43.08,on_track,"Good momentum, no blockers.",0,1
+CHK-000201,GOAL-EMP-000134-004,EMP-000134,EMP-000134,2026-03-05,self_update,3.42,25.0,off_track,Scope needs re-planning.,0,1
+CHK-000202,GOAL-EMP-000137-001,EMP-000137,EMP-000137,2026-03-05,self_update,27.2,30.36,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000203,GOAL-EMP-000147-004,EMP-000147,EMP-000147,2026-03-05,self_update,58.57,39.69,on_track,Milestones met this period.,0,1
+CHK-000204,GOAL-EMP-000026-002,EMP-000026,EMP-000026,2026-03-06,self_update,71.09,47.15,on_track,Milestones met this period.,0,1
+CHK-000205,GOAL-EMP-000039-001,EMP-000039,EMP-000039,2026-03-06,self_update,53.0,46.81,on_track,Progress is on plan.,0,1
+CHK-000206,GOAL-EMP-000039-002,EMP-000039,EMP-000039,2026-03-06,self_update,13.3,27.04,off_track,Significantly behind; support requested.,0,0
+CHK-000207,GOAL-EMP-000073-002,EMP-000073,EMP-000073,2026-03-06,self_update,21.97,35.56,at_risk,Dependency delay is a risk.,0,1
+CHK-000208,GOAL-EMP-000097-001,EMP-000097,EMP-000097,2026-03-06,self_update,5.36,28.83,off_track,Significantly behind; support requested.,0,0
+CHK-000209,GOAL-EMP-000005-001,EMP-000005,EMP-000005,2026-03-07,self_update,23.12,33.14,at_risk,Dependency delay is a risk.,0,0
+CHK-000210,GOAL-EMP-000016-001,EMP-000016,EMP-000013,2026-03-07,manager_review,37.52,33.14,on_track,Milestones met this period.,0,2
+CHK-000211,GOAL-EMP-000018-002,EMP-000018,EMP-000018,2026-03-07,self_update,18.55,42.74,off_track,Scope needs re-planning.,0,1
+CHK-000212,GOAL-EMP-000089-001,EMP-000089,EMP-000089,2026-03-07,self_update,7.64,49.4,off_track,Blocked on external input.,0,1
+CHK-000213,GOAL-EMP-000100-001,EMP-000100,EMP-000100,2026-03-07,self_update,25.42,26.28,on_track,"Good momentum, no blockers.",0,0
+CHK-000214,GOAL-EMP-000031-002,EMP-000031,EMP-000031,2026-03-08,self_update,30.46,30.91,on_track,Progress is on plan.,0,1
+CHK-000215,GOAL-EMP-000035-002,EMP-000035,EMP-000035,2026-03-08,self_update,42.29,39.05,on_track,Milestones met this period.,0,0
+CHK-000216,GOAL-EMP-000113-001,EMP-000113,EMP-000113,2026-03-08,self_update,39.58,41.98,on_track,"Good momentum, no blockers.",0,1
+CHK-000217,GOAL-EMP-000120-001,EMP-000120,EMP-000013,2026-03-08,manager_review,59.57,36.31,on_track,Milestones met this period.,0,0
+CHK-000218,GOAL-EMP-000126-002,EMP-000126,EMP-000116,2026-03-08,manager_review,0.61,30.91,off_track,Blocked on external input.,0,0
+CHK-000219,GOAL-EMP-000026-001,EMP-000026,EMP-000131,2026-03-09,manager_review,32.36,31.93,on_track,"Good momentum, no blockers.",0,0
+CHK-000220,GOAL-EMP-000079-002,EMP-000079,EMP-000028,2026-03-09,manager_review,37.5,43.97,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000221,GOAL-EMP-000113-001,EMP-000113,EMP-000113,2026-03-09,self_update,46.42,43.21,on_track,Milestones met this period.,0,1
+CHK-000222,GOAL-EMP-000019-001,EMP-000019,EMP-000019,2026-03-10,self_update,22.26,33.33,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000223,GOAL-EMP-000088-001,EMP-000088,EMP-000088,2026-03-10,self_update,49.3,40.58,on_track,"Good momentum, no blockers.",0,1
+CHK-000224,GOAL-EMP-000128-003,EMP-000128,EMP-000128,2026-03-10,self_update,38.48,30.43,on_track,Milestones met this period.,0,0
+CHK-000225,GOAL-EMP-000023-002,EMP-000023,EMP-000023,2026-03-11,self_update,43.65,34.06,on_track,Progress is on plan.,0,0
+CHK-000226,GOAL-EMP-000030-003,EMP-000030,EMP-000030,2026-03-11,self_update,62.4,55.0,on_track,"Good momentum, no blockers.",0,0
+CHK-000227,GOAL-EMP-000038-001,EMP-000038,EMP-000038,2026-03-11,self_update,17.43,29.3,off_track,Scope needs re-planning.,0,1
+CHK-000228,GOAL-EMP-000047-001,EMP-000047,EMP-000047,2026-03-11,self_update,18.92,35.47,off_track,Scope needs re-planning.,0,0
+CHK-000229,GOAL-EMP-000101-002,EMP-000101,EMP-000101,2026-03-11,self_update,38.04,37.5,on_track,Progress is on plan.,0,1
+CHK-000230,GOAL-EMP-000128-002,EMP-000128,EMP-000128,2026-03-11,self_update,37.44,42.11,at_risk,Dependency delay is a risk.,0,0
+CHK-000231,GOAL-EMP-000053-001,EMP-000053,EMP-000053,2026-03-12,self_update,75.0,51.82,on_track,Progress is on plan.,0,0
+CHK-000232,GOAL-EMP-000020-002,EMP-000020,EMP-000020,2026-03-13,self_update,51.07,55.56,on_track,"Good momentum, no blockers.",0,0
+CHK-000233,GOAL-EMP-000048-001,EMP-000048,EMP-000013,2026-03-13,manager_review,51.85,46.43,on_track,Progress is on plan.,0,0
+CHK-000234,GOAL-EMP-000148-002,EMP-000148,EMP-000148,2026-03-13,self_update,38.97,52.38,at_risk,Dependency delay is a risk.,0,0
+CHK-000235,GOAL-EMP-000144-002,EMP-000144,EMP-000144,2026-03-14,self_update,28.89,32.08,on_track,Milestones met this period.,0,1
+CHK-000236,GOAL-EMP-000144-003,EMP-000144,EMP-000034,2026-03-14,manager_review,39.65,35.33,on_track,Milestones met this period.,0,0
+CHK-000237,GOAL-EMP-000045-002,EMP-000045,EMP-000045,2026-03-15,self_update,31.08,34.36,on_track,Progress is on plan.,0,1
+CHK-000238,GOAL-EMP-000118-002,EMP-000118,EMP-000118,2026-03-15,self_update,25.78,40.0,at_risk,Dependency delay is a risk.,0,1
+CHK-000239,GOAL-EMP-000129-001,EMP-000129,EMP-000129,2026-03-15,self_update,65.89,53.04,on_track,"Good momentum, no blockers.",0,0
+CHK-000240,GOAL-EMP-000134-001,EMP-000134,EMP-000134,2026-03-15,self_update,10.72,36.67,off_track,Scope needs re-planning.,0,0
+CHK-000241,GOAL-EMP-000047-003,EMP-000047,EMP-000047,2026-03-16,self_update,26.77,42.76,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000242,GOAL-EMP-000071-001,EMP-000071,EMP-000071,2026-03-16,self_update,59.39,46.73,on_track,Milestones met this period.,0,0
+CHK-000243,GOAL-EMP-000083-002,EMP-000083,EMP-000083,2026-03-16,self_update,43.4,38.37,on_track,Milestones met this period.,0,1
+CHK-000244,GOAL-EMP-000096-001,EMP-000096,EMP-000096,2026-03-16,self_update,30.04,32.48,on_track,"Good momentum, no blockers.",0,1
+CHK-000245,GOAL-EMP-000124-001,EMP-000124,EMP-000124,2026-03-16,self_update,36.21,39.77,on_track,Progress is on plan.,0,0
+CHK-000246,GOAL-EMP-000044-001,EMP-000044,EMP-000044,2026-03-17,self_update,34.2,38.95,at_risk,Dependency delay is a risk.,0,0
+CHK-000247,GOAL-EMP-000093-002,EMP-000093,EMP-000093,2026-03-17,self_update,36.79,37.13,on_track,Milestones met this period.,0,0
+CHK-000248,GOAL-EMP-000098-001,EMP-000098,EMP-000098,2026-03-17,self_update,50.19,38.24,on_track,"Good momentum, no blockers.",0,1
+CHK-000249,GOAL-EMP-000111-001,EMP-000111,EMP-000111,2026-03-17,self_update,45.22,33.54,on_track,"Good momentum, no blockers.",0,1
+CHK-000250,GOAL-EMP-000119-003,EMP-000119,EMP-000119,2026-03-17,self_update,20.0,33.54,off_track,Significantly behind; support requested.,0,0
+CHK-000251,GOAL-EMP-000125-002,EMP-000125,EMP-000125,2026-03-17,self_update,26.1,40.68,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000252,GOAL-EMP-000066-002,EMP-000066,EMP-000066,2026-03-18,self_update,12.12,42.37,off_track,Significantly behind; support requested.,0,1
+CHK-000253,GOAL-EMP-000109-002,EMP-000109,EMP-000109,2026-03-18,self_update,58.2,56.19,on_track,Milestones met this period.,0,1
+CHK-000254,GOAL-EMP-000112-002,EMP-000112,EMP-000112,2026-03-18,self_update,48.91,37.35,on_track,Milestones met this period.,0,0
+CHK-000255,GOAL-EMP-000138-003,EMP-000138,EMP-000138,2026-03-18,self_update,53.85,35.4,on_track,"Good momentum, no blockers.",0,0
+CHK-000256,GOAL-EMP-000143-001,EMP-000143,EMP-000143,2026-03-18,self_update,30.0,35.0,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000257,GOAL-EMP-000017-002,EMP-000017,EMP-000017,2026-03-19,self_update,28.66,52.88,off_track,Blocked on external input.,0,1
+CHK-000258,GOAL-EMP-000030-002,EMP-000030,EMP-000030,2026-03-19,self_update,63.08,49.63,on_track,Progress is on plan.,0,0
+CHK-000259,GOAL-EMP-000075-002,EMP-000075,EMP-000075,2026-03-19,self_update,60.72,66.67,on_track,Progress is on plan.,0,0
+CHK-000260,GOAL-EMP-000021-001,EMP-000021,EMP-000021,2026-03-20,self_update,57.63,41.04,on_track,Milestones met this period.,0,0
+CHK-000261,GOAL-EMP-000050-002,EMP-000050,EMP-000050,2026-03-20,self_update,4.75,40.7,off_track,Significantly behind; support requested.,0,0
+CHK-000262,GOAL-EMP-000104-001,EMP-000104,EMP-000104,2026-03-20,self_update,49.7,59.65,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000263,GOAL-EMP-000020-002,EMP-000020,EMP-000020,2026-03-21,self_update,61.84,62.39,on_track,"Good momentum, no blockers.",0,0
+CHK-000264,GOAL-EMP-000142-001,EMP-000142,EMP-000142,2026-03-21,self_update,52.78,39.88,on_track,"Good momentum, no blockers.",0,1
+CHK-000265,GOAL-EMP-000060-002,EMP-000060,EMP-000131,2026-03-22,manager_review,59.52,43.8,on_track,Milestones met this period.,0,0
+CHK-000266,GOAL-EMP-000063-002,EMP-000063,EMP-000063,2026-03-22,self_update,32.56,43.82,at_risk,Dependency delay is a risk.,0,0
+CHK-000267,GOAL-EMP-000104-002,EMP-000104,EMP-000104,2026-03-22,self_update,20.12,35.48,off_track,Scope needs re-planning.,0,1
+CHK-000268,GOAL-EMP-000116-001,EMP-000116,EMP-000116,2026-03-22,self_update,88.33,72.55,on_track,Progress is on plan.,1,2
+CHK-000269,GOAL-EMP-000121-002,EMP-000121,EMP-000121,2026-03-22,self_update,42.99,39.02,on_track,Progress is on plan.,0,0
+CHK-000270,GOAL-EMP-000143-001,EMP-000143,EMP-000002,2026-03-22,manager_review,30.0,37.5,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000271,GOAL-EMP-000147-004,EMP-000147,EMP-000147,2026-03-22,self_update,62.86,52.67,on_track,Progress is on plan.,0,0
+CHK-000272,GOAL-EMP-000013-001,EMP-000013,EMP-000013,2026-03-23,self_update,32.02,56.45,off_track,Blocked on external input.,0,0
+CHK-000273,GOAL-EMP-000033-001,EMP-000033,EMP-000033,2026-03-23,self_update,35.67,39.26,on_track,"Good momentum, no blockers.",0,0
+CHK-000274,GOAL-EMP-000109-003,EMP-000109,EMP-000109,2026-03-23,self_update,29.12,43.75,at_risk,Dependency delay is a risk.,0,1
+CHK-000275,GOAL-EMP-000031-002,EMP-000031,EMP-000031,2026-03-24,self_update,47.77,40.61,on_track,Milestones met this period.,0,1
+CHK-000276,GOAL-EMP-000045-001,EMP-000045,EMP-000045,2026-03-24,self_update,60.61,69.23,at_risk,Dependency delay is a risk.,1,1
+CHK-000277,GOAL-EMP-000052-001,EMP-000052,EMP-000052,2026-03-24,self_update,36.03,40.24,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000278,GOAL-EMP-000054-001,EMP-000054,EMP-000054,2026-03-24,self_update,56.14,68.27,at_risk,Dependency delay is a risk.,0,1
+CHK-000279,GOAL-EMP-000144-002,EMP-000144,EMP-000144,2026-03-24,self_update,33.33,38.36,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000280,GOAL-EMP-000044-002,EMP-000044,EMP-000044,2026-03-25,self_update,70.11,56.9,on_track,Milestones met this period.,0,0
+CHK-000281,GOAL-EMP-000080-001,EMP-000080,EMP-000080,2026-03-25,self_update,40.44,75.0,off_track,Significantly behind; support requested.,0,0
+CHK-000282,GOAL-EMP-000141-004,EMP-000141,EMP-000141,2026-03-25,self_update,50.66,39.75,on_track,"Good momentum, no blockers.",0,0
+CHK-000283,GOAL-EMP-000144-001,EMP-000144,EMP-000144,2026-03-25,self_update,11.01,43.93,off_track,Significantly behind; support requested.,0,0
+CHK-000284,GOAL-EMP-000014-001,EMP-000014,EMP-000014,2026-03-26,self_update,67.19,43.2,on_track,Milestones met this period.,0,1
+CHK-000285,GOAL-EMP-000015-001,EMP-000015,EMP-000015,2026-03-26,self_update,49.9,45.14,on_track,Progress is on plan.,0,1
+CHK-000286,GOAL-EMP-000015-002,EMP-000015,EMP-000015,2026-03-26,self_update,58.75,45.14,on_track,Milestones met this period.,0,0
+CHK-000287,GOAL-EMP-000072-001,EMP-000072,EMP-000072,2026-03-26,self_update,26.09,41.46,at_risk,Dependency delay is a risk.,0,0
+CHK-000288,GOAL-EMP-000086-001,EMP-000086,EMP-000086,2026-03-26,self_update,18.79,49.66,off_track,Blocked on external input.,0,2
+CHK-000289,GOAL-EMP-000130-001,EMP-000130,EMP-000130,2026-03-26,self_update,70.23,57.69,on_track,Progress is on plan.,1,2
+CHK-000290,GOAL-EMP-000011-001,EMP-000011,EMP-000011,2026-03-27,self_update,27.02,45.09,off_track,Blocked on external input.,0,1
+CHK-000291,GOAL-EMP-000038-002,EMP-000038,EMP-000039,2026-03-27,manager_review,23.12,51.13,off_track,Scope needs re-planning.,0,1
+CHK-000292,GOAL-EMP-000048-002,EMP-000048,EMP-000048,2026-03-27,self_update,51.94,54.01,on_track,Progress is on plan.,0,1
+CHK-000293,GOAL-EMP-000077-001,EMP-000077,EMP-000077,2026-03-27,self_update,42.93,60.66,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000294,GOAL-EMP-000085-003,EMP-000085,EMP-000085,2026-03-27,self_update,17.4,44.44,off_track,Scope needs re-planning.,0,0
+CHK-000295,GOAL-EMP-000122-004,EMP-000122,EMP-000122,2026-03-27,self_update,49.91,49.38,on_track,Milestones met this period.,0,1
+CHK-000296,GOAL-EMP-000139-001,EMP-000139,EMP-000139,2026-03-27,self_update,70.29,64.57,on_track,Progress is on plan.,1,2
+CHK-000297,GOAL-EMP-000042-002,EMP-000042,EMP-000034,2026-03-28,manager_review,44.68,45.35,on_track,Milestones met this period.,0,0
+CHK-000298,GOAL-EMP-000100-002,EMP-000100,EMP-000100,2026-03-28,self_update,25.87,40.88,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000299,GOAL-EMP-000028-001,EMP-000028,EMP-000028,2026-03-29,self_update,63.51,44.31,on_track,Progress is on plan.,0,1
+CHK-000300,GOAL-EMP-000053-002,EMP-000053,EMP-000076,2026-03-29,manager_review,80.89,53.19,on_track,Progress is on plan.,1,1
+CHK-000301,GOAL-EMP-000064-001,EMP-000064,EMP-000050,2026-03-29,manager_review,66.59,42.59,on_track,Progress is on plan.,0,1
+CHK-000302,GOAL-EMP-000069-002,EMP-000069,EMP-000069,2026-03-29,self_update,43.68,67.89,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000303,GOAL-EMP-000080-002,EMP-000080,EMP-000080,2026-03-29,self_update,48.14,44.64,on_track,"Good momentum, no blockers.",0,2
+CHK-000304,GOAL-EMP-000121-001,EMP-000121,EMP-000121,2026-03-29,self_update,60.87,46.86,on_track,Progress is on plan.,0,1
+CHK-000305,GOAL-EMP-000107-001,EMP-000107,EMP-000013,2026-03-30,manager_review,26.95,45.24,off_track,Scope needs re-planning.,0,0
+CHK-000306,GOAL-EMP-000113-001,EMP-000113,EMP-000113,2026-03-30,self_update,52.86,69.14,at_risk,Dependency delay is a risk.,0,1
+CHK-000307,GOAL-EMP-000137-003,EMP-000137,EMP-000137,2026-03-30,self_update,38.23,49.02,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000308,GOAL-EMP-000002-001,EMP-000002,EMP-000002,2026-03-31,self_update,89.37,80.37,on_track,Progress is on plan.,1,1
+CHK-000309,GOAL-EMP-000110-001,EMP-000110,EMP-000110,2026-03-31,self_update,29.8,61.82,off_track,Blocked on external input.,0,0
+CHK-000310,GOAL-EMP-000115-002,EMP-000115,EMP-000115,2026-03-31,self_update,34.64,46.47,at_risk,Dependency delay is a risk.,0,0
+CHK-000311,GOAL-EMP-000131-001,EMP-000131,EMP-000131,2026-03-31,self_update,59.92,59.48,on_track,Milestones met this period.,1,2
+CHK-000312,GOAL-EMP-000058-001,EMP-000058,EMP-000016,2026-04-01,manager_review,39.77,48.28,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000313,GOAL-EMP-000081-001,EMP-000081,EMP-000056,2026-04-01,manager_review,78.17,65.65,on_track,Progress is on plan.,1,1
+CHK-000314,GOAL-EMP-000112-001,EMP-000112,EMP-000015,2026-04-01,manager_review,86.08,71.15,on_track,Milestones met this period.,1,1
+CHK-000315,GOAL-EMP-000127-001,EMP-000127,EMP-000127,2026-04-01,self_update,59.85,47.06,on_track,"Good momentum, no blockers.",0,0
+CHK-000316,GOAL-EMP-000137-002,EMP-000137,EMP-000137,2026-04-01,self_update,43.6,48.57,at_risk,Dependency delay is a risk.,0,1
+CHK-000317,GOAL-EMP-000145-001,EMP-000145,EMP-000001,2026-04-01,manager_review,44.75,44.1,on_track,"Good momentum, no blockers.",0,1
+CHK-000318,GOAL-EMP-000019-001,EMP-000019,EMP-000019,2026-04-02,self_update,59.19,47.02,on_track,Milestones met this period.,0,0
+CHK-000319,GOAL-EMP-000030-001,EMP-000030,EMP-000030,2026-04-02,self_update,84.04,96.05,at_risk,"Behind plan, recovery under way.",1,1
+CHK-000320,GOAL-EMP-000094-002,EMP-000094,EMP-000094,2026-04-02,self_update,50.48,47.95,on_track,Milestones met this period.,0,0
+CHK-000321,GOAL-EMP-000124-002,EMP-000124,EMP-000124,2026-04-02,self_update,48.89,43.31,on_track,"Good momentum, no blockers.",0,1
+CHK-000322,GOAL-EMP-000005-001,EMP-000005,EMP-000005,2026-04-03,self_update,31.98,48.84,at_risk,Dependency delay is a risk.,0,1
+CHK-000323,GOAL-EMP-000041-002,EMP-000041,EMP-000041,2026-04-03,self_update,18.27,49.13,off_track,Blocked on external input.,0,0
+CHK-000324,GOAL-EMP-000045-001,EMP-000045,EMP-000045,2026-04-03,self_update,74.09,80.22,on_track,Progress is on plan.,1,1
+CHK-000325,GOAL-EMP-000051-001,EMP-000051,EMP-000051,2026-04-03,self_update,46.98,47.31,on_track,Milestones met this period.,0,1
+CHK-000326,GOAL-EMP-000020-001,EMP-000020,EMP-000020,2026-04-04,self_update,42.63,46.95,on_track,Milestones met this period.,0,0
+CHK-000327,GOAL-EMP-000049-002,EMP-000049,EMP-000049,2026-04-04,self_update,57.16,47.59,on_track,"Good momentum, no blockers.",0,0
+CHK-000328,GOAL-EMP-000104-001,EMP-000104,EMP-000104,2026-04-04,self_update,83.18,72.81,on_track,"Good momentum, no blockers.",1,1
+CHK-000329,GOAL-EMP-000005-002,EMP-000005,EMP-000005,2026-04-05,self_update,57.84,73.77,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000330,GOAL-EMP-000046-001,EMP-000046,EMP-000015,2026-04-05,manager_review,46.47,46.58,on_track,"Good momentum, no blockers.",0,0
+CHK-000331,GOAL-EMP-000062-002,EMP-000062,EMP-000062,2026-04-05,self_update,45.83,49.01,on_track,Milestones met this period.,0,1
+CHK-000332,GOAL-EMP-000076-001,EMP-000076,EMP-000015,2026-04-05,manager_review,58.71,71.31,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000333,GOAL-EMP-000079-002,EMP-000079,EMP-000079,2026-04-05,self_update,50.0,63.12,at_risk,Dependency delay is a risk.,0,1
+CHK-000334,GOAL-EMP-000125-001,EMP-000125,EMP-000062,2026-04-05,manager_review,49.07,66.09,at_risk,Dependency delay is a risk.,0,1
+CHK-000335,GOAL-EMP-000136-002,EMP-000136,EMP-000136,2026-04-05,self_update,29.14,54.65,off_track,Significantly behind; support requested.,0,1
+CHK-000336,GOAL-EMP-000147-001,EMP-000147,EMP-000147,2026-04-05,self_update,25.94,45.57,off_track,Scope needs re-planning.,0,0
+CHK-000337,GOAL-EMP-000147-002,EMP-000147,EMP-000056,2026-04-05,manager_review,57.5,50.0,on_track,Progress is on plan.,0,1
+CHK-000338,GOAL-EMP-000147-004,EMP-000147,EMP-000147,2026-04-05,self_update,74.29,63.36,on_track,Milestones met this period.,0,0
+CHK-000339,GOAL-EMP-000023-003,EMP-000023,EMP-000023,2026-04-06,self_update,39.86,48.17,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000340,GOAL-EMP-000071-001,EMP-000071,EMP-000071,2026-04-06,self_update,76.97,66.36,on_track,Progress is on plan.,0,1
+CHK-000341,GOAL-EMP-000091-004,EMP-000091,EMP-000091,2026-04-06,self_update,67.51,60.99,on_track,Milestones met this period.,0,0
+CHK-000342,GOAL-EMP-000141-003,EMP-000141,EMP-000141,2026-04-06,self_update,60.0,50.0,on_track,Progress is on plan.,0,0
+CHK-000343,GOAL-EMP-000029-001,EMP-000029,EMP-000029,2026-04-07,self_update,51.22,50.59,on_track,Progress is on plan.,0,1
+CHK-000344,GOAL-EMP-000048-001,EMP-000048,EMP-000048,2026-04-07,self_update,60.19,68.75,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000345,GOAL-EMP-000071-002,EMP-000071,EMP-000071,2026-04-07,self_update,33.77,50.59,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000346,GOAL-EMP-000077-001,EMP-000077,EMP-000077,2026-04-07,self_update,44.88,69.67,at_risk,Dependency delay is a risk.,0,0
+CHK-000347,GOAL-EMP-000096-002,EMP-000096,EMP-000116,2026-04-07,manager_review,26.5,47.83,off_track,Significantly behind; support requested.,0,0
+CHK-000348,GOAL-EMP-000101-001,EMP-000101,EMP-000101,2026-04-07,self_update,60.18,52.81,on_track,Progress is on plan.,0,2
+CHK-000349,GOAL-EMP-000111-002,EMP-000111,EMP-000111,2026-04-07,self_update,55.6,49.7,on_track,Milestones met this period.,0,0
+CHK-000350,GOAL-EMP-000123-001,EMP-000123,EMP-000123,2026-04-07,self_update,58.86,57.69,on_track,Progress is on plan.,0,0
+CHK-000351,GOAL-EMP-000021-003,EMP-000021,EMP-000021,2026-04-08,self_update,52.62,50.0,on_track,Milestones met this period.,0,1
+CHK-000352,GOAL-EMP-000060-001,EMP-000060,EMP-000060,2026-04-08,self_update,79.27,87.76,on_track,Progress is on plan.,0,1
+CHK-000353,GOAL-EMP-000066-002,EMP-000066,EMP-000066,2026-04-08,self_update,55.49,60.17,on_track,Progress is on plan.,0,0
+CHK-000354,GOAL-EMP-000103-001,EMP-000103,EMP-000103,2026-04-08,self_update,26.11,52.02,off_track,Blocked on external input.,0,1
+CHK-000355,GOAL-EMP-000124-001,EMP-000124,EMP-000124,2026-04-08,self_update,41.38,52.84,at_risk,Dependency delay is a risk.,0,1
+CHK-000356,GOAL-EMP-000062-001,EMP-000062,EMP-000062,2026-04-09,self_update,44.98,52.87,at_risk,Dependency delay is a risk.,0,1
+CHK-000357,GOAL-EMP-000093-003,EMP-000093,EMP-000093,2026-04-09,self_update,41.62,48.43,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000358,GOAL-EMP-000095-001,EMP-000095,EMP-000095,2026-04-09,self_update,61.66,49.69,on_track,Milestones met this period.,0,0
+CHK-000359,GOAL-EMP-000109-002,EMP-000109,EMP-000109,2026-04-09,self_update,74.62,77.14,on_track,Progress is on plan.,1,1
+CHK-000360,GOAL-EMP-000122-003,EMP-000122,EMP-000122,2026-04-09,self_update,65.5,49.07,on_track,Progress is on plan.,0,2
+CHK-000361,GOAL-EMP-000146-002,EMP-000146,EMP-000146,2026-04-09,self_update,43.53,61.9,at_risk,Dependency delay is a risk.,0,0
+CHK-000362,GOAL-EMP-000147-003,EMP-000147,EMP-000147,2026-04-09,self_update,44.27,75.0,off_track,Blocked on external input.,0,0
+CHK-000363,GOAL-EMP-000021-002,EMP-000021,EMP-000021,2026-04-10,self_update,97.41,73.98,on_track,"Good momentum, no blockers.",1,2
+CHK-000364,GOAL-EMP-000015-002,EMP-000015,EMP-000015,2026-04-11,self_update,64.1,54.29,on_track,Milestones met this period.,0,0
+CHK-000365,GOAL-EMP-000017-001,EMP-000017,EMP-000017,2026-04-11,self_update,53.14,54.8,on_track,Progress is on plan.,0,1
+CHK-000366,GOAL-EMP-000027-001,EMP-000027,EMP-000149,2026-04-11,manager_review,57.85,53.76,on_track,Milestones met this period.,0,0
+CHK-000367,GOAL-EMP-000048-002,EMP-000048,EMP-000048,2026-04-11,self_update,58.2,64.96,at_risk,Some slippage; mitigation agreed.,1,1
+CHK-000368,GOAL-EMP-000053-001,EMP-000053,EMP-000053,2026-04-11,self_update,100.0,79.09,on_track,Progress is on plan.,1,1
+CHK-000369,GOAL-EMP-000069-002,EMP-000069,EMP-000116,2026-04-11,manager_review,49.72,79.82,at_risk,Some slippage; mitigation agreed.,1,2
+CHK-000370,GOAL-EMP-000089-001,EMP-000089,EMP-000089,2026-04-11,self_update,22.55,91.57,off_track,Scope needs re-planning.,0,1
+CHK-000371,GOAL-EMP-000126-002,EMP-000126,EMP-000126,2026-04-11,self_update,1.47,51.52,off_track,Scope needs re-planning.,0,0
+CHK-000372,GOAL-EMP-000134-002,EMP-000134,EMP-000134,2026-04-11,self_update,56.2,86.14,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000373,GOAL-EMP-000044-002,EMP-000044,EMP-000044,2026-04-12,self_update,87.36,72.41,on_track,Milestones met this period.,1,2
+CHK-000374,GOAL-EMP-000056-001,EMP-000056,EMP-000056,2026-04-12,self_update,52.38,54.86,on_track,"Good momentum, no blockers.",0,0
+CHK-000375,GOAL-EMP-000122-001,EMP-000122,EMP-000122,2026-04-12,self_update,91.43,63.12,on_track,Milestones met this period.,1,1
+CHK-000376,GOAL-EMP-000134-001,EMP-000134,EMP-000131,2026-04-12,manager_review,33.04,55.33,off_track,Scope needs re-planning.,0,0
+CHK-000377,GOAL-EMP-000006-001,EMP-000006,EMP-000006,2026-04-13,self_update,68.59,84.16,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000378,GOAL-EMP-000071-002,EMP-000071,EMP-000071,2026-04-13,self_update,35.4,54.12,at_risk,Dependency delay is a risk.,0,1
+CHK-000379,GOAL-EMP-000075-001,EMP-000075,EMP-000075,2026-04-13,self_update,62.56,51.55,on_track,Progress is on plan.,0,1
+CHK-000380,GOAL-EMP-000099-001,EMP-000099,EMP-000099,2026-04-13,self_update,51.66,72.81,at_risk,Dependency delay is a risk.,0,0
+CHK-000381,GOAL-EMP-000021-003,EMP-000021,EMP-000021,2026-04-14,self_update,54.95,53.61,on_track,Milestones met this period.,0,0
+CHK-000382,GOAL-EMP-000054-002,EMP-000054,EMP-000054,2026-04-14,self_update,76.27,73.85,on_track,Progress is on plan.,1,1
+CHK-000383,GOAL-EMP-000079-001,EMP-000079,EMP-000079,2026-04-14,self_update,34.69,54.97,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000384,GOAL-EMP-000115-001,EMP-000115,EMP-000115,2026-04-14,self_update,44.35,55.75,at_risk,Dependency delay is a risk.,0,1
+CHK-000385,GOAL-EMP-000126-001,EMP-000126,EMP-000126,2026-04-14,self_update,15.03,55.75,off_track,Significantly behind; support requested.,0,0
+CHK-000386,GOAL-EMP-000140-001,EMP-000140,EMP-000140,2026-04-14,self_update,33.03,52.76,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000387,GOAL-EMP-000146-001,EMP-000146,EMP-000146,2026-04-14,self_update,77.14,82.18,on_track,"Good momentum, no blockers.",1,1
+CHK-000388,GOAL-EMP-000020-002,EMP-000020,EMP-000020,2026-04-15,self_update,74.05,83.76,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000389,GOAL-EMP-000066-001,EMP-000066,EMP-000066,2026-04-15,self_update,81.65,94.57,at_risk,Dependency delay is a risk.,1,2
+CHK-000390,GOAL-EMP-000080-001,EMP-000080,EMP-000080,2026-04-15,self_update,74.91,95.19,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000391,GOAL-EMP-000149-001,EMP-000149,EMP-000149,2026-04-15,self_update,77.58,97.73,at_risk,"Behind plan, recovery under way.",1,2
+CHK-000392,GOAL-EMP-000007-001,EMP-000007,EMP-000007,2026-04-16,self_update,51.8,54.82,on_track,Progress is on plan.,0,1
+CHK-000393,GOAL-EMP-000022-002,EMP-000022,EMP-000022,2026-04-16,self_update,62.77,64.93,on_track,"Good momentum, no blockers.",0,1
+CHK-000394,GOAL-EMP-000030-003,EMP-000030,EMP-000030,2026-04-16,self_update,81.02,85.0,on_track,Progress is on plan.,1,1
+CHK-000395,GOAL-EMP-000039-002,EMP-000039,EMP-000039,2026-04-17,self_update,22.46,53.46,off_track,Scope needs re-planning.,0,0
+CHK-000396,GOAL-EMP-000060-002,EMP-000060,EMP-000060,2026-04-17,self_update,75.75,62.77,on_track,Progress is on plan.,0,0
+CHK-000397,GOAL-EMP-000067-001,EMP-000067,EMP-000067,2026-04-17,self_update,60.79,94.39,at_risk,Dependency delay is a risk.,0,0
+CHK-000398,GOAL-EMP-000083-001,EMP-000083,EMP-000083,2026-04-17,self_update,76.31,57.47,on_track,Progress is on plan.,1,1
+CHK-000399,GOAL-EMP-000100-002,EMP-000100,EMP-000100,2026-04-17,self_update,50.82,53.46,on_track,Progress is on plan.,0,0
+CHK-000400,GOAL-EMP-000111-002,EMP-000111,EMP-000111,2026-04-17,self_update,63.06,55.69,on_track,Milestones met this period.,0,1
+CHK-000401,GOAL-EMP-000112-002,EMP-000112,EMP-000015,2026-04-17,manager_review,55.34,55.42,on_track,"Good momentum, no blockers.",0,2
+CHK-000402,GOAL-EMP-000123-002,EMP-000123,EMP-000123,2026-04-17,self_update,94.0,67.74,on_track,"Good momentum, no blockers.",1,1
+CHK-000403,GOAL-EMP-000141-002,EMP-000141,EMP-000141,2026-04-17,self_update,80.18,55.95,on_track,Progress is on plan.,1,1
+CHK-000404,GOAL-EMP-000012-001,EMP-000012,EMP-000062,2026-04-18,manager_review,34.64,61.15,off_track,Significantly behind; support requested.,0,2
+CHK-000405,GOAL-EMP-000023-003,EMP-000023,EMP-000023,2026-04-18,self_update,43.39,55.49,at_risk,Dependency delay is a risk.,0,0
+CHK-000406,GOAL-EMP-000090-001,EMP-000090,EMP-000090,2026-04-18,self_update,55.68,62.58,at_risk,Dependency delay is a risk.,0,0
+CHK-000407,GOAL-EMP-000141-004,EMP-000141,EMP-000141,2026-04-18,self_update,58.0,54.66,on_track,"Good momentum, no blockers.",0,0
+CHK-000408,GOAL-EMP-000028-001,EMP-000028,EMP-000015,2026-04-19,manager_review,67.04,56.89,on_track,Progress is on plan.,0,1
+CHK-000409,GOAL-EMP-000034-001,EMP-000034,EMP-000034,2026-04-19,self_update,39.45,57.4,at_risk,Dependency delay is a risk.,0,0
+CHK-000410,GOAL-EMP-000035-002,EMP-000035,EMP-000035,2026-04-19,self_update,67.16,79.05,at_risk,Dependency delay is a risk.,1,1
+CHK-000411,GOAL-EMP-000037-001,EMP-000037,EMP-000037,2026-04-19,self_update,57.0,57.89,on_track,"Good momentum, no blockers.",0,0
+CHK-000412,GOAL-EMP-000085-002,EMP-000085,EMP-000085,2026-04-19,self_update,43.3,57.65,at_risk,Dependency delay is a risk.,0,0
+CHK-000413,GOAL-EMP-000096-002,EMP-000096,EMP-000096,2026-04-19,self_update,29.29,55.28,off_track,Significantly behind; support requested.,0,0
+CHK-000414,GOAL-EMP-000097-001,EMP-000097,EMP-000097,2026-04-19,self_update,9.61,55.83,off_track,Scope needs re-planning.,0,0
+CHK-000415,GOAL-EMP-000109-003,EMP-000109,EMP-000109,2026-04-19,self_update,62.12,59.09,on_track,Milestones met this period.,0,1
+CHK-000416,GOAL-EMP-000120-001,EMP-000120,EMP-000120,2026-04-19,self_update,85.11,59.78,on_track,Milestones met this period.,1,1
+CHK-000417,GOAL-EMP-000024-001,EMP-000024,EMP-000024,2026-04-20,self_update,65.45,75.19,at_risk,Dependency delay is a risk.,1,1
+CHK-000418,GOAL-EMP-000040-001,EMP-000040,EMP-000040,2026-04-20,self_update,48.44,59.2,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000419,GOAL-EMP-000094-001,EMP-000094,EMP-000094,2026-04-20,self_update,61.13,61.87,on_track,Milestones met this period.,0,1
+CHK-000420,GOAL-EMP-000100-001,EMP-000100,EMP-000062,2026-04-20,manager_review,45.76,54.49,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000421,GOAL-EMP-000113-001,EMP-000113,EMP-000113,2026-04-20,self_update,80.77,95.06,at_risk,Dependency delay is a risk.,1,2
+CHK-000422,GOAL-EMP-000033-001,EMP-000033,EMP-000033,2026-04-21,self_update,50.29,57.06,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000423,GOAL-EMP-000035-003,EMP-000035,EMP-000035,2026-04-21,self_update,46.78,60.89,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000424,GOAL-EMP-000050-001,EMP-000050,EMP-000050,2026-04-21,self_update,49.04,69.78,at_risk,Dependency delay is a risk.,0,0
+CHK-000425,GOAL-EMP-000075-002,EMP-000075,EMP-000075,2026-04-21,self_update,91.0,98.1,on_track,"Good momentum, no blockers.",1,1
+CHK-000426,GOAL-EMP-000008-001,EMP-000008,EMP-000008,2026-04-22,self_update,35.67,68.18,off_track,Blocked on external input.,0,0
+CHK-000427,GOAL-EMP-000145-002,EMP-000145,EMP-000145,2026-04-22,self_update,80.22,77.6,on_track,Progress is on plan.,1,1
+CHK-000428,GOAL-EMP-000148-001,EMP-000148,EMP-000148,2026-04-22,self_update,46.63,81.97,off_track,Significantly behind; support requested.,0,0
+CHK-000429,GOAL-EMP-000010-001,EMP-000010,EMP-000010,2026-04-23,self_update,70.0,65.62,on_track,Progress is on plan.,0,0
+CHK-000430,GOAL-EMP-000038-002,EMP-000038,EMP-000038,2026-04-23,self_update,46.5,71.43,at_risk,Dependency delay is a risk.,0,0
+CHK-000431,GOAL-EMP-000047-002,EMP-000047,EMP-000047,2026-04-23,self_update,35.21,61.36,off_track,Significantly behind; support requested.,0,1
+CHK-000432,GOAL-EMP-000093-002,EMP-000093,EMP-000093,2026-04-23,self_update,48.53,59.28,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000433,GOAL-EMP-000016-001,EMP-000016,EMP-000016,2026-04-24,self_update,60.85,61.05,on_track,Milestones met this period.,0,1
+CHK-000434,GOAL-EMP-000134-004,EMP-000134,EMP-000134,2026-04-24,self_update,8.58,57.05,off_track,Blocked on external input.,0,0
+CHK-000435,GOAL-EMP-000141-003,EMP-000141,EMP-000141,2026-04-24,self_update,65.0,60.59,on_track,Progress is on plan.,0,0
+CHK-000436,GOAL-EMP-000023-002,EMP-000023,EMP-000023,2026-04-25,self_update,71.15,66.67,on_track,Progress is on plan.,0,0
+CHK-000437,GOAL-EMP-000122-002,EMP-000122,EMP-000122,2026-04-25,self_update,105.45,95.37,on_track,Progress is on plan.,1,2
+CHK-000438,GOAL-EMP-000022-001,EMP-000022,EMP-000022,2026-04-26,self_update,46.86,58.6,at_risk,Dependency delay is a risk.,1,2
+CHK-000439,GOAL-EMP-000118-001,EMP-000118,EMP-000118,2026-04-27,self_update,19.88,62.13,off_track,Significantly behind; support requested.,0,0
+CHK-000440,GOAL-EMP-000122-004,EMP-000122,EMP-000122,2026-04-27,self_update,72.03,68.75,on_track,"Good momentum, no blockers.",0,1
+CHK-000441,GOAL-EMP-000145-001,EMP-000145,EMP-000145,2026-04-27,self_update,55.14,60.25,on_track,"Good momentum, no blockers.",0,0
+CHK-000442,GOAL-EMP-000017-002,EMP-000017,EMP-000017,2026-04-28,self_update,89.19,91.35,on_track,Milestones met this period.,1,2
+CHK-000443,GOAL-EMP-000091-001,EMP-000091,EMP-000091,2026-04-28,self_update,64.63,63.58,on_track,"Good momentum, no blockers.",0,0
+CHK-000444,GOAL-EMP-000119-003,EMP-000119,EMP-000119,2026-04-28,self_update,32.15,60.13,off_track,Significantly behind; support requested.,0,0
+CHK-000445,GOAL-EMP-000147-003,EMP-000147,EMP-000147,2026-04-28,self_update,47.88,93.27,off_track,Scope needs re-planning.,0,1
+CHK-000446,GOAL-EMP-000077-001,EMP-000077,EMP-000077,2026-04-29,self_update,69.83,87.7,at_risk,Dependency delay is a risk.,0,0
+CHK-000447,GOAL-EMP-000101-002,EMP-000101,EMP-000101,2026-04-29,self_update,63.48,71.53,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000448,GOAL-EMP-000055-001,EMP-000055,EMP-000055,2026-04-30,self_update,53.75,62.8,at_risk,Dependency delay is a risk.,0,0
+CHK-000449,GOAL-EMP-000135-002,EMP-000135,EMP-000135,2026-04-30,self_update,46.63,64.12,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000450,GOAL-EMP-000145-003,EMP-000145,EMP-000145,2026-05-01,self_update,74.64,66.29,on_track,"Good momentum, no blockers.",0,0
+CHK-000451,GOAL-EMP-000041-002,EMP-000041,EMP-000041,2026-05-02,self_update,49.69,65.9,at_risk,Some slippage; mitigation agreed.,0,2
+CHK-000452,GOAL-EMP-000070-001,EMP-000070,EMP-000070,2026-05-02,self_update,4.34,35.87,off_track,Significantly behind; support requested.,0,0
+CHK-000453,GOAL-EMP-000094-002,EMP-000094,EMP-000050,2026-05-02,manager_review,69.84,65.5,on_track,"Good momentum, no blockers.",1,2
+CHK-000454,GOAL-EMP-000009-001,EMP-000009,EMP-000009,2026-05-03,self_update,69.16,65.06,on_track,Progress is on plan.,0,0
+CHK-000455,GOAL-EMP-000061-001,EMP-000061,EMP-000015,2026-05-03,manager_review,63.73,65.68,on_track,Progress is on plan.,1,2
+CHK-000456,GOAL-EMP-000065-002,EMP-000065,EMP-000065,2026-05-03,self_update,48.53,72.22,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000457,GOAL-EMP-000071-001,EMP-000071,EMP-000071,2026-05-03,self_update,91.52,91.59,on_track,"Good momentum, no blockers.",1,1
+CHK-000458,GOAL-EMP-000086-001,EMP-000086,EMP-000086,2026-05-03,self_update,25.45,75.51,off_track,Scope needs re-planning.,0,1
+CHK-000459,GOAL-EMP-000094-003,EMP-000094,EMP-000094,2026-05-03,self_update,40.93,65.31,at_risk,Dependency delay is a risk.,0,0
+CHK-000460,GOAL-EMP-000137-002,EMP-000137,EMP-000137,2026-05-03,self_update,52.24,66.86,at_risk,Dependency delay is a risk.,0,1
+CHK-000461,GOAL-EMP-000020-001,EMP-000020,EMP-000020,2026-05-05,self_update,54.16,65.85,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000462,GOAL-EMP-000048-002,EMP-000048,EMP-000048,2026-05-05,self_update,72.4,82.48,at_risk,Dependency delay is a risk.,1,2
+CHK-000463,GOAL-EMP-000065-003,EMP-000065,EMP-000065,2026-05-05,self_update,67.31,68.72,on_track,Progress is on plan.,0,0
+CHK-000464,GOAL-EMP-000080-002,EMP-000080,EMP-000030,2026-05-05,manager_review,67.91,66.67,on_track,"Good momentum, no blockers.",1,2
+CHK-000465,GOAL-EMP-000047-001,EMP-000047,EMP-000047,2026-05-06,self_update,36.79,68.02,off_track,Significantly behind; support requested.,0,0
+CHK-000466,GOAL-EMP-000111-001,EMP-000111,EMP-000140,2026-05-06,manager_review,74.84,65.19,on_track,Progress is on plan.,0,0
+CHK-000467,GOAL-EMP-000128-002,EMP-000128,EMP-000128,2026-05-06,self_update,77.88,91.23,at_risk,"Behind plan, recovery under way.",1,1
+CHK-000468,GOAL-EMP-000141-001,EMP-000141,EMP-000141,2026-05-06,self_update,76.01,64.29,on_track,Milestones met this period.,0,1
+CHK-000469,GOAL-EMP-000147-002,EMP-000147,EMP-000147,2026-05-06,self_update,72.5,68.02,on_track,Milestones met this period.,0,1
+CHK-000470,GOAL-EMP-000012-001,EMP-000012,EMP-000012,2026-05-07,self_update,68.18,73.25,on_track,Progress is on plan.,0,1
+CHK-000471,GOAL-EMP-000085-003,EMP-000085,EMP-000085,2026-05-07,self_update,34.03,68.42,off_track,Significantly behind; support requested.,0,0
+CHK-000472,GOAL-EMP-000088-001,EMP-000088,EMP-000088,2026-05-07,self_update,87.1,82.61,on_track,"Good momentum, no blockers.",1,1
+CHK-000473,GOAL-EMP-000110-001,EMP-000110,EMP-000110,2026-05-07,self_update,52.61,95.45,off_track,Significantly behind; support requested.,0,0
+CHK-000474,GOAL-EMP-000122-003,EMP-000122,EMP-000062,2026-05-07,manager_review,83.69,66.46,on_track,Milestones met this period.,1,1
+CHK-000475,GOAL-EMP-000127-001,EMP-000127,EMP-000127,2026-05-07,self_update,76.93,68.24,on_track,Progress is on plan.,1,1
+CHK-000476,GOAL-EMP-000130-001,EMP-000130,EMP-000130,2026-05-07,self_update,97.66,98.08,on_track,Progress is on plan.,1,1
+CHK-000477,GOAL-EMP-000016-001,EMP-000016,EMP-000016,2026-05-08,self_update,62.52,69.19,on_track,Milestones met this period.,0,1
+CHK-000478,GOAL-EMP-000026-002,EMP-000026,EMP-000131,2026-05-08,manager_review,116.87,98.37,on_track,Milestones met this period.,1,2
+CHK-000479,GOAL-EMP-000029-001,EMP-000029,EMP-000029,2026-05-08,self_update,66.2,68.82,on_track,Milestones met this period.,0,0
+CHK-000480,GOAL-EMP-000060-003,EMP-000060,EMP-000131,2026-05-08,manager_review,65.42,82.58,at_risk,Dependency delay is a risk.,0,1
+CHK-000481,GOAL-EMP-000005-001,EMP-000005,EMP-000005,2026-05-09,self_update,50.64,69.77,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000482,GOAL-EMP-000037-001,EMP-000037,EMP-000037,2026-05-09,self_update,68.0,69.59,on_track,"Good momentum, no blockers.",0,1
+CHK-000483,GOAL-EMP-000072-001,EMP-000072,EMP-000072,2026-05-09,self_update,100.0,68.29,on_track,Milestones met this period.,1,1
+CHK-000484,GOAL-EMP-000105-001,EMP-000105,EMP-000105,2026-05-09,self_update,84.29,70.34,on_track,Milestones met this period.,1,1
+CHK-000485,GOAL-EMP-000048-001,EMP-000048,EMP-000048,2026-05-10,self_update,85.19,98.21,at_risk,"Behind plan, recovery under way.",1,1
+CHK-000486,GOAL-EMP-000112-002,EMP-000112,EMP-000112,2026-05-10,self_update,73.99,69.28,on_track,Milestones met this period.,1,1
+CHK-000487,GOAL-EMP-000143-001,EMP-000143,EMP-000002,2026-05-10,manager_review,44.29,68.12,at_risk,Dependency delay is a risk.,0,1
+CHK-000488,GOAL-EMP-000015-004,EMP-000015,EMP-000015,2026-05-11,self_update,82.96,77.42,on_track,Progress is on plan.,1,1
+CHK-000489,GOAL-EMP-000040-001,EMP-000040,EMP-000040,2026-05-11,self_update,58.99,71.26,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000490,GOAL-EMP-000068-001,EMP-000068,EMP-000068,2026-05-11,self_update,86.4,70.24,on_track,Milestones met this period.,1,1
+CHK-000491,GOAL-EMP-000096-001,EMP-000096,EMP-000096,2026-05-11,self_update,43.01,68.15,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000492,GOAL-EMP-000124-002,EMP-000124,EMP-000124,2026-05-11,self_update,70.0,68.15,on_track,Milestones met this period.,0,0
+CHK-000493,GOAL-EMP-000137-001,EMP-000137,EMP-000013,2026-05-11,manager_review,52.8,70.24,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000494,GOAL-EMP-000049-002,EMP-000049,EMP-000049,2026-05-12,self_update,77.5,70.48,on_track,Progress is on plan.,1,2
+CHK-000495,GOAL-EMP-000098-001,EMP-000098,EMP-000137,2026-05-12,manager_review,88.97,71.18,on_track,"Good momentum, no blockers.",1,2
+CHK-000496,GOAL-EMP-000124-001,EMP-000124,EMP-000062,2026-05-12,manager_review,54.09,72.16,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000497,GOAL-EMP-000141-001,EMP-000141,EMP-000141,2026-05-12,self_update,78.78,68.18,on_track,Progress is on plan.,0,0
+CHK-000498,GOAL-EMP-000015-001,EMP-000015,EMP-000015,2026-05-13,self_update,63.31,72.57,at_risk,"Behind plan, recovery under way.",1,2
+CHK-000499,GOAL-EMP-000030-002,EMP-000030,EMP-000030,2026-05-13,self_update,98.05,90.37,on_track,Milestones met this period.,1,2
+CHK-000500,GOAL-EMP-000102-003,EMP-000102,EMP-000102,2026-05-14,self_update,78.5,72.67,on_track,Progress is on plan.,0,0
+CHK-000501,GOAL-EMP-000115-002,EMP-000115,EMP-000115,2026-05-14,self_update,57.49,72.35,at_risk,Dependency delay is a risk.,0,1
+CHK-000502,GOAL-EMP-000138-003,EMP-000138,EMP-000138,2026-05-14,self_update,86.98,70.81,on_track,"Good momentum, no blockers.",1,1
+CHK-000503,GOAL-EMP-000137-003,EMP-000137,EMP-000137,2026-05-15,self_update,43.66,79.08,off_track,Significantly behind; support requested.,0,1
+CHK-000504,GOAL-EMP-000079-001,EMP-000079,EMP-000079,2026-05-16,self_update,52.13,73.68,at_risk,Dependency delay is a risk.,0,0
+CHK-000505,GOAL-EMP-000095-001,EMP-000095,EMP-000095,2026-05-16,self_update,76.08,72.39,on_track,Progress is on plan.,0,0
+CHK-000506,GOAL-EMP-000122-001,EMP-000122,EMP-000122,2026-05-16,self_update,107.14,87.23,on_track,Progress is on plan.,1,1
+CHK-000507,GOAL-EMP-000015-003,EMP-000015,EMP-000015,2026-05-17,self_update,100.39,98.4,on_track,Progress is on plan.,1,1
+CHK-000508,GOAL-EMP-000092-001,EMP-000092,EMP-000092,2026-05-17,self_update,83.6,74.27,on_track,"Good momentum, no blockers.",1,2
+CHK-000509,GOAL-EMP-000125-002,EMP-000125,EMP-000125,2026-05-17,self_update,40.32,75.14,off_track,Scope needs re-planning.,0,0
+CHK-000510,GOAL-EMP-000131-001,EMP-000131,EMP-000131,2026-05-17,self_update,116.53,100.0,on_track,Progress is on plan.,1,2
+CHK-000511,GOAL-EMP-000144-003,EMP-000144,EMP-000144,2026-05-17,self_update,68.29,73.65,on_track,Progress is on plan.,0,0
+CHK-000512,GOAL-EMP-000045-002,EMP-000045,EMP-000045,2026-05-18,self_update,68.57,73.62,on_track,Progress is on plan.,1,2
+CHK-000513,GOAL-EMP-000073-001,EMP-000073,EMP-000073,2026-05-18,self_update,76.94,74.85,on_track,Progress is on plan.,0,0
+CHK-000514,GOAL-EMP-000093-003,EMP-000093,EMP-000061,2026-05-18,manager_review,53.75,72.96,at_risk,Dependency delay is a risk.,0,2
+CHK-000515,GOAL-EMP-000107-001,EMP-000107,EMP-000107,2026-05-18,self_update,59.34,74.4,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000516,GOAL-EMP-000126-002,EMP-000126,EMP-000126,2026-05-18,self_update,1.47,73.94,off_track,Scope needs re-planning.,0,1
+CHK-000517,GOAL-EMP-000141-004,EMP-000141,EMP-000141,2026-05-18,self_update,62.97,73.29,at_risk,Some slippage; mitigation agreed.,1,2
+CHK-000518,GOAL-EMP-000147-004,EMP-000147,EMP-000056,2026-05-18,manager_review,107.14,96.18,on_track,Milestones met this period.,1,1
+CHK-000519,GOAL-EMP-000008-001,EMP-000008,EMP-000008,2026-05-19,self_update,41.4,88.64,off_track,Blocked on external input.,0,1
+CHK-000520,GOAL-EMP-000017-001,EMP-000017,EMP-000017,2026-05-19,self_update,63.26,76.27,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000521,GOAL-EMP-000069-001,EMP-000069,EMP-000069,2026-05-19,self_update,44.76,74.55,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000522,GOAL-EMP-000100-001,EMP-000100,EMP-000100,2026-05-19,self_update,59.32,73.08,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000523,GOAL-EMP-000066-002,EMP-000066,EMP-000066,2026-05-20,self_update,84.1,95.76,at_risk,Dependency delay is a risk.,1,2
+CHK-000524,GOAL-EMP-000024-001,EMP-000024,EMP-000024,2026-05-21,self_update,86.81,99.22,at_risk,Dependency delay is a risk.,1,1
+CHK-000525,GOAL-EMP-000128-003,EMP-000128,EMP-000128,2026-05-21,self_update,75.38,75.16,on_track,Milestones met this period.,1,2
+CHK-000526,GOAL-EMP-000137-003,EMP-000137,EMP-000137,2026-05-21,self_update,54.64,83.01,at_risk,Dependency delay is a risk.,0,1
+CHK-000527,GOAL-EMP-000063-001,EMP-000063,EMP-000063,2026-05-22,self_update,80.69,76.79,on_track,"Good momentum, no blockers.",1,2
+CHK-000528,GOAL-EMP-000134-004,EMP-000134,EMP-000134,2026-05-22,self_update,10.13,75.0,off_track,Scope needs re-planning.,0,0
+CHK-000529,GOAL-EMP-000094-002,EMP-000094,EMP-000094,2026-05-23,self_update,76.01,77.78,on_track,Milestones met this period.,1,2
+CHK-000530,GOAL-EMP-000021-003,EMP-000021,EMP-000021,2026-05-24,self_update,71.36,77.71,on_track,"Good momentum, no blockers.",1,1
+CHK-000531,GOAL-EMP-000122-003,EMP-000122,EMP-000122,2026-05-24,self_update,91.65,77.02,on_track,Milestones met this period.,1,2
+CHK-000532,GOAL-EMP-000123-002,EMP-000123,EMP-000123,2026-05-24,self_update,114.0,97.58,on_track,Milestones met this period.,1,1
+CHK-000533,GOAL-EMP-000058-001,EMP-000058,EMP-000058,2026-05-25,self_update,56.82,79.31,at_risk,Dependency delay is a risk.,0,1
+CHK-000534,GOAL-EMP-000086-001,EMP-000086,EMP-000086,2026-05-25,self_update,29.7,90.48,off_track,Blocked on external input.,0,1
+CHK-000535,GOAL-EMP-000103-001,EMP-000103,EMP-000103,2026-05-25,self_update,36.87,79.19,off_track,Blocked on external input.,0,0
+CHK-000536,GOAL-EMP-000134-001,EMP-000134,EMP-000134,2026-05-25,self_update,46.94,84.0,off_track,Blocked on external input.,0,0
+CHK-000537,GOAL-EMP-000135-002,EMP-000135,EMP-000116,2026-05-25,manager_review,49.93,78.82,at_risk,Dependency delay is a risk.,0,1
+CHK-000538,GOAL-EMP-000144-002,EMP-000144,EMP-000144,2026-05-25,self_update,51.11,77.36,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000539,GOAL-EMP-000080-002,EMP-000080,EMP-000080,2026-05-26,self_update,92.0,79.17,on_track,Progress is on plan.,1,2
+CHK-000540,GOAL-EMP-000091-001,EMP-000091,EMP-000091,2026-05-26,self_update,72.01,79.77,on_track,Milestones met this period.,1,1
+CHK-000541,GOAL-EMP-000104-002,EMP-000104,EMP-000104,2026-05-26,self_update,93.79,77.42,on_track,"Good momentum, no blockers.",1,1
+CHK-000542,GOAL-EMP-000145-003,EMP-000145,EMP-000145,2026-05-26,self_update,87.53,80.34,on_track,"Good momentum, no blockers.",1,1
+CHK-000543,GOAL-EMP-000014-001,EMP-000014,EMP-000014,2026-05-27,self_update,101.3,79.88,on_track,Progress is on plan.,1,1
+CHK-000544,GOAL-EMP-000031-001,EMP-000031,EMP-000031,2026-05-27,self_update,82.65,94.85,at_risk,Some slippage; mitigation agreed.,1,1
+CHK-000545,GOAL-EMP-000132-001,EMP-000132,EMP-000132,2026-05-27,self_update,85.68,80.9,on_track,"Good momentum, no blockers.",1,1
+CHK-000546,GOAL-EMP-000146-002,EMP-000146,EMP-000146,2026-05-27,self_update,88.47,94.56,on_track,"Good momentum, no blockers.",1,1
+CHK-000547,GOAL-EMP-000027-002,EMP-000027,EMP-000027,2026-05-28,self_update,78.79,81.25,on_track,"Good momentum, no blockers.",1,2
+CHK-000548,GOAL-EMP-000071-002,EMP-000071,EMP-000062,2026-05-28,manager_review,97.97,80.59,on_track,"Good momentum, no blockers.",1,1
+CHK-000549,GOAL-EMP-000137-002,EMP-000137,EMP-000137,2026-05-28,self_update,64.26,81.14,at_risk,Some slippage; mitigation agreed.,1,2
+CHK-000550,GOAL-EMP-000051-001,EMP-000051,EMP-000002,2026-05-29,manager_review,66.54,80.84,at_risk,Dependency delay is a risk.,0,0
+CHK-000551,GOAL-EMP-000049-002,EMP-000049,EMP-000049,2026-05-30,self_update,88.13,81.33,on_track,"Good momentum, no blockers.",1,1
+CHK-000552,GOAL-EMP-000015-001,EMP-000015,EMP-000013,2026-05-31,manager_review,98.37,82.86,on_track,"Good momentum, no blockers.",1,1
+CHK-000553,GOAL-EMP-000070-001,EMP-000070,EMP-000070,2026-05-31,self_update,6.12,67.39,off_track,Significantly behind; support requested.,0,0
+CHK-000554,GOAL-EMP-000097-001,EMP-000097,EMP-000097,2026-05-31,self_update,11.84,81.6,off_track,Blocked on external input.,0,0
+CHK-000555,GOAL-EMP-000018-001,EMP-000018,EMP-000018,2026-06-01,self_update,14.17,81.41,off_track,Significantly behind; support requested.,0,1
+CHK-000556,GOAL-EMP-000037-001,EMP-000037,EMP-000015,2026-06-01,manager_review,76.0,83.04,on_track,"Good momentum, no blockers.",0,0
+CHK-000557,GOAL-EMP-000047-003,EMP-000047,EMP-000047,2026-06-01,self_update,46.7,95.86,off_track,Significantly behind; support requested.,0,0
+CHK-000558,GOAL-EMP-000090-001,EMP-000090,EMP-000090,2026-06-01,self_update,75.21,89.57,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000559,GOAL-EMP-000118-002,EMP-000118,EMP-000118,2026-06-01,self_update,50.0,95.71,off_track,Blocked on external input.,0,2
+CHK-000560,GOAL-EMP-000142-001,EMP-000142,EMP-000142,2026-06-01,self_update,86.81,82.74,on_track,Milestones met this period.,1,1
+CHK-000561,GOAL-EMP-000005-001,EMP-000005,EMP-000005,2026-06-02,self_update,61.72,83.72,at_risk,Dependency delay is a risk.,0,1
+CHK-000562,GOAL-EMP-000032-001,EMP-000032,EMP-000039,2026-06-02,manager_review,28.6,82.93,off_track,Scope needs re-planning.,0,0
+CHK-000563,GOAL-EMP-000044-001,EMP-000044,EMP-000044,2026-06-02,self_update,58.05,83.72,at_risk,Dependency delay is a risk.,0,0
+CHK-000564,GOAL-EMP-000053-002,EMP-000053,EMP-000053,2026-06-02,self_update,118.99,99.29,on_track,Milestones met this period.,1,2
+CHK-000565,GOAL-EMP-000073-001,EMP-000073,EMP-000073,2026-06-02,self_update,90.38,83.63,on_track,"Good momentum, no blockers.",1,1
+CHK-000566,GOAL-EMP-000091-003,EMP-000091,EMP-000091,2026-06-02,self_update,75.71,89.22,at_risk,Dependency delay is a risk.,0,1
+CHK-000567,GOAL-EMP-000112-002,EMP-000112,EMP-000015,2026-06-03,manager_review,83.25,83.73,on_track,"Good momentum, no blockers.",1,1
+CHK-000568,GOAL-EMP-000115-002,EMP-000115,EMP-000115,2026-06-03,self_update,78.48,84.12,on_track,Milestones met this period.,1,2
+CHK-000569,GOAL-EMP-000117-001,EMP-000117,EMP-000117,2026-06-03,self_update,59.01,84.21,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000570,GOAL-EMP-000128-003,EMP-000128,EMP-000128,2026-06-04,self_update,82.59,83.85,on_track,Progress is on plan.,1,2
+CHK-000571,GOAL-EMP-000019-001,EMP-000019,EMP-000019,2026-06-05,self_update,93.26,85.12,on_track,Progress is on plan.,1,1
+CHK-000572,GOAL-EMP-000094-003,EMP-000094,EMP-000094,2026-06-05,self_update,67.85,87.76,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000573,GOAL-EMP-000017-001,EMP-000017,EMP-000017,2026-06-06,self_update,92.39,86.44,on_track,"Good momentum, no blockers.",1,2
+CHK-000574,GOAL-EMP-000100-001,EMP-000100,EMP-000100,2026-06-06,self_update,64.41,84.62,at_risk,Dependency delay is a risk.,0,0
+CHK-000575,GOAL-EMP-000023-002,EMP-000023,EMP-000023,2026-06-07,self_update,89.62,97.83,on_track,"Good momentum, no blockers.",1,2
+CHK-000576,GOAL-EMP-000115-001,EMP-000115,EMP-000115,2026-06-08,self_update,61.94,87.36,at_risk,"Behind plan, recovery under way.",1,1
+CHK-000577,GOAL-EMP-000010-001,EMP-000010,EMP-000010,2026-06-09,self_update,94.0,95.0,on_track,Milestones met this period.,1,1
+CHK-000578,GOAL-EMP-000042-001,EMP-000042,EMP-000034,2026-06-09,manager_review,93.76,90.73,on_track,Progress is on plan.,1,2
+CHK-000579,GOAL-EMP-000045-002,EMP-000045,EMP-000045,2026-06-09,self_update,81.57,87.12,on_track,"Good momentum, no blockers.",1,1
+CHK-000580,GOAL-EMP-000058-001,EMP-000058,EMP-000058,2026-06-09,self_update,64.77,87.93,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000581,GOAL-EMP-000059-001,EMP-000059,EMP-000059,2026-06-09,self_update,99.15,93.42,on_track,"Good momentum, no blockers.",1,1
+CHK-000582,GOAL-EMP-000095-001,EMP-000095,EMP-000095,2026-06-09,self_update,96.86,87.12,on_track,"Good momentum, no blockers.",1,1
+CHK-000583,GOAL-EMP-000062-002,EMP-000062,EMP-000062,2026-06-10,self_update,69.46,92.72,at_risk,Some slippage; mitigation agreed.,1,1
+CHK-000584,GOAL-EMP-000096-002,EMP-000096,EMP-000096,2026-06-10,self_update,39.77,87.58,off_track,Scope needs re-planning.,0,0
+CHK-000585,GOAL-EMP-000011-001,EMP-000011,EMP-000011,2026-06-11,self_update,56.91,89.02,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000586,GOAL-EMP-000047-001,EMP-000047,EMP-000013,2026-06-11,manager_review,46.37,88.95,off_track,Significantly behind; support requested.,0,0
+CHK-000587,GOAL-EMP-000070-001,EMP-000070,EMP-000070,2026-06-11,self_update,17.64,79.35,off_track,Blocked on external input.,0,1
+CHK-000588,GOAL-EMP-000124-002,EMP-000124,EMP-000124,2026-06-11,self_update,77.78,87.9,at_risk,Dependency delay is a risk.,0,1
+CHK-000589,GOAL-EMP-000035-003,EMP-000035,EMP-000035,2026-06-12,self_update,58.32,89.94,at_risk,Dependency delay is a risk.,0,1
+CHK-000590,GOAL-EMP-000144-001,EMP-000144,EMP-000144,2026-06-12,self_update,63.5,89.6,at_risk,Some slippage; mitigation agreed.,1,1
+CHK-000591,GOAL-EMP-000109-003,EMP-000109,EMP-000109,2026-06-13,self_update,78.84,90.34,at_risk,"Behind plan, recovery under way.",1,1
+CHK-000592,GOAL-EMP-000126-002,EMP-000126,EMP-000126,2026-06-13,self_update,2.32,89.7,off_track,Blocked on external input.,0,1
+CHK-000593,GOAL-EMP-000039-002,EMP-000039,EMP-000013,2026-06-16,manager_review,57.1,91.19,at_risk,Dependency delay is a risk.,0,1
+CHK-000594,GOAL-EMP-000085-003,EMP-000085,EMP-000085,2026-06-16,self_update,43.4,91.81,off_track,Scope needs re-planning.,0,1
+CHK-000595,GOAL-EMP-000050-002,EMP-000050,EMP-000050,2026-06-17,self_update,39.49,92.44,off_track,Significantly behind; support requested.,0,1
+CHK-000596,GOAL-EMP-000074-001,EMP-000074,EMP-000074,2026-06-17,self_update,101.26,92.57,on_track,"Good momentum, no blockers.",1,1
+CHK-000597,GOAL-EMP-000135-001,EMP-000135,EMP-000135,2026-06-17,self_update,107.0,92.53,on_track,Progress is on plan.,1,1
+CHK-000598,GOAL-EMP-000136-002,EMP-000136,EMP-000136,2026-06-17,self_update,41.34,97.09,off_track,Significantly behind; support requested.,0,1
+CHK-000599,GOAL-EMP-000147-001,EMP-000147,EMP-000147,2026-06-18,self_update,78.12,92.41,at_risk,Some slippage; mitigation agreed.,1,1
+CHK-000600,GOAL-EMP-000046-001,EMP-000046,EMP-000046,2026-06-19,self_update,72.88,93.17,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000601,GOAL-EMP-000065-001,EMP-000065,EMP-000065,2026-06-19,self_update,66.07,93.33,at_risk,Dependency delay is a risk.,0,1
+CHK-000602,GOAL-EMP-000138-002,EMP-000138,EMP-000138,2026-06-20,self_update,82.37,94.15,at_risk,Dependency delay is a risk.,1,1
+CHK-000603,GOAL-EMP-000141-004,EMP-000141,EMP-000141,2026-06-20,self_update,95.06,93.79,on_track,Milestones met this period.,1,2
+CHK-000604,GOAL-EMP-000007-001,EMP-000007,EMP-000007,2026-06-21,self_update,77.75,94.58,at_risk,"Behind plan, recovery under way.",1,1
+CHK-000605,GOAL-EMP-000020-001,EMP-000020,EMP-000020,2026-06-21,self_update,76.96,94.51,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000606,GOAL-EMP-000101-001,EMP-000101,EMP-000101,2026-06-21,self_update,92.12,94.94,on_track,Milestones met this period.,1,1
+CHK-000607,GOAL-EMP-000119-003,EMP-000119,EMP-000119,2026-06-21,self_update,89.48,94.3,on_track,Milestones met this period.,1,1
+CHK-000608,GOAL-EMP-000128-001,EMP-000128,EMP-000128,2026-06-21,self_update,99.93,94.55,on_track,"Good momentum, no blockers.",1,1
+CHK-000609,GOAL-EMP-000141-003,EMP-000141,EMP-000141,2026-06-22,self_update,92.5,95.29,on_track,Milestones met this period.,1,2
+CHK-000610,GOAL-EMP-000028-001,EMP-000028,EMP-000028,2026-06-23,self_update,107.23,95.81,on_track,Progress is on plan.,1,2
+CHK-000611,GOAL-EMP-000063-002,EMP-000063,EMP-000063,2026-06-24,self_update,100.86,96.63,on_track,Milestones met this period.,1,1
+CHK-000612,GOAL-EMP-000073-002,EMP-000073,EMP-000073,2026-06-24,self_update,79.31,96.67,at_risk,Some slippage; mitigation agreed.,1,2
+CHK-000613,GOAL-EMP-000096-001,EMP-000096,EMP-000096,2026-06-24,self_update,64.88,96.18,at_risk,Dependency delay is a risk.,1,1
+CHK-000614,GOAL-EMP-000134-004,EMP-000134,EMP-000134,2026-06-24,self_update,13.18,96.15,off_track,Blocked on external input.,0,0
+CHK-000615,GOAL-EMP-000031-002,EMP-000031,EMP-000031,2026-06-25,self_update,89.62,96.97,on_track,Milestones met this period.,1,1
+CHK-000616,GOAL-EMP-000075-001,EMP-000075,EMP-000075,2026-06-25,self_update,100.28,96.89,on_track,Progress is on plan.,1,1
+CHK-000617,GOAL-EMP-000118-001,EMP-000118,EMP-000118,2026-06-25,self_update,39.3,97.04,off_track,Scope needs re-planning.,0,1
+CHK-000618,GOAL-EMP-000041-001,EMP-000041,EMP-000041,2026-06-26,self_update,58.56,97.45,at_risk,Some slippage; mitigation agreed.,0,2
+CHK-000619,GOAL-EMP-000062-001,EMP-000062,EMP-000062,2026-06-26,self_update,84.04,97.7,at_risk,"Behind plan, recovery under way.",1,2
+CHK-000620,GOAL-EMP-000004-001,EMP-000004,EMP-000004,2026-06-27,self_update,104.61,98.1,on_track,"Good momentum, no blockers.",1,1
+CHK-000621,GOAL-EMP-000102-001,EMP-000102,EMP-000102,2026-06-27,self_update,58.29,98.18,off_track,Significantly behind; support requested.,0,0
+CHK-000622,GOAL-EMP-000006-002,EMP-000006,EMP-000013,2026-06-28,manager_review,50.0,98.83,off_track,Scope needs re-planning.,0,1
+CHK-000623,GOAL-EMP-000025-001,EMP-000025,EMP-000025,2026-06-28,self_update,69.32,98.8,at_risk,Dependency delay is a risk.,0,1
+CHK-000624,GOAL-EMP-000083-002,EMP-000083,EMP-000083,2026-06-28,self_update,87.92,98.84,at_risk,Some slippage; mitigation agreed.,1,2
+CHK-000625,GOAL-EMP-000124-001,EMP-000124,EMP-000124,2026-06-28,self_update,69.61,98.86,at_risk,Dependency delay is a risk.,0,0
+CHK-000626,GOAL-EMP-000027-001,EMP-000027,EMP-000027,2026-06-29,self_update,93.07,99.42,on_track,Progress is on plan.,1,1
+CHK-000627,GOAL-EMP-000049-001,EMP-000049,EMP-000049,2026-06-29,self_update,85.0,99.43,at_risk,Some slippage; mitigation agreed.,1,1
+CHK-000628,GOAL-EMP-000064-001,EMP-000064,EMP-000064,2026-06-29,self_update,117.37,99.38,on_track,"Good momentum, no blockers.",1,1
+CHK-000629,GOAL-EMP-000091-002,EMP-000091,EMP-000091,2026-06-29,self_update,89.74,99.42,on_track,Milestones met this period.,1,1
+CHK-000630,GOAL-EMP-000024-002,EMP-000024,EMP-000016,2026-07-07,manager_review,6.88,3.28,on_track,"Good momentum, no blockers.",0,0
+CHK-000631,GOAL-EMP-000043-002,EMP-000043,EMP-000043,2026-07-13,self_update,6.96,4.58,on_track,"Good momentum, no blockers.",0,1
+CHK-000632,GOAL-EMP-000142-002,EMP-000142,EMP-000028,2026-07-14,manager_review,11.01,3.55,on_track,"Good momentum, no blockers.",0,1
+CHK-000633,GOAL-EMP-000112-003,EMP-000112,EMP-000112,2026-07-15,self_update,15.43,7.14,on_track,Milestones met this period.,0,2
+CHK-000634,GOAL-EMP-000150-001,EMP-000150,EMP-000150,2026-07-15,self_update,2.33,5.59,off_track,Scope needs re-planning.,0,1
+CHK-000635,GOAL-EMP-000033-002,EMP-000033,EMP-000033,2026-07-17,self_update,9.68,4.57,on_track,Milestones met this period.,0,0
+CHK-000636,GOAL-EMP-000071-003,EMP-000071,EMP-000071,2026-07-17,self_update,12.97,5.11,on_track,"Good momentum, no blockers.",0,0
+CHK-000637,GOAL-EMP-000039-003,EMP-000039,EMP-000039,2026-07-18,self_update,10.96,7.43,on_track,"Good momentum, no blockers.",0,0
+CHK-000638,GOAL-EMP-000028-003,EMP-000028,EMP-000028,2026-07-19,self_update,8.0,5.71,on_track,"Good momentum, no blockers.",0,0
+CHK-000639,GOAL-EMP-000134-007,EMP-000134,EMP-000134,2026-07-19,self_update,5.9,6.78,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000640,GOAL-EMP-000106-002,EMP-000106,EMP-000106,2026-07-20,self_update,14.29,13.39,on_track,Milestones met this period.,0,0
+CHK-000641,GOAL-EMP-000110-002,EMP-000110,EMP-000110,2026-07-20,self_update,5.51,4.09,on_track,"Good momentum, no blockers.",0,0
+CHK-000642,GOAL-EMP-000089-003,EMP-000089,EMP-000089,2026-07-21,self_update,4.17,7.39,off_track,Significantly behind; support requested.,0,0
+CHK-000643,GOAL-EMP-000015-008,EMP-000015,EMP-000015,2026-07-23,self_update,20.07,9.04,on_track,"Good momentum, no blockers.",0,0
+CHK-000644,GOAL-EMP-000046-002,EMP-000046,EMP-000046,2026-07-23,self_update,15.02,9.38,on_track,"Good momentum, no blockers.",0,0
+CHK-000645,GOAL-EMP-000089-002,EMP-000089,EMP-000089,2026-07-23,self_update,5.85,5.29,on_track,Progress is on plan.,0,1
+CHK-000646,GOAL-EMP-000092-003,EMP-000092,EMP-000092,2026-07-23,self_update,9.91,13.45,at_risk,Dependency delay is a risk.,0,0
+CHK-000647,GOAL-EMP-000071-004,EMP-000071,EMP-000071,2026-07-24,self_update,12.13,5.33,on_track,Milestones met this period.,0,0
+CHK-000648,GOAL-EMP-000145-004,EMP-000145,EMP-000145,2026-07-24,self_update,7.32,4.76,on_track,"Good momentum, no blockers.",0,1
+CHK-000649,GOAL-EMP-000028-002,EMP-000028,EMP-000028,2026-07-25,self_update,3.02,3.64,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000650,GOAL-EMP-000062-004,EMP-000062,EMP-000039,2026-07-25,manager_review,13.53,12.15,on_track,"Good momentum, no blockers.",0,0
+CHK-000651,GOAL-EMP-000083-004,EMP-000083,EMP-000083,2026-07-26,self_update,10.32,4.24,on_track,"Good momentum, no blockers.",0,0
+CHK-000652,GOAL-EMP-000005-005,EMP-000005,EMP-000005,2026-07-27,self_update,11.0,12.24,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000653,GOAL-EMP-000084-002,EMP-000084,EMP-000016,2026-07-27,manager_review,14.12,6.86,on_track,"Good momentum, no blockers.",0,0
+CHK-000654,GOAL-EMP-000093-005,EMP-000093,EMP-000093,2026-07-27,self_update,18.65,11.65,on_track,Milestones met this period.,0,0
+CHK-000655,GOAL-EMP-000095-002,EMP-000095,EMP-000095,2026-07-27,self_update,12.23,9.25,on_track,Progress is on plan.,0,1
+CHK-000656,GOAL-EMP-000123-004,EMP-000123,EMP-000045,2026-07-27,manager_review,10.0,7.1,on_track,"Good momentum, no blockers.",0,2
+CHK-000657,GOAL-EMP-000105-003,EMP-000105,EMP-000105,2026-07-28,self_update,14.92,14.89,on_track,Milestones met this period.,0,1
+CHK-000658,GOAL-EMP-000006-004,EMP-000006,EMP-000006,2026-07-29,self_update,8.24,10.4,at_risk,Dependency delay is a risk.,0,0
+CHK-000659,GOAL-EMP-000008-003,EMP-000008,EMP-000008,2026-07-29,self_update,5.89,5.07,on_track,Progress is on plan.,0,0
+CHK-000660,GOAL-EMP-000027-003,EMP-000027,EMP-000027,2026-07-29,self_update,27.27,15.45,on_track,Progress is on plan.,0,1
+CHK-000661,GOAL-EMP-000056-002,EMP-000056,EMP-000056,2026-07-29,self_update,8.9,8.82,on_track,"Good momentum, no blockers.",0,1
+CHK-000662,GOAL-EMP-000082-004,EMP-000082,EMP-000061,2026-07-29,manager_review,13.79,15.7,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000663,GOAL-EMP-000107-003,EMP-000107,EMP-000107,2026-07-29,self_update,12.89,9.88,on_track,"Good momentum, no blockers.",0,1
+CHK-000664,GOAL-EMP-000130-002,EMP-000130,EMP-000130,2026-07-29,self_update,20.6,12.92,on_track,Milestones met this period.,0,0
+CHK-000665,GOAL-EMP-000011-003,EMP-000011,EMP-000011,2026-07-30,self_update,8.4,9.41,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000666,GOAL-EMP-000065-004,EMP-000065,EMP-000065,2026-07-30,self_update,17.82,23.42,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000667,GOAL-EMP-000121-003,EMP-000121,EMP-000030,2026-07-30,manager_review,7.82,5.44,on_track,Milestones met this period.,0,0
+CHK-000668,GOAL-EMP-000126-003,EMP-000126,EMP-000126,2026-07-30,self_update,2.52,6.67,off_track,Scope needs re-planning.,0,0
+CHK-000669,GOAL-EMP-000034-002,EMP-000034,EMP-000034,2026-07-31,self_update,19.03,14.04,on_track,"Good momentum, no blockers.",0,1
+CHK-000670,GOAL-EMP-000047-006,EMP-000047,EMP-000047,2026-07-31,self_update,10.58,11.05,on_track,Milestones met this period.,0,0
+CHK-000671,GOAL-EMP-000094-005,EMP-000094,EMP-000050,2026-08-01,manager_review,19.13,10.42,on_track,"Good momentum, no blockers.",0,0
+CHK-000672,GOAL-EMP-000123-003,EMP-000123,EMP-000123,2026-08-01,self_update,17.38,10.59,on_track,Progress is on plan.,0,0
+CHK-000673,GOAL-EMP-000139-002,EMP-000139,EMP-000116,2026-08-01,manager_review,28.26,17.91,on_track,Progress is on plan.,0,1
+CHK-000674,GOAL-EMP-000012-002,EMP-000012,EMP-000012,2026-08-02,self_update,13.0,7.36,on_track,Progress is on plan.,0,1
+CHK-000675,GOAL-EMP-000018-003,EMP-000018,EMP-000018,2026-08-02,self_update,11.77,16.11,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000676,GOAL-EMP-000030-004,EMP-000030,EMP-000030,2026-08-02,self_update,9.27,5.62,on_track,Progress is on plan.,0,0
+CHK-000677,GOAL-EMP-000048-005,EMP-000048,EMP-000048,2026-08-02,self_update,4.8,6.21,at_risk,"Behind plan, recovery under way.",0,2
+CHK-000678,GOAL-EMP-000066-003,EMP-000066,EMP-000002,2026-08-02,manager_review,16.33,7.74,on_track,Progress is on plan.,0,0
+CHK-000679,GOAL-EMP-000099-002,EMP-000099,EMP-000099,2026-08-02,self_update,1.43,6.21,off_track,Blocked on external input.,0,0
+CHK-000680,GOAL-EMP-000144-004,EMP-000144,EMP-000144,2026-08-02,self_update,16.15,22.14,at_risk,Dependency delay is a risk.,0,0
+CHK-000681,GOAL-EMP-000146-004,EMP-000146,EMP-000146,2026-08-02,self_update,24.12,11.7,on_track,Progress is on plan.,0,0
+CHK-000682,GOAL-EMP-000022-003,EMP-000022,EMP-000022,2026-08-03,self_update,30.55,33.33,on_track,Progress is on plan.,0,1
+CHK-000683,GOAL-EMP-000035-005,EMP-000035,EMP-000035,2026-08-03,self_update,14.6,9.09,on_track,"Good momentum, no blockers.",0,0
+CHK-000684,GOAL-EMP-000058-002,EMP-000058,EMP-000058,2026-08-03,self_update,11.74,6.25,on_track,"Good momentum, no blockers.",0,1
+CHK-000685,GOAL-EMP-000069-003,EMP-000069,EMP-000069,2026-08-03,self_update,24.42,17.58,on_track,Milestones met this period.,0,1
+CHK-000686,GOAL-EMP-000058-003,EMP-000058,EMP-000058,2026-08-04,self_update,22.16,16.76,on_track,"Good momentum, no blockers.",0,1
+CHK-000687,GOAL-EMP-000063-003,EMP-000063,EMP-000063,2026-08-04,self_update,32.46,16.29,on_track,"Good momentum, no blockers.",0,1
+CHK-000688,GOAL-EMP-000093-004,EMP-000093,EMP-000093,2026-08-04,self_update,11.9,16.67,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000689,GOAL-EMP-000150-002,EMP-000150,EMP-000150,2026-08-04,self_update,9.42,12.87,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000690,GOAL-EMP-000021-004,EMP-000021,EMP-000021,2026-08-05,self_update,20.85,11.9,on_track,Progress is on plan.,0,1
+CHK-000691,GOAL-EMP-000026-003,EMP-000026,EMP-000026,2026-08-05,self_update,21.62,10.84,on_track,"Good momentum, no blockers.",0,1
+CHK-000692,GOAL-EMP-000069-005,EMP-000069,EMP-000069,2026-08-05,self_update,17.77,16.85,on_track,Milestones met this period.,0,1
+CHK-000693,GOAL-EMP-000070-002,EMP-000070,EMP-000070,2026-08-05,self_update,5.55,7.5,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000694,GOAL-EMP-000036-002,EMP-000036,EMP-000036,2026-08-06,self_update,13.0,9.82,on_track,Progress is on plan.,0,0
+CHK-000695,GOAL-EMP-000087-002,EMP-000087,EMP-000087,2026-08-06,self_update,8.23,15.03,off_track,Scope needs re-planning.,0,1
+CHK-000696,GOAL-EMP-000112-003,EMP-000112,EMP-000112,2026-08-06,self_update,26.79,19.23,on_track,Milestones met this period.,0,0
+CHK-000697,GOAL-EMP-000128-004,EMP-000128,EMP-000128,2026-08-06,self_update,23.6,13.53,on_track,Progress is on plan.,0,2
+CHK-000698,GOAL-EMP-000141-005,EMP-000141,EMP-000141,2026-08-06,self_update,28.4,16.48,on_track,"Good momentum, no blockers.",0,0
+CHK-000699,GOAL-EMP-000020-003,EMP-000020,EMP-000020,2026-08-07,self_update,17.03,11.52,on_track,Milestones met this period.,0,0
+CHK-000700,GOAL-EMP-000050-003,EMP-000050,EMP-000050,2026-08-07,self_update,10.22,11.94,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000701,GOAL-EMP-000098-002,EMP-000098,EMP-000098,2026-08-07,self_update,10.3,8.33,on_track,Progress is on plan.,0,0
+CHK-000702,GOAL-EMP-000117-004,EMP-000117,EMP-000117,2026-08-07,self_update,23.44,14.69,on_track,Milestones met this period.,0,1
+CHK-000703,GOAL-EMP-000135-004,EMP-000135,EMP-000135,2026-08-07,self_update,21.51,15.82,on_track,"Good momentum, no blockers.",0,0
+CHK-000704,GOAL-EMP-000136-003,EMP-000136,EMP-000136,2026-08-07,self_update,15.4,8.18,on_track,Milestones met this period.,0,1
+CHK-000705,GOAL-EMP-000119-004,EMP-000119,EMP-000119,2026-08-08,self_update,32.73,22.3,on_track,Milestones met this period.,0,1
+CHK-000706,GOAL-EMP-000024-002,EMP-000024,EMP-000024,2026-08-09,self_update,20.23,21.31,on_track,"Good momentum, no blockers.",0,1
+CHK-000707,GOAL-EMP-000057-002,EMP-000057,EMP-000057,2026-08-09,self_update,20.78,17.71,on_track,"Good momentum, no blockers.",0,0
+CHK-000708,GOAL-EMP-000061-003,EMP-000061,EMP-000061,2026-08-09,self_update,10.68,15.29,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000709,GOAL-EMP-000062-003,EMP-000062,EMP-000062,2026-08-09,self_update,18.46,13.25,on_track,Milestones met this period.,0,0
+CHK-000710,GOAL-EMP-000064-002,EMP-000064,EMP-000064,2026-08-09,self_update,21.49,15.13,on_track,Milestones met this period.,0,0
+CHK-000711,GOAL-EMP-000083-005,EMP-000083,EMP-000083,2026-08-09,self_update,17.38,10.0,on_track,Progress is on plan.,0,0
+CHK-000712,GOAL-EMP-000057-003,EMP-000057,EMP-000057,2026-08-10,self_update,7.51,12.27,at_risk,Dependency delay is a risk.,0,1
+CHK-000713,GOAL-EMP-000138-004,EMP-000138,EMP-000138,2026-08-10,self_update,5.66,7.74,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000714,GOAL-EMP-000147-006,EMP-000147,EMP-000147,2026-08-10,self_update,23.24,20.99,on_track,Progress is on plan.,0,1
+CHK-000715,GOAL-EMP-000149-004,EMP-000149,EMP-000061,2026-08-10,manager_review,9.74,11.73,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000716,GOAL-EMP-000013-004,EMP-000013,EMP-000013,2026-08-11,self_update,14.28,25.47,off_track,Scope needs re-planning.,0,1
+CHK-000717,GOAL-EMP-000053-003,EMP-000053,EMP-000053,2026-08-11,self_update,35.86,26.13,on_track,"Good momentum, no blockers.",0,1
+CHK-000718,GOAL-EMP-000118-004,EMP-000118,EMP-000118,2026-08-11,self_update,7.83,9.55,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000719,GOAL-EMP-000007-002,EMP-000007,EMP-000007,2026-08-12,self_update,22.29,21.67,on_track,Progress is on plan.,0,0
+CHK-000720,GOAL-EMP-000072-002,EMP-000072,EMP-000072,2026-08-12,self_update,31.16,22.67,on_track,Progress is on plan.,0,1
+CHK-000721,GOAL-EMP-000087-001,EMP-000087,EMP-000087,2026-08-12,self_update,6.26,10.19,at_risk,Dependency delay is a risk.,0,0
+CHK-000722,GOAL-EMP-000122-005,EMP-000122,EMP-000062,2026-08-12,manager_review,24.62,13.7,on_track,"Good momentum, no blockers.",0,0
+CHK-000723,GOAL-EMP-000143-004,EMP-000143,EMP-000143,2026-08-12,self_update,12.63,19.43,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000724,GOAL-EMP-000146-003,EMP-000146,EMP-000146,2026-08-12,self_update,22.4,15.57,on_track,Progress is on plan.,0,1
+CHK-000725,GOAL-EMP-000150-004,EMP-000150,EMP-000150,2026-08-12,self_update,17.06,19.89,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000726,GOAL-EMP-000105-002,EMP-000105,EMP-000105,2026-08-13,self_update,45.95,22.36,on_track,Milestones met this period.,0,1
+CHK-000727,GOAL-EMP-000116-002,EMP-000116,EMP-000116,2026-08-13,self_update,6.41,11.39,off_track,Blocked on external input.,0,1
+CHK-000728,GOAL-EMP-000007-002,EMP-000007,EMP-000007,2026-08-14,self_update,22.64,22.78,on_track,"Good momentum, no blockers.",0,0
+CHK-000729,GOAL-EMP-000009-005,EMP-000009,EMP-000009,2026-08-14,self_update,12.24,13.66,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000730,GOAL-EMP-000013-003,EMP-000013,EMP-000013,2026-08-14,self_update,26.66,21.01,on_track,"Good momentum, no blockers.",0,0
+CHK-000731,GOAL-EMP-000045-003,EMP-000045,EMP-000013,2026-08-14,manager_review,31.25,18.71,on_track,"Good momentum, no blockers.",0,0
+CHK-000732,GOAL-EMP-000067-004,EMP-000067,EMP-000067,2026-08-14,self_update,16.27,19.19,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000733,GOAL-EMP-000143-002,EMP-000143,EMP-000143,2026-08-14,self_update,27.88,27.27,on_track,Progress is on plan.,0,0
+CHK-000734,GOAL-EMP-000150-003,EMP-000150,EMP-000150,2026-08-14,self_update,45.45,24.53,on_track,Progress is on plan.,0,2
+CHK-000735,GOAL-EMP-000029-002,EMP-000029,EMP-000029,2026-08-15,self_update,26.0,19.75,on_track,Milestones met this period.,0,0
+CHK-000736,GOAL-EMP-000035-004,EMP-000035,EMP-000035,2026-08-15,self_update,21.87,19.3,on_track,"Good momentum, no blockers.",0,2
+CHK-000737,GOAL-EMP-000083-003,EMP-000083,EMP-000083,2026-08-15,self_update,34.0,19.77,on_track,Milestones met this period.,0,1
+CHK-000738,GOAL-EMP-000097-002,EMP-000097,EMP-000097,2026-08-15,self_update,13.57,28.12,off_track,Scope needs re-planning.,0,0
+CHK-000739,GOAL-EMP-000102-004,EMP-000102,EMP-000102,2026-08-15,self_update,36.42,31.0,on_track,Milestones met this period.,0,0
+CHK-000740,GOAL-EMP-000133-002,EMP-000133,EMP-000133,2026-08-15,self_update,28.38,17.86,on_track,Milestones met this period.,0,0
+CHK-000741,GOAL-EMP-000139-003,EMP-000139,EMP-000139,2026-08-15,self_update,28.12,19.3,on_track,Milestones met this period.,0,2
+CHK-000742,GOAL-EMP-000010-002,EMP-000010,EMP-000010,2026-08-16,self_update,20.39,15.83,on_track,Progress is on plan.,0,0
+CHK-000743,GOAL-EMP-000042-003,EMP-000042,EMP-000042,2026-08-16,self_update,18.43,24.44,at_risk,Dependency delay is a risk.,0,1
+CHK-000744,GOAL-EMP-000088-004,EMP-000088,EMP-000088,2026-08-16,self_update,31.37,18.6,on_track,Progress is on plan.,0,0
+CHK-000745,GOAL-EMP-000106-002,EMP-000106,EMP-000106,2026-08-16,self_update,28.57,34.65,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000746,GOAL-EMP-000028-002,EMP-000028,EMP-000028,2026-08-17,self_update,21.98,17.58,on_track,"Good momentum, no blockers.",0,1
+CHK-000747,GOAL-EMP-000111-004,EMP-000111,EMP-000111,2026-08-17,self_update,29.21,24.86,on_track,"Good momentum, no blockers.",0,1
+CHK-000748,GOAL-EMP-000149-003,EMP-000149,EMP-000149,2026-08-17,self_update,21.43,23.16,on_track,Milestones met this period.,0,1
+CHK-000749,GOAL-EMP-000064-003,EMP-000064,EMP-000064,2026-08-18,self_update,28.89,22.33,on_track,Progress is on plan.,0,0
+CHK-000750,GOAL-EMP-000107-002,EMP-000107,EMP-000107,2026-08-18,self_update,7.49,20.12,off_track,Significantly behind; support requested.,0,1
+CHK-000751,GOAL-EMP-000134-005,EMP-000134,EMP-000134,2026-08-18,self_update,5.62,22.86,off_track,Scope needs re-planning.,0,0
+CHK-000752,GOAL-EMP-000005-003,EMP-000005,EMP-000005,2026-08-19,self_update,13.33,29.79,off_track,Significantly behind; support requested.,0,0
+CHK-000753,GOAL-EMP-000022-003,EMP-000022,EMP-000022,2026-08-19,self_update,43.27,54.67,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000754,GOAL-EMP-000069-005,EMP-000069,EMP-000069,2026-08-19,self_update,20.79,24.72,at_risk,Dependency delay is a risk.,0,0
+CHK-000755,GOAL-EMP-000094-006,EMP-000094,EMP-000094,2026-08-19,self_update,27.13,25.0,on_track,Progress is on plan.,0,1
+CHK-000756,GOAL-EMP-000120-002,EMP-000120,EMP-000120,2026-08-19,self_update,29.23,23.3,on_track,Progress is on plan.,0,1
+CHK-000757,GOAL-EMP-000052-002,EMP-000052,EMP-000052,2026-08-20,self_update,35.23,28.77,on_track,Progress is on plan.,0,1
+CHK-000758,GOAL-EMP-000071-004,EMP-000071,EMP-000071,2026-08-20,self_update,32.5,21.3,on_track,Milestones met this period.,0,0
+CHK-000759,GOAL-EMP-000073-003,EMP-000073,EMP-000073,2026-08-20,self_update,34.86,34.85,on_track,"Good momentum, no blockers.",0,2
+CHK-000760,GOAL-EMP-000086-002,EMP-000086,EMP-000086,2026-08-20,self_update,28.95,28.83,on_track,Progress is on plan.,0,0
+CHK-000761,GOAL-EMP-000104-003,EMP-000104,EMP-000104,2026-08-20,self_update,40.4,23.12,on_track,Progress is on plan.,0,1
+CHK-000762,GOAL-EMP-000121-003,EMP-000121,EMP-000121,2026-08-20,self_update,18.44,19.73,on_track,Milestones met this period.,0,1
+CHK-000763,GOAL-EMP-000148-004,EMP-000148,EMP-000148,2026-08-21,self_update,2.78,26.26,off_track,Scope needs re-planning.,0,1
+CHK-000764,GOAL-EMP-000023-004,EMP-000023,EMP-000023,2026-08-22,self_update,28.59,28.02,on_track,"Good momentum, no blockers.",0,1
+CHK-000765,GOAL-EMP-000114-002,EMP-000114,EMP-000114,2026-08-22,self_update,19.25,28.1,at_risk,Dependency delay is a risk.,0,1
+CHK-000766,GOAL-EMP-000130-002,EMP-000130,EMP-000130,2026-08-22,self_update,35.48,26.4,on_track,Milestones met this period.,0,0
+CHK-000767,GOAL-EMP-000002-003,EMP-000002,EMP-000002,2026-08-23,self_update,42.27,26.97,on_track,"Good momentum, no blockers.",0,1
+CHK-000768,GOAL-EMP-000050-003,EMP-000050,EMP-000050,2026-08-23,self_update,21.13,23.88,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000769,GOAL-EMP-000089-003,EMP-000089,EMP-000089,2026-08-23,self_update,6.67,26.14,off_track,Significantly behind; support requested.,0,2
+CHK-000770,GOAL-EMP-000099-003,EMP-000099,EMP-000099,2026-08-23,self_update,27.2,22.62,on_track,Progress is on plan.,0,0
+CHK-000771,GOAL-EMP-000013-002,EMP-000013,EMP-000013,2026-08-24,self_update,20.26,29.84,at_risk,Dependency delay is a risk.,0,1
+CHK-000772,GOAL-EMP-000053-004,EMP-000053,EMP-000053,2026-08-24,self_update,40.0,28.73,on_track,"Good momentum, no blockers.",0,0
+CHK-000773,GOAL-EMP-000076-002,EMP-000076,EMP-000076,2026-08-24,self_update,18.48,21.34,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000774,GOAL-EMP-000118-003,EMP-000118,EMP-000118,2026-08-24,self_update,10.74,25.0,off_track,Scope needs re-planning.,0,0
+CHK-000775,GOAL-EMP-000006-004,EMP-000006,EMP-000006,2026-08-25,self_update,15.27,26.01,off_track,Blocked on external input.,0,1
+CHK-000776,GOAL-EMP-000028-003,EMP-000028,EMP-000028,2026-08-26,self_update,36.17,27.43,on_track,"Good momentum, no blockers.",0,0
+CHK-000777,GOAL-EMP-000047-005,EMP-000047,EMP-000047,2026-08-26,self_update,14.21,30.6,off_track,Scope needs re-planning.,0,0
+CHK-000778,GOAL-EMP-000049-003,EMP-000049,EMP-000049,2026-08-26,self_update,34.9,24.85,on_track,Milestones met this period.,0,2
+CHK-000779,GOAL-EMP-000086-003,EMP-000086,EMP-000086,2026-08-26,self_update,34.64,29.05,on_track,"Good momentum, no blockers.",0,0
+CHK-000780,GOAL-EMP-000123-003,EMP-000123,EMP-000123,2026-08-26,self_update,33.78,25.29,on_track,Milestones met this period.,0,1
+CHK-000781,GOAL-EMP-000003-002,EMP-000003,EMP-000003,2026-08-27,self_update,17.43,25.0,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000782,GOAL-EMP-000089-002,EMP-000089,EMP-000089,2026-08-27,self_update,14.35,25.88,off_track,Blocked on external input.,0,1
+CHK-000783,GOAL-EMP-000136-004,EMP-000136,EMP-000136,2026-08-27,self_update,22.31,31.47,at_risk,Dependency delay is a risk.,0,1
+CHK-000784,GOAL-EMP-000149-004,EMP-000149,EMP-000149,2026-08-27,self_update,14.68,22.22,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000785,GOAL-EMP-000034-003,EMP-000034,EMP-000034,2026-08-28,self_update,30.27,29.78,on_track,Progress is on plan.,0,0
+CHK-000786,GOAL-EMP-000042-004,EMP-000042,EMP-000042,2026-08-28,self_update,35.97,28.98,on_track,Milestones met this period.,0,0
+CHK-000787,GOAL-EMP-000058-003,EMP-000058,EMP-000058,2026-08-28,self_update,32.52,30.17,on_track,Milestones met this period.,0,1
+CHK-000788,GOAL-EMP-000068-003,EMP-000068,EMP-000068,2026-08-28,self_update,40.08,30.56,on_track,Progress is on plan.,0,0
+CHK-000789,GOAL-EMP-000095-002,EMP-000095,EMP-000095,2026-08-28,self_update,20.41,27.75,at_risk,Dependency delay is a risk.,0,0
+CHK-000790,GOAL-EMP-000110-004,EMP-000110,EMP-000110,2026-08-28,self_update,15.43,24.24,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000791,GOAL-EMP-000087-001,EMP-000087,EMP-000087,2026-08-29,self_update,9.21,21.02,off_track,Scope needs re-planning.,0,1
+CHK-000792,GOAL-EMP-000101-003,EMP-000101,EMP-000101,2026-08-29,self_update,45.86,45.9,on_track,Progress is on plan.,0,0
+CHK-000793,GOAL-EMP-000135-003,EMP-000135,EMP-000135,2026-08-29,self_update,55.19,40.91,on_track,Milestones met this period.,0,1
+CHK-000794,GOAL-EMP-000138-004,EMP-000138,EMP-000131,2026-08-29,manager_review,20.48,20.0,on_track,Progress is on plan.,0,0
+CHK-000795,GOAL-EMP-000054-003,EMP-000054,EMP-000054,2026-08-30,self_update,37.15,26.79,on_track,"Good momentum, no blockers.",0,1
+CHK-000796,GOAL-EMP-000097-002,EMP-000097,EMP-000097,2026-08-30,self_update,30.2,39.84,at_risk,Dependency delay is a risk.,0,0
+CHK-000797,GOAL-EMP-000145-004,EMP-000145,EMP-000145,2026-08-30,self_update,16.17,26.79,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000798,GOAL-EMP-000063-003,EMP-000063,EMP-000131,2026-08-31,manager_review,52.71,31.46,on_track,Milestones met this period.,0,0
+CHK-000799,GOAL-EMP-000038-003,EMP-000038,EMP-000038,2026-09-01,self_update,15.37,29.65,off_track,Blocked on external input.,0,0
+CHK-000800,GOAL-EMP-000101-003,EMP-000101,EMP-000149,2026-09-01,manager_review,48.46,48.36,on_track,Progress is on plan.,0,0
+CHK-000801,GOAL-EMP-000135-004,EMP-000135,EMP-000116,2026-09-01,manager_review,32.08,31.65,on_track,"Good momentum, no blockers.",0,0
+CHK-000802,GOAL-EMP-000009-004,EMP-000009,EMP-000009,2026-09-02,self_update,31.0,29.82,on_track,Milestones met this period.,0,0
+CHK-000803,GOAL-EMP-000009-005,EMP-000009,EMP-000009,2026-09-02,self_update,25.38,25.47,on_track,Milestones met this period.,0,1
+CHK-000804,GOAL-EMP-000073-003,EMP-000073,EMP-000073,2026-09-02,self_update,41.89,44.7,on_track,Progress is on plan.,0,1
+CHK-000805,GOAL-EMP-000088-004,EMP-000088,EMP-000088,2026-09-02,self_update,45.1,31.78,on_track,"Good momentum, no blockers.",0,0
+CHK-000806,GOAL-EMP-000024-002,EMP-000024,EMP-000024,2026-09-03,self_update,39.52,34.97,on_track,Milestones met this period.,0,1
+CHK-000807,GOAL-EMP-000057-003,EMP-000057,EMP-000057,2026-09-03,self_update,14.66,26.99,off_track,Significantly behind; support requested.,0,0
+CHK-000808,GOAL-EMP-000074-002,EMP-000074,EMP-000074,2026-09-03,self_update,29.97,25.16,on_track,Milestones met this period.,0,0
+CHK-000809,GOAL-EMP-000105-003,EMP-000105,EMP-000105,2026-09-03,self_update,47.41,41.13,on_track,Progress is on plan.,0,0
+CHK-000810,GOAL-EMP-000005-005,EMP-000005,EMP-000005,2026-09-04,self_update,27.25,38.78,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000811,GOAL-EMP-000028-003,EMP-000028,EMP-000015,2026-09-04,manager_review,44.45,32.57,on_track,"Good momentum, no blockers.",0,0
+CHK-000812,GOAL-EMP-000032-002,EMP-000032,EMP-000032,2026-09-04,self_update,20.92,26.71,at_risk,Dependency delay is a risk.,0,0
+CHK-000813,GOAL-EMP-000073-004,EMP-000073,EMP-000050,2026-09-04,manager_review,35.4,29.76,on_track,Milestones met this period.,0,0
+CHK-000814,GOAL-EMP-000075-003,EMP-000075,EMP-000075,2026-09-04,self_update,41.67,28.05,on_track,Milestones met this period.,0,1
+CHK-000815,GOAL-EMP-000077-002,EMP-000077,EMP-000077,2026-09-04,self_update,26.25,24.84,on_track,Milestones met this period.,0,1
+CHK-000816,GOAL-EMP-000112-003,EMP-000112,EMP-000112,2026-09-04,self_update,39.03,35.16,on_track,"Good momentum, no blockers.",0,0
+CHK-000817,GOAL-EMP-000116-004,EMP-000116,EMP-000116,2026-09-04,self_update,47.42,48.67,on_track,Milestones met this period.,0,0
+CHK-000818,GOAL-EMP-000125-005,EMP-000125,EMP-000062,2026-09-04,manager_review,22.68,32.91,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000819,GOAL-EMP-000097-003,EMP-000097,EMP-000097,2026-09-05,self_update,14.57,33.9,off_track,Scope needs re-planning.,0,0
+CHK-000820,GOAL-EMP-000149-002,EMP-000149,EMP-000149,2026-09-05,self_update,34.75,29.94,on_track,Milestones met this period.,0,1
+CHK-000821,GOAL-EMP-000103-002,EMP-000103,EMP-000103,2026-09-06,self_update,33.91,30.12,on_track,"Good momentum, no blockers.",0,0
+CHK-000822,GOAL-EMP-000125-004,EMP-000125,EMP-000125,2026-09-06,self_update,27.22,27.04,on_track,Progress is on plan.,0,0
+CHK-000823,GOAL-EMP-000144-004,EMP-000144,EMP-000034,2026-09-06,manager_review,26.58,47.14,off_track,Significantly behind; support requested.,0,0
+CHK-000824,GOAL-EMP-000147-006,EMP-000147,EMP-000056,2026-09-06,manager_review,33.82,35.91,on_track,"Good momentum, no blockers.",0,1
+CHK-000825,GOAL-EMP-000136-004,EMP-000136,EMP-000136,2026-09-07,self_update,46.58,39.16,on_track,Milestones met this period.,0,0
+CHK-000826,GOAL-EMP-000150-004,EMP-000150,EMP-000150,2026-09-07,self_update,24.07,34.66,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000827,GOAL-EMP-000014-003,EMP-000014,EMP-000014,2026-09-08,self_update,31.52,29.19,on_track,"Good momentum, no blockers.",0,0
+CHK-000828,GOAL-EMP-000015-008,EMP-000015,EMP-000015,2026-09-08,self_update,51.03,35.59,on_track,"Good momentum, no blockers.",0,1
+CHK-000829,GOAL-EMP-000041-005,EMP-000041,EMP-000041,2026-09-08,self_update,25.0,44.25,off_track,Scope needs re-planning.,0,1
+CHK-000830,GOAL-EMP-000055-002,EMP-000055,EMP-000062,2026-09-08,manager_review,43.52,27.85,on_track,"Good momentum, no blockers.",0,1
+CHK-000831,GOAL-EMP-000103-003,EMP-000103,EMP-000103,2026-09-08,self_update,30.57,53.77,off_track,Blocked on external input.,0,0
+CHK-000832,GOAL-EMP-000029-003,EMP-000029,EMP-000029,2026-09-09,self_update,35.0,31.93,on_track,Milestones met this period.,0,0
+CHK-000833,GOAL-EMP-000112-004,EMP-000112,EMP-000015,2026-09-09,manager_review,51.28,35.56,on_track,Milestones met this period.,0,1
+CHK-000834,GOAL-EMP-000124-003,EMP-000124,EMP-000124,2026-09-09,self_update,31.7,29.38,on_track,Progress is on plan.,0,1
+CHK-000835,GOAL-EMP-000087-002,EMP-000087,EMP-000087,2026-09-10,self_update,14.66,35.26,off_track,Scope needs re-planning.,0,1
+CHK-000836,GOAL-EMP-000103-002,EMP-000103,EMP-000103,2026-09-10,self_update,35.22,32.53,on_track,Milestones met this period.,0,0
+CHK-000837,GOAL-EMP-000121-003,EMP-000121,EMP-000121,2026-09-10,self_update,27.93,34.01,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000838,GOAL-EMP-000131-002,EMP-000131,EMP-000131,2026-09-10,self_update,70.0,55.43,on_track,Progress is on plan.,0,1
+CHK-000839,GOAL-EMP-000139-002,EMP-000139,EMP-000139,2026-09-10,self_update,56.52,47.76,on_track,"Good momentum, no blockers.",0,0
+CHK-000840,GOAL-EMP-000150-001,EMP-000150,EMP-000150,2026-09-10,self_update,32.04,37.43,at_risk,Dependency delay is a risk.,0,0
+CHK-000841,GOAL-EMP-000012-002,EMP-000012,EMP-000062,2026-09-11,manager_review,33.7,31.9,on_track,Progress is on plan.,0,0
+CHK-000842,GOAL-EMP-000047-004,EMP-000047,EMP-000047,2026-09-11,self_update,24.38,42.96,off_track,Blocked on external input.,0,0
+CHK-000843,GOAL-EMP-000077-002,EMP-000077,EMP-000077,2026-09-11,self_update,49.25,29.3,on_track,"Good momentum, no blockers.",0,0
+CHK-000844,GOAL-EMP-000082-002,EMP-000082,EMP-000082,2026-09-11,self_update,33.35,35.51,on_track,Milestones met this period.,0,0
+CHK-000845,GOAL-EMP-000111-003,EMP-000111,EMP-000111,2026-09-11,self_update,33.98,30.63,on_track,Milestones met this period.,0,1
+CHK-000846,GOAL-EMP-000048-004,EMP-000048,EMP-000048,2026-09-12,self_update,40.58,51.16,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000847,GOAL-EMP-000061-003,EMP-000061,EMP-000061,2026-09-12,self_update,18.49,35.29,off_track,Scope needs re-planning.,0,0
+CHK-000848,GOAL-EMP-000116-002,EMP-000116,EMP-000116,2026-09-12,self_update,36.61,30.38,on_track,Progress is on plan.,0,0
+CHK-000849,GOAL-EMP-000008-003,EMP-000008,EMP-000008,2026-09-14,self_update,43.48,39.13,on_track,Milestones met this period.,0,0
+CHK-000850,GOAL-EMP-000141-005,EMP-000141,EMP-000141,2026-09-14,self_update,51.39,38.64,on_track,Progress is on plan.,0,0
+CHK-000851,GOAL-EMP-000030-004,EMP-000030,EMP-000001,2026-09-15,manager_review,33.55,33.12,on_track,"Good momentum, no blockers.",0,0
+CHK-000852,GOAL-EMP-000104-003,EMP-000104,EMP-000104,2026-09-15,self_update,53.54,38.15,on_track,Milestones met this period.,0,1
+CHK-000853,GOAL-EMP-000129-002,EMP-000129,EMP-000129,2026-09-15,self_update,52.65,32.7,on_track,Milestones met this period.,0,1
+CHK-000854,GOAL-EMP-000136-003,EMP-000136,EMP-000136,2026-09-15,self_update,30.91,32.7,on_track,Progress is on plan.,0,0
+CHK-000855,GOAL-EMP-000006-004,EMP-000006,EMP-000006,2026-09-16,self_update,22.32,38.73,off_track,Significantly behind; support requested.,0,1
+CHK-000856,GOAL-EMP-000036-002,EMP-000036,EMP-000051,2026-09-16,manager_review,44.57,34.97,on_track,Progress is on plan.,0,1
+CHK-000857,GOAL-EMP-000053-003,EMP-000053,EMP-000053,2026-09-16,self_update,63.22,58.56,on_track,Milestones met this period.,0,1
+CHK-000858,GOAL-EMP-000053-004,EMP-000053,EMP-000053,2026-09-16,self_update,53.33,41.44,on_track,Milestones met this period.,0,1
+CHK-000859,GOAL-EMP-000098-002,EMP-000098,EMP-000098,2026-09-16,self_update,52.42,36.11,on_track,Progress is on plan.,0,1
+CHK-000860,GOAL-EMP-000127-002,EMP-000127,EMP-000127,2026-09-16,self_update,62.94,40.78,on_track,"Good momentum, no blockers.",0,0
+CHK-000861,GOAL-EMP-000070-002,EMP-000070,EMP-000070,2026-09-17,self_update,26.0,34.38,at_risk,Dependency delay is a risk.,0,0
+CHK-000862,GOAL-EMP-000082-003,EMP-000082,EMP-000082,2026-09-17,self_update,32.53,33.96,on_track,"Good momentum, no blockers.",0,0
+CHK-000863,GOAL-EMP-000119-004,EMP-000119,EMP-000001,2026-09-17,manager_review,56.12,49.32,on_track,"Good momentum, no blockers.",0,1
+CHK-000864,GOAL-EMP-000046-002,EMP-000046,EMP-000046,2026-09-18,self_update,31.98,53.91,off_track,Significantly behind; support requested.,0,0
+CHK-000865,GOAL-EMP-000047-005,EMP-000047,EMP-000047,2026-09-18,self_update,19.15,43.17,off_track,Significantly behind; support requested.,0,0
+CHK-000866,GOAL-EMP-000063-003,EMP-000063,EMP-000063,2026-09-18,self_update,61.32,41.57,on_track,Progress is on plan.,0,1
+CHK-000867,GOAL-EMP-000134-007,EMP-000134,EMP-000134,2026-09-18,self_update,22.39,41.24,off_track,Scope needs re-planning.,0,0
+CHK-000868,GOAL-EMP-000032-002,EMP-000032,EMP-000032,2026-09-19,self_update,25.69,36.02,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000869,GOAL-EMP-000097-002,EMP-000097,EMP-000097,2026-09-19,self_update,40.23,55.47,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000870,GOAL-EMP-000012-003,EMP-000012,EMP-000012,2026-09-20,self_update,60.25,61.68,on_track,Progress is on plan.,0,0
+CHK-000871,GOAL-EMP-000076-002,EMP-000076,EMP-000076,2026-09-20,self_update,28.02,37.8,at_risk,Dependency delay is a risk.,0,1
+CHK-000872,GOAL-EMP-000135-004,EMP-000135,EMP-000135,2026-09-20,self_update,45.8,43.67,on_track,Milestones met this period.,0,0
+CHK-000873,GOAL-EMP-000049-004,EMP-000049,EMP-000049,2026-09-21,self_update,63.88,53.54,on_track,Milestones met this period.,0,2
+CHK-000874,GOAL-EMP-000078-001,EMP-000078,EMP-000078,2026-09-21,self_update,63.96,41.62,on_track,"Good momentum, no blockers.",0,0
+CHK-000875,GOAL-EMP-000106-002,EMP-000106,EMP-000106,2026-09-21,self_update,44.64,62.99,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000876,GOAL-EMP-000125-005,EMP-000125,EMP-000125,2026-09-21,self_update,28.7,43.67,at_risk,Dependency delay is a risk.,0,0
+CHK-000877,GOAL-EMP-000015-005,EMP-000015,EMP-000013,2026-09-22,manager_review,53.59,37.89,on_track,"Good momentum, no blockers.",0,1
+CHK-000878,GOAL-EMP-000025-002,EMP-000025,EMP-000025,2026-09-22,self_update,25.56,43.18,off_track,Blocked on external input.,0,1
+CHK-000879,GOAL-EMP-000028-002,EMP-000028,EMP-000028,2026-09-22,self_update,50.39,39.39,on_track,Milestones met this period.,0,0
+CHK-000880,GOAL-EMP-000031-003,EMP-000031,EMP-000031,2026-09-22,self_update,87.24,66.67,on_track,"Good momentum, no blockers.",1,2
+CHK-000881,GOAL-EMP-000085-004,EMP-000085,EMP-000085,2026-09-22,self_update,40.06,42.86,on_track,"Good momentum, no blockers.",0,0
+CHK-000882,GOAL-EMP-000091-005,EMP-000091,EMP-000091,2026-09-22,self_update,41.56,54.29,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000883,GOAL-EMP-000044-005,EMP-000044,EMP-000044,2026-09-23,self_update,35.81,37.34,on_track,Progress is on plan.,0,0
+CHK-000884,GOAL-EMP-000059-002,EMP-000059,EMP-000059,2026-09-23,self_update,27.93,51.56,off_track,Scope needs re-planning.,0,0
+CHK-000885,GOAL-EMP-000110-004,EMP-000110,EMP-000110,2026-09-23,self_update,29.67,40.0,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000886,GOAL-EMP-000122-005,EMP-000122,EMP-000122,2026-09-23,self_update,54.59,42.47,on_track,Progress is on plan.,0,0
+CHK-000887,GOAL-EMP-000032-003,EMP-000032,EMP-000032,2026-09-24,self_update,33.4,39.51,at_risk,Some slippage; mitigation agreed.,0,0
+CHK-000888,GOAL-EMP-000062-004,EMP-000062,EMP-000062,2026-09-24,self_update,50.0,45.86,on_track,Progress is on plan.,0,0
+CHK-000889,GOAL-EMP-000069-005,EMP-000069,EMP-000069,2026-09-24,self_update,45.85,44.94,on_track,Milestones met this period.,0,0
+CHK-000890,GOAL-EMP-000088-004,EMP-000088,EMP-000088,2026-09-24,self_update,62.75,48.84,on_track,Progress is on plan.,0,1
+CHK-000891,GOAL-EMP-000092-003,EMP-000092,EMP-000092,2026-09-24,self_update,53.93,66.39,at_risk,Dependency delay is a risk.,0,1
+CHK-000892,GOAL-EMP-000118-004,EMP-000118,EMP-000118,2026-09-24,self_update,19.61,37.58,off_track,Significantly behind; support requested.,0,1
+CHK-000893,GOAL-EMP-000038-003,EMP-000038,EMP-000038,2026-09-25,self_update,20.33,43.6,off_track,Scope needs re-planning.,0,0
+CHK-000894,GOAL-EMP-000046-002,EMP-000046,EMP-000046,2026-09-25,self_update,55.54,59.38,on_track,"Good momentum, no blockers.",1,1
+CHK-000895,GOAL-EMP-000050-003,EMP-000050,EMP-000050,2026-09-25,self_update,27.95,48.51,off_track,Significantly behind; support requested.,0,1
+CHK-000896,GOAL-EMP-000098-002,EMP-000098,EMP-000098,2026-09-25,self_update,60.29,42.36,on_track,"Good momentum, no blockers.",0,1
+CHK-000897,GOAL-EMP-000108-002,EMP-000108,EMP-000108,2026-09-25,self_update,53.27,47.9,on_track,Milestones met this period.,0,0
+CHK-000898,GOAL-EMP-000115-004,EMP-000115,EMP-000115,2026-09-25,self_update,30.86,45.51,at_risk,Dependency delay is a risk.,0,0
+CHK-000899,GOAL-EMP-000126-003,EMP-000126,EMP-000126,2026-09-25,self_update,8.4,41.21,off_track,Scope needs re-planning.,0,0
+CHK-000900,GOAL-EMP-000118-004,EMP-000118,EMP-000118,2026-09-26,self_update,20.41,38.85,off_track,Scope needs re-planning.,0,1
+CHK-000901,GOAL-EMP-000138-004,EMP-000138,EMP-000138,2026-09-26,self_update,38.75,38.06,on_track,Progress is on plan.,0,1
+CHK-000902,GOAL-EMP-000148-004,EMP-000148,EMP-000148,2026-09-26,self_update,32.59,46.37,at_risk,Dependency delay is a risk.,0,0
+CHK-000903,GOAL-EMP-000149-003,EMP-000149,EMP-000061,2026-09-26,manager_review,31.43,45.76,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000904,GOAL-EMP-000011-003,EMP-000011,EMP-000011,2026-09-27,self_update,26.91,44.12,at_risk,Dependency delay is a risk.,0,1
+CHK-000905,GOAL-EMP-000095-002,EMP-000095,EMP-000062,2026-09-27,manager_review,55.08,45.09,on_track,"Good momentum, no blockers.",0,0
+CHK-000906,GOAL-EMP-000008-003,EMP-000008,EMP-000008,2026-09-28,self_update,49.57,49.28,on_track,Progress is on plan.,0,0
+CHK-000907,GOAL-EMP-000094-005,EMP-000094,EMP-000094,2026-09-28,self_update,61.74,50.69,on_track,Progress is on plan.,0,0
+CHK-000908,GOAL-EMP-000123-003,EMP-000123,EMP-000123,2026-09-28,self_update,50.71,44.71,on_track,Milestones met this period.,0,1
+CHK-000909,GOAL-EMP-000009-005,EMP-000009,EMP-000009,2026-09-29,self_update,37.81,42.24,at_risk,Dependency delay is a risk.,0,0
+CHK-000910,GOAL-EMP-000058-003,EMP-000058,EMP-000058,2026-09-29,self_update,46.86,48.04,on_track,"Good momentum, no blockers.",0,1
+CHK-000911,GOAL-EMP-000141-005,EMP-000141,EMP-000141,2026-09-29,self_update,60.56,47.16,on_track,"Good momentum, no blockers.",0,0
+CHK-000912,GOAL-EMP-000143-003,EMP-000143,EMP-000002,2026-09-29,manager_review,42.0,73.74,off_track,Blocked on external input.,0,1
+CHK-000913,GOAL-EMP-000087-001,EMP-000087,EMP-000087,2026-09-30,self_update,21.54,41.4,off_track,Scope needs re-planning.,0,0
+CHK-000914,GOAL-EMP-000088-003,EMP-000088,EMP-000088,2026-09-30,self_update,42.77,45.88,on_track,Progress is on plan.,0,0
+CHK-000915,GOAL-EMP-000042-003,EMP-000042,EMP-000042,2026-10-01,self_update,31.57,58.52,off_track,Blocked on external input.,0,1
+CHK-000916,GOAL-EMP-000048-003,EMP-000048,EMP-000048,2026-10-01,self_update,83.93,78.7,on_track,Progress is on plan.,1,2
+CHK-000917,GOAL-EMP-000067-004,EMP-000067,EMP-000067,2026-10-01,self_update,30.92,47.09,at_risk,Dependency delay is a risk.,0,1
+CHK-000918,GOAL-EMP-000114-002,EMP-000114,EMP-000114,2026-10-01,self_update,75.06,61.16,on_track,Milestones met this period.,1,1
+CHK-000919,GOAL-EMP-000113-002,EMP-000113,EMP-000113,2026-10-02,self_update,63.82,49.15,on_track,Progress is on plan.,0,1
+CHK-000920,GOAL-EMP-000132-002,EMP-000132,EMP-000132,2026-10-02,self_update,76.15,57.81,on_track,"Good momentum, no blockers.",0,2
+CHK-000921,GOAL-EMP-000147-006,EMP-000147,EMP-000056,2026-10-02,manager_review,41.47,50.28,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000922,GOAL-EMP-000003-002,EMP-000003,EMP-000003,2026-10-03,self_update,28.76,47.02,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000923,GOAL-EMP-000005-003,EMP-000005,EMP-000050,2026-10-03,manager_review,47.17,77.66,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000924,GOAL-EMP-000074-002,EMP-000074,EMP-000074,2026-10-03,self_update,45.5,44.03,on_track,Progress is on plan.,0,1
+CHK-000925,GOAL-EMP-000107-002,EMP-000107,EMP-000107,2026-10-03,self_update,13.43,47.34,off_track,Blocked on external input.,0,1
+CHK-000926,GOAL-EMP-000122-005,EMP-000122,EMP-000122,2026-10-03,self_update,62.0,49.32,on_track,Milestones met this period.,0,0
+CHK-000927,GOAL-EMP-000135-003,EMP-000135,EMP-000135,2026-10-03,self_update,86.92,80.68,on_track,Progress is on plan.,1,1
+CHK-000928,GOAL-EMP-000058-005,EMP-000058,EMP-000058,2026-10-04,self_update,56.28,51.11,on_track,"Good momentum, no blockers.",0,0
+CHK-000929,GOAL-EMP-000106-002,EMP-000106,EMP-000106,2026-10-04,self_update,48.21,73.23,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000930,GOAL-EMP-000011-002,EMP-000011,EMP-000011,2026-10-05,self_update,19.31,46.63,off_track,Significantly behind; support requested.,0,1
+CHK-000931,GOAL-EMP-000027-003,EMP-000027,EMP-000027,2026-10-05,self_update,83.7,77.27,on_track,"Good momentum, no blockers.",1,1
+CHK-000932,GOAL-EMP-000089-002,EMP-000089,EMP-000089,2026-10-05,self_update,26.29,48.82,off_track,Blocked on external input.,0,1
+CHK-000933,GOAL-EMP-000121-003,EMP-000121,EMP-000039,2026-10-05,manager_review,37.43,51.02,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000934,GOAL-EMP-000147-005,EMP-000147,EMP-000147,2026-10-05,self_update,54.0,50.85,on_track,Progress is on plan.,0,0
+CHK-000935,GOAL-EMP-000050-003,EMP-000050,EMP-000050,2026-10-06,self_update,52.12,56.72,on_track,"Good momentum, no blockers.",0,1
+CHK-000936,GOAL-EMP-000119-004,EMP-000119,EMP-000119,2026-10-06,self_update,66.29,62.16,on_track,Progress is on plan.,0,1
+CHK-000937,GOAL-EMP-000079-003,EMP-000079,EMP-000079,2026-10-07,self_update,31.88,48.48,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000938,GOAL-EMP-000092-002,EMP-000092,EMP-000092,2026-10-07,self_update,52.15,48.8,on_track,Milestones met this period.,0,1
+CHK-000939,GOAL-EMP-000094-004,EMP-000094,EMP-000094,2026-10-07,self_update,59.6,53.04,on_track,Progress is on plan.,0,1
+CHK-000940,GOAL-EMP-000103-004,EMP-000103,EMP-000103,2026-10-07,self_update,46.25,51.7,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000941,GOAL-EMP-000080-003,EMP-000080,EMP-000080,2026-10-08,self_update,67.83,50.0,on_track,"Good momentum, no blockers.",0,1
+CHK-000942,GOAL-EMP-000110-003,EMP-000110,EMP-000110,2026-10-08,self_update,45.8,49.4,on_track,"Good momentum, no blockers.",0,1
+CHK-000943,GOAL-EMP-000115-003,EMP-000115,EMP-000115,2026-10-08,self_update,61.29,66.67,on_track,"Good momentum, no blockers.",0,2
+CHK-000944,GOAL-EMP-000149-004,EMP-000149,EMP-000149,2026-10-08,self_update,25.5,48.15,off_track,Significantly behind; support requested.,0,1
+CHK-000945,GOAL-EMP-000017-003,EMP-000017,EMP-000017,2026-10-09,self_update,70.06,52.3,on_track,Milestones met this period.,0,0
+CHK-000946,GOAL-EMP-000018-003,EMP-000018,EMP-000018,2026-10-09,self_update,26.54,53.89,off_track,Blocked on external input.,0,1
+CHK-000947,GOAL-EMP-000116-002,EMP-000116,EMP-000116,2026-10-09,self_update,48.97,47.47,on_track,Progress is on plan.,0,0
+CHK-000948,GOAL-EMP-000123-004,EMP-000123,EMP-000123,2026-10-09,self_update,43.33,50.89,at_risk,Dependency delay is a risk.,0,0
+CHK-000949,GOAL-EMP-000138-004,EMP-000138,EMP-000138,2026-10-09,self_update,44.68,46.45,on_track,Progress is on plan.,0,0
+CHK-000950,GOAL-EMP-000148-003,EMP-000148,EMP-000148,2026-10-10,self_update,32.93,49.38,at_risk,Dependency delay is a risk.,0,0
+CHK-000951,GOAL-EMP-000048-005,EMP-000048,EMP-000048,2026-10-11,self_update,48.49,49.69,on_track,Progress is on plan.,0,0
+CHK-000952,GOAL-EMP-000070-002,EMP-000070,EMP-000070,2026-10-11,self_update,33.23,49.38,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000953,GOAL-EMP-000088-004,EMP-000088,EMP-000015,2026-10-11,manager_review,78.43,62.02,on_track,"Good momentum, no blockers.",0,1
+CHK-000954,GOAL-EMP-000035-005,EMP-000035,EMP-000035,2026-10-12,self_update,56.03,51.52,on_track,"Good momentum, no blockers.",0,2
+CHK-000955,GOAL-EMP-000012-002,EMP-000012,EMP-000012,2026-10-13,self_update,50.78,51.53,on_track,"Good momentum, no blockers.",0,0
+CHK-000956,GOAL-EMP-000028-002,EMP-000028,EMP-000028,2026-10-13,self_update,60.56,52.12,on_track,Progress is on plan.,0,0
+CHK-000957,GOAL-EMP-000069-005,EMP-000069,EMP-000069,2026-10-13,self_update,55.59,55.62,on_track,Progress is on plan.,0,0
+CHK-000958,GOAL-EMP-000036-002,EMP-000036,EMP-000051,2026-10-14,manager_review,61.09,52.15,on_track,Milestones met this period.,0,1
+CHK-000959,GOAL-EMP-000095-002,EMP-000095,EMP-000095,2026-10-14,self_update,59.77,54.91,on_track,Milestones met this period.,0,2
+CHK-000960,GOAL-EMP-000125-003,EMP-000125,EMP-000125,2026-10-14,self_update,39.89,55.93,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000961,GOAL-EMP-000135-004,EMP-000135,EMP-000135,2026-10-14,self_update,57.08,58.86,on_track,"Good momentum, no blockers.",1,1
+CHK-000962,GOAL-EMP-000144-004,EMP-000144,EMP-000144,2026-10-14,self_update,49.0,74.29,at_risk,Dependency delay is a risk.,0,0
+CHK-000963,GOAL-EMP-000006-004,EMP-000006,EMP-000006,2026-10-15,self_update,27.28,55.49,off_track,Blocked on external input.,0,0
+CHK-000964,GOAL-EMP-000007-002,EMP-000007,EMP-000007,2026-10-15,self_update,45.8,57.22,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000965,GOAL-EMP-000013-003,EMP-000013,EMP-000001,2026-10-15,manager_review,59.34,65.94,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000966,GOAL-EMP-000043-003,EMP-000043,EMP-000045,2026-10-15,manager_review,87.49,70.8,on_track,Progress is on plan.,1,2
+CHK-000967,GOAL-EMP-000093-004,EMP-000093,EMP-000093,2026-10-15,self_update,61.23,79.82,at_risk,Dependency delay is a risk.,0,0
+CHK-000968,GOAL-EMP-000134-005,EMP-000134,EMP-000134,2026-10-15,self_update,16.02,56.0,off_track,Significantly behind; support requested.,0,0
+CHK-000969,GOAL-EMP-000150-004,EMP-000150,EMP-000150,2026-10-15,self_update,33.28,56.25,off_track,Significantly behind; support requested.,0,1
+CHK-000970,GOAL-EMP-000013-002,EMP-000013,EMP-000013,2026-10-16,self_update,45.14,72.58,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000971,GOAL-EMP-000014-002,EMP-000014,EMP-000015,2026-10-16,manager_review,37.21,56.57,at_risk,Dependency delay is a risk.,0,0
+CHK-000972,GOAL-EMP-000016-002,EMP-000016,EMP-000013,2026-10-16,manager_review,37.21,53.09,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000973,GOAL-EMP-000051-003,EMP-000051,EMP-000002,2026-10-16,manager_review,50.36,57.06,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000974,GOAL-EMP-000059-003,EMP-000059,EMP-000059,2026-10-16,self_update,66.01,57.14,on_track,Milestones met this period.,0,1
+CHK-000975,GOAL-EMP-000087-001,EMP-000087,EMP-000087,2026-10-16,self_update,24.9,51.59,off_track,Scope needs re-planning.,0,0
+CHK-000976,GOAL-EMP-000087-002,EMP-000087,EMP-000015,2026-10-16,manager_review,36.57,56.07,at_risk,Dependency delay is a risk.,0,1
+CHK-000977,GOAL-EMP-000006-003,EMP-000006,EMP-000013,2026-10-17,manager_review,28.68,56.4,off_track,Scope needs re-planning.,0,0
+CHK-000978,GOAL-EMP-000009-004,EMP-000009,EMP-000009,2026-10-17,self_update,47.0,56.14,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000979,GOAL-EMP-000019-002,EMP-000019,EMP-000131,2026-10-17,manager_review,70.97,70.68,on_track,Progress is on plan.,1,1
+CHK-000980,GOAL-EMP-000071-003,EMP-000071,EMP-000071,2026-10-17,self_update,70.94,57.39,on_track,"Good momentum, no blockers.",0,1
+CHK-000981,GOAL-EMP-000118-003,EMP-000118,EMP-000118,2026-10-18,self_update,47.19,56.98,at_risk,Dependency delay is a risk.,0,0
+CHK-000982,GOAL-EMP-000136-003,EMP-000136,EMP-000136,2026-10-18,self_update,57.99,53.46,on_track,"Good momentum, no blockers.",0,1
+CHK-000983,GOAL-EMP-000089-003,EMP-000089,EMP-000089,2026-10-19,self_update,16.88,58.52,off_track,Blocked on external input.,0,0
+CHK-000984,GOAL-EMP-000099-003,EMP-000099,EMP-000099,2026-10-19,self_update,50.03,56.55,at_risk,"Behind plan, recovery under way.",0,0
+CHK-000985,GOAL-EMP-000112-003,EMP-000112,EMP-000112,2026-10-19,self_update,66.59,59.89,on_track,Progress is on plan.,0,0
+CHK-000986,GOAL-EMP-000130-002,EMP-000130,EMP-000130,2026-10-19,self_update,60.8,58.99,on_track,Progress is on plan.,1,1
+CHK-000987,GOAL-EMP-000134-006,EMP-000134,EMP-000134,2026-10-19,self_update,20.24,67.44,off_track,Scope needs re-planning.,0,1
+CHK-000988,GOAL-EMP-000024-002,EMP-000024,EMP-000016,2026-10-20,manager_review,63.24,60.66,on_track,Progress is on plan.,0,1
+CHK-000989,GOAL-EMP-000064-003,EMP-000064,EMP-000064,2026-10-20,self_update,74.44,83.5,at_risk,"Behind plan, recovery under way.",0,1
+CHK-000990,GOAL-EMP-000071-004,EMP-000071,EMP-000062,2026-10-20,manager_review,65.86,57.4,on_track,Milestones met this period.,1,2
+CHK-000991,GOAL-EMP-000100-003,EMP-000100,EMP-000100,2026-10-20,self_update,34.77,59.09,off_track,Scope needs re-planning.,0,1
+CHK-000992,GOAL-EMP-000139-002,EMP-000139,EMP-000139,2026-10-20,self_update,78.26,77.61,on_track,"Good momentum, no blockers.",0,1
+CHK-000993,GOAL-EMP-000028-003,EMP-000028,EMP-000028,2026-10-21,self_update,60.79,59.43,on_track,Milestones met this period.,0,1
+CHK-000994,GOAL-EMP-000064-002,EMP-000064,EMP-000064,2026-10-21,self_update,64.72,76.47,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000995,GOAL-EMP-000146-003,EMP-000146,EMP-000061,2026-10-21,manager_review,57.87,57.49,on_track,"Good momentum, no blockers.",0,1
+CHK-000996,GOAL-EMP-000056-002,EMP-000056,EMP-000002,2026-10-22,manager_review,48.22,92.16,off_track,Blocked on external input.,0,0
+CHK-000997,GOAL-EMP-000057-003,EMP-000057,EMP-000057,2026-10-22,self_update,36.71,57.06,at_risk,Some slippage; mitigation agreed.,0,1
+CHK-000998,GOAL-EMP-000061-003,EMP-000061,EMP-000061,2026-10-22,self_update,59.32,58.82,on_track,Progress is on plan.,0,0
+CHK-000999,GOAL-EMP-000084-002,EMP-000084,EMP-000016,2026-10-22,manager_review,87.56,92.16,on_track,Progress is on plan.,1,1
+CHK-001000,GOAL-EMP-000145-004,EMP-000145,EMP-000145,2026-10-22,self_update,38.19,58.33,at_risk,"Behind plan, recovery under way.",0,2

@@ -1,0 +1,151 @@
+employee_id,full_name,email,department,job_level,job_title,location,hire_date,termination_date,employment_status,system_role,manager_id
+EMP-000001,Reyansh Ghosh,reyansh.ghosh.1@example.test,Engineering,L7,"VP, Engineering",Remote,2018-09-29,,active,manager,
+EMP-000002,Rohan Nair,rohan.nair.2@example.test,Sales,L6,"Director, Sales",Delhi NCR,2022-09-27,,active,manager,MGR-000001
+EMP-000003,Ananya Patel,ananya.patel.3@example.test,Marketing,L1,Associate Marketing Specialist,Bengaluru,2018-06-15,,active,employee,MGR-000010
+EMP-000004,Sameer Gupta,sameer.gupta.4@example.test,Engineering,L3,Senior Engineer,Bengaluru,2019-10-01,,active,employee,MGR-000011
+EMP-000005,Manish Shetty,manish.shetty.5@example.test,Engineering,L4,Staff Engineer,Pune,2024-05-08,,active,employee,MGR-000011
+EMP-000006,Manish Malhotra,manish.malhotra.6@example.test,Operations,L3,Senior Operations Analyst,Mumbai,2021-06-09,,active,employee,MGR-000003
+EMP-000007,Aisha Rao,aisha.rao.7@example.test,Engineering,L3,Senior Engineer,Pune,2025-12-13,,active,employee,MGR-000011
+EMP-000008,Ishaan Kapoor,ishaan.kapoor.8@example.test,Engineering,L1,Associate Engineer,Delhi NCR,2019-08-05,,active,employee,MGR-000019
+EMP-000009,Swati Verma,swati.verma.9@example.test,Customer Success,L1,Associate Success Associate,Delhi NCR,2015-03-09,,active,employee,MGR-000024
+EMP-000010,Lakshmi Patel,lakshmi.patel.10@example.test,Customer Success,L2,Success Associate,Bengaluru,2019-08-18,,active,employee,MGR-000017
+EMP-000011,Neha Verma,neha.verma.11@example.test,Engineering,L2,Engineer,Mumbai,2017-12-07,,active,employee,MGR-000001
+EMP-000012,Krishna Saxena,krishna.saxena.12@example.test,Customer Success,L2,Success Associate,Mumbai,2017-11-23,,active,employee,MGR-000016
+EMP-000013,Aditya Gupta,aditya.gupta.13@example.test,Operations,L6,"Director, Operations",Remote,2024-02-23,,active,manager,MGR-000001
+EMP-000014,Varun Khan,varun.khan.14@example.test,Marketing,L3,Senior Marketing Specialist,Pune,2020-06-17,,active,employee,MGR-000004
+EMP-000015,Naina Ghosh,naina.ghosh.15@example.test,Marketing,L5,Marketing Manager,Remote,2019-11-18,,active,manager,MGR-000003
+EMP-000016,Ananya Pillai,ananya.pillai.16@example.test,Engineering,L5,Engineering Manager,Bengaluru,2021-11-27,,active,manager,MGR-000003
+EMP-000017,Ishaan Nair,ishaan.nair.17@example.test,Engineering,L4,Staff Engineer,Bengaluru,2025-02-14,,active,employee,MGR-000005
+EMP-000018,Varun Yadav,varun.yadav.18@example.test,Customer Success,L2,Success Associate,Hyderabad,2023-05-12,,active,employee,MGR-000016
+EMP-000019,Neha Reddy,neha.reddy.19@example.test,Operations,L1,Associate Operations Analyst,Delhi NCR,2014-01-28,,active,employee,MGR-000022
+EMP-000020,Naina Shetty,naina.shetty.20@example.test,Product,L1,Associate Product Analyst,Delhi NCR,2018-04-11,,active,employee,MGR-000006
+EMP-000021,Isha Verma,isha.verma.21@example.test,Customer Success,L1,Associate Success Associate,Mumbai,2024-10-22,,active,employee,MGR-000017
+EMP-000022,Meera Kapoor,meera.kapoor.22@example.test,Product,L4,Staff Product Analyst,Mumbai,2022-03-07,,active,employee,MGR-000018
+EMP-000023,Karan Singh,karan.singh.23@example.test,HR,L1,Associate HR Generalist,Pune,2017-10-09,,active,employee,MGR-000007
+EMP-000024,Zoya Das,zoya.das.24@example.test,Engineering,L4,Staff Engineer,Remote,2022-01-28,,active,employee,MGR-000005
+EMP-000025,Neha Singh,neha.singh.25@example.test,Engineering,L4,Staff Engineer,Delhi NCR,2013-08-12,,active,employee,MGR-000019
+EMP-000026,Lakshmi Shetty,lakshmi.shetty.26@example.test,Operations,L1,Associate Operations Analyst,Hyderabad,2015-08-21,,active,employee,MGR-000022
+EMP-000027,Isha Desai,isha.desai.27@example.test,Engineering,L2,Engineer,Remote,2019-09-05,,active,employee,MGR-000025
+EMP-000028,Sneha Banerjee,sneha.banerjee.28@example.test,Product,L4,Product Team Lead,Hyderabad,2025-01-01,,active,manager,MGR-000004
+EMP-000029,Naina Reddy,naina.reddy.29@example.test,Product,L2,Product Analyst,Remote,2014-01-16,,active,employee,MGR-000006
+EMP-000030,Manish Khan,manish.khan.30@example.test,HR,L6,"Director, HR",Pune,2019-03-29,,active,manager,MGR-000001
+EMP-000031,Suresh Iyer,suresh.iyer.31@example.test,HR,L1,Associate HR Generalist,Pune,2018-01-15,,active,employee,MGR-000007
+EMP-000032,Rohan Jain,rohan.jain.32@example.test,Finance,L1,Associate Finance Analyst,Remote,2015-01-23,,active,employee,MGR-000009
+EMP-000033,Zoya Yadav,zoya.yadav.33@example.test,Engineering,L3,Senior Engineer,Pune,2022-04-22,,active,employee,MGR-000025
+EMP-000034,Vivaan Iyer,vivaan.iyer.34@example.test,Product,L6,"Director, Product",Bengaluru,2020-01-17,,active,manager,MGR-000001
+EMP-000035,Lakshmi Reddy,lakshmi.reddy.35@example.test,Customer Success,L1,Associate Success Associate,Hyderabad,2023-07-26,,active,employee,MGR-000024
+EMP-000036,Priya Bose,priya.bose.36@example.test,Product,L3,Senior Product Analyst,Remote,2021-11-27,,active,employee,MGR-000012
+EMP-000037,Pooja Khan,pooja.khan.37@example.test,Marketing,L1,Associate Marketing Specialist,Remote,2023-09-08,,active,employee,MGR-000004
+EMP-000038,Lakshmi Jain,lakshmi.jain.38@example.test,Finance,L2,Finance Analyst,Pune,2024-02-17,,active,employee,MGR-000009
+EMP-000039,Farhan Bose,farhan.bose.39@example.test,Finance,L5,Finance Manager,Delhi NCR,2018-05-09,,active,manager,MGR-000003
+EMP-000040,Isha Bose,isha.bose.40@example.test,Operations,L1,Associate Operations Analyst,Remote,2023-04-10,,active,employee,MGR-000022
+EMP-000041,Zoya Joshi,zoya.joshi.41@example.test,Product,L3,Senior Product Analyst,Pune,2023-01-06,,active,employee,MGR-000006
+EMP-000042,Priya Joshi,priya.joshi.42@example.test,Product,L2,Product Analyst,Delhi NCR,2014-03-02,,active,employee,MGR-000008
+EMP-000043,Sai Naidu,sai.naidu.43@example.test,Marketing,L2,Marketing Specialist,Remote,2022-04-05,,active,employee,MGR-000010
+EMP-000044,Diya Chatterjee,diya.chatterjee.44@example.test,Marketing,L2,Marketing Specialist,Hyderabad,2020-06-11,,active,employee,MGR-000004
+EMP-000045,Suresh Menon,suresh.menon.45@example.test,Marketing,L5,Marketing Manager,Delhi NCR,2023-03-25,,active,manager,MGR-000003
+EMP-000046,Sai Singh,sai.singh.46@example.test,Marketing,L3,Senior Marketing Specialist,Pune,2021-06-02,,active,employee,MGR-000004
+EMP-000047,Swati Naidu,swati.naidu.47@example.test,Operations,L4,Staff Operations Analyst,Bengaluru,2019-02-25,,active,employee,MGR-000003
+EMP-000048,Reyansh Shetty,reyansh.shetty.48@example.test,Operations,L1,Associate Operations Analyst,Delhi NCR,2025-04-07,,active,employee,MGR-000003
+EMP-000049,Vivaan Pillai,vivaan.pillai.49@example.test,Finance,L1,Associate Finance Analyst,Bengaluru,2022-04-21,,active,employee,MGR-000009
+EMP-000050,Isha Banerjee,isha.banerjee.50@example.test,Engineering,L5,Engineering Manager,Bengaluru,2016-11-12,,active,manager,MGR-000008
+EMP-000051,Harsh Kulkarni,harsh.kulkarni.51@example.test,Product,L5,Product Manager,Delhi NCR,2022-11-19,,active,manager,MGR-000002
+EMP-000052,Swati Verma,swati.verma.52@example.test,Engineering,L1,Associate Engineer,Remote,2018-01-19,,active,employee,MGR-000001
+EMP-000053,Rahul Kapoor,rahul.kapoor.53@example.test,Product,L2,Product Analyst,Delhi NCR,2015-10-11,,active,employee,MGR-000018
+EMP-000054,Rahul Sharma,rahul.sharma.54@example.test,Product,L4,Staff Product Analyst,Remote,2017-05-25,,active,hr_partner,MGR-000006
+EMP-000055,Neha Verma,neha.verma.55@example.test,Customer Success,L1,Associate Success Associate,Mumbai,2023-04-26,,active,employee,MGR-000016
+EMP-000056,Isha Singh,isha.singh.56@example.test,Product,L5,Product Manager,Bengaluru,2017-05-04,,active,manager,MGR-000002
+EMP-000057,Deepak Verma,deepak.verma.57@example.test,Product,L1,Associate Product Analyst,Hyderabad,2023-06-22,,active,employee,MGR-000013
+EMP-000058,Reyansh Desai,reyansh.desai.58@example.test,Engineering,L1,Associate Engineer,Pune,2025-01-30,,active,employee,MGR-000005
+EMP-000059,Manish Saxena,manish.saxena.59@example.test,Operations,L4,Operations Team Lead,Delhi NCR,2015-04-26,,active,manager,MGR-000010
+EMP-000060,Naina Das,naina.das.60@example.test,Operations,L2,Operations Analyst,Hyderabad,2024-01-24,,active,employee,MGR-000022
+EMP-000061,Varun Rao,varun.rao.61@example.test,Marketing,L4,Marketing Team Lead,Mumbai,2019-04-10,,active,manager,MGR-000004
+EMP-000062,Ananya Yadav,ananya.yadav.62@example.test,Customer Success,L4,Customer Success Team Lead,Hyderabad,2015-10-03,,active,manager,MGR-000009
+EMP-000063,Krishna Yadav,krishna.yadav.63@example.test,Operations,L2,Operations Analyst,Remote,2023-09-19,,active,employee,MGR-000022
+EMP-000064,Priya Thakur,priya.thakur.64@example.test,Engineering,L1,Associate Engineer,Mumbai,2019-04-23,,active,employee,MGR-000020
+EMP-000065,Diya Ghosh,diya.ghosh.65@example.test,Product,L1,Associate Product Analyst,Delhi NCR,2023-11-02,,active,employee,MGR-000008
+EMP-000066,Suresh Menon,suresh.menon.66@example.test,Sales,L2,Sales Executive,Mumbai,2025-08-21,,active,employee,MGR-000002
+EMP-000067,Pooja Banerjee,pooja.banerjee.67@example.test,HR,L1,Associate HR Generalist,Mumbai,2024-05-29,,active,employee,MGR-000020
+EMP-000068,Arjun Mishra,arjun.mishra.68@example.test,Product,L4,Staff Product Analyst,Hyderabad,2020-11-05,,active,employee,MGR-000012
+EMP-000069,Karan Kapoor,karan.kapoor.69@example.test,Engineering,L4,Staff Engineer,Mumbai,2021-03-23,,active,employee,MGR-000021
+EMP-000070,Sai Desai,sai.desai.70@example.test,Finance,L1,Associate Finance Analyst,Mumbai,2026-03-16,,active,employee,MGR-000009
+EMP-000071,Aditya Reddy,aditya.reddy.71@example.test,Customer Success,L3,Senior Success Associate,Mumbai,2021-06-19,,active,employee,MGR-000016
+EMP-000072,Isha Joshi,isha.joshi.72@example.test,Operations,L1,Associate Operations Analyst,Pune,2021-05-31,,active,employee,MGR-000003
+EMP-000073,Ishaan Jain,ishaan.jain.73@example.test,Customer Success,L4,Customer Success Team Lead,Delhi NCR,2014-08-23,,active,manager,MGR-000011
+EMP-000074,Aditya Mehta,aditya.mehta.74@example.test,Marketing,L2,Marketing Specialist,Mumbai,2020-04-04,,active,employee,MGR-000015
+EMP-000075,Krishna Verma,krishna.verma.75@example.test,Marketing,L2,Marketing Specialist,Remote,2021-09-19,,active,it_ops,MGR-000015
+EMP-000076,Zoya Joshi,zoya.joshi.76@example.test,Product,L4,Product Team Lead,Mumbai,2021-06-02,,active,manager,MGR-000004
+EMP-000077,Tarun Reddy,tarun.reddy.77@example.test,Operations,L1,Associate Operations Analyst,Pune,2024-09-30,,active,employee,MGR-000022
+EMP-000078,Varun Yadav,varun.yadav.78@example.test,Engineering,L1,Associate Engineer,Mumbai,2026-06-30,,active,sysadmin,MGR-000005
+EMP-000079,Reyansh Sharma,reyansh.sharma.79@example.test,Engineering,L4,Engineering Team Lead,Bengaluru,2019-06-18,,active,manager,MGR-000006
+EMP-000080,Tanvi Banerjee,tanvi.banerjee.80@example.test,HR,L1,Associate HR Generalist,Remote,2025-11-17,,active,employee,MGR-000007
+EMP-000081,Neha Joshi,neha.joshi.81@example.test,Product,L1,Associate Product Analyst,Hyderabad,2023-06-08,,active,employee,MGR-000013
+EMP-000082,Harsh Gupta,harsh.gupta.82@example.test,Marketing,L2,Marketing Specialist,Pune,2025-03-12,,active,employee,MGR-000015
+EMP-000083,Swati Pillai,swati.pillai.83@example.test,Marketing,L4,Staff Marketing Specialist,Bengaluru,2021-10-08,,active,employee,MGR-000010
+EMP-000084,Sai Chatterjee,sai.chatterjee.84@example.test,Engineering,L2,Engineer,Hyderabad,2024-05-24,,active,employee,MGR-000005
+EMP-000085,Rahul Mishra,rahul.mishra.85@example.test,Operations,L2,Operations Analyst,Delhi NCR,2023-09-06,,active,employee,MGR-000003
+EMP-000086,Sai Reddy,sai.reddy.86@example.test,Marketing,L2,Marketing Specialist,Mumbai,2023-09-15,,active,employee,MGR-000004
+EMP-000087,Aisha Joshi,aisha.joshi.87@example.test,Marketing,L2,Marketing Specialist,Remote,2026-06-28,,active,employee,MGR-000004
+EMP-000088,Vivaan Rao,vivaan.rao.88@example.test,Marketing,L1,Associate Marketing Specialist,Pune,2016-02-03,,active,employee,MGR-000004
+EMP-000089,Harsh Das,harsh.das.89@example.test,Customer Success,L4,Staff Success Associate,Remote,2024-08-04,,active,employee,MGR-000016
+EMP-000090,Meera Mishra,meera.mishra.90@example.test,Engineering,L1,Associate Engineer,Bengaluru,2013-05-02,,active,employee,MGR-000019
+EMP-000091,Nikhil Chatterjee,nikhil.chatterjee.91@example.test,HR,L4,HR Team Lead,Delhi NCR,2019-12-17,,active,manager,MGR-000014
+EMP-000092,Manish Desai,manish.desai.92@example.test,HR,L3,Senior HR Generalist,Pune,2021-12-19,,active,employee,MGR-000020
+EMP-000093,Lakshmi Singh,lakshmi.singh.93@example.test,Marketing,L1,Associate Marketing Specialist,Hyderabad,2018-08-15,,active,employee,MGR-000015
+EMP-000094,Fatima Verma,fatima.verma.94@example.test,Engineering,L1,Associate Engineer,Pune,2016-04-17,,active,employee,MGR-000011
+EMP-000095,Pooja Thakur,pooja.thakur.95@example.test,Customer Success,L2,Success Associate,Delhi NCR,2023-09-17,,active,employee,MGR-000016
+EMP-000096,Naina Kapoor,naina.kapoor.96@example.test,Engineering,L1,Associate Engineer,Delhi NCR,2019-09-26,,active,employee,MGR-000021
+EMP-000097,Sameer Joshi,sameer.joshi.97@example.test,Product,L1,Associate Product Analyst,Mumbai,2023-09-16,,on_leave,employee,MGR-000018
+EMP-000098,Ananya Menon,ananya.menon.98@example.test,Engineering,L1,Associate Engineer,Mumbai,2020-10-30,,active,employee,MGR-000023
+EMP-000099,Rohan Gupta,rohan.gupta.99@example.test,Marketing,L1,Associate Marketing Specialist,Delhi NCR,2025-07-18,,active,employee,MGR-000010
+EMP-000100,Farhan Jain,farhan.jain.100@example.test,Customer Success,L2,Success Associate,Delhi NCR,2016-05-13,,active,employee,MGR-000016
+EMP-000101,Krishna Yadav,krishna.yadav.101@example.test,Engineering,L4,Staff Engineer,Hyderabad,2014-01-23,,active,employee,MGR-000025
+EMP-000102,Sneha Desai,sneha.desai.102@example.test,Engineering,L4,Staff Engineer,Mumbai,2021-04-02,,active,employee,MGR-000011
+EMP-000103,Suresh Chatterjee,suresh.chatterjee.103@example.test,HR,L2,HR Generalist,Delhi NCR,2015-12-09,,active,employee,MGR-000007
+EMP-000104,Ananya Verma,ananya.verma.104@example.test,Engineering,L2,Engineer,Remote,2021-02-12,,active,employee,MGR-000005
+EMP-000105,Farhan Desai,farhan.desai.105@example.test,HR,L2,HR Generalist,Bengaluru,2025-05-21,,active,employee,MGR-000008
+EMP-000106,Suresh Saxena,suresh.saxena.106@example.test,Product,L1,Associate Product Analyst,Hyderabad,2020-06-16,,active,employee,MGR-000012
+EMP-000107,Swati Malhotra,swati.malhotra.107@example.test,Operations,L3,Senior Operations Analyst,Remote,2015-06-09,,active,employee,MGR-000003
+EMP-000108,Anjali Rao,anjali.rao.108@example.test,Customer Success,L2,Success Associate,Pune,2021-08-31,,active,employee,MGR-000024
+EMP-000109,Zoya Jain,zoya.jain.109@example.test,Engineering,L2,Engineer,Remote,2019-11-20,,active,employee,MGR-000001
+EMP-000110,Pooja Shetty,pooja.shetty.110@example.test,HR,L2,HR Generalist,Bengaluru,2013-09-19,,active,employee,MGR-000020
+EMP-000111,Deepak Chatterjee,deepak.chatterjee.111@example.test,Customer Success,L1,Associate Success Associate,Bengaluru,2024-08-29,,active,employee,MGR-000023
+EMP-000112,Diya Joshi,diya.joshi.112@example.test,Marketing,L3,Senior Marketing Specialist,Hyderabad,2022-12-15,,active,employee,MGR-000004
+EMP-000113,Deepak Bose,deepak.bose.113@example.test,Operations,L1,Associate Operations Analyst,Mumbai,2026-01-21,,active,employee,MGR-000022
+EMP-000114,Manish Singh,manish.singh.114@example.test,Operations,L3,Senior Operations Analyst,Remote,2017-11-19,,active,employee,MGR-000022
+EMP-000115,Aarav Singh,aarav.singh.115@example.test,Product,L4,Staff Product Analyst,Remote,2018-11-29,,active,employee,MGR-000006
+EMP-000116,Rohan Mishra,rohan.mishra.116@example.test,Engineering,L4,Engineering Team Lead,Mumbai,2014-05-28,,active,manager,MGR-000020
+EMP-000117,Rohan Gupta,rohan.gupta.117@example.test,Marketing,L2,Marketing Specialist,Pune,2023-12-15,,active,employee,MGR-000015
+EMP-000118,Riya Bose,riya.bose.118@example.test,Engineering,L4,Staff Engineer,Remote,2013-12-30,,active,employee,MGR-000005
+EMP-000119,Lakshmi Kulkarni,lakshmi.kulkarni.119@example.test,Customer Success,L1,Associate Success Associate,Remote,2022-07-09,,active,employee,MGR-000001
+EMP-000120,Nikhil Shetty,nikhil.shetty.120@example.test,Operations,L1,Associate Operations Analyst,Mumbai,2024-04-17,,active,employee,MGR-000003
+EMP-000121,Fatima Das,fatima.das.121@example.test,HR,L2,HR Generalist,Hyderabad,2025-08-31,,active,employee,MGR-000009
+EMP-000122,Fatima Rao,fatima.rao.122@example.test,Customer Success,L2,Success Associate,Delhi NCR,2019-12-20,,active,employee,MGR-000016
+EMP-000123,Tanvi Thakur,tanvi.thakur.123@example.test,Engineering,L2,Engineer,Pune,2014-10-19,,active,employee,MGR-000010
+EMP-000124,Anjali Desai,anjali.desai.124@example.test,Customer Success,L2,Success Associate,Hyderabad,2022-03-24,,active,employee,MGR-000016
+EMP-000125,Harsh Iyer,harsh.iyer.125@example.test,Customer Success,L4,Staff Success Associate,Hyderabad,2024-06-11,,active,employee,MGR-000016
+EMP-000126,Arjun Malhotra,arjun.malhotra.126@example.test,Engineering,L1,Associate Engineer,Mumbai,2025-09-13,,active,employee,MGR-000021
+EMP-000127,Riya Reddy,riya.reddy.127@example.test,Operations,L2,Operations Analyst,Bengaluru,2017-12-03,,active,employee,MGR-000022
+EMP-000128,Riya Kapoor,riya.kapoor.128@example.test,Operations,L1,Associate Operations Analyst,Mumbai,2021-09-09,,active,employee,MGR-000014
+EMP-000129,Tarun Banerjee,tarun.banerjee.129@example.test,Product,L4,Staff Product Analyst,Mumbai,2017-10-31,,active,employee,MGR-000006
+EMP-000130,Priya Naidu,priya.naidu.130@example.test,Engineering,L1,Associate Engineer,Hyderabad,2022-03-09,,active,employee,MGR-000022
+EMP-000131,Varun Verma,varun.verma.131@example.test,Operations,L4,Operations Team Lead,Bengaluru,2023-09-15,,active,manager,MGR-000014
+EMP-000132,Aisha Khan,aisha.khan.132@example.test,Finance,L4,Staff Finance Analyst,Delhi NCR,2021-09-07,,active,employee,MGR-000009
+EMP-000133,Sameer Kapoor,sameer.kapoor.133@example.test,Engineering,L2,Engineer,Bengaluru,2025-03-27,,active,employee,MGR-000019
+EMP-000134,Meera Bose,meera.bose.134@example.test,Operations,L3,Senior Operations Analyst,Remote,2023-05-17,,active,employee,MGR-000022
+EMP-000135,Krishna Ghosh,krishna.ghosh.135@example.test,Engineering,L3,Senior Engineer,Remote,2025-11-01,,active,employee,MGR-000021
+EMP-000136,Nikhil Banerjee,nikhil.banerjee.136@example.test,Operations,L1,Associate Operations Analyst,Pune,2021-05-10,,active,employee,MGR-000022
+EMP-000137,Zoya Rao,zoya.rao.137@example.test,Engineering,L5,Engineering Manager,Mumbai,2022-09-03,,active,manager,MGR-000003
+EMP-000138,Ananya Shetty,ananya.shetty.138@example.test,Operations,L1,Associate Operations Analyst,Delhi NCR,2019-10-22,,active,employee,MGR-000022
+EMP-000139,Manish Ghosh,manish.ghosh.139@example.test,Engineering,L4,Staff Engineer,Bengaluru,2023-05-31,,active,employee,MGR-000021
+EMP-000140,Fatima Verma,fatima.verma.140@example.test,Customer Success,L4,Customer Success Team Lead,Delhi NCR,2019-09-11,,active,manager,MGR-000014
+EMP-000141,Reyansh Ghosh,reyansh.ghosh.141@example.test,Customer Success,L4,Staff Success Associate,Delhi NCR,2021-03-22,,active,hr_partner,MGR-000016
+EMP-000142,Ishaan Banerjee,ishaan.banerjee.142@example.test,Product,L1,Associate Product Analyst,Pune,2021-08-22,,active,employee,MGR-000006
+EMP-000143,Harsh Pillai,harsh.pillai.143@example.test,Sales,L2,Sales Executive,Pune,2022-02-06,,active,employee,MGR-000002
+EMP-000144,Ishaan Khan,ishaan.khan.144@example.test,Product,L2,Product Analyst,Delhi NCR,2012-12-25,,active,employee,MGR-000008
+EMP-000145,Ananya Sharma,ananya.sharma.145@example.test,Engineering,L3,Senior Engineer,Delhi NCR,2023-09-14,,active,employee,MGR-000001
+EMP-000146,Pooja Patel,pooja.patel.146@example.test,Marketing,L3,Senior Marketing Specialist,Pune,2019-05-28,,active,employee,MGR-000015
+EMP-000147,Imran Reddy,imran.reddy.147@example.test,Product,L3,Senior Product Analyst,Mumbai,2022-12-16,,active,employee,MGR-000013
+EMP-000148,Harsh Nair,harsh.nair.148@example.test,Engineering,L1,Associate Engineer,Hyderabad,2023-05-17,,active,employee,MGR-000023
+EMP-000149,Naina Khan,naina.khan.149@example.test,Engineering,L4,Engineering Team Lead,Hyderabad,2022-05-02,,active,manager,MGR-000015
+EMP-000150,Tanvi Desai,tanvi.desai.150@example.test,Marketing,L1,Associate Marketing Specialist,Hyderabad,2026-06-10,,active,it_ops,MGR-000010

@@ -1,0 +1,13 @@
+competency_id,competency_name,category,description,rating_scale_min,rating_scale_max
+COMP-01,Delivery Focus,Execution,Observable behaviours for delivery focus.,1,5
+COMP-02,Quality of Work,Execution,Observable behaviours for quality of work.,1,5
+COMP-03,Problem Solving,Execution,Observable behaviours for problem solving.,1,5
+COMP-04,Teamwork,Collaboration,Observable behaviours for teamwork.,1,5
+COMP-05,Communication,Collaboration,Observable behaviours for communication.,1,5
+COMP-06,Customer Orientation,Collaboration,Observable behaviours for customer orientation.,1,5
+COMP-07,Ownership,Leadership,Observable behaviours for ownership.,1,5
+COMP-08,Mentoring,Leadership,Observable behaviours for mentoring.,1,5
+COMP-09,Decision Making,Leadership,Observable behaviours for decision making.,1,5
+COMP-10,Technical Depth,Craft,Observable behaviours for technical depth.,1,5
+COMP-11,Learning Agility,Craft,Observable behaviours for learning agility.,1,5
+COMP-12,Innovation,Craft,Observable behaviours for innovation.,1,5

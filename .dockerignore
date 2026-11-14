@@ -1,0 +1,14 @@
+.git
+**/node_modules
+**/__pycache__
+.pytest_cache
+full
+starter
+generator
+tests
+scripts
+docs
+*.zip
+.env
+backend/.env
+frontend/.env

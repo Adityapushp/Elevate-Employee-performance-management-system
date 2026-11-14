@@ -1,0 +1,46 @@
+services:
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: epms
+      POSTGRES_USER: epms
+      POSTGRES_PASSWORD: epms_dev_password
+    ports:
+      - "5434:5432"
+    volumes:
+      - epms_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U epms -d epms"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      PORT: 8000
+      DATABASE_URL: postgresql://epms:epms_dev_password@database:5432/epms
+      JWT_SECRET: local-development-secret-change-before-deployment
+      CORS_ORIGINS: http://localhost:5173
+      NODE_ENV: production
+    ports:
+      - "8000:8000"
+    depends_on:
+      database:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_URL: http://localhost:8000/api
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  epms_pgdata:

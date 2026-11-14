@@ -1,0 +1,963 @@
+kr_id,goal_id,description,metric_type,unit,direction,baseline_value,target_value,weight,current_value,progress_pct,scoring_progress_pct,over_achievement_rationale,max_progress_pct
+KR-GOAL-EMP-000002-001-01,GOAL-EMP-000002-001,Lift quality score for: increase closed revenue,score,score (1-5),increase,3.8,4.8,0.5,4.78,98.0,98.0,,120.0
+KR-GOAL-EMP-000002-001-02,GOAL-EMP-000002-001,Reduce error rate for: improve win rate in target segment,defect_rate_pct,%,decrease,5.08,2.12,0.3,2.84,75.68,75.68,,120.0
+KR-GOAL-EMP-000002-001-03,GOAL-EMP-000002-001,Achieve value for: expand key accounts,currency_usd,USD,increase,0,65000,0.2,57400,88.31,88.31,,120.0
+KR-GOAL-EMP-000003-001-01,GOAL-EMP-000003-001,Lift quality score for: strengthen content programme,score,score (1-5),increase,3.7,4.3,1.0,3.94,40.0,40.0,,120.0
+KR-GOAL-EMP-000004-001-01,GOAL-EMP-000004-001,Raise rate for: raise automated test coverage,percentage,%,increase,16.9,56.6,0.6,57.8,103.02,103.02,"Reused existing components, enabling faster completion.",120.0
+KR-GOAL-EMP-000004-001-02,GOAL-EMP-000004-001,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.7,4.7,0.4,4.77,107.0,107.0,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000005-001-01,GOAL-EMP-000005-001,Deliver items for: retire legacy components,count,count,increase,18,181,0.5,135,71.78,71.78,,120.0
+KR-GOAL-EMP-000005-001-02,GOAL-EMP-000005-001,Achieve value for: raise automated test coverage,currency_usd,USD,increase,0,521000,0.3,311200,59.73,59.73,,120.0
+KR-GOAL-EMP-000005-001-03,GOAL-EMP-000005-001,Reduce cycle time for: retire legacy components,duration_days,days,decrease,59.0,32.7,0.2,48.6,39.54,39.54,,120.0
+KR-GOAL-EMP-000005-002-01,GOAL-EMP-000005-002,Raise rate for: improve service reliability,percentage,%,increase,5.6,46.6,0.5,25.5,48.54,48.54,,120.0
+KR-GOAL-EMP-000005-002-02,GOAL-EMP-000005-002,Lift quality score for: retire legacy components,score,score (1-5),increase,3.5,4.2,0.5,3.97,67.14,67.14,,120.0
+KR-GOAL-EMP-000006-001-01,GOAL-EMP-000006-001,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,11.35,7.37,1.0,8.62,68.59,68.59,,120.0
+KR-GOAL-EMP-000006-002-01,GOAL-EMP-000006-002,Lift quality score for: lower operating cost per unit,score,score (1-5),increase,3.3,3.8,1.0,3.55,50.0,50.0,,120.0
+KR-GOAL-EMP-000007-001-01,GOAL-EMP-000007-001,Raise rate for: raise automated test coverage,percentage,%,increase,22.1,45.8,0.5,39.9,75.11,75.11,,120.0
+KR-GOAL-EMP-000007-001-02,GOAL-EMP-000007-001,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,6.65,3.08,0.5,3.78,80.39,80.39,,120.0
+KR-GOAL-EMP-000008-001-01,GOAL-EMP-000008-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,35.0,19.3,1.0,28.5,41.4,41.4,,120.0
+KR-GOAL-EMP-000008-002-01,GOAL-EMP-000008-002,Raise rate for: improve service reliability,percentage,%,increase,32.7,66.6,0.6,32.7,0.0,0.0,,120.0
+KR-GOAL-EMP-000008-002-02,GOAL-EMP-000008-002,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,10.65,4.87,0.4,10.65,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000009-001-01,GOAL-EMP-000009-001,Reduce cycle time for: increase renewal rate,duration_days,days,decrease,49.0,28.2,0.5,35.0,67.31,67.31,,120.0
+KR-GOAL-EMP-000009-001-02,GOAL-EMP-000009-001,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,8.98,4.08,0.5,5.5,71.02,71.02,,120.0
+KR-GOAL-EMP-000009-002-01,GOAL-EMP-000009-002,Raise rate for: raise customer satisfaction,percentage,%,increase,26.1,41.4,0.4,27.4,8.5,8.5,,120.0
+KR-GOAL-EMP-000009-002-02,GOAL-EMP-000009-002,Reduce cycle time for: reduce ticket resolution time,duration_days,days,decrease,26.0,13.1,0.3,25.2,6.2,6.2,,120.0
+KR-GOAL-EMP-000009-002-03,GOAL-EMP-000009-002,Raise rate for: increase renewal rate,percentage,%,increase,19.4,48.8,0.3,21.1,5.78,5.78,,120.0
+KR-GOAL-EMP-000009-003-01,GOAL-EMP-000009-003,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.6,4.4,0.5,3.65,6.25,6.25,,120.0
+KR-GOAL-EMP-000009-003-02,GOAL-EMP-000009-003,Reduce error rate for: increase renewal rate,defect_rate_pct,%,decrease,5.48,2.42,0.5,5.22,8.5,8.5,,120.0
+KR-GOAL-EMP-000010-001-01,GOAL-EMP-000010-001,Lift quality score for: raise customer satisfaction,score,score (1-5),increase,3.3,3.8,1.0,3.77,94.0,94.0,,120.0
+KR-GOAL-EMP-000011-001-01,GOAL-EMP-000011-001,Lift quality score for: improve service reliability,score,score (1-5),increase,3.7,4.3,0.5,4.11,68.33,68.33,,120.0
+KR-GOAL-EMP-000011-001-02,GOAL-EMP-000011-001,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,11.53,5.55,0.5,8.81,45.48,45.48,,120.0
+KR-GOAL-EMP-000012-001-01,GOAL-EMP-000012-001,Reduce error rate for: improve onboarding completion,defect_rate_pct,%,decrease,7.0,3.76,0.5,4.77,68.83,68.83,,120.0
+KR-GOAL-EMP-000012-001-02,GOAL-EMP-000012-001,Deliver items for: raise customer satisfaction,count,count,increase,5,159,0.5,109,67.53,67.53,,120.0
+KR-GOAL-EMP-000013-001-01,GOAL-EMP-000013-001,Reduce error rate for: lower operating cost per unit,defect_rate_pct,%,decrease,7.04,3.48,1.0,5.9,32.02,32.02,,120.0
+KR-GOAL-EMP-000014-001-01,GOAL-EMP-000014-001,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,531000,1.0,537900,101.3,101.3,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000015-001-01,GOAL-EMP-000015-001,Lift quality score for: strengthen content programme,score,score (1-5),increase,3.7,4.7,0.5,4.62,92.0,92.0,,120.0
+KR-GOAL-EMP-000015-001-02,GOAL-EMP-000015-001,Deliver items for: improve campaign conversion,count,count,increase,15,205,0.5,214,104.74,104.74,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000015-002-01,GOAL-EMP-000015-002,Raise rate for: increase brand engagement,percentage,%,increase,24.1,48.4,0.6,38.0,57.2,57.2,,120.0
+KR-GOAL-EMP-000015-002-02,GOAL-EMP-000015-002,Raise rate for: increase brand engagement,percentage,%,increase,37.2,78.3,0.4,67.8,74.45,74.45,,120.0
+KR-GOAL-EMP-000015-003-01,GOAL-EMP-000015-003,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,37.0,22.9,0.6,20.2,119.15,119.15,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000015-003-02,GOAL-EMP-000015-003,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,8.84,5.49,0.4,6.42,72.24,72.24,,120.0
+KR-GOAL-EMP-000015-004-01,GOAL-EMP-000015-004,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,469000,0.5,409400,87.29,87.29,,120.0
+KR-GOAL-EMP-000015-004-02,GOAL-EMP-000015-004,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,179000,0.3,133900,74.8,74.8,,120.0
+KR-GOAL-EMP-000015-004-03,GOAL-EMP-000015-004,Reduce cycle time for: increase brand engagement,duration_days,days,decrease,49.0,26.0,0.2,29.6,84.35,84.35,,120.0
+KR-GOAL-EMP-000016-001-01,GOAL-EMP-000016-001,Achieve value for: raise automated test coverage,currency_usd,USD,increase,0,493000,0.5,348100,70.61,70.61,,120.0
+KR-GOAL-EMP-000016-001-02,GOAL-EMP-000016-001,Lift quality score for: improve service reliability,score,score (1-5),increase,3.3,4.2,0.5,3.79,54.44,54.44,,120.0
+KR-GOAL-EMP-000017-001-01,GOAL-EMP-000017-001,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,9.12,4.11,0.5,3.99,102.4,102.4,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000017-001-02,GOAL-EMP-000017-001,Raise rate for: improve service reliability,percentage,%,increase,24.7,63.8,0.3,54.8,76.98,76.98,,120.0
+KR-GOAL-EMP-000017-001-03,GOAL-EMP-000017-001,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,5.93,3.3,0.2,3.55,90.49,90.49,,120.0
+KR-GOAL-EMP-000017-002-01,GOAL-EMP-000017-002,Reduce cycle time for: raise automated test coverage,duration_days,days,decrease,54.0,39.6,0.5,40.9,90.97,90.97,,120.0
+KR-GOAL-EMP-000017-002-02,GOAL-EMP-000017-002,Deliver items for: improve service reliability,count,count,increase,12,100,0.3,79,76.14,76.14,,120.0
+KR-GOAL-EMP-000017-002-03,GOAL-EMP-000017-002,Lift quality score for: retire legacy components,score,score (1-5),increase,3.5,4.2,0.2,4.23,104.29,104.29,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000018-001-01,GOAL-EMP-000018-001,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,55.0,31.9,0.5,53.4,6.93,6.93,,120.0
+KR-GOAL-EMP-000018-001-02,GOAL-EMP-000018-001,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.2,4.0,0.3,3.32,15.0,15.0,,120.0
+KR-GOAL-EMP-000018-001-03,GOAL-EMP-000018-001,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,58.0,43.5,0.2,53.5,31.03,31.03,,120.0
+KR-GOAL-EMP-000018-002-01,GOAL-EMP-000018-002,Achieve value for: raise customer satisfaction,currency_usd,USD,increase,0,544000,0.6,82100,15.09,15.09,,120.0
+KR-GOAL-EMP-000018-002-02,GOAL-EMP-000018-002,Raise rate for: increase renewal rate,percentage,%,increase,6.4,51.5,0.4,17.1,23.73,23.73,,120.0
+KR-GOAL-EMP-000019-001-01,GOAL-EMP-000019-001,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,6.03,2.58,0.4,2.2,111.01,111.01,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000019-001-02,GOAL-EMP-000019-001,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,8.44,5.27,0.3,5.99,77.29,77.29,,120.0
+KR-GOAL-EMP-000019-001-03,GOAL-EMP-000019-001,Reduce cycle time for: lower operating cost per unit,duration_days,days,decrease,25.0,16.0,0.3,17.3,85.56,85.56,,120.0
+KR-GOAL-EMP-000020-001-01,GOAL-EMP-000020-001,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,29.0,15.1,0.6,18.3,76.98,76.98,,120.0
+KR-GOAL-EMP-000020-001-02,GOAL-EMP-000020-001,Deliver items for: improve customer research cadence,count,count,increase,12,38,0.4,32,76.92,76.92,,120.0
+KR-GOAL-EMP-000020-002-01,GOAL-EMP-000020-002,Deliver items for: increase feature adoption,count,count,increase,8,98,0.5,77,76.67,76.67,,120.0
+KR-GOAL-EMP-000020-002-02,GOAL-EMP-000020-002,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,5.15,2.35,0.5,3.15,71.43,71.43,,120.0
+KR-GOAL-EMP-000021-001-01,GOAL-EMP-000021-001,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,138000,0.6,80300,58.19,58.19,,120.0
+KR-GOAL-EMP-000021-001-02,GOAL-EMP-000021-001,Achieve value for: increase renewal rate,currency_usd,USD,increase,0,329000,0.4,186800,56.78,56.78,,120.0
+KR-GOAL-EMP-000021-002-01,GOAL-EMP-000021-002,Raise rate for: improve onboarding completion,percentage,%,increase,0.2,43.0,0.6,42.1,97.9,97.9,,120.0
+KR-GOAL-EMP-000021-002-02,GOAL-EMP-000021-002,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,2.9,3.5,0.4,3.48,96.67,96.67,,120.0
+KR-GOAL-EMP-000021-003-01,GOAL-EMP-000021-003,Raise rate for: reduce ticket resolution time,percentage,%,increase,25.1,48.3,0.6,38.8,59.05,59.05,,120.0
+KR-GOAL-EMP-000021-003-02,GOAL-EMP-000021-003,Deliver items for: improve onboarding completion,count,count,increase,6,183,0.4,165,89.83,89.83,,120.0
+KR-GOAL-EMP-000022-001-01,GOAL-EMP-000022-001,Lift quality score for: increase feature adoption,score,score (1-5),increase,3.5,4.2,0.6,3.58,11.43,11.43,,120.0
+KR-GOAL-EMP-000022-001-02,GOAL-EMP-000022-001,Achieve value for: raise product quality score,currency_usd,USD,increase,0,490000,0.4,723200,147.59,100.0,,120.0
+KR-GOAL-EMP-000022-002-01,GOAL-EMP-000022-002,Deliver items for: increase feature adoption,count,count,increase,14,151,1.0,100,62.77,62.77,,120.0
+KR-GOAL-EMP-000023-001-01,GOAL-EMP-000023-001,Raise rate for: improve onboarding satisfaction,percentage,%,increase,9.5,27.7,0.4,12.0,13.74,13.74,,120.0
+KR-GOAL-EMP-000023-001-02,GOAL-EMP-000023-001,Reduce cycle time for: improve onboarding satisfaction,duration_days,days,decrease,55.0,34.8,0.3,51.7,16.34,16.34,,120.0
+KR-GOAL-EMP-000023-001-03,GOAL-EMP-000023-001,Deliver items for: improve retention in critical roles,count,count,increase,12,66,0.3,20,14.81,14.81,,120.0
+KR-GOAL-EMP-000023-002-01,GOAL-EMP-000023-002,Achieve value for: improve onboarding satisfaction,currency_usd,USD,increase,0,52000,1.0,46600,89.62,89.62,,120.0
+KR-GOAL-EMP-000023-003-01,GOAL-EMP-000023-003,Lift quality score for: improve retention in critical roles,score,score (1-5),increase,2.9,3.9,0.5,3.24,34.0,34.0,,120.0
+KR-GOAL-EMP-000023-003-02,GOAL-EMP-000023-003,Reduce error rate for: improve retention in critical roles,defect_rate_pct,%,decrease,8.68,3.98,0.5,6.2,52.77,52.77,,120.0
+KR-GOAL-EMP-000024-001-01,GOAL-EMP-000024-001,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.2,3.8,0.4,3.71,85.0,85.0,,120.0
+KR-GOAL-EMP-000024-001-02,GOAL-EMP-000024-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,35.0,19.7,0.3,22.7,80.39,80.39,,120.0
+KR-GOAL-EMP-000024-001-03,GOAL-EMP-000024-001,Reduce cycle time for: retire legacy components,duration_days,days,decrease,28.0,14.2,0.3,14.8,95.65,95.65,,120.0
+KR-GOAL-EMP-000025-001-01,GOAL-EMP-000025-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,24.0,17.3,0.5,19.5,67.16,67.16,,120.0
+KR-GOAL-EMP-000025-001-02,GOAL-EMP-000025-001,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,5.22,2.31,0.5,3.14,71.48,71.48,,120.0
+KR-GOAL-EMP-000026-001-01,GOAL-EMP-000026-001,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,11.54,5.73,1.0,9.66,32.36,32.36,,120.0
+KR-GOAL-EMP-000026-002-01,GOAL-EMP-000026-002,Lift quality score for: lower operating cost per unit,score,score (1-5),increase,3.5,4.0,0.6,4.08,116.0,116.0,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000026-002-02,GOAL-EMP-000026-002,Deliver items for: lower operating cost per unit,count,count,increase,14,25,0.4,27,118.18,118.18,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000027-001-01,GOAL-EMP-000027-001,Lift quality score for: retire legacy components,score,score (1-5),increase,3.3,4.3,0.5,4.22,92.0,92.0,,120.0
+KR-GOAL-EMP-000027-001-02,GOAL-EMP-000027-001,Deliver items for: improve service reliability,count,count,increase,18,40,0.3,39,95.45,95.45,,120.0
+KR-GOAL-EMP-000027-001-03,GOAL-EMP-000027-001,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,10.52,5.17,0.2,5.59,92.15,92.15,,120.0
+KR-GOAL-EMP-000027-002-01,GOAL-EMP-000027-002,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,47000,0.5,38600,82.13,82.13,,120.0
+KR-GOAL-EMP-000027-002-02,GOAL-EMP-000027-002,Deliver items for: reduce release cycle time,count,count,increase,3,175,0.3,118,66.86,66.86,,120.0
+KR-GOAL-EMP-000027-002-03,GOAL-EMP-000027-002,Lift quality score for: retire legacy components,score,score (1-5),increase,3.3,3.9,0.2,3.83,88.33,88.33,,120.0
+KR-GOAL-EMP-000028-001-01,GOAL-EMP-000028-001,Raise rate for: ship the planned roadmap features,percentage,%,increase,21.6,74.1,0.6,78.0,107.43,107.43,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000028-001-02,GOAL-EMP-000028-001,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,6.53,3.36,0.4,3.14,106.94,106.94,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000029-001-01,GOAL-EMP-000029-001,Deliver items for: ship the planned roadmap features,count,count,increase,5,95,0.5,72,74.44,74.44,,120.0
+KR-GOAL-EMP-000029-001-02,GOAL-EMP-000029-001,Raise rate for: ship the planned roadmap features,percentage,%,increase,5.4,38.7,0.5,24.7,57.96,57.96,,120.0
+KR-GOAL-EMP-000030-001-01,GOAL-EMP-000030-001,Achieve value for: improve retention in critical roles,currency_usd,USD,increase,0,426000,0.6,364500,85.56,85.56,,120.0
+KR-GOAL-EMP-000030-001-02,GOAL-EMP-000030-001,Reduce error rate for: raise training completion,defect_rate_pct,%,decrease,5.15,2.41,0.4,2.91,81.75,81.75,,120.0
+KR-GOAL-EMP-000030-002-01,GOAL-EMP-000030-002,Reduce cycle time for: reduce time to hire,duration_days,days,decrease,43.0,21.8,0.6,23.7,91.04,91.04,,120.0
+KR-GOAL-EMP-000030-002-02,GOAL-EMP-000030-002,Lift quality score for: reduce time to hire,score,score (1-5),increase,3.2,3.9,0.4,3.96,108.57,108.57,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000030-003-01,GOAL-EMP-000030-003,Raise rate for: raise training completion,percentage,%,increase,11.3,57.9,0.4,54.3,92.27,92.27,,120.0
+KR-GOAL-EMP-000030-003-02,GOAL-EMP-000030-003,Achieve value for: improve retention in critical roles,currency_usd,USD,increase,0,43000,0.3,36200,84.19,84.19,,120.0
+KR-GOAL-EMP-000030-003-03,GOAL-EMP-000030-003,Lift quality score for: reduce time to hire,score,score (1-5),increase,3.8,4.5,0.3,4.24,62.86,62.86,,120.0
+KR-GOAL-EMP-000031-001-01,GOAL-EMP-000031-001,Raise rate for: reduce time to hire,percentage,%,increase,37.2,70.4,0.6,66.7,88.86,88.86,,120.0
+KR-GOAL-EMP-000031-001-02,GOAL-EMP-000031-001,Lift quality score for: reduce time to hire,score,score (1-5),increase,3.7,4.6,0.4,4.36,73.33,73.33,,120.0
+KR-GOAL-EMP-000031-002-01,GOAL-EMP-000031-002,Achieve value for: improve onboarding satisfaction,currency_usd,USD,increase,0,253000,0.4,256200,101.26,101.26,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000031-002-02,GOAL-EMP-000031-002,Reduce cycle time for: reduce time to hire,duration_days,days,decrease,49.0,27.2,0.3,33.7,70.18,70.18,,120.0
+KR-GOAL-EMP-000031-002-03,GOAL-EMP-000031-002,Reduce error rate for: improve retention in critical roles,defect_rate_pct,%,decrease,10.74,5.62,0.3,5.95,93.55,93.55,,120.0
+KR-GOAL-EMP-000032-001-01,GOAL-EMP-000032-001,Achieve value for: automate recurring reporting,currency_usd,USD,increase,0,179000,1.0,51200,28.6,28.6,,120.0
+KR-GOAL-EMP-000033-001-01,GOAL-EMP-000033-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,35.0,17.9,1.0,26.4,50.29,50.29,,120.0
+KR-GOAL-EMP-000034-001-01,GOAL-EMP-000034-001,Reduce error rate for: increase feature adoption,defect_rate_pct,%,decrease,5.11,2.67,0.4,4.34,31.56,31.56,,120.0
+KR-GOAL-EMP-000034-001-02,GOAL-EMP-000034-001,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,8.99,4.67,0.3,7.03,45.37,45.37,,120.0
+KR-GOAL-EMP-000034-001-03,GOAL-EMP-000034-001,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,21.0,12.6,0.3,17.3,44.05,44.05,,120.0
+KR-GOAL-EMP-000035-001-01,GOAL-EMP-000035-001,Deliver items for: increase renewal rate,count,count,increase,11,155,0.5,63,36.11,36.11,,120.0
+KR-GOAL-EMP-000035-001-02,GOAL-EMP-000035-001,Deliver items for: improve onboarding completion,count,count,increase,1,108,0.5,29,26.17,26.17,,120.0
+KR-GOAL-EMP-000035-002-01,GOAL-EMP-000035-002,Raise rate for: improve onboarding completion,percentage,%,increase,19.3,51.2,0.6,36.8,54.86,54.86,,120.0
+KR-GOAL-EMP-000035-002-02,GOAL-EMP-000035-002,Deliver items for: improve onboarding completion,count,count,increase,10,149,0.4,129,85.61,85.61,,120.0
+KR-GOAL-EMP-000035-003-01,GOAL-EMP-000035-003,Reduce error rate for: reduce ticket resolution time,defect_rate_pct,%,decrease,8.87,4.22,0.6,6.52,50.54,50.54,,120.0
+KR-GOAL-EMP-000035-003-02,GOAL-EMP-000035-003,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,566000,0.4,396100,69.98,69.98,,120.0
+KR-GOAL-EMP-000036-001-01,GOAL-EMP-000036-001,Deliver items for: ship the planned roadmap features,count,count,increase,4,177,1.0,67,36.42,36.42,,120.0
+KR-GOAL-EMP-000037-001-01,GOAL-EMP-000037-001,Lift quality score for: improve campaign conversion,score,score (1-5),increase,3.1,4.1,1.0,3.86,76.0,76.0,,120.0
+KR-GOAL-EMP-000038-001-01,GOAL-EMP-000038-001,Deliver items for: reduce outstanding receivables,count,count,increase,9,118,1.0,28,17.43,17.43,,120.0
+KR-GOAL-EMP-000038-002-01,GOAL-EMP-000038-002,Lift quality score for: improve forecast accuracy,score,score (1-5),increase,3.3,4.3,0.5,3.68,38.0,38.0,,120.0
+KR-GOAL-EMP-000038-002-02,GOAL-EMP-000038-002,Lift quality score for: automate recurring reporting,score,score (1-5),increase,3.1,3.9,0.5,3.54,55.0,55.0,,120.0
+KR-GOAL-EMP-000039-001-01,GOAL-EMP-000039-001,Reduce error rate for: shorten month-end close,defect_rate_pct,%,decrease,8.91,4.3,0.5,6.5,52.28,52.28,,120.0
+KR-GOAL-EMP-000039-001-02,GOAL-EMP-000039-001,Deliver items for: reduce outstanding receivables,count,count,increase,18,193,0.5,112,53.71,53.71,,120.0
+KR-GOAL-EMP-000039-002-01,GOAL-EMP-000039-002,Deliver items for: shorten month-end close,count,count,increase,9,149,0.4,95,61.43,61.43,,120.0
+KR-GOAL-EMP-000039-002-02,GOAL-EMP-000039-002,Lift quality score for: shorten month-end close,score,score (1-5),increase,3.6,4.4,0.3,3.97,46.25,46.25,,120.0
+KR-GOAL-EMP-000039-002-03,GOAL-EMP-000039-002,Achieve value for: shorten month-end close,currency_usd,USD,increase,0,256000,0.3,159200,62.19,62.19,,120.0
+KR-GOAL-EMP-000040-001-01,GOAL-EMP-000040-001,Lift quality score for: lower operating cost per unit,score,score (1-5),increase,3.7,4.3,0.5,4.15,75.0,75.0,,120.0
+KR-GOAL-EMP-000040-001-02,GOAL-EMP-000040-001,Achieve value for: cut order fulfilment time,currency_usd,USD,increase,0,190000,0.3,81900,43.11,43.11,,120.0
+KR-GOAL-EMP-000040-001-03,GOAL-EMP-000040-001,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,11.61,7.31,0.2,9.77,42.79,42.79,,120.0
+KR-GOAL-EMP-000041-001-01,GOAL-EMP-000041-001,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,5.64,2.61,0.5,3.75,62.38,62.38,,120.0
+KR-GOAL-EMP-000041-001-02,GOAL-EMP-000041-001,Achieve value for: raise product quality score,currency_usd,USD,increase,0,358000,0.5,196000,54.75,54.75,,120.0
+KR-GOAL-EMP-000041-002-01,GOAL-EMP-000041-002,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,44.0,23.8,0.6,34.7,46.04,46.04,,120.0
+KR-GOAL-EMP-000041-002-02,GOAL-EMP-000041-002,Achieve value for: ship the planned roadmap features,currency_usd,USD,increase,0,60000,0.4,33100,55.17,55.17,,120.0
+KR-GOAL-EMP-000042-001-01,GOAL-EMP-000042-001,Raise rate for: raise product quality score,percentage,%,increase,25.0,47.5,0.6,49.9,110.67,110.67,"Reused existing components, enabling faster completion.",120.0
+KR-GOAL-EMP-000042-001-02,GOAL-EMP-000042-001,Raise rate for: improve customer research cadence,percentage,%,increase,24.5,53.3,0.4,44.2,68.4,68.4,,120.0
+KR-GOAL-EMP-000042-002-01,GOAL-EMP-000042-002,Reduce cycle time for: ship the planned roadmap features,duration_days,days,decrease,29.0,14.9,1.0,22.7,44.68,44.68,,120.0
+KR-GOAL-EMP-000043-001-01,GOAL-EMP-000043-001,Raise rate for: grow qualified leads,percentage,%,increase,9.9,40.1,0.5,15.4,18.21,18.21,,120.0
+KR-GOAL-EMP-000043-001-02,GOAL-EMP-000043-001,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,92000,0.5,14400,15.65,15.65,,120.0
+KR-GOAL-EMP-000044-001-01,GOAL-EMP-000044-001,Raise rate for: increase brand engagement,percentage,%,increase,9.6,44.4,1.0,29.8,58.05,58.05,,120.0
+KR-GOAL-EMP-000044-002-01,GOAL-EMP-000044-002,Reduce cycle time for: grow qualified leads,duration_days,days,decrease,25.0,16.3,1.0,17.4,87.36,87.36,,120.0
+KR-GOAL-EMP-000044-003-01,GOAL-EMP-000044-003,Reduce cycle time for: grow qualified leads,duration_days,days,decrease,30.0,20.7,0.5,27.1,31.18,31.18,,120.0
+KR-GOAL-EMP-000044-003-02,GOAL-EMP-000044-003,Lift quality score for: improve campaign conversion,score,score (1-5),increase,3.0,3.5,0.3,3.1,20.0,20.0,,120.0
+KR-GOAL-EMP-000044-003-03,GOAL-EMP-000044-003,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,59.0,35.1,0.2,54.1,20.5,20.5,,120.0
+KR-GOAL-EMP-000044-004-01,GOAL-EMP-000044-004,Lift quality score for: increase brand engagement,score,score (1-5),increase,3.7,4.6,1.0,3.7,0.0,0.0,,120.0
+KR-GOAL-EMP-000045-001-01,GOAL-EMP-000045-001,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,75000,0.5,46200,61.6,61.6,,120.0
+KR-GOAL-EMP-000045-001-02,GOAL-EMP-000045-001,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,32.0,17.1,0.5,19.1,86.58,86.58,,120.0
+KR-GOAL-EMP-000045-002-01,GOAL-EMP-000045-002,Deliver items for: strengthen content programme,count,count,increase,7,199,0.5,120,58.85,58.85,,120.0
+KR-GOAL-EMP-000045-002-02,GOAL-EMP-000045-002,Lift quality score for: strengthen content programme,score,score (1-5),increase,3.1,3.8,0.5,3.83,104.29,104.29,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000046-001-01,GOAL-EMP-000046-001,Reduce cycle time for: grow qualified leads,duration_days,days,decrease,30.0,22.0,0.5,23.7,78.75,78.75,,120.0
+KR-GOAL-EMP-000046-001-02,GOAL-EMP-000046-001,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,496000,0.5,332300,67.0,67.0,,120.0
+KR-GOAL-EMP-000047-001-01,GOAL-EMP-000047-001,Deliver items for: cut order fulfilment time,count,count,increase,0,72,0.4,33,45.83,45.83,,120.0
+KR-GOAL-EMP-000047-001-02,GOAL-EMP-000047-001,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,5.86,3.96,0.3,4.87,52.11,52.11,,120.0
+KR-GOAL-EMP-000047-001-03,GOAL-EMP-000047-001,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,5.65,3.28,0.3,4.67,41.35,41.35,,120.0
+KR-GOAL-EMP-000047-002-01,GOAL-EMP-000047-002,Achieve value for: reduce process defects,currency_usd,USD,increase,0,332000,0.5,133300,40.15,40.15,,120.0
+KR-GOAL-EMP-000047-002-02,GOAL-EMP-000047-002,Reduce error rate for: reduce process defects,defect_rate_pct,%,decrease,6.98,4.04,0.5,6.09,30.27,30.27,,120.0
+KR-GOAL-EMP-000047-003-01,GOAL-EMP-000047-003,Lift quality score for: reduce process defects,score,score (1-5),increase,2.8,3.6,0.5,3.11,38.75,38.75,,120.0
+KR-GOAL-EMP-000047-003-02,GOAL-EMP-000047-003,Deliver items for: improve vendor on-time delivery,count,count,increase,8,169,0.5,96,54.66,54.66,,120.0
+KR-GOAL-EMP-000048-001-01,GOAL-EMP-000048-001,Reduce cycle time for: lower operating cost per unit,duration_days,days,decrease,35.0,24.2,1.0,25.8,85.19,85.19,,120.0
+KR-GOAL-EMP-000048-002-01,GOAL-EMP-000048-002,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,571000,0.4,342500,59.98,59.98,,120.0
+KR-GOAL-EMP-000048-002-02,GOAL-EMP-000048-002,Lift quality score for: reduce process defects,score,score (1-5),increase,3.8,4.5,0.3,4.48,97.14,97.14,,120.0
+KR-GOAL-EMP-000048-002-03,GOAL-EMP-000048-002,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,6.01,3.3,0.3,4.27,64.21,64.21,,120.0
+KR-GOAL-EMP-000049-001-01,GOAL-EMP-000049-001,Lift quality score for: reduce outstanding receivables,score,score (1-5),increase,3.4,4.0,1.0,3.91,85.0,85.0,,120.0
+KR-GOAL-EMP-000049-002-01,GOAL-EMP-000049-002,Raise rate for: reduce outstanding receivables,percentage,%,increase,18.1,73.0,0.5,66.7,88.52,88.52,,120.0
+KR-GOAL-EMP-000049-002-02,GOAL-EMP-000049-002,Reduce cycle time for: automate recurring reporting,duration_days,days,decrease,34.0,25.7,0.3,26.6,89.16,89.16,,120.0
+KR-GOAL-EMP-000049-002-03,GOAL-EMP-000049-002,Deliver items for: reduce outstanding receivables,count,count,increase,14,146,0.2,127,85.61,85.61,,120.0
+KR-GOAL-EMP-000050-001-01,GOAL-EMP-000050-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,35.0,24.6,1.0,29.9,49.04,49.04,,120.0
+KR-GOAL-EMP-000050-002-01,GOAL-EMP-000050-002,Deliver items for: improve service reliability,count,count,increase,0,137,0.5,26,18.98,18.98,,120.0
+KR-GOAL-EMP-000050-002-02,GOAL-EMP-000050-002,Deliver items for: retire legacy components,count,count,increase,8,83,0.5,53,60.0,60.0,,120.0
+KR-GOAL-EMP-000051-001-01,GOAL-EMP-000051-001,Raise rate for: improve customer research cadence,percentage,%,increase,39.2,91.5,0.5,78.8,75.72,75.72,,120.0
+KR-GOAL-EMP-000051-001-02,GOAL-EMP-000051-001,Reduce error rate for: improve customer research cadence,defect_rate_pct,%,decrease,6.72,2.97,0.3,4.88,49.07,49.07,,120.0
+KR-GOAL-EMP-000051-001-03,GOAL-EMP-000051-001,Reduce cycle time for: ship the planned roadmap features,duration_days,days,decrease,55.0,28.5,0.2,36.5,69.81,69.81,,120.0
+KR-GOAL-EMP-000051-002-01,GOAL-EMP-000051-002,Raise rate for: raise product quality score,percentage,%,increase,15.0,65.0,1.0,15.0,0.0,0.0,,120.0
+KR-GOAL-EMP-000052-001-01,GOAL-EMP-000052-001,Achieve value for: improve service reliability,currency_usd,USD,increase,0,391000,0.4,146600,37.49,37.49,,120.0
+KR-GOAL-EMP-000052-001-02,GOAL-EMP-000052-001,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,11.0,7.59,0.3,9.73,37.24,37.24,,120.0
+KR-GOAL-EMP-000052-001-03,GOAL-EMP-000052-001,Lift quality score for: retire legacy components,score,score (1-5),increase,3.3,4.0,0.3,3.53,32.86,32.86,,120.0
+KR-GOAL-EMP-000053-001-01,GOAL-EMP-000053-001,Deliver items for: improve customer research cadence,count,count,increase,18,102,1.0,102,100.0,100.0,,120.0
+KR-GOAL-EMP-000053-002-01,GOAL-EMP-000053-002,Achieve value for: improve customer research cadence,currency_usd,USD,increase,0,517000,1.0,615200,118.99,118.99,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000054-001-01,GOAL-EMP-000054-001,Reduce cycle time for: increase feature adoption,duration_days,days,decrease,53.0,30.2,1.0,40.2,56.14,56.14,,120.0
+KR-GOAL-EMP-000054-002-01,GOAL-EMP-000054-002,Reduce error rate for: improve customer research cadence,defect_rate_pct,%,decrease,10.2,4.35,0.6,6.13,69.57,69.57,,120.0
+KR-GOAL-EMP-000054-002-02,GOAL-EMP-000054-002,Raise rate for: improve customer research cadence,percentage,%,increase,27.0,71.6,0.4,65.5,86.32,86.32,,120.0
+KR-GOAL-EMP-000055-001-01,GOAL-EMP-000055-001,Reduce cycle time for: increase renewal rate,duration_days,days,decrease,38.0,19.7,0.5,32.1,32.24,32.24,,120.0
+KR-GOAL-EMP-000055-001-02,GOAL-EMP-000055-001,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,47.0,28.4,0.5,33.0,75.27,75.27,,120.0
+KR-GOAL-EMP-000056-001-01,GOAL-EMP-000056-001,Lift quality score for: raise product quality score,score,score (1-5),increase,3.4,4.4,0.6,3.85,45.0,45.0,,120.0
+KR-GOAL-EMP-000056-001-02,GOAL-EMP-000056-001,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,8.95,6.16,0.4,7.18,63.44,63.44,,120.0
+KR-GOAL-EMP-000057-001-01,GOAL-EMP-000057-001,Lift quality score for: raise product quality score,score,score (1-5),increase,3.4,4.1,0.5,3.4,0.0,0.0,,120.0
+KR-GOAL-EMP-000057-001-02,GOAL-EMP-000057-001,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,314000,0.3,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000057-001-03,GOAL-EMP-000057-001,Deliver items for: ship the planned roadmap features,count,count,increase,4,76,0.2,4,0.0,0.0,,120.0
+KR-GOAL-EMP-000058-001-01,GOAL-EMP-000058-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,24.0,15.2,1.0,18.3,64.77,64.77,,120.0
+KR-GOAL-EMP-000059-001-01,GOAL-EMP-000059-001,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,297000,0.5,276800,93.2,93.2,,120.0
+KR-GOAL-EMP-000059-001-02,GOAL-EMP-000059-001,Raise rate for: improve vendor on-time delivery,percentage,%,increase,28.7,54.2,0.5,55.5,105.1,105.1,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000060-001-01,GOAL-EMP-000060-001,Raise rate for: improve vendor on-time delivery,percentage,%,increase,23.3,72.5,1.0,62.3,79.27,79.27,,120.0
+KR-GOAL-EMP-000060-002-01,GOAL-EMP-000060-002,Deliver items for: improve vendor on-time delivery,count,count,increase,12,122,0.5,93,73.64,73.64,,120.0
+KR-GOAL-EMP-000060-002-02,GOAL-EMP-000060-002,Raise rate for: improve vendor on-time delivery,percentage,%,increase,21.9,47.2,0.5,41.6,77.87,77.87,,120.0
+KR-GOAL-EMP-000060-003-01,GOAL-EMP-000060-003,Lift quality score for: cut order fulfilment time,score,score (1-5),increase,3.6,4.4,0.5,4.01,51.25,51.25,,120.0
+KR-GOAL-EMP-000060-003-02,GOAL-EMP-000060-003,Raise rate for: improve vendor on-time delivery,percentage,%,increase,17.6,57.3,0.5,49.2,79.6,79.6,,120.0
+KR-GOAL-EMP-000061-001-01,GOAL-EMP-000061-001,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,8.06,4.31,0.6,5.02,81.07,81.07,,120.0
+KR-GOAL-EMP-000061-001-02,GOAL-EMP-000061-001,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,128000,0.4,48300,37.73,37.73,,120.0
+KR-GOAL-EMP-000062-001-01,GOAL-EMP-000062-001,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,51.0,27.1,0.6,33.3,74.06,74.06,,120.0
+KR-GOAL-EMP-000062-001-02,GOAL-EMP-000062-001,Lift quality score for: raise customer satisfaction,score,score (1-5),increase,3.4,4.4,0.4,4.39,99.0,99.0,,120.0
+KR-GOAL-EMP-000062-002-01,GOAL-EMP-000062-002,Raise rate for: reduce ticket resolution time,percentage,%,increase,0.6,38.5,0.6,31.2,80.74,80.74,,120.0
+KR-GOAL-EMP-000062-002-02,GOAL-EMP-000062-002,Achieve value for: raise customer satisfaction,currency_usd,USD,increase,0,297000,0.4,156000,52.53,52.53,,120.0
+KR-GOAL-EMP-000063-001-01,GOAL-EMP-000063-001,Deliver items for: cut order fulfilment time,count,count,increase,16,83,0.5,81,97.01,97.01,,120.0
+KR-GOAL-EMP-000063-001-02,GOAL-EMP-000063-001,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,5.48,2.56,0.5,3.6,64.38,64.38,,120.0
+KR-GOAL-EMP-000063-002-01,GOAL-EMP-000063-002,Deliver items for: lower operating cost per unit,count,count,increase,15,109,0.6,107,97.87,97.87,,120.0
+KR-GOAL-EMP-000063-002-02,GOAL-EMP-000063-002,Raise rate for: lower operating cost per unit,percentage,%,increase,23.8,59.3,0.4,61.2,105.35,105.35,"Reused existing components, enabling faster completion.",120.0
+KR-GOAL-EMP-000064-001-01,GOAL-EMP-000064-001,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,11.78,7.29,1.0,6.51,117.37,117.37,"Reused existing components, enabling faster completion.",120.0
+KR-GOAL-EMP-000065-001-01,GOAL-EMP-000065-001,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,120000,0.6,80100,66.75,66.75,,120.0
+KR-GOAL-EMP-000065-001-02,GOAL-EMP-000065-001,Reduce cycle time for: ship the planned roadmap features,duration_days,days,decrease,55.0,30.1,0.4,38.8,65.06,65.06,,120.0
+KR-GOAL-EMP-000065-002-01,GOAL-EMP-000065-002,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,510000,0.4,319400,62.63,62.63,,120.0
+KR-GOAL-EMP-000065-002-02,GOAL-EMP-000065-002,Achieve value for: improve customer research cadence,currency_usd,USD,increase,0,265000,0.3,114900,43.36,43.36,,120.0
+KR-GOAL-EMP-000065-002-03,GOAL-EMP-000065-002,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,11.8,6.47,0.3,9.94,34.9,34.9,,120.0
+KR-GOAL-EMP-000065-003-01,GOAL-EMP-000065-003,Deliver items for: ship the planned roadmap features,count,count,increase,3,159,1.0,108,67.31,67.31,,120.0
+KR-GOAL-EMP-000066-001-01,GOAL-EMP-000066-001,Achieve value for: increase closed revenue,currency_usd,USD,increase,0,586000,0.5,459900,78.48,78.48,,120.0
+KR-GOAL-EMP-000066-001-02,GOAL-EMP-000066-001,Reduce cycle time for: expand key accounts,duration_days,days,decrease,23.0,15.1,0.5,16.3,84.81,84.81,,120.0
+KR-GOAL-EMP-000066-002-01,GOAL-EMP-000066-002,Reduce cycle time for: grow qualified pipeline,duration_days,days,decrease,45.0,24.9,0.5,24.2,103.48,103.48,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000066-002-02,GOAL-EMP-000066-002,Raise rate for: grow qualified pipeline,percentage,%,increase,19.1,63.9,0.3,50.7,70.54,70.54,,120.0
+KR-GOAL-EMP-000066-002-03,GOAL-EMP-000066-002,Lift quality score for: expand key accounts,score,score (1-5),increase,3.7,4.7,0.2,4.26,56.0,56.0,,120.0
+KR-GOAL-EMP-000067-001-01,GOAL-EMP-000067-001,Reduce cycle time for: reduce time to hire,duration_days,days,decrease,55.0,32.5,0.5,39.8,67.56,67.56,,120.0
+KR-GOAL-EMP-000067-001-02,GOAL-EMP-000067-001,Raise rate for: reduce time to hire,percentage,%,increase,16.7,56.5,0.5,38.2,54.02,54.02,,120.0
+KR-GOAL-EMP-000067-002-01,GOAL-EMP-000067-002,Deliver items for: improve retention in critical roles,count,count,increase,11,159,1.0,28,11.49,11.49,,120.0
+KR-GOAL-EMP-000068-001-01,GOAL-EMP-000068-001,Reduce cycle time for: raise product quality score,duration_days,days,decrease,57.0,36.5,0.5,40.4,80.98,80.98,,120.0
+KR-GOAL-EMP-000068-001-02,GOAL-EMP-000068-001,Deliver items for: ship the planned roadmap features,count,count,increase,19,178,0.5,165,91.82,91.82,,120.0
+KR-GOAL-EMP-000068-002-01,GOAL-EMP-000068-002,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,8.84,3.56,0.4,7.89,17.99,17.99,,120.0
+KR-GOAL-EMP-000068-002-02,GOAL-EMP-000068-002,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,11.95,6.11,0.3,10.98,16.61,16.61,,120.0
+KR-GOAL-EMP-000068-002-03,GOAL-EMP-000068-002,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,7.49,4.49,0.3,6.93,18.67,18.67,,120.0
+KR-GOAL-EMP-000069-001-01,GOAL-EMP-000069-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,36.0,21.4,0.6,31.8,28.77,28.77,,120.0
+KR-GOAL-EMP-000069-001-02,GOAL-EMP-000069-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,30.0,22.0,0.4,24.5,68.75,68.75,,120.0
+KR-GOAL-EMP-000069-002-01,GOAL-EMP-000069-002,Lift quality score for: improve service reliability,score,score (1-5),increase,3.3,4.2,0.6,3.52,24.44,24.44,,120.0
+KR-GOAL-EMP-000069-002-02,GOAL-EMP-000069-002,Reduce cycle time for: retire legacy components,duration_days,days,decrease,31.0,22.1,0.4,23.2,87.64,87.64,,120.0
+KR-GOAL-EMP-000070-001-01,GOAL-EMP-000070-001,Reduce cycle time for: improve forecast accuracy,duration_days,days,decrease,28.0,19.5,0.5,27.9,1.18,1.18,,120.0
+KR-GOAL-EMP-000070-001-02,GOAL-EMP-000070-001,Raise rate for: automate recurring reporting,percentage,%,increase,4.2,37.8,0.3,11.9,22.92,22.92,,120.0
+KR-GOAL-EMP-000070-001-03,GOAL-EMP-000070-001,Reduce cycle time for: improve forecast accuracy,duration_days,days,decrease,47.0,35.4,0.2,41.1,50.86,50.86,,120.0
+KR-GOAL-EMP-000071-001-01,GOAL-EMP-000071-001,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,5.22,3.57,1.0,3.71,91.52,91.52,,120.0
+KR-GOAL-EMP-000071-002-01,GOAL-EMP-000071-002,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,37.0,24.3,0.6,24.6,97.64,97.64,,120.0
+KR-GOAL-EMP-000071-002-02,GOAL-EMP-000071-002,Deliver items for: improve onboarding completion,count,count,increase,13,209,0.4,206,98.47,98.47,,120.0
+KR-GOAL-EMP-000072-001-01,GOAL-EMP-000072-001,Deliver items for: reduce process defects,count,count,increase,10,33,1.0,46,156.52,100.0,,120.0
+KR-GOAL-EMP-000073-001-01,GOAL-EMP-000073-001,Deliver items for: improve onboarding completion,count,count,increase,18,98,0.6,90,90.0,90.0,,120.0
+KR-GOAL-EMP-000073-001-02,GOAL-EMP-000073-001,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,362000,0.4,329200,90.94,90.94,,120.0
+KR-GOAL-EMP-000073-002-01,GOAL-EMP-000073-002,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,2.9,3.9,0.5,3.87,97.0,97.0,,120.0
+KR-GOAL-EMP-000073-002-02,GOAL-EMP-000073-002,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,11.96,6.8,0.5,8.78,61.63,61.63,,120.0
+KR-GOAL-EMP-000074-001-01,GOAL-EMP-000074-001,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,11.88,7.21,0.4,7.12,101.93,101.93,"Reused existing components, enabling faster completion.",120.0
+KR-GOAL-EMP-000074-001-02,GOAL-EMP-000074-001,Deliver items for: improve campaign conversion,count,count,increase,8,81,0.3,85,105.48,105.48,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000074-001-03,GOAL-EMP-000074-001,Deliver items for: grow qualified leads,count,count,increase,15,93,0.3,90,96.15,96.15,,120.0
+KR-GOAL-EMP-000075-001-01,GOAL-EMP-000075-001,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,10.16,6.15,0.4,6.74,85.29,85.29,,120.0
+KR-GOAL-EMP-000075-001-02,GOAL-EMP-000075-001,Deliver items for: strengthen content programme,count,count,increase,14,40,0.3,41,103.85,103.85,Delivered ahead of plan after scope was extended by the sponsor.,120.0
+KR-GOAL-EMP-000075-001-03,GOAL-EMP-000075-001,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,8.63,4.68,0.3,4.02,116.71,116.71,Delivered ahead of plan after scope was extended by the sponsor.,120.0
+KR-GOAL-EMP-000075-002-01,GOAL-EMP-000075-002,Raise rate for: grow qualified leads,percentage,%,increase,26.4,59.8,0.5,58.2,95.21,95.21,,120.0
+KR-GOAL-EMP-000075-002-02,GOAL-EMP-000075-002,Reduce error rate for: grow qualified leads,defect_rate_pct,%,decrease,8.34,4.84,0.3,5.02,94.86,94.86,,120.0
+KR-GOAL-EMP-000075-002-03,GOAL-EMP-000075-002,Reduce error rate for: increase brand engagement,defect_rate_pct,%,decrease,6.33,4.08,0.2,4.65,74.67,74.67,,120.0
+KR-GOAL-EMP-000076-001-01,GOAL-EMP-000076-001,Raise rate for: ship the planned roadmap features,percentage,%,increase,22.5,42.1,0.6,33.3,55.1,55.1,,120.0
+KR-GOAL-EMP-000076-001-02,GOAL-EMP-000076-001,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,31.0,21.8,0.4,25.1,64.13,64.13,,120.0
+KR-GOAL-EMP-000077-001-01,GOAL-EMP-000077-001,Reduce error rate for: reduce process defects,defect_rate_pct,%,decrease,6.0,4.2,0.5,4.74,70.0,70.0,,120.0
+KR-GOAL-EMP-000077-001-02,GOAL-EMP-000077-001,Deliver items for: cut order fulfilment time,count,count,increase,9,98,0.5,71,69.66,69.66,,120.0
+KR-GOAL-EMP-000079-001-01,GOAL-EMP-000079-001,Achieve value for: improve service reliability,currency_usd,USD,increase,0,180000,0.6,110200,61.22,61.22,,120.0
+KR-GOAL-EMP-000079-001-02,GOAL-EMP-000079-001,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,5.79,3.4,0.4,4.87,38.49,38.49,,120.0
+KR-GOAL-EMP-000079-002-01,GOAL-EMP-000079-002,Deliver items for: retire legacy components,count,count,increase,7,15,1.0,11,50.0,50.0,,120.0
+KR-GOAL-EMP-000080-001-01,GOAL-EMP-000080-001,Lift quality score for: improve retention in critical roles,score,score (1-5),increase,3.2,4.0,0.5,3.78,72.5,72.5,,120.0
+KR-GOAL-EMP-000080-001-02,GOAL-EMP-000080-001,Raise rate for: improve onboarding satisfaction,percentage,%,increase,39.9,61.3,0.3,56.9,79.44,79.44,,120.0
+KR-GOAL-EMP-000080-001-03,GOAL-EMP-000080-001,Achieve value for: improve onboarding satisfaction,currency_usd,USD,increase,0,366000,0.2,271300,74.13,74.13,,120.0
+KR-GOAL-EMP-000080-002-01,GOAL-EMP-000080-002,Lift quality score for: improve retention in critical roles,score,score (1-5),increase,3.2,3.7,0.5,3.62,84.0,84.0,,120.0
+KR-GOAL-EMP-000080-002-02,GOAL-EMP-000080-002,Reduce cycle time for: improve onboarding satisfaction,duration_days,days,decrease,53.0,31.0,0.5,31.0,100.0,100.0,,120.0
+KR-GOAL-EMP-000081-001-01,GOAL-EMP-000081-001,Deliver items for: raise product quality score,count,count,increase,10,182,0.5,167,91.28,91.28,,120.0
+KR-GOAL-EMP-000081-001-02,GOAL-EMP-000081-001,Reduce error rate for: increase feature adoption,defect_rate_pct,%,decrease,5.5,2.58,0.5,3.6,65.07,65.07,,120.0
+KR-GOAL-EMP-000082-001-01,GOAL-EMP-000082-001,Raise rate for: improve campaign conversion,percentage,%,increase,10.5,27.2,0.6,10.5,0.0,0.0,,120.0
+KR-GOAL-EMP-000082-001-02,GOAL-EMP-000082-001,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,179000,0.4,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000083-001-01,GOAL-EMP-000083-001,Achieve value for: strengthen content programme,currency_usd,USD,increase,0,178000,0.5,126200,70.9,70.9,,120.0
+KR-GOAL-EMP-000083-001-02,GOAL-EMP-000083-001,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,290000,0.3,245200,84.55,84.55,,120.0
+KR-GOAL-EMP-000083-001-03,GOAL-EMP-000083-001,Raise rate for: improve campaign conversion,percentage,%,increase,21.9,73.9,0.2,62.2,77.5,77.5,,120.0
+KR-GOAL-EMP-000083-002-01,GOAL-EMP-000083-002,Raise rate for: grow qualified leads,percentage,%,increase,22.3,67.0,1.0,61.6,87.92,87.92,,120.0
+KR-GOAL-EMP-000084-001-01,GOAL-EMP-000084-001,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.1,3.7,0.5,3.2,16.67,16.67,,120.0
+KR-GOAL-EMP-000084-001-02,GOAL-EMP-000084-001,Raise rate for: reduce release cycle time,percentage,%,increase,4.0,23.6,0.5,7.0,15.31,15.31,,120.0
+KR-GOAL-EMP-000085-001-01,GOAL-EMP-000085-001,Raise rate for: lower operating cost per unit,percentage,%,increase,12.8,29.6,0.5,14.6,10.71,10.71,,120.0
+KR-GOAL-EMP-000085-001-02,GOAL-EMP-000085-001,Reduce cycle time for: reduce process defects,duration_days,days,decrease,48.0,24.9,0.5,44.9,13.42,13.42,,120.0
+KR-GOAL-EMP-000085-002-01,GOAL-EMP-000085-002,Deliver items for: lower operating cost per unit,count,count,increase,10,66,0.4,40,53.57,53.57,,120.0
+KR-GOAL-EMP-000085-002-02,GOAL-EMP-000085-002,Raise rate for: cut order fulfilment time,percentage,%,increase,23.9,51.9,0.3,33.6,34.64,34.64,,120.0
+KR-GOAL-EMP-000085-002-03,GOAL-EMP-000085-002,Achieve value for: cut order fulfilment time,currency_usd,USD,increase,0,268000,0.3,102500,38.25,38.25,,120.0
+KR-GOAL-EMP-000085-003-01,GOAL-EMP-000085-003,Reduce cycle time for: lower operating cost per unit,duration_days,days,decrease,41.0,22.6,0.6,31.2,53.26,53.26,,120.0
+KR-GOAL-EMP-000085-003-02,GOAL-EMP-000085-003,Raise rate for: lower operating cost per unit,percentage,%,increase,4.2,48.6,0.4,16.9,28.6,28.6,,120.0
+KR-GOAL-EMP-000086-001-01,GOAL-EMP-000086-001,Reduce cycle time for: strengthen content programme,duration_days,days,decrease,41.0,24.5,1.0,36.1,29.7,29.7,,120.0
+KR-GOAL-EMP-000088-001-01,GOAL-EMP-000088-001,Lift quality score for: strengthen content programme,score,score (1-5),increase,3.5,4.2,0.5,4.07,81.43,81.43,,120.0
+KR-GOAL-EMP-000088-001-02,GOAL-EMP-000088-001,Reduce error rate for: increase brand engagement,defect_rate_pct,%,decrease,6.44,3.39,0.3,3.23,105.25,105.25,Delivered ahead of plan after scope was extended by the sponsor.,120.0
+KR-GOAL-EMP-000088-001-03,GOAL-EMP-000088-001,Raise rate for: improve campaign conversion,percentage,%,increase,28.3,77.6,0.2,64.8,74.04,74.04,,120.0
+KR-GOAL-EMP-000088-002-01,GOAL-EMP-000088-002,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,6.82,2.76,0.6,6.2,15.27,15.27,,120.0
+KR-GOAL-EMP-000088-002-02,GOAL-EMP-000088-002,Reduce error rate for: grow qualified leads,defect_rate_pct,%,decrease,9.4,4.61,0.4,8.64,15.87,15.87,,120.0
+KR-GOAL-EMP-000089-001-01,GOAL-EMP-000089-001,Raise rate for: reduce ticket resolution time,percentage,%,increase,20.8,51.1,0.5,29.8,29.7,29.7,,120.0
+KR-GOAL-EMP-000089-001-02,GOAL-EMP-000089-001,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,6.81,3.28,0.3,6.08,20.68,20.68,,120.0
+KR-GOAL-EMP-000089-001-03,GOAL-EMP-000089-001,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.7,4.5,0.2,3.76,7.5,7.5,,120.0
+KR-GOAL-EMP-000090-001-01,GOAL-EMP-000090-001,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,11.88,8.04,0.6,8.81,79.95,79.95,,120.0
+KR-GOAL-EMP-000090-001-02,GOAL-EMP-000090-001,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,5.18,3.55,0.4,4.07,68.1,68.1,,120.0
+KR-GOAL-EMP-000091-001-01,GOAL-EMP-000091-001,Achieve value for: raise training completion,currency_usd,USD,increase,0,203000,0.5,157400,77.54,77.54,,120.0
+KR-GOAL-EMP-000091-001-02,GOAL-EMP-000091-001,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,52.0,35.3,0.3,38.3,82.04,82.04,,120.0
+KR-GOAL-EMP-000091-001-03,GOAL-EMP-000091-001,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,51.0,40.1,0.2,46.3,43.12,43.12,,120.0
+KR-GOAL-EMP-000091-002-01,GOAL-EMP-000091-002,Reduce error rate for: raise training completion,defect_rate_pct,%,decrease,10.6,4.31,0.6,4.39,98.73,98.73,,120.0
+KR-GOAL-EMP-000091-002-02,GOAL-EMP-000091-002,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,54.0,34.2,0.4,38.9,76.26,76.26,,120.0
+KR-GOAL-EMP-000091-003-01,GOAL-EMP-000091-003,Lift quality score for: raise training completion,score,score (1-5),increase,3.3,4.0,1.0,3.83,75.71,75.71,,120.0
+KR-GOAL-EMP-000091-004-01,GOAL-EMP-000091-004,Raise rate for: reduce time to hire,percentage,%,increase,17.6,61.0,1.0,46.9,67.51,67.51,,120.0
+KR-GOAL-EMP-000092-001-01,GOAL-EMP-000092-001,Lift quality score for: reduce time to hire,score,score (1-5),increase,3.7,4.3,0.6,4.27,95.0,95.0,,120.0
+KR-GOAL-EMP-000092-001-02,GOAL-EMP-000092-001,Reduce error rate for: improve onboarding satisfaction,defect_rate_pct,%,decrease,9.26,5.05,0.4,6.46,66.51,66.51,,120.0
+KR-GOAL-EMP-000093-001-01,GOAL-EMP-000093-001,Reduce error rate for: grow qualified leads,defect_rate_pct,%,decrease,7.28,3.84,0.4,6.77,14.83,14.83,,120.0
+KR-GOAL-EMP-000093-001-02,GOAL-EMP-000093-001,Deliver items for: increase brand engagement,count,count,increase,13,109,0.3,34,21.88,21.88,,120.0
+KR-GOAL-EMP-000093-001-03,GOAL-EMP-000093-001,Lift quality score for: grow qualified leads,score,score (1-5),increase,3.3,3.9,0.3,3.4,16.67,16.67,,120.0
+KR-GOAL-EMP-000093-002-01,GOAL-EMP-000093-002,Raise rate for: increase brand engagement,percentage,%,increase,8.4,52.7,1.0,29.9,48.53,48.53,,120.0
+KR-GOAL-EMP-000093-003-01,GOAL-EMP-000093-003,Raise rate for: improve campaign conversion,percentage,%,increase,19.9,44.1,0.6,34.3,59.5,59.5,,120.0
+KR-GOAL-EMP-000093-003-02,GOAL-EMP-000093-003,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,11.75,4.77,0.4,8.6,45.13,45.13,,120.0
+KR-GOAL-EMP-000094-001-01,GOAL-EMP-000094-001,Reduce cycle time for: retire legacy components,duration_days,days,decrease,58.0,31.5,1.0,41.8,61.13,61.13,,120.0
+KR-GOAL-EMP-000094-002-01,GOAL-EMP-000094-002,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,11.01,5.34,0.5,7.32,65.08,65.08,,120.0
+KR-GOAL-EMP-000094-002-02,GOAL-EMP-000094-002,Achieve value for: retire legacy components,currency_usd,USD,increase,0,382000,0.3,324300,84.9,84.9,,120.0
+KR-GOAL-EMP-000094-002-03,GOAL-EMP-000094-002,Lift quality score for: retire legacy components,score,score (1-5),increase,3.6,4.1,0.2,4.05,90.0,90.0,,120.0
+KR-GOAL-EMP-000094-003-01,GOAL-EMP-000094-003,Deliver items for: improve service reliability,count,count,increase,10,163,0.5,121,72.55,72.55,,120.0
+KR-GOAL-EMP-000094-003-02,GOAL-EMP-000094-003,Raise rate for: retire legacy components,percentage,%,increase,25.3,61.4,0.5,48.1,63.16,63.16,,120.0
+KR-GOAL-EMP-000095-001-01,GOAL-EMP-000095-001,Achieve value for: raise customer satisfaction,currency_usd,USD,increase,0,142000,0.6,151500,106.69,106.69,Delivered ahead of plan after scope was extended by the sponsor.,120.0
+KR-GOAL-EMP-000095-001-02,GOAL-EMP-000095-001,Deliver items for: improve onboarding completion,count,count,increase,19,114,0.4,97,82.11,82.11,,120.0
+KR-GOAL-EMP-000096-001-01,GOAL-EMP-000096-001,Achieve value for: raise automated test coverage,currency_usd,USD,increase,0,457000,0.4,199600,43.68,43.68,,120.0
+KR-GOAL-EMP-000096-001-02,GOAL-EMP-000096-001,Deliver items for: raise automated test coverage,count,count,increase,11,200,0.3,172,85.19,85.19,,120.0
+KR-GOAL-EMP-000096-001-03,GOAL-EMP-000096-001,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,10.98,5.83,0.3,7.23,72.82,72.82,,120.0
+KR-GOAL-EMP-000096-002-01,GOAL-EMP-000096-002,Deliver items for: retire legacy components,count,count,increase,7,25,0.5,19,66.67,66.67,,120.0
+KR-GOAL-EMP-000096-002-02,GOAL-EMP-000096-002,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.0,3.7,0.5,3.09,12.86,12.86,,120.0
+KR-GOAL-EMP-000097-001-01,GOAL-EMP-000097-001,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,349000,0.5,6300,1.81,1.81,,120.0
+KR-GOAL-EMP-000097-001-02,GOAL-EMP-000097-001,Reduce cycle time for: raise product quality score,duration_days,days,decrease,48.0,25.6,0.5,43.1,21.87,21.87,,120.0
+KR-GOAL-EMP-000098-001-01,GOAL-EMP-000098-001,Raise rate for: reduce release cycle time,percentage,%,increase,36.1,58.9,0.5,57.3,92.98,92.98,,120.0
+KR-GOAL-EMP-000098-001-02,GOAL-EMP-000098-001,Reduce cycle time for: improve service reliability,duration_days,days,decrease,47.0,29.7,0.5,32.3,84.97,84.97,,120.0
+KR-GOAL-EMP-000099-001-01,GOAL-EMP-000099-001,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,11.38,4.76,1.0,7.96,51.66,51.66,,120.0
+KR-GOAL-EMP-000100-001-01,GOAL-EMP-000100-001,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,22.0,16.1,1.0,18.2,64.41,64.41,,120.0
+KR-GOAL-EMP-000100-002-01,GOAL-EMP-000100-002,Achieve value for: increase renewal rate,currency_usd,USD,increase,0,479000,0.5,189500,39.56,39.56,,120.0
+KR-GOAL-EMP-000100-002-02,GOAL-EMP-000100-002,Raise rate for: increase renewal rate,percentage,%,increase,33.5,62.9,0.3,52.9,65.99,65.99,,120.0
+KR-GOAL-EMP-000100-002-03,GOAL-EMP-000100-002,Reduce error rate for: reduce ticket resolution time,defect_rate_pct,%,decrease,7.46,4.4,0.2,5.74,56.21,56.21,,120.0
+KR-GOAL-EMP-000101-001-01,GOAL-EMP-000101-001,Achieve value for: improve service reliability,currency_usd,USD,increase,0,113000,1.0,104100,92.12,92.12,,120.0
+KR-GOAL-EMP-000101-002-01,GOAL-EMP-000101-002,Deliver items for: reduce release cycle time,count,count,increase,17,153,0.5,115,72.06,72.06,,120.0
+KR-GOAL-EMP-000101-002-02,GOAL-EMP-000101-002,Raise rate for: retire legacy components,percentage,%,increase,34.2,82.3,0.5,60.6,54.89,54.89,,120.0
+KR-GOAL-EMP-000102-001-01,GOAL-EMP-000102-001,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,508000,1.0,296100,58.29,58.29,,120.0
+KR-GOAL-EMP-000102-002-01,GOAL-EMP-000102-002,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,11.6,5.82,0.5,10.71,15.4,15.4,,120.0
+KR-GOAL-EMP-000102-002-02,GOAL-EMP-000102-002,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.1,3.6,0.5,3.2,20.0,20.0,,120.0
+KR-GOAL-EMP-000102-003-01,GOAL-EMP-000102-003,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,5.68,2.61,1.0,3.27,78.5,78.5,,120.0
+KR-GOAL-EMP-000103-001-01,GOAL-EMP-000103-001,Reduce cycle time for: improve onboarding satisfaction,duration_days,days,decrease,54.0,33.0,0.4,45.3,41.43,41.43,,120.0
+KR-GOAL-EMP-000103-001-02,GOAL-EMP-000103-001,Deliver items for: reduce time to hire,count,count,increase,20,184,0.3,82,37.8,37.8,,120.0
+KR-GOAL-EMP-000103-001-03,GOAL-EMP-000103-001,Raise rate for: reduce time to hire,percentage,%,increase,18.0,72.6,0.3,34.3,29.85,29.85,,120.0
+KR-GOAL-EMP-000104-001-01,GOAL-EMP-000104-001,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,6.24,3.66,0.6,3.83,93.41,93.41,,120.0
+KR-GOAL-EMP-000104-001-02,GOAL-EMP-000104-001,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,32.0,20.5,0.4,24.2,67.83,67.83,,120.0
+KR-GOAL-EMP-000104-002-01,GOAL-EMP-000104-002,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,11.79,6.36,0.6,6.72,93.37,93.37,,120.0
+KR-GOAL-EMP-000104-002-02,GOAL-EMP-000104-002,Deliver items for: reduce release cycle time,count,count,increase,7,168,0.4,159,94.41,94.41,,120.0
+KR-GOAL-EMP-000105-001-01,GOAL-EMP-000105-001,Lift quality score for: improve retention in critical roles,score,score (1-5),increase,3.1,3.8,1.0,3.69,84.29,84.29,,120.0
+KR-GOAL-EMP-000106-001-01,GOAL-EMP-000106-001,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,33.0,23.4,0.6,33.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000106-001-02,GOAL-EMP-000106-001,Lift quality score for: raise product quality score,score,score (1-5),increase,3.8,4.6,0.4,3.8,0.0,0.0,,120.0
+KR-GOAL-EMP-000107-001-01,GOAL-EMP-000107-001,Deliver items for: improve vendor on-time delivery,count,count,increase,20,182,0.4,94,45.68,45.68,,120.0
+KR-GOAL-EMP-000107-001-02,GOAL-EMP-000107-001,Lift quality score for: lower operating cost per unit,score,score (1-5),increase,3.6,4.3,0.3,4.04,62.86,62.86,,120.0
+KR-GOAL-EMP-000107-001-03,GOAL-EMP-000107-001,Reduce error rate for: reduce process defects,defect_rate_pct,%,decrease,6.47,3.93,0.3,4.59,74.02,74.02,,120.0
+KR-GOAL-EMP-000108-001-01,GOAL-EMP-000108-001,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,60.0,46.3,0.6,53.4,48.18,48.18,,120.0
+KR-GOAL-EMP-000108-001-02,GOAL-EMP-000108-001,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.5,4.2,0.4,3.87,52.86,52.86,,120.0
+KR-GOAL-EMP-000109-001-01,GOAL-EMP-000109-001,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,8.32,5.1,0.6,7.55,23.91,23.91,,120.0
+KR-GOAL-EMP-000109-001-02,GOAL-EMP-000109-001,Achieve value for: improve service reliability,currency_usd,USD,increase,0,598000,0.4,125200,20.94,20.94,,120.0
+KR-GOAL-EMP-000109-002-01,GOAL-EMP-000109-002,Raise rate for: improve service reliability,percentage,%,increase,30.3,66.9,0.5,62.5,87.98,87.98,,120.0
+KR-GOAL-EMP-000109-002-02,GOAL-EMP-000109-002,Reduce cycle time for: retire legacy components,duration_days,days,decrease,47.0,32.8,0.5,38.3,61.27,61.27,,120.0
+KR-GOAL-EMP-000109-003-01,GOAL-EMP-000109-003,Raise rate for: reduce release cycle time,percentage,%,increase,0.4,21.9,0.5,16.1,73.02,73.02,,120.0
+KR-GOAL-EMP-000109-003-02,GOAL-EMP-000109-003,Raise rate for: raise automated test coverage,percentage,%,increase,26.6,57.9,0.5,53.1,84.66,84.66,,120.0
+KR-GOAL-EMP-000110-001-01,GOAL-EMP-000110-001,Reduce cycle time for: reduce time to hire,duration_days,days,decrease,58.0,34.4,0.4,51.1,29.24,29.24,,120.0
+KR-GOAL-EMP-000110-001-02,GOAL-EMP-000110-001,Reduce cycle time for: reduce time to hire,duration_days,days,decrease,28.0,16.4,0.3,20.5,64.66,64.66,,120.0
+KR-GOAL-EMP-000110-001-03,GOAL-EMP-000110-001,Reduce cycle time for: reduce time to hire,duration_days,days,decrease,56.0,36.9,0.3,42.3,71.73,71.73,,120.0
+KR-GOAL-EMP-000111-001-01,GOAL-EMP-000111-001,Raise rate for: increase renewal rate,percentage,%,increase,11.7,43.1,1.0,35.2,74.84,74.84,,120.0
+KR-GOAL-EMP-000111-002-01,GOAL-EMP-000111-002,Raise rate for: raise customer satisfaction,percentage,%,increase,5.2,44.7,0.4,28.1,57.97,57.97,,120.0
+KR-GOAL-EMP-000111-002-02,GOAL-EMP-000111-002,Achieve value for: reduce ticket resolution time,currency_usd,USD,increase,0,504000,0.3,297800,59.09,59.09,,120.0
+KR-GOAL-EMP-000111-002-03,GOAL-EMP-000111-002,Reduce error rate for: increase renewal rate,defect_rate_pct,%,decrease,5.71,3.8,0.3,4.3,73.82,73.82,,120.0
+KR-GOAL-EMP-000112-001-01,GOAL-EMP-000112-001,Deliver items for: improve campaign conversion,count,count,increase,14,30,0.4,25,68.75,68.75,,120.0
+KR-GOAL-EMP-000112-001-02,GOAL-EMP-000112-001,Deliver items for: grow qualified leads,count,count,increase,4,65,0.3,64,98.36,98.36,,120.0
+KR-GOAL-EMP-000112-001-03,GOAL-EMP-000112-001,Reduce error rate for: grow qualified leads,defect_rate_pct,%,decrease,6.05,3.14,0.3,3.23,96.91,96.91,,120.0
+KR-GOAL-EMP-000112-002-01,GOAL-EMP-000112-002,Reduce error rate for: grow qualified leads,defect_rate_pct,%,decrease,7.99,5.17,0.5,5.43,90.78,90.78,,120.0
+KR-GOAL-EMP-000112-002-02,GOAL-EMP-000112-002,Deliver items for: strengthen content programme,count,count,increase,17,87,0.5,70,75.71,75.71,,120.0
+KR-GOAL-EMP-000113-001-01,GOAL-EMP-000113-001,Deliver items for: improve vendor on-time delivery,count,count,increase,18,180,0.6,158,86.42,86.42,,120.0
+KR-GOAL-EMP-000113-001-02,GOAL-EMP-000113-001,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,9.4,4.49,0.4,5.85,72.3,72.3,,120.0
+KR-GOAL-EMP-000114-001-01,GOAL-EMP-000114-001,Achieve value for: lower operating cost per unit,currency_usd,USD,increase,0,441000,1.0,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000115-001-01,GOAL-EMP-000115-001,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,427000,0.5,85900,20.12,20.12,,120.0
+KR-GOAL-EMP-000115-001-02,GOAL-EMP-000115-001,Lift quality score for: raise product quality score,score,score (1-5),increase,3.4,4.2,0.5,4.23,103.75,103.75,Delivered ahead of plan after scope was extended by the sponsor.,120.0
+KR-GOAL-EMP-000115-002-01,GOAL-EMP-000115-002,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,189000,0.6,146400,77.46,77.46,,120.0
+KR-GOAL-EMP-000115-002-02,GOAL-EMP-000115-002,Lift quality score for: raise product quality score,score,score (1-5),increase,3.1,3.8,0.4,3.66,80.0,80.0,,120.0
+KR-GOAL-EMP-000116-001-01,GOAL-EMP-000116-001,Lift quality score for: improve service reliability,score,score (1-5),increase,2.9,3.5,1.0,3.43,88.33,88.33,,120.0
+KR-GOAL-EMP-000117-001-01,GOAL-EMP-000117-001,Deliver items for: increase brand engagement,count,count,increase,13,174,1.0,108,59.01,59.01,,120.0
+KR-GOAL-EMP-000118-001-01,GOAL-EMP-000118-001,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,20.0,12.9,0.5,17.3,38.03,38.03,,120.0
+KR-GOAL-EMP-000118-001-02,GOAL-EMP-000118-001,Reduce cycle time for: retire legacy components,duration_days,days,decrease,42.0,28.2,0.5,36.4,40.58,40.58,,120.0
+KR-GOAL-EMP-000118-002-01,GOAL-EMP-000118-002,Raise rate for: raise automated test coverage,percentage,%,increase,23.4,68.0,1.0,45.7,50.0,50.0,,120.0
+KR-GOAL-EMP-000119-001-01,GOAL-EMP-000119-001,Raise rate for: increase renewal rate,percentage,%,increase,18.4,62.7,0.5,18.4,0.0,0.0,,120.0
+KR-GOAL-EMP-000119-001-02,GOAL-EMP-000119-001,Deliver items for: increase renewal rate,count,count,increase,2,185,0.3,2,0.0,0.0,,120.0
+KR-GOAL-EMP-000119-001-03,GOAL-EMP-000119-001,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,2.9,3.5,0.2,2.9,0.0,0.0,,120.0
+KR-GOAL-EMP-000119-002-01,GOAL-EMP-000119-002,Reduce cycle time for: reduce ticket resolution time,duration_days,days,decrease,42.0,25.4,0.5,36.6,32.53,32.53,,120.0
+KR-GOAL-EMP-000119-002-02,GOAL-EMP-000119-002,Deliver items for: raise customer satisfaction,count,count,increase,17,129,0.5,45,25.0,25.0,,120.0
+KR-GOAL-EMP-000119-003-01,GOAL-EMP-000119-003,Deliver items for: reduce ticket resolution time,count,count,increase,13,123,0.5,114,91.82,91.82,,120.0
+KR-GOAL-EMP-000119-003-02,GOAL-EMP-000119-003,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.7,4.4,0.5,4.31,87.14,87.14,,120.0
+KR-GOAL-EMP-000120-001-01,GOAL-EMP-000120-001,Deliver items for: improve vendor on-time delivery,count,count,increase,6,53,1.0,46,85.11,85.11,,120.0
+KR-GOAL-EMP-000121-001-01,GOAL-EMP-000121-001,Achieve value for: reduce time to hire,currency_usd,USD,increase,0,444000,0.6,248400,55.95,55.95,,120.0
+KR-GOAL-EMP-000121-001-02,GOAL-EMP-000121-001,Deliver items for: improve retention in critical roles,count,count,increase,5,90,0.4,63,68.24,68.24,,120.0
+KR-GOAL-EMP-000121-002-01,GOAL-EMP-000121-002,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,60.0,37.9,1.0,50.5,42.99,42.99,,120.0
+KR-GOAL-EMP-000122-001-01,GOAL-EMP-000122-001,Lift quality score for: raise customer satisfaction,score,score (1-5),increase,3.7,4.4,1.0,4.45,107.14,107.14,"Reused existing components, enabling faster completion.",120.0
+KR-GOAL-EMP-000122-002-01,GOAL-EMP-000122-002,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,5.59,3.45,0.5,3.32,106.07,106.07,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000122-002-02,GOAL-EMP-000122-002,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,10.31,6.18,0.5,5.98,104.84,104.84,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000122-003-01,GOAL-EMP-000122-003,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,8.67,5.09,0.5,5.68,83.52,83.52,,120.0
+KR-GOAL-EMP-000122-003-02,GOAL-EMP-000122-003,Achieve value for: reduce ticket resolution time,currency_usd,USD,increase,0,45000,0.5,44900,99.78,99.78,,120.0
+KR-GOAL-EMP-000122-004-01,GOAL-EMP-000122-004,Achieve value for: raise customer satisfaction,currency_usd,USD,increase,0,335000,1.0,241300,72.03,72.03,,120.0
+KR-GOAL-EMP-000123-001-01,GOAL-EMP-000123-001,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,7.8,4.85,0.5,6.09,57.97,57.97,,120.0
+KR-GOAL-EMP-000123-001-02,GOAL-EMP-000123-001,Deliver items for: raise automated test coverage,count,count,increase,1,83,0.5,50,59.76,59.76,,120.0
+KR-GOAL-EMP-000123-002-01,GOAL-EMP-000123-002,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.1,3.6,1.0,3.67,114.0,114.0,Delivered ahead of plan after scope was extended by the sponsor.,120.0
+KR-GOAL-EMP-000124-001-01,GOAL-EMP-000124-001,Raise rate for: raise customer satisfaction,percentage,%,increase,27.9,74.3,1.0,60.2,69.61,69.61,,120.0
+KR-GOAL-EMP-000124-002-01,GOAL-EMP-000124-002,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.0,3.9,1.0,3.7,77.78,77.78,,120.0
+KR-GOAL-EMP-000125-001-01,GOAL-EMP-000125-001,Raise rate for: improve onboarding completion,percentage,%,increase,37.6,90.1,0.6,62.9,48.19,48.19,,120.0
+KR-GOAL-EMP-000125-001-02,GOAL-EMP-000125-001,Reduce error rate for: reduce ticket resolution time,defect_rate_pct,%,decrease,6.37,2.58,0.4,4.46,50.4,50.4,,120.0
+KR-GOAL-EMP-000125-002-01,GOAL-EMP-000125-002,Reduce error rate for: reduce ticket resolution time,defect_rate_pct,%,decrease,11.52,4.7,1.0,8.77,40.32,40.32,,120.0
+KR-GOAL-EMP-000126-001-01,GOAL-EMP-000126-001,Deliver items for: improve service reliability,count,count,increase,5,162,0.6,27,14.01,14.01,,120.0
+KR-GOAL-EMP-000126-001-02,GOAL-EMP-000126-001,Deliver items for: reduce release cycle time,count,count,increase,0,169,0.4,28,16.57,16.57,,120.0
+KR-GOAL-EMP-000126-002-01,GOAL-EMP-000126-002,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.8,4.5,0.6,3.82,2.86,2.86,,120.0
+KR-GOAL-EMP-000126-002-02,GOAL-EMP-000126-002,Reduce cycle time for: raise automated test coverage,duration_days,days,decrease,27.0,20.4,0.4,26.9,1.52,1.52,,120.0
+KR-GOAL-EMP-000127-001-01,GOAL-EMP-000127-001,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,8.63,4.29,0.6,5.04,82.72,82.72,,120.0
+KR-GOAL-EMP-000127-001-02,GOAL-EMP-000127-001,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,527000,0.4,359700,68.25,68.25,,120.0
+KR-GOAL-EMP-000128-001-01,GOAL-EMP-000128-001,Raise rate for: cut order fulfilment time,percentage,%,increase,29.4,75.2,0.6,76.8,103.49,103.49,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000128-001-02,GOAL-EMP-000128-001,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,8.32,5.55,0.4,5.7,94.58,94.58,,120.0
+KR-GOAL-EMP-000128-002-01,GOAL-EMP-000128-002,Reduce error rate for: reduce process defects,defect_rate_pct,%,decrease,8.67,5.23,0.4,6.33,68.02,68.02,,120.0
+KR-GOAL-EMP-000128-002-02,GOAL-EMP-000128-002,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,9.24,4.92,0.3,5.4,88.89,88.89,,120.0
+KR-GOAL-EMP-000128-002-03,GOAL-EMP-000128-002,Reduce cycle time for: lower operating cost per unit,duration_days,days,decrease,31.0,23.5,0.3,25.0,80.0,80.0,,120.0
+KR-GOAL-EMP-000128-003-01,GOAL-EMP-000128-003,Achieve value for: cut order fulfilment time,currency_usd,USD,increase,0,524000,0.6,414600,79.12,79.12,,120.0
+KR-GOAL-EMP-000128-003-02,GOAL-EMP-000128-003,Reduce cycle time for: cut order fulfilment time,duration_days,days,decrease,44.0,30.9,0.4,32.5,87.79,87.79,,120.0
+KR-GOAL-EMP-000129-001-01,GOAL-EMP-000129-001,Lift quality score for: raise product quality score,score,score (1-5),increase,3.6,4.2,0.5,4.03,71.67,71.67,,120.0
+KR-GOAL-EMP-000129-001-02,GOAL-EMP-000129-001,Reduce cycle time for: ship the planned roadmap features,duration_days,days,decrease,51.0,32.2,0.5,39.7,60.11,60.11,,120.0
+KR-GOAL-EMP-000130-001-01,GOAL-EMP-000130-001,Raise rate for: retire legacy components,percentage,%,increase,11.9,40.1,0.5,44.2,114.54,114.54,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000130-001-02,GOAL-EMP-000130-001,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,142000,0.5,114700,80.77,80.77,,120.0
+KR-GOAL-EMP-000131-001-01,GOAL-EMP-000131-001,Deliver items for: improve vendor on-time delivery,count,count,increase,0,101,0.5,120,118.81,118.81,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000131-001-02,GOAL-EMP-000131-001,Raise rate for: improve vendor on-time delivery,percentage,%,increase,7.7,29.9,0.3,32.3,110.81,110.81,"Reused existing components, enabling faster completion.",120.0
+KR-GOAL-EMP-000131-001-03,GOAL-EMP-000131-001,Reduce cycle time for: reduce process defects,duration_days,days,decrease,42.0,32.2,0.2,30.3,119.39,119.39,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000132-001-01,GOAL-EMP-000132-001,Deliver items for: reduce outstanding receivables,count,count,increase,19,120,0.4,111,91.09,91.09,,120.0
+KR-GOAL-EMP-000132-001-02,GOAL-EMP-000132-001,Reduce error rate for: reduce outstanding receivables,defect_rate_pct,%,decrease,7.45,4.35,0.3,4.62,91.29,91.29,,120.0
+KR-GOAL-EMP-000132-001-03,GOAL-EMP-000132-001,Achieve value for: reduce outstanding receivables,currency_usd,USD,increase,0,488000,0.3,355500,72.85,72.85,,120.0
+KR-GOAL-EMP-000133-001-01,GOAL-EMP-000133-001,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,11.94,5.11,0.6,11.94,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000133-001-02,GOAL-EMP-000133-001,Achieve value for: improve service reliability,currency_usd,USD,increase,0,469000,0.4,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000134-001-01,GOAL-EMP-000134-001,Reduce cycle time for: reduce process defects,duration_days,days,decrease,52.0,38.6,0.6,46.0,44.78,44.78,,120.0
+KR-GOAL-EMP-000134-001-02,GOAL-EMP-000134-001,Reduce error rate for: lower operating cost per unit,defect_rate_pct,%,decrease,5.15,2.24,0.4,3.69,50.17,50.17,,120.0
+KR-GOAL-EMP-000134-002-01,GOAL-EMP-000134-002,Raise rate for: reduce process defects,percentage,%,increase,11.4,46.4,0.5,30.1,53.43,53.43,,120.0
+KR-GOAL-EMP-000134-002-02,GOAL-EMP-000134-002,Raise rate for: lower operating cost per unit,percentage,%,increase,15.4,56.6,0.5,39.7,58.98,58.98,,120.0
+KR-GOAL-EMP-000134-003-01,GOAL-EMP-000134-003,Raise rate for: improve vendor on-time delivery,percentage,%,increase,5.1,46.7,1.0,5.1,0.0,0.0,,120.0
+KR-GOAL-EMP-000134-004-01,GOAL-EMP-000134-004,Reduce cycle time for: lower operating cost per unit,duration_days,days,decrease,51.0,31.7,0.6,48.1,15.03,15.03,,120.0
+KR-GOAL-EMP-000134-004-02,GOAL-EMP-000134-004,Achieve value for: cut order fulfilment time,currency_usd,USD,increase,0,552000,0.4,57400,10.4,10.4,,120.0
+KR-GOAL-EMP-000135-001-01,GOAL-EMP-000135-001,Achieve value for: improve service reliability,currency_usd,USD,increase,0,503000,0.5,554600,110.26,110.26,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000135-001-02,GOAL-EMP-000135-001,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,8.49,3.4,0.5,3.21,103.73,103.73,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000135-002-01,GOAL-EMP-000135-002,Deliver items for: reduce release cycle time,count,count,increase,15,163,0.5,121,71.62,71.62,,120.0
+KR-GOAL-EMP-000135-002-02,GOAL-EMP-000135-002,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,496000,0.5,140000,28.23,28.23,,120.0
+KR-GOAL-EMP-000136-001-01,GOAL-EMP-000136-001,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,11.2,7.5,0.5,9.63,42.43,42.43,,120.0
+KR-GOAL-EMP-000136-001-02,GOAL-EMP-000136-001,Lift quality score for: lower operating cost per unit,score,score (1-5),increase,2.9,3.5,0.5,3.13,38.33,38.33,,120.0
+KR-GOAL-EMP-000136-002-01,GOAL-EMP-000136-002,Raise rate for: lower operating cost per unit,percentage,%,increase,31.9,85.0,0.5,52.8,39.36,39.36,,120.0
+KR-GOAL-EMP-000136-002-02,GOAL-EMP-000136-002,Achieve value for: reduce process defects,currency_usd,USD,increase,0,481000,0.5,208300,43.31,43.31,,120.0
+KR-GOAL-EMP-000137-001-01,GOAL-EMP-000137-001,Achieve value for: improve service reliability,currency_usd,USD,increase,0,25000,1.0,13200,52.8,52.8,,120.0
+KR-GOAL-EMP-000137-002-01,GOAL-EMP-000137-002,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,9.46,6.34,0.5,7.99,47.12,47.12,,120.0
+KR-GOAL-EMP-000137-002-02,GOAL-EMP-000137-002,Raise rate for: retire legacy components,percentage,%,increase,22.2,52.3,0.5,46.7,81.4,81.4,,120.0
+KR-GOAL-EMP-000137-003-01,GOAL-EMP-000137-003,Achieve value for: retire legacy components,currency_usd,USD,increase,0,107000,0.5,64600,60.37,60.37,,120.0
+KR-GOAL-EMP-000137-003-02,GOAL-EMP-000137-003,Deliver items for: improve service reliability,count,count,increase,15,199,0.5,105,48.91,48.91,,120.0
+KR-GOAL-EMP-000138-001-01,GOAL-EMP-000138-001,Raise rate for: cut order fulfilment time,percentage,%,increase,9.0,45.1,0.6,9.0,0.0,0.0,,120.0
+KR-GOAL-EMP-000138-001-02,GOAL-EMP-000138-001,Deliver items for: improve vendor on-time delivery,count,count,increase,6,81,0.4,6,0.0,0.0,,120.0
+KR-GOAL-EMP-000138-002-01,GOAL-EMP-000138-002,Reduce cycle time for: reduce process defects,duration_days,days,decrease,50.0,36.4,0.4,35.9,103.68,103.68,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000138-002-02,GOAL-EMP-000138-002,Reduce cycle time for: reduce process defects,duration_days,days,decrease,25.0,18.6,0.3,20.6,68.75,68.75,,120.0
+KR-GOAL-EMP-000138-002-03,GOAL-EMP-000138-002,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,194000,0.3,131100,67.58,67.58,,120.0
+KR-GOAL-EMP-000138-003-01,GOAL-EMP-000138-003,Deliver items for: reduce process defects,count,count,increase,9,178,1.0,156,86.98,86.98,,120.0
+KR-GOAL-EMP-000139-001-01,GOAL-EMP-000139-001,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,8.23,4.33,0.5,4.97,83.59,83.59,,120.0
+KR-GOAL-EMP-000139-001-02,GOAL-EMP-000139-001,Deliver items for: improve service reliability,count,count,increase,17,110,0.5,70,56.99,56.99,,120.0
+KR-GOAL-EMP-000140-001-01,GOAL-EMP-000140-001,Deliver items for: improve onboarding completion,count,count,increase,2,118,0.6,42,34.48,34.48,,120.0
+KR-GOAL-EMP-000140-001-02,GOAL-EMP-000140-001,Achieve value for: reduce ticket resolution time,currency_usd,USD,increase,0,141000,0.4,43500,30.85,30.85,,120.0
+KR-GOAL-EMP-000141-001-01,GOAL-EMP-000141-001,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,411000,1.0,323800,78.78,78.78,,120.0
+KR-GOAL-EMP-000141-002-01,GOAL-EMP-000141-002,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.2,4.0,0.5,3.86,82.5,82.5,,120.0
+KR-GOAL-EMP-000141-002-02,GOAL-EMP-000141-002,Reduce error rate for: improve onboarding completion,defect_rate_pct,%,decrease,10.16,6.23,0.5,7.1,77.86,77.86,,120.0
+KR-GOAL-EMP-000141-003-01,GOAL-EMP-000141-003,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.7,4.5,1.0,4.44,92.5,92.5,,120.0
+KR-GOAL-EMP-000141-004-01,GOAL-EMP-000141-004,Reduce cycle time for: increase renewal rate,duration_days,days,decrease,58.0,40.6,0.6,42.4,89.66,89.66,,120.0
+KR-GOAL-EMP-000141-004-02,GOAL-EMP-000141-004,Reduce error rate for: reduce ticket resolution time,defect_rate_pct,%,decrease,7.52,3.1,0.4,2.96,103.17,103.17,Cross-team support allowed the stretch outcome.,120.0
+KR-GOAL-EMP-000142-001-01,GOAL-EMP-000142-001,Deliver items for: raise product quality score,count,count,increase,15,159,1.0,140,86.81,86.81,,120.0
+KR-GOAL-EMP-000143-001-01,GOAL-EMP-000143-001,Reduce cycle time for: grow qualified pipeline,duration_days,days,decrease,32.0,18.0,1.0,25.8,44.29,44.29,,120.0
+KR-GOAL-EMP-000144-001-01,GOAL-EMP-000144-001,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,43.0,34.2,0.4,39.1,44.32,44.32,,120.0
+KR-GOAL-EMP-000144-001-02,GOAL-EMP-000144-001,Reduce error rate for: improve customer research cadence,defect_rate_pct,%,decrease,7.84,4.66,0.3,4.91,92.14,92.14,,120.0
+KR-GOAL-EMP-000144-001-03,GOAL-EMP-000144-001,Deliver items for: raise product quality score,count,count,increase,10,149,0.3,94,60.43,60.43,,120.0
+KR-GOAL-EMP-000144-002-01,GOAL-EMP-000144-002,Lift quality score for: raise product quality score,score,score (1-5),increase,3.1,4.0,1.0,3.56,51.11,51.11,,120.0
+KR-GOAL-EMP-000144-003-01,GOAL-EMP-000144-003,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,11.03,5.41,0.6,6.55,79.72,79.72,,120.0
+KR-GOAL-EMP-000144-003-02,GOAL-EMP-000144-003,Raise rate for: ship the planned roadmap features,percentage,%,increase,38.2,85.9,0.4,62.6,51.15,51.15,,120.0
+KR-GOAL-EMP-000145-001-01,GOAL-EMP-000145-001,Deliver items for: retire legacy components,count,count,increase,6,16,0.5,11,50.0,50.0,,120.0
+KR-GOAL-EMP-000145-001-02,GOAL-EMP-000145-001,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,6.16,3.19,0.5,4.37,60.27,60.27,,120.0
+KR-GOAL-EMP-000145-002-01,GOAL-EMP-000145-002,Deliver items for: retire legacy components,count,count,increase,10,101,1.0,83,80.22,80.22,,120.0
+KR-GOAL-EMP-000145-003-01,GOAL-EMP-000145-003,Raise rate for: reduce release cycle time,percentage,%,increase,28.7,76.8,1.0,70.8,87.53,87.53,,120.0
+KR-GOAL-EMP-000146-001-01,GOAL-EMP-000146-001,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,100000,0.6,92200,92.2,92.2,,120.0
+KR-GOAL-EMP-000146-001-02,GOAL-EMP-000146-001,Deliver items for: grow qualified leads,count,count,increase,11,22,0.4,17,54.55,54.55,,120.0
+KR-GOAL-EMP-000146-002-01,GOAL-EMP-000146-002,Reduce cycle time for: grow qualified leads,duration_days,days,decrease,28.0,17.6,0.5,17.9,97.12,97.12,,120.0
+KR-GOAL-EMP-000146-002-02,GOAL-EMP-000146-002,Raise rate for: strengthen content programme,percentage,%,increase,35.4,59.2,0.5,54.4,79.83,79.83,,120.0
+KR-GOAL-EMP-000147-001-01,GOAL-EMP-000147-001,Raise rate for: improve customer research cadence,percentage,%,increase,33.1,55.1,0.4,53.8,94.09,94.09,,120.0
+KR-GOAL-EMP-000147-001-02,GOAL-EMP-000147-001,Achieve value for: improve customer research cadence,currency_usd,USD,increase,0,136000,0.3,94100,69.19,69.19,,120.0
+KR-GOAL-EMP-000147-001-03,GOAL-EMP-000147-001,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,52.0,37.4,0.3,42.4,65.75,65.75,,120.0
+KR-GOAL-EMP-000147-002-01,GOAL-EMP-000147-002,Lift quality score for: ship the planned roadmap features,score,score (1-5),increase,3.2,4.0,1.0,3.78,72.5,72.5,,120.0
+KR-GOAL-EMP-000147-003-01,GOAL-EMP-000147-003,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,391000,1.0,187200,47.88,47.88,,120.0
+KR-GOAL-EMP-000147-004-01,GOAL-EMP-000147-004,Lift quality score for: increase feature adoption,score,score (1-5),increase,3.0,3.7,1.0,3.75,107.14,107.14,Unplanned customer demand raised volume beyond target.,120.0
+KR-GOAL-EMP-000148-001-01,GOAL-EMP-000148-001,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,436000,0.5,143900,33.0,33.0,,120.0
+KR-GOAL-EMP-000148-001-02,GOAL-EMP-000148-001,Raise rate for: raise automated test coverage,percentage,%,increase,38.8,84.8,0.3,71.2,70.43,70.43,,120.0
+KR-GOAL-EMP-000148-001-03,GOAL-EMP-000148-001,Deliver items for: raise automated test coverage,count,count,increase,2,122,0.2,56,45.0,45.0,,120.0
+KR-GOAL-EMP-000148-002-01,GOAL-EMP-000148-002,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,9.53,6.31,0.4,8.5,31.99,31.99,,120.0
+KR-GOAL-EMP-000148-002-02,GOAL-EMP-000148-002,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.3,4.2,0.3,3.72,46.67,46.67,,120.0
+KR-GOAL-EMP-000148-002-03,GOAL-EMP-000148-002,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,25.0,14.9,0.3,20.9,40.59,40.59,,120.0
+KR-GOAL-EMP-000149-001-01,GOAL-EMP-000149-001,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,32.0,21.2,0.6,26.3,52.78,52.78,,120.0
+KR-GOAL-EMP-000149-001-02,GOAL-EMP-000149-001,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,7.47,3.34,0.4,2.73,114.77,114.77,Market conditions improved results beyond forecast.,120.0
+KR-GOAL-EMP-000002-002-01,GOAL-EMP-000002-002,Deliver items for: grow qualified pipeline,count,count,increase,20,157,0.5,20,0.0,0.0,,120.0
+KR-GOAL-EMP-000002-002-02,GOAL-EMP-000002-002,Deliver items for: expand key accounts,count,count,increase,16,140,0.5,16,0.0,0.0,,120.0
+KR-GOAL-EMP-000002-003-01,GOAL-EMP-000002-003,Reduce cycle time for: improve win rate in target segment,duration_days,days,decrease,40.0,31.8,0.6,36.0,48.78,48.78,,120.0
+KR-GOAL-EMP-000002-003-02,GOAL-EMP-000002-003,Lift quality score for: increase closed revenue,score,score (1-5),increase,3.0,3.8,0.4,3.26,32.5,32.5,,120.0
+KR-GOAL-EMP-000003-002-01,GOAL-EMP-000003-002,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,41.0,26.5,0.5,35.0,41.38,41.38,,120.0
+KR-GOAL-EMP-000003-002-02,GOAL-EMP-000003-002,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,522000,0.3,99800,19.12,19.12,,120.0
+KR-GOAL-EMP-000003-002-03,GOAL-EMP-000003-002,Raise rate for: increase brand engagement,percentage,%,increase,29.0,51.3,0.2,31.6,11.66,11.66,,120.0
+KR-GOAL-EMP-000004-002-01,GOAL-EMP-000004-002,Lift quality score for: retire legacy components,score,score (1-5),increase,3.7,4.6,0.4,3.7,0.0,0.0,,120.0
+KR-GOAL-EMP-000004-002-02,GOAL-EMP-000004-002,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,8.93,6.14,0.3,8.93,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000004-002-03,GOAL-EMP-000004-002,Deliver items for: reduce release cycle time,count,count,increase,19,32,0.3,19,0.0,0.0,,120.0
+KR-GOAL-EMP-000005-003-01,GOAL-EMP-000005-003,Lift quality score for: improve service reliability,score,score (1-5),increase,3.7,4.6,0.6,4.05,38.89,38.89,,120.0
+KR-GOAL-EMP-000005-003-02,GOAL-EMP-000005-003,Raise rate for: improve service reliability,percentage,%,increase,7.3,31.3,0.4,21.6,59.58,59.58,,120.0
+KR-GOAL-EMP-000005-004-01,GOAL-EMP-000005-004,Raise rate for: retire legacy components,percentage,%,increase,36.9,58.6,0.5,36.9,0.0,0.0,,120.0
+KR-GOAL-EMP-000005-004-02,GOAL-EMP-000005-004,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,47.0,35.7,0.5,47.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000005-005-01,GOAL-EMP-000005-005,Deliver items for: raise automated test coverage,count,count,increase,10,70,0.5,25,25.0,25.0,,120.0
+KR-GOAL-EMP-000005-005-02,GOAL-EMP-000005-005,Achieve value for: retire legacy components,currency_usd,USD,increase,0,40000,0.5,11800,29.5,29.5,,120.0
+KR-GOAL-EMP-000006-003-01,GOAL-EMP-000006-003,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,405000,0.6,133500,32.96,32.96,,120.0
+KR-GOAL-EMP-000006-003-02,GOAL-EMP-000006-003,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,8.93,4.21,0.4,7.88,22.25,22.25,,120.0
+KR-GOAL-EMP-000006-004-01,GOAL-EMP-000006-004,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,518000,1.0,141300,27.28,27.28,,120.0
+KR-GOAL-EMP-000007-002-01,GOAL-EMP-000007-002,Achieve value for: retire legacy components,currency_usd,USD,increase,0,480000,0.5,132500,27.6,27.6,,120.0
+KR-GOAL-EMP-000007-002-02,GOAL-EMP-000007-002,Lift quality score for: retire legacy components,score,score (1-5),increase,2.8,3.3,0.5,3.12,64.0,64.0,,120.0
+KR-GOAL-EMP-000008-003-01,GOAL-EMP-000008-003,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.0,4.0,0.4,3.5,50.0,50.0,,120.0
+KR-GOAL-EMP-000008-003-02,GOAL-EMP-000008-003,Achieve value for: raise automated test coverage,currency_usd,USD,increase,0,206000,0.3,117100,56.84,56.84,,120.0
+KR-GOAL-EMP-000008-003-03,GOAL-EMP-000008-003,Achieve value for: retire legacy components,currency_usd,USD,increase,0,151000,0.3,63000,41.72,41.72,,120.0
+KR-GOAL-EMP-000009-004-01,GOAL-EMP-000009-004,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.3,4.3,1.0,3.77,47.0,47.0,,120.0
+KR-GOAL-EMP-000009-005-01,GOAL-EMP-000009-005,Lift quality score for: increase renewal rate,score,score (1-5),increase,3.3,4.0,0.5,3.56,37.14,37.14,,120.0
+KR-GOAL-EMP-000009-005-02,GOAL-EMP-000009-005,Lift quality score for: raise customer satisfaction,score,score (1-5),increase,3.3,4.0,0.3,3.57,38.57,38.57,,120.0
+KR-GOAL-EMP-000009-005-03,GOAL-EMP-000009-005,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,2.9,3.5,0.2,3.13,38.33,38.33,,120.0
+KR-GOAL-EMP-000010-002-01,GOAL-EMP-000010-002,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,220000,0.6,43800,19.91,19.91,,120.0
+KR-GOAL-EMP-000010-002-02,GOAL-EMP-000010-002,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,37.0,26.1,0.4,34.7,21.1,21.1,,120.0
+KR-GOAL-EMP-000011-002-01,GOAL-EMP-000011-002,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,55.0,43.6,0.5,52.7,20.18,20.18,,120.0
+KR-GOAL-EMP-000011-002-02,GOAL-EMP-000011-002,Raise rate for: reduce release cycle time,percentage,%,increase,39.3,71.3,0.5,45.2,18.44,18.44,,120.0
+KR-GOAL-EMP-000011-003-01,GOAL-EMP-000011-003,Achieve value for: improve service reliability,currency_usd,USD,increase,0,181000,1.0,48700,26.91,26.91,,120.0
+KR-GOAL-EMP-000012-002-01,GOAL-EMP-000012-002,Achieve value for: increase renewal rate,currency_usd,USD,increase,0,354000,0.5,194800,55.03,55.03,,120.0
+KR-GOAL-EMP-000012-002-02,GOAL-EMP-000012-002,Reduce error rate for: increase renewal rate,defect_rate_pct,%,decrease,9.87,5.27,0.5,7.73,46.52,46.52,,120.0
+KR-GOAL-EMP-000012-003-01,GOAL-EMP-000012-003,Lift quality score for: increase renewal rate,score,score (1-5),increase,3.2,3.9,0.4,3.61,58.57,58.57,,120.0
+KR-GOAL-EMP-000012-003-02,GOAL-EMP-000012-003,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,24.0,13.0,0.3,17.5,59.09,59.09,,120.0
+KR-GOAL-EMP-000012-003-03,GOAL-EMP-000012-003,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,53.0,35.4,0.3,41.8,63.64,63.64,,120.0
+KR-GOAL-EMP-000013-002-01,GOAL-EMP-000013-002,Raise rate for: reduce process defects,percentage,%,increase,12.9,58.8,0.6,41.0,61.22,61.22,,120.0
+KR-GOAL-EMP-000013-002-02,GOAL-EMP-000013-002,Achieve value for: lower operating cost per unit,currency_usd,USD,increase,0,68000,0.4,14300,21.03,21.03,,120.0
+KR-GOAL-EMP-000013-003-01,GOAL-EMP-000013-003,Raise rate for: cut order fulfilment time,percentage,%,increase,24.6,79.0,0.5,52.9,52.02,52.02,,120.0
+KR-GOAL-EMP-000013-003-02,GOAL-EMP-000013-003,Lift quality score for: cut order fulfilment time,score,score (1-5),increase,3.7,4.3,0.5,4.1,66.67,66.67,,120.0
+KR-GOAL-EMP-000013-004-01,GOAL-EMP-000013-004,Reduce cycle time for: improve vendor on-time delivery,duration_days,days,decrease,24.0,16.5,0.4,22.3,22.67,22.67,,120.0
+KR-GOAL-EMP-000013-004-02,GOAL-EMP-000013-004,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,549000,0.3,45500,8.29,8.29,,120.0
+KR-GOAL-EMP-000013-004-03,GOAL-EMP-000013-004,Deliver items for: reduce process defects,count,count,increase,4,59,0.3,9,9.09,9.09,,120.0
+KR-GOAL-EMP-000014-002-01,GOAL-EMP-000014-002,Deliver items for: strengthen content programme,count,count,increase,7,50,1.0,23,37.21,37.21,,120.0
+KR-GOAL-EMP-000014-003-01,GOAL-EMP-000014-003,Deliver items for: improve campaign conversion,count,count,increase,13,100,0.5,43,34.48,34.48,,120.0
+KR-GOAL-EMP-000014-003-02,GOAL-EMP-000014-003,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,297000,0.5,84800,28.55,28.55,,120.0
+KR-GOAL-EMP-000015-005-01,GOAL-EMP-000015-005,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,379000,0.6,186900,49.31,49.31,,120.0
+KR-GOAL-EMP-000015-005-02,GOAL-EMP-000015-005,Reduce error rate for: grow qualified leads,defect_rate_pct,%,decrease,10.69,7.29,0.4,8.65,60.0,60.0,,120.0
+KR-GOAL-EMP-000015-006-01,GOAL-EMP-000015-006,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,46.0,29.6,0.6,46.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000015-006-02,GOAL-EMP-000015-006,Lift quality score for: grow qualified leads,score,score (1-5),increase,3.1,3.9,0.4,3.1,0.0,0.0,,120.0
+KR-GOAL-EMP-000015-007-01,GOAL-EMP-000015-007,Achieve value for: strengthen content programme,currency_usd,USD,increase,0,217000,0.5,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000015-007-02,GOAL-EMP-000015-007,Lift quality score for: strengthen content programme,score,score (1-5),increase,2.9,3.7,0.5,2.9,0.0,0.0,,120.0
+KR-GOAL-EMP-000015-008-01,GOAL-EMP-000015-008,Raise rate for: improve campaign conversion,percentage,%,increase,8.5,60.9,0.6,33.1,46.95,46.95,,120.0
+KR-GOAL-EMP-000015-008-02,GOAL-EMP-000015-008,Deliver items for: improve campaign conversion,count,count,increase,18,137,0.4,86,57.14,57.14,,120.0
+KR-GOAL-EMP-000016-002-01,GOAL-EMP-000016-002,Raise rate for: reduce release cycle time,percentage,%,increase,17.2,47.2,0.6,28.5,37.67,37.67,,120.0
+KR-GOAL-EMP-000016-002-02,GOAL-EMP-000016-002,Achieve value for: improve service reliability,currency_usd,USD,increase,0,392000,0.4,143200,36.53,36.53,,120.0
+KR-GOAL-EMP-000017-003-01,GOAL-EMP-000017-003,Deliver items for: reduce release cycle time,count,count,increase,18,78,0.5,60,70.0,70.0,,120.0
+KR-GOAL-EMP-000017-003-02,GOAL-EMP-000017-003,Achieve value for: improve service reliability,currency_usd,USD,increase,0,537000,0.5,376500,70.11,70.11,,120.0
+KR-GOAL-EMP-000018-003-01,GOAL-EMP-000018-003,Reduce error rate for: improve onboarding completion,defect_rate_pct,%,decrease,11.57,5.42,0.5,9.99,25.69,25.69,,120.0
+KR-GOAL-EMP-000018-003-02,GOAL-EMP-000018-003,Deliver items for: reduce ticket resolution time,count,count,increase,3,36,0.3,10,21.21,21.21,,120.0
+KR-GOAL-EMP-000018-003-03,GOAL-EMP-000018-003,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.2,4.1,0.2,3.53,36.67,36.67,,120.0
+KR-GOAL-EMP-000018-004-01,GOAL-EMP-000018-004,Achieve value for: raise customer satisfaction,currency_usd,USD,increase,0,491000,1.0,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000019-002-01,GOAL-EMP-000019-002,Deliver items for: improve vendor on-time delivery,count,count,increase,12,183,0.4,120,63.16,63.16,,120.0
+KR-GOAL-EMP-000019-002-02,GOAL-EMP-000019-002,Reduce cycle time for: lower operating cost per unit,duration_days,days,decrease,30.0,21.6,0.3,22.2,92.86,92.86,,120.0
+KR-GOAL-EMP-000019-002-03,GOAL-EMP-000019-002,Reduce cycle time for: improve vendor on-time delivery,duration_days,days,decrease,37.0,21.7,0.3,27.9,59.48,59.48,,120.0
+KR-GOAL-EMP-000020-003-01,GOAL-EMP-000020-003,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,10.24,6.83,0.4,9.81,12.61,12.61,,120.0
+KR-GOAL-EMP-000020-003-02,GOAL-EMP-000020-003,Raise rate for: improve customer research cadence,percentage,%,increase,35.9,52.8,0.3,38.4,14.79,14.79,,120.0
+KR-GOAL-EMP-000020-003-03,GOAL-EMP-000020-003,Deliver items for: raise product quality score,count,count,increase,0,143,0.3,36,25.17,25.17,,120.0
+KR-GOAL-EMP-000021-004-01,GOAL-EMP-000021-004,Raise rate for: raise customer satisfaction,percentage,%,increase,23.7,47.2,1.0,28.6,20.85,20.85,,120.0
+KR-GOAL-EMP-000022-003-01,GOAL-EMP-000022-003,Raise rate for: increase feature adoption,percentage,%,increase,26.7,60.4,0.5,43.7,50.45,50.45,,120.0
+KR-GOAL-EMP-000022-003-02,GOAL-EMP-000022-003,Deliver items for: ship the planned roadmap features,count,count,increase,19,213,0.5,89,36.08,36.08,,120.0
+KR-GOAL-EMP-000023-004-01,GOAL-EMP-000023-004,Reduce cycle time for: improve onboarding satisfaction,duration_days,days,decrease,33.0,22.3,0.6,30.0,28.04,28.04,,120.0
+KR-GOAL-EMP-000023-004-02,GOAL-EMP-000023-004,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,55.0,38.0,0.4,50.0,29.41,29.41,,120.0
+KR-GOAL-EMP-000024-002-01,GOAL-EMP-000024-002,Reduce error rate for: raise automated test coverage,defect_rate_pct,%,decrease,9.46,4.21,0.4,5.33,78.67,78.67,,120.0
+KR-GOAL-EMP-000024-002-02,GOAL-EMP-000024-002,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.5,4.0,0.3,3.69,38.0,38.0,,120.0
+KR-GOAL-EMP-000024-002-03,GOAL-EMP-000024-002,Reduce cycle time for: retire legacy components,duration_days,days,decrease,58.0,31.2,0.3,39.8,67.91,67.91,,120.0
+KR-GOAL-EMP-000025-002-01,GOAL-EMP-000025-002,Lift quality score for: retire legacy components,score,score (1-5),increase,3.2,4.1,1.0,3.43,25.56,25.56,,120.0
+KR-GOAL-EMP-000026-003-01,GOAL-EMP-000026-003,Deliver items for: lower operating cost per unit,count,count,increase,11,85,1.0,27,21.62,21.62,,120.0
+KR-GOAL-EMP-000027-003-01,GOAL-EMP-000027-003,Achieve value for: improve service reliability,currency_usd,USD,increase,0,74000,0.5,68000,91.89,91.89,,120.0
+KR-GOAL-EMP-000027-003-02,GOAL-EMP-000027-003,Deliver items for: reduce release cycle time,count,count,increase,12,204,0.5,157,75.52,75.52,,120.0
+KR-GOAL-EMP-000028-002-01,GOAL-EMP-000028-002,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,7.02,3.26,0.4,4.34,71.28,71.28,,120.0
+KR-GOAL-EMP-000028-002-02,GOAL-EMP-000028-002,Reduce cycle time for: ship the planned roadmap features,duration_days,days,decrease,24.0,18.5,0.3,22.1,34.55,34.55,,120.0
+KR-GOAL-EMP-000028-002-03,GOAL-EMP-000028-002,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,39.0,27.1,0.3,30.4,72.27,72.27,,120.0
+KR-GOAL-EMP-000028-003-01,GOAL-EMP-000028-003,Lift quality score for: ship the planned roadmap features,score,score (1-5),increase,3.8,4.8,0.5,4.55,75.0,75.0,,120.0
+KR-GOAL-EMP-000028-003-02,GOAL-EMP-000028-003,Raise rate for: raise product quality score,percentage,%,increase,18.6,42.0,0.5,29.5,46.58,46.58,,120.0
+KR-GOAL-EMP-000029-002-01,GOAL-EMP-000029-002,Deliver items for: ship the planned roadmap features,count,count,increase,11,120,0.5,35,22.02,22.02,,120.0
+KR-GOAL-EMP-000029-002-02,GOAL-EMP-000029-002,Deliver items for: ship the planned roadmap features,count,count,increase,17,154,0.3,55,27.74,27.74,,120.0
+KR-GOAL-EMP-000029-002-03,GOAL-EMP-000029-002,Raise rate for: improve customer research cadence,percentage,%,increase,36.6,53.1,0.2,42.1,33.33,33.33,,120.0
+KR-GOAL-EMP-000029-003-01,GOAL-EMP-000029-003,Achieve value for: ship the planned roadmap features,currency_usd,USD,increase,0,28000,1.0,9800,35.0,35.0,,120.0
+KR-GOAL-EMP-000030-004-01,GOAL-EMP-000030-004,Deliver items for: raise training completion,count,count,increase,20,177,0.6,62,26.75,26.75,,120.0
+KR-GOAL-EMP-000030-004-02,GOAL-EMP-000030-004,Achieve value for: reduce time to hire,currency_usd,USD,increase,0,195000,0.4,85300,43.74,43.74,,120.0
+KR-GOAL-EMP-000031-003-01,GOAL-EMP-000031-003,Raise rate for: raise training completion,percentage,%,increase,3.1,51.7,1.0,45.5,87.24,87.24,,120.0
+KR-GOAL-EMP-000032-002-01,GOAL-EMP-000032-002,Raise rate for: automate recurring reporting,percentage,%,increase,37.5,92.0,1.0,51.5,25.69,25.69,,120.0
+KR-GOAL-EMP-000032-003-01,GOAL-EMP-000032-003,Lift quality score for: automate recurring reporting,score,score (1-5),increase,3.4,4.1,0.6,3.59,27.14,27.14,,120.0
+KR-GOAL-EMP-000032-003-02,GOAL-EMP-000032-003,Reduce cycle time for: automate recurring reporting,duration_days,days,decrease,56.0,34.5,0.4,46.8,42.79,42.79,,120.0
+KR-GOAL-EMP-000033-002-01,GOAL-EMP-000033-002,Deliver items for: reduce release cycle time,count,count,increase,4,123,0.6,17,10.92,10.92,,120.0
+KR-GOAL-EMP-000033-002-02,GOAL-EMP-000033-002,Deliver items for: improve service reliability,count,count,increase,11,75,0.4,16,7.81,7.81,,120.0
+KR-GOAL-EMP-000034-002-01,GOAL-EMP-000034-002,Deliver items for: increase feature adoption,count,count,increase,16,87,0.5,30,19.72,19.72,,120.0
+KR-GOAL-EMP-000034-002-02,GOAL-EMP-000034-002,Lift quality score for: raise product quality score,score,score (1-5),increase,3.3,3.8,0.3,3.41,22.0,22.0,,120.0
+KR-GOAL-EMP-000034-002-03,GOAL-EMP-000034-002,Lift quality score for: raise product quality score,score,score (1-5),increase,3.5,4.2,0.2,3.59,12.86,12.86,,120.0
+KR-GOAL-EMP-000034-003-01,GOAL-EMP-000034-003,Deliver items for: increase feature adoption,count,count,increase,6,53,0.5,18,25.53,25.53,,120.0
+KR-GOAL-EMP-000034-003-02,GOAL-EMP-000034-003,Lift quality score for: ship the planned roadmap features,score,score (1-5),increase,2.9,3.7,0.5,3.18,35.0,35.0,,120.0
+KR-GOAL-EMP-000035-004-01,GOAL-EMP-000035-004,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,23.0,16.6,1.0,21.6,21.87,21.87,,120.0
+KR-GOAL-EMP-000035-005-01,GOAL-EMP-000035-005,Raise rate for: increase renewal rate,percentage,%,increase,28.4,72.3,0.5,53.7,57.63,57.63,,120.0
+KR-GOAL-EMP-000035-005-02,GOAL-EMP-000035-005,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,5.63,2.76,0.3,3.67,68.29,68.29,,120.0
+KR-GOAL-EMP-000035-005-03,GOAL-EMP-000035-005,Raise rate for: reduce ticket resolution time,percentage,%,increase,14.0,47.3,0.2,25.2,33.63,33.63,,120.0
+KR-GOAL-EMP-000036-002-01,GOAL-EMP-000036-002,Lift quality score for: improve customer research cadence,score,score (1-5),increase,2.9,3.5,0.6,3.33,71.67,71.67,,120.0
+KR-GOAL-EMP-000036-002-02,GOAL-EMP-000036-002,Deliver items for: ship the planned roadmap features,count,count,increase,2,117,0.4,54,45.22,45.22,,120.0
+KR-GOAL-EMP-000037-002-01,GOAL-EMP-000037-002,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,158000,1.0,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000038-003-01,GOAL-EMP-000038-003,Lift quality score for: shorten month-end close,score,score (1-5),increase,3.7,4.6,0.5,3.83,14.44,14.44,,120.0
+KR-GOAL-EMP-000038-003-02,GOAL-EMP-000038-003,Raise rate for: automate recurring reporting,percentage,%,increase,33.8,50.2,0.5,38.1,26.22,26.22,,120.0
+KR-GOAL-EMP-000039-003-01,GOAL-EMP-000039-003,Reduce cycle time for: reduce outstanding receivables,duration_days,days,decrease,44.0,22.1,1.0,41.6,10.96,10.96,,120.0
+KR-GOAL-EMP-000040-002-01,GOAL-EMP-000040-002,Reduce error rate for: lower operating cost per unit,defect_rate_pct,%,decrease,11.58,6.99,0.6,11.58,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000040-002-02,GOAL-EMP-000040-002,Lift quality score for: improve vendor on-time delivery,score,score (1-5),increase,3.3,4.2,0.4,3.3,0.0,0.0,,120.0
+KR-GOAL-EMP-000041-003-01,GOAL-EMP-000041-003,Lift quality score for: improve customer research cadence,score,score (1-5),increase,3.1,3.8,0.6,3.1,0.0,0.0,,120.0
+KR-GOAL-EMP-000041-003-02,GOAL-EMP-000041-003,Achieve value for: improve customer research cadence,currency_usd,USD,increase,0,381000,0.4,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000041-004-01,GOAL-EMP-000041-004,Achieve value for: improve customer research cadence,currency_usd,USD,increase,0,161000,0.4,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000041-004-02,GOAL-EMP-000041-004,Reduce cycle time for: increase feature adoption,duration_days,days,decrease,37.0,26.6,0.3,37.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000041-004-03,GOAL-EMP-000041-004,Deliver items for: improve customer research cadence,count,count,increase,15,97,0.3,15,0.0,0.0,,120.0
+KR-GOAL-EMP-000041-005-01,GOAL-EMP-000041-005,Lift quality score for: raise product quality score,score,score (1-5),increase,3.2,4.0,1.0,3.4,25.0,25.0,,120.0
+KR-GOAL-EMP-000042-003-01,GOAL-EMP-000042-003,Reduce error rate for: increase feature adoption,defect_rate_pct,%,decrease,11.41,6.69,1.0,9.92,31.57,31.57,,120.0
+KR-GOAL-EMP-000042-004-01,GOAL-EMP-000042-004,Achieve value for: improve customer research cadence,currency_usd,USD,increase,0,363000,0.5,147700,40.69,40.69,,120.0
+KR-GOAL-EMP-000042-004-02,GOAL-EMP-000042-004,Lift quality score for: ship the planned roadmap features,score,score (1-5),increase,3.5,4.3,0.5,3.75,31.25,31.25,,120.0
+KR-GOAL-EMP-000043-002-01,GOAL-EMP-000043-002,Deliver items for: improve campaign conversion,count,count,increase,13,95,0.4,18,6.1,6.1,,120.0
+KR-GOAL-EMP-000043-002-02,GOAL-EMP-000043-002,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,9.46,6.22,0.3,9.25,6.48,6.48,,120.0
+KR-GOAL-EMP-000043-002-03,GOAL-EMP-000043-002,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,43000,0.3,3700,8.6,8.6,,120.0
+KR-GOAL-EMP-000043-003-01,GOAL-EMP-000043-003,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,438000,1.0,383200,87.49,87.49,,120.0
+KR-GOAL-EMP-000044-005-01,GOAL-EMP-000044-005,Reduce error rate for: increase brand engagement,defect_rate_pct,%,decrease,8.49,5.09,0.5,7.15,39.41,39.41,,120.0
+KR-GOAL-EMP-000044-005-02,GOAL-EMP-000044-005,Lift quality score for: increase brand engagement,score,score (1-5),increase,3.6,4.5,0.5,3.89,32.22,32.22,,120.0
+KR-GOAL-EMP-000045-003-01,GOAL-EMP-000045-003,Lift quality score for: grow qualified leads,score,score (1-5),increase,2.9,3.7,1.0,3.15,31.25,31.25,,120.0
+KR-GOAL-EMP-000046-002-01,GOAL-EMP-000046-002,Raise rate for: improve campaign conversion,percentage,%,increase,12.8,36.5,0.6,22.0,38.82,38.82,,120.0
+KR-GOAL-EMP-000046-002-02,GOAL-EMP-000046-002,Reduce error rate for: increase brand engagement,defect_rate_pct,%,decrease,11.49,7.67,0.4,8.41,80.63,80.63,,120.0
+KR-GOAL-EMP-000047-004-01,GOAL-EMP-000047-004,Lift quality score for: lower operating cost per unit,score,score (1-5),increase,3.2,3.8,0.6,3.33,21.67,21.67,,120.0
+KR-GOAL-EMP-000047-004-02,GOAL-EMP-000047-004,Deliver items for: lower operating cost per unit,count,count,increase,2,118,0.4,35,28.45,28.45,,120.0
+KR-GOAL-EMP-000047-005-01,GOAL-EMP-000047-005,Reduce cycle time for: lower operating cost per unit,duration_days,days,decrease,30.0,22.4,0.6,27.8,28.95,28.95,,120.0
+KR-GOAL-EMP-000047-005-02,GOAL-EMP-000047-005,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,5.72,3.25,0.4,5.61,4.45,4.45,,120.0
+KR-GOAL-EMP-000047-006-01,GOAL-EMP-000047-006,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,293000,1.0,31000,10.58,10.58,,120.0
+KR-GOAL-EMP-000048-003-01,GOAL-EMP-000048-003,Reduce cycle time for: reduce process defects,duration_days,days,decrease,49.0,37.8,1.0,39.6,83.93,83.93,,120.0
+KR-GOAL-EMP-000048-004-01,GOAL-EMP-000048-004,Deliver items for: lower operating cost per unit,count,count,increase,9,147,1.0,65,40.58,40.58,,120.0
+KR-GOAL-EMP-000048-005-01,GOAL-EMP-000048-005,Deliver items for: improve vendor on-time delivery,count,count,increase,13,147,0.6,82,51.49,51.49,,120.0
+KR-GOAL-EMP-000048-005-02,GOAL-EMP-000048-005,Reduce cycle time for: reduce process defects,duration_days,days,decrease,20.0,15.0,0.4,17.8,44.0,44.0,,120.0
+KR-GOAL-EMP-000049-003-01,GOAL-EMP-000049-003,Raise rate for: shorten month-end close,percentage,%,increase,13.9,64.3,0.6,29.1,30.16,30.16,,120.0
+KR-GOAL-EMP-000049-003-02,GOAL-EMP-000049-003,Lift quality score for: automate recurring reporting,score,score (1-5),increase,2.8,3.3,0.4,3.01,42.0,42.0,,120.0
+KR-GOAL-EMP-000049-004-01,GOAL-EMP-000049-004,Raise rate for: automate recurring reporting,percentage,%,increase,14.0,36.9,0.5,26.9,56.33,56.33,,120.0
+KR-GOAL-EMP-000049-004-02,GOAL-EMP-000049-004,Lift quality score for: improve forecast accuracy,score,score (1-5),increase,3.8,4.5,0.5,4.3,71.43,71.43,,120.0
+KR-GOAL-EMP-000050-003-01,GOAL-EMP-000050-003,Deliver items for: raise automated test coverage,count,count,increase,11,121,0.5,57,41.82,41.82,,120.0
+KR-GOAL-EMP-000050-003-02,GOAL-EMP-000050-003,Deliver items for: retire legacy components,count,count,increase,1,182,0.5,114,62.43,62.43,,120.0
+KR-GOAL-EMP-000051-003-01,GOAL-EMP-000051-003,Lift quality score for: raise product quality score,score,score (1-5),increase,3.4,4.0,0.5,3.71,51.67,51.67,,120.0
+KR-GOAL-EMP-000051-003-02,GOAL-EMP-000051-003,Lift quality score for: increase feature adoption,score,score (1-5),increase,3.2,3.9,0.3,3.57,52.86,52.86,,120.0
+KR-GOAL-EMP-000051-003-03,GOAL-EMP-000051-003,Reduce error rate for: improve customer research cadence,defect_rate_pct,%,decrease,8.48,4.65,0.2,6.82,43.34,43.34,,120.0
+KR-GOAL-EMP-000052-002-01,GOAL-EMP-000052-002,Reduce cycle time for: raise automated test coverage,duration_days,days,decrease,26.0,17.2,1.0,22.9,35.23,35.23,,120.0
+KR-GOAL-EMP-000053-003-01,GOAL-EMP-000053-003,Deliver items for: ship the planned roadmap features,count,count,increase,19,65,0.5,49,65.22,65.22,,120.0
+KR-GOAL-EMP-000053-003-02,GOAL-EMP-000053-003,Raise rate for: raise product quality score,percentage,%,increase,10.5,57.7,0.5,39.4,61.23,61.23,,120.0
+KR-GOAL-EMP-000053-004-01,GOAL-EMP-000053-004,Deliver items for: ship the planned roadmap features,count,count,increase,20,50,1.0,36,53.33,53.33,,120.0
+KR-GOAL-EMP-000054-003-01,GOAL-EMP-000054-003,Lift quality score for: increase feature adoption,score,score (1-5),increase,3.1,4.0,0.6,3.43,36.67,36.67,,120.0
+KR-GOAL-EMP-000054-003-02,GOAL-EMP-000054-003,Raise rate for: ship the planned roadmap features,percentage,%,increase,21.3,68.3,0.4,39.1,37.87,37.87,,120.0
+KR-GOAL-EMP-000054-004-01,GOAL-EMP-000054-004,Achieve value for: ship the planned roadmap features,currency_usd,USD,increase,0,153000,0.5,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000054-004-02,GOAL-EMP-000054-004,Raise rate for: raise product quality score,percentage,%,increase,31.3,63.2,0.5,31.3,0.0,0.0,,120.0
+KR-GOAL-EMP-000055-002-01,GOAL-EMP-000055-002,Deliver items for: increase renewal rate,count,count,increase,1,54,0.5,28,50.94,50.94,,120.0
+KR-GOAL-EMP-000055-002-02,GOAL-EMP-000055-002,Deliver items for: reduce ticket resolution time,count,count,increase,11,144,0.5,59,36.09,36.09,,120.0
+KR-GOAL-EMP-000056-002-01,GOAL-EMP-000056-002,Lift quality score for: improve customer research cadence,score,score (1-5),increase,3.0,3.5,0.5,3.33,66.0,66.0,,120.0
+KR-GOAL-EMP-000056-002-02,GOAL-EMP-000056-002,Reduce cycle time for: improve customer research cadence,duration_days,days,decrease,29.0,15.2,0.5,24.8,30.43,30.43,,120.0
+KR-GOAL-EMP-000057-002-01,GOAL-EMP-000057-002,Achieve value for: ship the planned roadmap features,currency_usd,USD,increase,0,554000,1.0,115100,20.78,20.78,,120.0
+KR-GOAL-EMP-000057-003-01,GOAL-EMP-000057-003,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,11.5,5.83,0.6,9.36,37.74,37.74,,120.0
+KR-GOAL-EMP-000057-003-02,GOAL-EMP-000057-003,Reduce error rate for: raise product quality score,defect_rate_pct,%,decrease,10.61,5.35,0.4,8.76,35.17,35.17,,120.0
+KR-GOAL-EMP-000058-002-01,GOAL-EMP-000058-002,Deliver items for: raise automated test coverage,count,count,increase,8,89,0.6,15,8.64,8.64,,120.0
+KR-GOAL-EMP-000058-002-02,GOAL-EMP-000058-002,Reduce cycle time for: improve service reliability,duration_days,days,decrease,34.0,22.4,0.4,32.1,16.38,16.38,,120.0
+KR-GOAL-EMP-000058-003-01,GOAL-EMP-000058-003,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,5.45,3.09,0.5,4.39,44.92,44.92,,120.0
+KR-GOAL-EMP-000058-003-02,GOAL-EMP-000058-003,Deliver items for: improve service reliability,count,count,increase,17,31,0.3,23,42.86,42.86,,120.0
+KR-GOAL-EMP-000058-003-03,GOAL-EMP-000058-003,Deliver items for: reduce release cycle time,count,count,increase,15,119,0.2,75,57.69,57.69,,120.0
+KR-GOAL-EMP-000058-004-01,GOAL-EMP-000058-004,Reduce cycle time for: raise automated test coverage,duration_days,days,decrease,23.0,16.5,0.5,23.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000058-004-02,GOAL-EMP-000058-004,Raise rate for: retire legacy components,percentage,%,increase,24.3,75.4,0.3,24.3,0.0,0.0,,120.0
+KR-GOAL-EMP-000058-004-03,GOAL-EMP-000058-004,Raise rate for: reduce release cycle time,percentage,%,increase,28.2,46.3,0.2,28.2,0.0,0.0,,120.0
+KR-GOAL-EMP-000058-005-01,GOAL-EMP-000058-005,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,81000,0.5,48300,59.63,59.63,,120.0
+KR-GOAL-EMP-000058-005-02,GOAL-EMP-000058-005,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,167000,0.5,88400,52.93,52.93,,120.0
+KR-GOAL-EMP-000059-002-01,GOAL-EMP-000059-002,Achieve value for: reduce process defects,currency_usd,USD,increase,0,169000,1.0,47200,27.93,27.93,,120.0
+KR-GOAL-EMP-000059-003-01,GOAL-EMP-000059-003,Reduce error rate for: cut order fulfilment time,defect_rate_pct,%,decrease,6.82,4.16,0.6,4.94,70.68,70.68,,120.0
+KR-GOAL-EMP-000059-003-02,GOAL-EMP-000059-003,Reduce error rate for: reduce process defects,defect_rate_pct,%,decrease,5.87,3.48,0.4,4.46,59.0,59.0,,120.0
+KR-GOAL-EMP-000060-004-01,GOAL-EMP-000060-004,Reduce error rate for: reduce process defects,defect_rate_pct,%,decrease,11.2,5.41,0.6,11.2,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000060-004-02,GOAL-EMP-000060-004,Raise rate for: cut order fulfilment time,percentage,%,increase,3.4,51.2,0.4,3.4,0.0,0.0,,120.0
+KR-GOAL-EMP-000061-002-01,GOAL-EMP-000061-002,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,60000,0.5,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000061-002-02,GOAL-EMP-000061-002,Raise rate for: improve campaign conversion,percentage,%,increase,29.5,79.3,0.3,29.5,0.0,0.0,,120.0
+KR-GOAL-EMP-000061-002-03,GOAL-EMP-000061-002,Raise rate for: increase brand engagement,percentage,%,increase,8.8,50.4,0.2,8.8,0.0,0.0,,120.0
+KR-GOAL-EMP-000061-003-01,GOAL-EMP-000061-003,Raise rate for: increase brand engagement,percentage,%,increase,5.7,24.9,0.5,16.4,55.73,55.73,,120.0
+KR-GOAL-EMP-000061-003-02,GOAL-EMP-000061-003,Lift quality score for: increase brand engagement,score,score (1-5),increase,2.8,3.7,0.3,3.44,71.11,71.11,,120.0
+KR-GOAL-EMP-000061-003-03,GOAL-EMP-000061-003,Raise rate for: increase brand engagement,percentage,%,increase,29.0,69.5,0.2,49.5,50.62,50.62,,120.0
+KR-GOAL-EMP-000062-003-01,GOAL-EMP-000062-003,Deliver items for: raise customer satisfaction,count,count,increase,5,135,1.0,29,18.46,18.46,,120.0
+KR-GOAL-EMP-000062-004-01,GOAL-EMP-000062-004,Raise rate for: increase renewal rate,percentage,%,increase,20.3,66.4,0.4,46.7,57.27,57.27,,120.0
+KR-GOAL-EMP-000062-004-02,GOAL-EMP-000062-004,Lift quality score for: increase renewal rate,score,score (1-5),increase,3.0,3.6,0.3,3.29,48.33,48.33,,120.0
+KR-GOAL-EMP-000062-004-03,GOAL-EMP-000062-004,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,176000,0.3,73900,41.99,41.99,,120.0
+KR-GOAL-EMP-000063-003-01,GOAL-EMP-000063-003,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,8.94,3.95,1.0,5.88,61.32,61.32,,120.0
+KR-GOAL-EMP-000064-002-01,GOAL-EMP-000064-002,Raise rate for: raise automated test coverage,percentage,%,increase,5.4,43.1,1.0,29.8,64.72,64.72,,120.0
+KR-GOAL-EMP-000064-003-01,GOAL-EMP-000064-003,Lift quality score for: retire legacy components,score,score (1-5),increase,3.1,4.0,1.0,3.77,74.44,74.44,,120.0
+KR-GOAL-EMP-000065-004-01,GOAL-EMP-000065-004,Lift quality score for: ship the planned roadmap features,score,score (1-5),increase,2.9,3.8,0.6,3.1,22.22,22.22,,120.0
+KR-GOAL-EMP-000065-004-02,GOAL-EMP-000065-004,Deliver items for: increase feature adoption,count,count,increase,12,119,0.4,24,11.21,11.21,,120.0
+KR-GOAL-EMP-000066-003-01,GOAL-EMP-000066-003,Raise rate for: expand key accounts,percentage,%,increase,39.9,65.0,1.0,44.0,16.33,16.33,,120.0
+KR-GOAL-EMP-000067-003-01,GOAL-EMP-000067-003,Deliver items for: improve onboarding satisfaction,count,count,increase,15,100,0.5,15,0.0,0.0,,120.0
+KR-GOAL-EMP-000067-003-02,GOAL-EMP-000067-003,Achieve value for: raise training completion,currency_usd,USD,increase,0,149000,0.5,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000067-004-01,GOAL-EMP-000067-004,Deliver items for: improve retention in critical roles,count,count,increase,18,38,0.6,22,20.0,20.0,,120.0
+KR-GOAL-EMP-000067-004-02,GOAL-EMP-000067-004,Deliver items for: improve retention in critical roles,count,count,increase,8,82,0.4,43,47.3,47.3,,120.0
+KR-GOAL-EMP-000068-003-01,GOAL-EMP-000068-003,Raise rate for: ship the planned roadmap features,percentage,%,increase,34.5,60.6,0.5,43.8,35.63,35.63,,120.0
+KR-GOAL-EMP-000068-003-02,GOAL-EMP-000068-003,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,589000,0.3,252500,42.87,42.87,,120.0
+KR-GOAL-EMP-000068-003-03,GOAL-EMP-000068-003,Lift quality score for: raise product quality score,score,score (1-5),increase,3.0,4.0,0.2,3.47,47.0,47.0,,120.0
+KR-GOAL-EMP-000069-003-01,GOAL-EMP-000069-003,Deliver items for: raise automated test coverage,count,count,increase,16,102,1.0,37,24.42,24.42,,120.0
+KR-GOAL-EMP-000069-004-01,GOAL-EMP-000069-004,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,9.91,4.37,0.4,9.91,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000069-004-02,GOAL-EMP-000069-004,Raise rate for: reduce release cycle time,percentage,%,increase,19.9,55.6,0.3,19.9,0.0,0.0,,120.0
+KR-GOAL-EMP-000069-004-03,GOAL-EMP-000069-004,Achieve value for: retire legacy components,currency_usd,USD,increase,0,575000,0.3,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000069-005-01,GOAL-EMP-000069-005,Reduce cycle time for: retire legacy components,duration_days,days,decrease,31.0,16.1,0.5,22.3,58.39,58.39,,120.0
+KR-GOAL-EMP-000069-005-02,GOAL-EMP-000069-005,Raise rate for: raise automated test coverage,percentage,%,increase,16.5,41.6,0.3,27.4,43.43,43.43,,120.0
+KR-GOAL-EMP-000069-005-03,GOAL-EMP-000069-005,Deliver items for: improve service reliability,count,count,increase,6,187,0.2,127,66.85,66.85,,120.0
+KR-GOAL-EMP-000070-002-01,GOAL-EMP-000070-002,Reduce cycle time for: automate recurring reporting,duration_days,days,decrease,35.0,22.5,0.4,31.0,32.0,32.0,,120.0
+KR-GOAL-EMP-000070-002-02,GOAL-EMP-000070-002,Raise rate for: reduce outstanding receivables,percentage,%,increase,8.2,30.4,0.3,13.8,25.23,25.23,,120.0
+KR-GOAL-EMP-000070-002-03,GOAL-EMP-000070-002,Deliver items for: shorten month-end close,count,count,increase,19,61,0.3,37,42.86,42.86,,120.0
+KR-GOAL-EMP-000071-003-01,GOAL-EMP-000071-003,Reduce cycle time for: increase renewal rate,duration_days,days,decrease,56.0,31.4,0.5,37.0,77.24,77.24,,120.0
+KR-GOAL-EMP-000071-003-02,GOAL-EMP-000071-003,Achieve value for: increase renewal rate,currency_usd,USD,increase,0,123000,0.5,79500,64.63,64.63,,120.0
+KR-GOAL-EMP-000071-004-01,GOAL-EMP-000071-004,Lift quality score for: improve onboarding completion,score,score (1-5),increase,3.6,4.3,0.6,3.99,55.71,55.71,,120.0
+KR-GOAL-EMP-000071-004-02,GOAL-EMP-000071-004,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,30.0,18.9,0.4,21.0,81.08,81.08,,120.0
+KR-GOAL-EMP-000072-002-01,GOAL-EMP-000072-002,Deliver items for: improve vendor on-time delivery,count,count,increase,0,138,1.0,43,31.16,31.16,,120.0
+KR-GOAL-EMP-000073-003-01,GOAL-EMP-000073-003,Lift quality score for: increase renewal rate,score,score (1-5),increase,3.6,4.3,0.4,4.04,62.86,62.86,,120.0
+KR-GOAL-EMP-000073-003-02,GOAL-EMP-000073-003,Reduce error rate for: increase renewal rate,defect_rate_pct,%,decrease,10.37,4.48,0.3,9.13,21.05,21.05,,120.0
+KR-GOAL-EMP-000073-003-03,GOAL-EMP-000073-003,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,40.0,30.8,0.3,36.8,34.78,34.78,,120.0
+KR-GOAL-EMP-000073-004-01,GOAL-EMP-000073-004,Reduce cycle time for: increase renewal rate,duration_days,days,decrease,41.0,29.7,1.0,37.0,35.4,35.4,,120.0
+KR-GOAL-EMP-000074-002-01,GOAL-EMP-000074-002,Raise rate for: strengthen content programme,percentage,%,increase,11.5,48.2,1.0,28.2,45.5,45.5,,120.0
+KR-GOAL-EMP-000075-003-01,GOAL-EMP-000075-003,Deliver items for: strengthen content programme,count,count,increase,4,112,1.0,49,41.67,41.67,,120.0
+KR-GOAL-EMP-000076-002-01,GOAL-EMP-000076-002,Deliver items for: raise product quality score,count,count,increase,13,57,0.5,22,20.45,20.45,,120.0
+KR-GOAL-EMP-000076-002-02,GOAL-EMP-000076-002,Raise rate for: raise product quality score,percentage,%,increase,20.4,67.6,0.5,37.2,35.59,35.59,,120.0
+KR-GOAL-EMP-000077-002-01,GOAL-EMP-000077-002,Lift quality score for: cut order fulfilment time,score,score (1-5),increase,3.5,4.3,0.6,3.89,48.75,48.75,,120.0
+KR-GOAL-EMP-000077-002-02,GOAL-EMP-000077-002,Reduce cycle time for: cut order fulfilment time,duration_days,days,decrease,24.0,14.4,0.4,19.2,50.0,50.0,,120.0
+KR-GOAL-EMP-000078-001-01,GOAL-EMP-000078-001,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,6.56,3.48,1.0,4.59,63.96,63.96,,120.0
+KR-GOAL-EMP-000079-003-01,GOAL-EMP-000079-003,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,5.79,3.17,0.5,4.76,39.31,39.31,,120.0
+KR-GOAL-EMP-000079-003-02,GOAL-EMP-000079-003,Achieve value for: improve service reliability,currency_usd,USD,increase,0,338000,0.5,82600,24.44,24.44,,120.0
+KR-GOAL-EMP-000080-003-01,GOAL-EMP-000080-003,Reduce cycle time for: improve onboarding satisfaction,duration_days,days,decrease,24.0,18.8,0.5,20.2,73.08,73.08,,120.0
+KR-GOAL-EMP-000080-003-02,GOAL-EMP-000080-003,Reduce error rate for: improve retention in critical roles,defect_rate_pct,%,decrease,9.73,5.08,0.5,6.82,62.58,62.58,,120.0
+KR-GOAL-EMP-000081-002-01,GOAL-EMP-000081-002,Deliver items for: improve customer research cadence,count,count,increase,9,91,1.0,9,0.0,0.0,,120.0
+KR-GOAL-EMP-000082-002-01,GOAL-EMP-000082-002,Reduce error rate for: grow qualified leads,defect_rate_pct,%,decrease,9.66,4.74,0.5,7.84,36.99,36.99,,120.0
+KR-GOAL-EMP-000082-002-02,GOAL-EMP-000082-002,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,472000,0.3,139300,29.51,29.51,,120.0
+KR-GOAL-EMP-000082-002-03,GOAL-EMP-000082-002,Lift quality score for: grow qualified leads,score,score (1-5),increase,3.3,4.0,0.2,3.51,30.0,30.0,,120.0
+KR-GOAL-EMP-000082-003-01,GOAL-EMP-000082-003,Raise rate for: grow qualified leads,percentage,%,increase,34.9,77.4,0.5,50.1,35.76,35.76,,120.0
+KR-GOAL-EMP-000082-003-02,GOAL-EMP-000082-003,Reduce cycle time for: increase brand engagement,duration_days,days,decrease,52.0,40.4,0.5,48.6,29.31,29.31,,120.0
+KR-GOAL-EMP-000082-004-01,GOAL-EMP-000082-004,Deliver items for: strengthen content programme,count,count,increase,12,70,1.0,20,13.79,13.79,,120.0
+KR-GOAL-EMP-000083-003-01,GOAL-EMP-000083-003,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,377000,0.6,121000,32.1,32.1,,120.0
+KR-GOAL-EMP-000083-003-02,GOAL-EMP-000083-003,Raise rate for: strengthen content programme,percentage,%,increase,5.3,32.7,0.4,15.4,36.86,36.86,,120.0
+KR-GOAL-EMP-000083-004-01,GOAL-EMP-000083-004,Lift quality score for: grow qualified leads,score,score (1-5),increase,3.7,4.4,0.6,3.78,11.43,11.43,,120.0
+KR-GOAL-EMP-000083-004-02,GOAL-EMP-000083-004,Deliver items for: grow qualified leads,count,count,increase,15,119,0.4,24,8.65,8.65,,120.0
+KR-GOAL-EMP-000083-005-01,GOAL-EMP-000083-005,Deliver items for: increase brand engagement,count,count,increase,5,164,0.6,28,14.47,14.47,,120.0
+KR-GOAL-EMP-000083-005-02,GOAL-EMP-000083-005,Reduce error rate for: improve campaign conversion,defect_rate_pct,%,decrease,6.98,3.76,0.4,6.28,21.74,21.74,,120.0
+KR-GOAL-EMP-000084-002-01,GOAL-EMP-000084-002,Reduce cycle time for: improve service reliability,duration_days,days,decrease,25.0,17.8,0.5,19.9,70.83,70.83,,120.0
+KR-GOAL-EMP-000084-002-02,GOAL-EMP-000084-002,Lift quality score for: retire legacy components,score,score (1-5),increase,3.1,3.8,0.5,3.83,104.29,104.29,Delivered ahead of plan after scope was extended by the sponsor.,120.0
+KR-GOAL-EMP-000085-004-01,GOAL-EMP-000085-004,Raise rate for: cut order fulfilment time,percentage,%,increase,13.4,51.2,0.5,29.0,41.27,41.27,,120.0
+KR-GOAL-EMP-000085-004-02,GOAL-EMP-000085-004,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,7.55,4.23,0.5,6.26,38.86,38.86,,120.0
+KR-GOAL-EMP-000086-002-01,GOAL-EMP-000086-002,Deliver items for: strengthen content programme,count,count,increase,6,44,1.0,17,28.95,28.95,,120.0
+KR-GOAL-EMP-000086-003-01,GOAL-EMP-000086-003,Reduce cycle time for: increase brand engagement,duration_days,days,decrease,37.0,24.6,0.6,31.7,42.74,42.74,,120.0
+KR-GOAL-EMP-000086-003-02,GOAL-EMP-000086-003,Achieve value for: strengthen content programme,currency_usd,USD,increase,0,157000,0.4,35300,22.48,22.48,,120.0
+KR-GOAL-EMP-000087-001-01,GOAL-EMP-000087-001,Reduce error rate for: improve campaign conversion,defect_rate_pct,%,decrease,5.63,3.63,0.5,5.04,29.5,29.5,,120.0
+KR-GOAL-EMP-000087-001-02,GOAL-EMP-000087-001,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,27.0,17.1,0.3,25.4,16.16,16.16,,120.0
+KR-GOAL-EMP-000087-001-03,GOAL-EMP-000087-001,Raise rate for: improve campaign conversion,percentage,%,increase,16.8,56.8,0.2,27.4,26.5,26.5,,120.0
+KR-GOAL-EMP-000087-002-01,GOAL-EMP-000087-002,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,83000,0.5,23800,28.67,28.67,,120.0
+KR-GOAL-EMP-000087-002-02,GOAL-EMP-000087-002,Achieve value for: strengthen content programme,currency_usd,USD,increase,0,235000,0.5,104500,44.47,44.47,,120.0
+KR-GOAL-EMP-000088-003-01,GOAL-EMP-000088-003,Lift quality score for: grow qualified leads,score,score (1-5),increase,3.5,4.1,0.6,3.81,51.67,51.67,,120.0
+KR-GOAL-EMP-000088-003-02,GOAL-EMP-000088-003,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,265000,0.4,78000,29.43,29.43,,120.0
+KR-GOAL-EMP-000088-004-01,GOAL-EMP-000088-004,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,23.0,17.9,1.0,19.0,78.43,78.43,,120.0
+KR-GOAL-EMP-000089-002-01,GOAL-EMP-000089-002,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,332000,0.5,55000,16.57,16.57,,120.0
+KR-GOAL-EMP-000089-002-02,GOAL-EMP-000089-002,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.0,4.0,0.5,3.36,36.0,36.0,,120.0
+KR-GOAL-EMP-000089-003-01,GOAL-EMP-000089-003,Raise rate for: raise customer satisfaction,percentage,%,increase,21.2,53.0,0.5,27.8,20.75,20.75,,120.0
+KR-GOAL-EMP-000089-003-02,GOAL-EMP-000089-003,Lift quality score for: raise customer satisfaction,score,score (1-5),increase,3.7,4.7,0.5,3.83,13.0,13.0,,120.0
+KR-GOAL-EMP-000090-002-01,GOAL-EMP-000090-002,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,56.0,38.3,0.5,56.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000090-002-02,GOAL-EMP-000090-002,Deliver items for: improve service reliability,count,count,increase,15,80,0.5,15,0.0,0.0,,120.0
+KR-GOAL-EMP-000091-005-01,GOAL-EMP-000091-005,Reduce error rate for: raise training completion,defect_rate_pct,%,decrease,10.63,6.69,0.5,8.6,51.52,51.52,,120.0
+KR-GOAL-EMP-000091-005-02,GOAL-EMP-000091-005,Achieve value for: improve retention in critical roles,currency_usd,USD,increase,0,490000,0.5,154900,31.61,31.61,,120.0
+KR-GOAL-EMP-000092-002-01,GOAL-EMP-000092-002,Reduce error rate for: reduce time to hire,defect_rate_pct,%,decrease,9.91,6.05,0.6,8.04,48.45,48.45,,120.0
+KR-GOAL-EMP-000092-002-02,GOAL-EMP-000092-002,Reduce cycle time for: improve onboarding satisfaction,duration_days,days,decrease,44.0,23.2,0.4,32.0,57.69,57.69,,120.0
+KR-GOAL-EMP-000092-003-01,GOAL-EMP-000092-003,Achieve value for: improve retention in critical roles,currency_usd,USD,increase,0,312000,0.6,158500,50.8,50.8,,120.0
+KR-GOAL-EMP-000092-003-02,GOAL-EMP-000092-003,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,28.0,22.2,0.4,24.6,58.62,58.62,,120.0
+KR-GOAL-EMP-000093-004-01,GOAL-EMP-000093-004,Lift quality score for: grow qualified leads,score,score (1-5),increase,2.9,3.7,0.5,3.34,55.0,55.0,,120.0
+KR-GOAL-EMP-000093-004-02,GOAL-EMP-000093-004,Deliver items for: increase brand engagement,count,count,increase,19,145,0.5,104,67.46,67.46,,120.0
+KR-GOAL-EMP-000093-005-01,GOAL-EMP-000093-005,Achieve value for: increase brand engagement,currency_usd,USD,increase,0,528000,0.6,94800,17.95,17.95,,120.0
+KR-GOAL-EMP-000093-005-02,GOAL-EMP-000093-005,Raise rate for: improve campaign conversion,percentage,%,increase,32.2,52.5,0.4,36.2,19.7,19.7,,120.0
+KR-GOAL-EMP-000094-004-01,GOAL-EMP-000094-004,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.2,4.1,0.5,3.7,55.56,55.56,,120.0
+KR-GOAL-EMP-000094-004-02,GOAL-EMP-000094-004,Reduce cycle time for: improve service reliability,duration_days,days,decrease,44.0,30.8,0.5,35.6,63.64,63.64,,120.0
+KR-GOAL-EMP-000094-005-01,GOAL-EMP-000094-005,Raise rate for: retire legacy components,percentage,%,increase,22.1,51.9,1.0,40.5,61.74,61.74,,120.0
+KR-GOAL-EMP-000094-006-01,GOAL-EMP-000094-006,Reduce error rate for: retire legacy components,defect_rate_pct,%,decrease,6.16,3.63,0.6,5.57,23.32,23.32,,120.0
+KR-GOAL-EMP-000094-006-02,GOAL-EMP-000094-006,Achieve value for: raise automated test coverage,currency_usd,USD,increase,0,398000,0.4,130700,32.84,32.84,,120.0
+KR-GOAL-EMP-000095-002-01,GOAL-EMP-000095-002,Achieve value for: increase renewal rate,currency_usd,USD,increase,0,508000,0.4,271700,53.48,53.48,,120.0
+KR-GOAL-EMP-000095-002-02,GOAL-EMP-000095-002,Deliver items for: reduce ticket resolution time,count,count,increase,19,74,0.3,59,72.73,72.73,,120.0
+KR-GOAL-EMP-000095-002-03,GOAL-EMP-000095-002,Reduce error rate for: increase renewal rate,defect_rate_pct,%,decrease,9.03,6.04,0.3,7.38,55.18,55.18,,120.0
+KR-GOAL-EMP-000096-003-01,GOAL-EMP-000096-003,Reduce cycle time for: improve service reliability,duration_days,days,decrease,25.0,17.9,0.4,25.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000096-003-02,GOAL-EMP-000096-003,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,443000,0.3,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000096-003-03,GOAL-EMP-000096-003,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,9.28,5.57,0.3,9.28,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000096-004-01,GOAL-EMP-000096-004,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,8.14,3.97,1.0,8.14,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000097-002-01,GOAL-EMP-000097-002,Lift quality score for: raise product quality score,score,score (1-5),increase,3.4,4.1,0.5,3.73,47.14,47.14,,120.0
+KR-GOAL-EMP-000097-002-02,GOAL-EMP-000097-002,Reduce cycle time for: increase feature adoption,duration_days,days,decrease,50.0,34.1,0.5,44.7,33.33,33.33,,120.0
+KR-GOAL-EMP-000097-003-01,GOAL-EMP-000097-003,Raise rate for: improve customer research cadence,percentage,%,increase,18.0,41.3,0.6,21.8,16.31,16.31,,120.0
+KR-GOAL-EMP-000097-003-02,GOAL-EMP-000097-003,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,8.76,3.83,0.4,8.17,11.97,11.97,,120.0
+KR-GOAL-EMP-000098-002-01,GOAL-EMP-000098-002,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,99000,0.4,64000,64.65,64.65,,120.0
+KR-GOAL-EMP-000098-002-02,GOAL-EMP-000098-002,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.0,4.0,0.3,3.5,50.0,50.0,,120.0
+KR-GOAL-EMP-000098-002-03,GOAL-EMP-000098-002,Deliver items for: improve service reliability,count,count,increase,17,105,0.3,74,64.77,64.77,,120.0
+KR-GOAL-EMP-000099-002-01,GOAL-EMP-000099-002,Lift quality score for: improve campaign conversion,score,score (1-5),increase,3.1,3.8,1.0,3.11,1.43,1.43,,120.0
+KR-GOAL-EMP-000099-003-01,GOAL-EMP-000099-003,Deliver items for: strengthen content programme,count,count,increase,4,99,0.5,46,44.21,44.21,,120.0
+KR-GOAL-EMP-000099-003-02,GOAL-EMP-000099-003,Reduce error rate for: increase brand engagement,defect_rate_pct,%,decrease,11.07,5.18,0.5,7.78,55.86,55.86,,120.0
+KR-GOAL-EMP-000100-003-01,GOAL-EMP-000100-003,Raise rate for: raise customer satisfaction,percentage,%,increase,35.4,86.3,1.0,53.1,34.77,34.77,,120.0
+KR-GOAL-EMP-000101-003-01,GOAL-EMP-000101-003,Deliver items for: improve service reliability,count,count,increase,12,77,0.4,45,50.77,50.77,,120.0
+KR-GOAL-EMP-000101-003-02,GOAL-EMP-000101-003,Raise rate for: retire legacy components,percentage,%,increase,31.6,61.9,0.3,45.4,45.54,45.54,,120.0
+KR-GOAL-EMP-000101-003-03,GOAL-EMP-000101-003,Raise rate for: raise automated test coverage,percentage,%,increase,23.6,44.3,0.3,33.6,48.31,48.31,,120.0
+KR-GOAL-EMP-000101-004-01,GOAL-EMP-000101-004,Deliver items for: retire legacy components,count,count,increase,9,61,1.0,9,0.0,0.0,,120.0
+KR-GOAL-EMP-000102-004-01,GOAL-EMP-000102-004,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,10.52,7.28,1.0,9.34,36.42,36.42,,120.0
+KR-GOAL-EMP-000103-002-01,GOAL-EMP-000103-002,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,49.0,26.0,1.0,40.9,35.22,35.22,,120.0
+KR-GOAL-EMP-000103-003-01,GOAL-EMP-000103-003,Lift quality score for: improve onboarding satisfaction,score,score (1-5),increase,3.6,4.2,0.5,3.85,41.67,41.67,,120.0
+KR-GOAL-EMP-000103-003-02,GOAL-EMP-000103-003,Raise rate for: raise training completion,percentage,%,increase,32.2,80.0,0.3,41.3,19.04,19.04,,120.0
+KR-GOAL-EMP-000103-003-03,GOAL-EMP-000103-003,Reduce cycle time for: improve onboarding satisfaction,duration_days,days,decrease,39.0,24.1,0.2,36.0,20.13,20.13,,120.0
+KR-GOAL-EMP-000103-004-01,GOAL-EMP-000103-004,Lift quality score for: improve retention in critical roles,score,score (1-5),increase,2.8,3.6,1.0,3.17,46.25,46.25,,120.0
+KR-GOAL-EMP-000104-003-01,GOAL-EMP-000104-003,Reduce cycle time for: retire legacy components,duration_days,days,decrease,42.0,32.1,1.0,36.7,53.54,53.54,,120.0
+KR-GOAL-EMP-000105-002-01,GOAL-EMP-000105-002,Deliver items for: improve retention in critical roles,count,count,increase,9,83,1.0,43,45.95,45.95,,120.0
+KR-GOAL-EMP-000105-003-01,GOAL-EMP-000105-003,Reduce error rate for: improve onboarding satisfaction,defect_rate_pct,%,decrease,5.84,3.6,0.4,5.08,33.93,33.93,,120.0
+KR-GOAL-EMP-000105-003-02,GOAL-EMP-000105-003,Raise rate for: reduce time to hire,percentage,%,increase,30.6,82.6,0.3,62.1,60.58,60.58,,120.0
+KR-GOAL-EMP-000105-003-03,GOAL-EMP-000105-003,Reduce error rate for: raise training completion,defect_rate_pct,%,decrease,11.08,7.69,0.3,9.31,52.21,52.21,,120.0
+KR-GOAL-EMP-000106-002-01,GOAL-EMP-000106-002,Deliver items for: improve customer research cadence,count,count,increase,17,129,1.0,71,48.21,48.21,,120.0
+KR-GOAL-EMP-000107-002-01,GOAL-EMP-000107-002,Achieve value for: lower operating cost per unit,currency_usd,USD,increase,0,499000,1.0,67000,13.43,13.43,,120.0
+KR-GOAL-EMP-000107-003-01,GOAL-EMP-000107-003,Achieve value for: lower operating cost per unit,currency_usd,USD,increase,0,205000,0.5,20900,10.2,10.2,,120.0
+KR-GOAL-EMP-000107-003-02,GOAL-EMP-000107-003,Raise rate for: improve vendor on-time delivery,percentage,%,increase,1.4,20.0,0.5,4.3,15.59,15.59,,120.0
+KR-GOAL-EMP-000108-002-01,GOAL-EMP-000108-002,Deliver items for: reduce ticket resolution time,count,count,increase,14,56,0.5,40,61.9,61.9,,120.0
+KR-GOAL-EMP-000108-002-02,GOAL-EMP-000108-002,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,525000,0.5,234400,44.65,44.65,,120.0
+KR-GOAL-EMP-000109-004-01,GOAL-EMP-000109-004,Reduce cycle time for: retire legacy components,duration_days,days,decrease,59.0,35.1,0.5,59.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000109-004-02,GOAL-EMP-000109-004,Reduce error rate for: improve service reliability,defect_rate_pct,%,decrease,7.69,4.97,0.5,7.69,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000110-002-01,GOAL-EMP-000110-002,Achieve value for: improve onboarding satisfaction,currency_usd,USD,increase,0,263000,0.5,19200,7.3,7.3,,120.0
+KR-GOAL-EMP-000110-002-02,GOAL-EMP-000110-002,Reduce cycle time for: reduce time to hire,duration_days,days,decrease,40.0,25.7,0.3,39.7,2.1,2.1,,120.0
+KR-GOAL-EMP-000110-002-03,GOAL-EMP-000110-002,Raise rate for: raise training completion,percentage,%,increase,40.0,87.3,0.2,42.9,6.13,6.13,,120.0
+KR-GOAL-EMP-000110-003-01,GOAL-EMP-000110-003,Achieve value for: improve onboarding satisfaction,currency_usd,USD,increase,0,257000,1.0,117700,45.8,45.8,,120.0
+KR-GOAL-EMP-000110-004-01,GOAL-EMP-000110-004,Raise rate for: improve retention in critical roles,percentage,%,increase,2.5,50.6,0.4,12.1,19.96,19.96,,120.0
+KR-GOAL-EMP-000110-004-02,GOAL-EMP-000110-004,Achieve value for: reduce time to hire,currency_usd,USD,increase,0,212000,0.3,70900,33.44,33.44,,120.0
+KR-GOAL-EMP-000110-004-03,GOAL-EMP-000110-004,Reduce error rate for: reduce time to hire,defect_rate_pct,%,decrease,8.13,4.99,0.3,6.91,38.85,38.85,,120.0
+KR-GOAL-EMP-000111-003-01,GOAL-EMP-000111-003,Reduce error rate for: reduce ticket resolution time,defect_rate_pct,%,decrease,11.52,4.67,0.5,9.88,23.94,23.94,,120.0
+KR-GOAL-EMP-000111-003-02,GOAL-EMP-000111-003,Reduce error rate for: increase renewal rate,defect_rate_pct,%,decrease,9.88,4.27,0.5,7.41,44.03,44.03,,120.0
+KR-GOAL-EMP-000111-004-01,GOAL-EMP-000111-004,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,291000,1.0,85000,29.21,29.21,,120.0
+KR-GOAL-EMP-000112-003-01,GOAL-EMP-000112-003,Raise rate for: improve campaign conversion,percentage,%,increase,6.4,41.3,0.5,30.7,69.63,69.63,,120.0
+KR-GOAL-EMP-000112-003-02,GOAL-EMP-000112-003,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,6.46,3.94,0.3,4.95,59.92,59.92,,120.0
+KR-GOAL-EMP-000112-003-03,GOAL-EMP-000112-003,Raise rate for: increase brand engagement,percentage,%,increase,13.5,56.1,0.2,42.9,69.01,69.01,,120.0
+KR-GOAL-EMP-000112-004-01,GOAL-EMP-000112-004,Reduce error rate for: increase brand engagement,defect_rate_pct,%,decrease,11.99,5.07,0.5,8.34,52.75,52.75,,120.0
+KR-GOAL-EMP-000112-004-02,GOAL-EMP-000112-004,Raise rate for: strengthen content programme,percentage,%,increase,9.0,36.3,0.5,22.6,49.82,49.82,,120.0
+KR-GOAL-EMP-000113-002-01,GOAL-EMP-000113-002,Lift quality score for: cut order fulfilment time,score,score (1-5),increase,3.7,4.4,0.5,4.08,54.29,54.29,,120.0
+KR-GOAL-EMP-000113-002-02,GOAL-EMP-000113-002,Reduce error rate for: lower operating cost per unit,defect_rate_pct,%,decrease,9.92,4.78,0.5,6.15,73.35,73.35,,120.0
+KR-GOAL-EMP-000114-002-01,GOAL-EMP-000114-002,Reduce cycle time for: improve vendor on-time delivery,duration_days,days,decrease,42.0,21.0,0.5,23.6,87.62,87.62,,120.0
+KR-GOAL-EMP-000114-002-02,GOAL-EMP-000114-002,Raise rate for: lower operating cost per unit,percentage,%,increase,1.3,21.3,0.5,13.8,62.5,62.5,,120.0
+KR-GOAL-EMP-000115-003-01,GOAL-EMP-000115-003,Lift quality score for: improve customer research cadence,score,score (1-5),increase,3.1,3.7,0.5,3.44,56.67,56.67,,120.0
+KR-GOAL-EMP-000115-003-02,GOAL-EMP-000115-003,Reduce error rate for: increase feature adoption,defect_rate_pct,%,decrease,11.28,7.29,0.5,8.65,65.91,65.91,,120.0
+KR-GOAL-EMP-000115-004-01,GOAL-EMP-000115-004,Reduce cycle time for: increase feature adoption,duration_days,days,decrease,30.0,19.0,0.5,26.8,29.09,29.09,,120.0
+KR-GOAL-EMP-000115-004-02,GOAL-EMP-000115-004,Lift quality score for: ship the planned roadmap features,score,score (1-5),increase,3.1,4.0,0.3,3.36,28.89,28.89,,120.0
+KR-GOAL-EMP-000115-004-03,GOAL-EMP-000115-004,Reduce cycle time for: ship the planned roadmap features,duration_days,days,decrease,31.0,19.5,0.2,26.6,38.26,38.26,,120.0
+KR-GOAL-EMP-000116-002-01,GOAL-EMP-000116-002,Reduce cycle time for: raise automated test coverage,duration_days,days,decrease,50.0,38.3,0.5,42.5,64.1,64.1,,120.0
+KR-GOAL-EMP-000116-002-02,GOAL-EMP-000116-002,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,491000,0.5,166200,33.85,33.85,,120.0
+KR-GOAL-EMP-000116-003-01,GOAL-EMP-000116-003,Reduce cycle time for: retire legacy components,duration_days,days,decrease,46.0,36.1,0.5,46.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000116-003-02,GOAL-EMP-000116-003,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,60.0,40.8,0.5,60.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000116-004-01,GOAL-EMP-000116-004,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,217000,1.0,102900,47.42,47.42,,120.0
+KR-GOAL-EMP-000117-002-01,GOAL-EMP-000117-002,Deliver items for: grow qualified leads,count,count,increase,4,69,1.0,4,0.0,0.0,,120.0
+KR-GOAL-EMP-000117-003-01,GOAL-EMP-000117-003,Reduce error rate for: improve campaign conversion,defect_rate_pct,%,decrease,8.9,4.93,0.6,8.9,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000117-003-02,GOAL-EMP-000117-003,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,22.0,15.4,0.4,22.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000117-004-01,GOAL-EMP-000117-004,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,10.81,6.14,0.6,9.85,20.56,20.56,,120.0
+KR-GOAL-EMP-000117-004-02,GOAL-EMP-000117-004,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,356000,0.4,98800,27.75,27.75,,120.0
+KR-GOAL-EMP-000118-003-01,GOAL-EMP-000118-003,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,55.0,30.8,0.5,44.7,42.56,42.56,,120.0
+KR-GOAL-EMP-000118-003-02,GOAL-EMP-000118-003,Achieve value for: improve service reliability,currency_usd,USD,increase,0,538000,0.5,278800,51.82,51.82,,120.0
+KR-GOAL-EMP-000118-004-01,GOAL-EMP-000118-004,Deliver items for: reduce release cycle time,count,count,increase,9,75,0.5,14,7.58,7.58,,120.0
+KR-GOAL-EMP-000118-004-02,GOAL-EMP-000118-004,Raise rate for: reduce release cycle time,percentage,%,increase,23.4,61.0,0.3,34.2,28.72,28.72,,120.0
+KR-GOAL-EMP-000118-004-03,GOAL-EMP-000118-004,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.5,4.0,0.2,3.7,40.0,40.0,,120.0
+KR-GOAL-EMP-000119-004-01,GOAL-EMP-000119-004,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,42.0,29.2,0.4,33.0,70.31,70.31,,120.0
+KR-GOAL-EMP-000119-004-02,GOAL-EMP-000119-004,Deliver items for: raise customer satisfaction,count,count,increase,13,131,0.3,81,57.63,57.63,,120.0
+KR-GOAL-EMP-000119-004-03,GOAL-EMP-000119-004,Reduce cycle time for: improve onboarding completion,duration_days,days,decrease,42.0,27.2,0.3,31.7,69.59,69.59,,120.0
+KR-GOAL-EMP-000120-002-01,GOAL-EMP-000120-002,Raise rate for: reduce process defects,percentage,%,increase,24.9,53.0,0.6,32.7,27.76,27.76,,120.0
+KR-GOAL-EMP-000120-002-02,GOAL-EMP-000120-002,Reduce cycle time for: improve vendor on-time delivery,duration_days,days,decrease,27.0,20.0,0.4,24.8,31.43,31.43,,120.0
+KR-GOAL-EMP-000121-003-01,GOAL-EMP-000121-003,Reduce cycle time for: improve retention in critical roles,duration_days,days,decrease,50.0,32.1,1.0,43.3,37.43,37.43,,120.0
+KR-GOAL-EMP-000122-005-01,GOAL-EMP-000122-005,Raise rate for: reduce ticket resolution time,percentage,%,increase,37.7,60.1,0.5,50.7,58.04,58.04,,120.0
+KR-GOAL-EMP-000122-005-02,GOAL-EMP-000122-005,Achieve value for: raise customer satisfaction,currency_usd,USD,increase,0,134000,0.5,88400,65.97,65.97,,120.0
+KR-GOAL-EMP-000123-003-01,GOAL-EMP-000123-003,Reduce cycle time for: retire legacy components,duration_days,days,decrease,57.0,44.4,0.5,51.5,43.65,43.65,,120.0
+KR-GOAL-EMP-000123-003-02,GOAL-EMP-000123-003,Achieve value for: improve service reliability,currency_usd,USD,increase,0,480000,0.5,277300,57.77,57.77,,120.0
+KR-GOAL-EMP-000123-004-01,GOAL-EMP-000123-004,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.4,4.0,1.0,3.66,43.33,43.33,,120.0
+KR-GOAL-EMP-000124-003-01,GOAL-EMP-000124-003,Achieve value for: increase renewal rate,currency_usd,USD,increase,0,472000,0.6,144500,30.61,30.61,,120.0
+KR-GOAL-EMP-000124-003-02,GOAL-EMP-000124-003,Reduce cycle time for: reduce ticket resolution time,duration_days,days,decrease,23.0,16.4,0.4,20.8,33.33,33.33,,120.0
+KR-GOAL-EMP-000124-004-01,GOAL-EMP-000124-004,Reduce cycle time for: reduce ticket resolution time,duration_days,days,decrease,48.0,37.0,0.5,48.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000124-004-02,GOAL-EMP-000124-004,Lift quality score for: increase renewal rate,score,score (1-5),increase,3.1,4.0,0.5,3.1,0.0,0.0,,120.0
+KR-GOAL-EMP-000125-003-01,GOAL-EMP-000125-003,Deliver items for: increase renewal rate,count,count,increase,12,77,0.5,36,36.92,36.92,,120.0
+KR-GOAL-EMP-000125-003-02,GOAL-EMP-000125-003,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.2,3.9,0.5,3.5,42.86,42.86,,120.0
+KR-GOAL-EMP-000125-004-01,GOAL-EMP-000125-004,Lift quality score for: improve onboarding completion,score,score (1-5),increase,3.1,3.7,0.5,3.29,31.67,31.67,,120.0
+KR-GOAL-EMP-000125-004-02,GOAL-EMP-000125-004,Lift quality score for: reduce ticket resolution time,score,score (1-5),increase,3.7,4.2,0.3,3.8,20.0,20.0,,120.0
+KR-GOAL-EMP-000125-004-03,GOAL-EMP-000125-004,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,544000,0.2,146500,26.93,26.93,,120.0
+KR-GOAL-EMP-000125-005-01,GOAL-EMP-000125-005,Reduce cycle time for: increase renewal rate,duration_days,days,decrease,54.0,35.6,0.5,47.9,33.15,33.15,,120.0
+KR-GOAL-EMP-000125-005-02,GOAL-EMP-000125-005,Reduce cycle time for: raise customer satisfaction,duration_days,days,decrease,42.0,22.2,0.5,37.2,24.24,24.24,,120.0
+KR-GOAL-EMP-000126-003-01,GOAL-EMP-000126-003,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,59.0,47.1,1.0,58.0,8.4,8.4,,120.0
+KR-GOAL-EMP-000127-002-01,GOAL-EMP-000127-002,Reduce error rate for: reduce process defects,defect_rate_pct,%,decrease,11.07,4.54,1.0,6.96,62.94,62.94,,120.0
+KR-GOAL-EMP-000128-004-01,GOAL-EMP-000128-004,Deliver items for: reduce process defects,count,count,increase,20,28,0.5,22,25.0,25.0,,120.0
+KR-GOAL-EMP-000128-004-02,GOAL-EMP-000128-004,Reduce error rate for: improve vendor on-time delivery,defect_rate_pct,%,decrease,9.85,5.21,0.5,8.82,22.2,22.2,,120.0
+KR-GOAL-EMP-000129-002-01,GOAL-EMP-000129-002,Deliver items for: ship the planned roadmap features,count,count,increase,14,111,0.5,64,51.55,51.55,,120.0
+KR-GOAL-EMP-000129-002-02,GOAL-EMP-000129-002,Lift quality score for: increase feature adoption,score,score (1-5),increase,3.7,4.5,0.5,4.13,53.75,53.75,,120.0
+KR-GOAL-EMP-000129-003-01,GOAL-EMP-000129-003,Lift quality score for: ship the planned roadmap features,score,score (1-5),increase,3.6,4.2,0.6,3.6,0.0,0.0,,120.0
+KR-GOAL-EMP-000129-003-02,GOAL-EMP-000129-003,Achieve value for: increase feature adoption,currency_usd,USD,increase,0,550000,0.4,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000130-002-01,GOAL-EMP-000130-002,Reduce cycle time for: improve service reliability,duration_days,days,decrease,33.0,24.8,0.5,30.0,36.59,36.59,,120.0
+KR-GOAL-EMP-000130-002-02,GOAL-EMP-000130-002,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.8,4.8,0.5,4.65,85.0,85.0,,120.0
+KR-GOAL-EMP-000130-003-01,GOAL-EMP-000130-003,Raise rate for: retire legacy components,percentage,%,increase,29.8,82.1,0.4,29.8,0.0,0.0,,120.0
+KR-GOAL-EMP-000130-003-02,GOAL-EMP-000130-003,Lift quality score for: retire legacy components,score,score (1-5),increase,3.1,3.7,0.3,3.1,0.0,0.0,,120.0
+KR-GOAL-EMP-000130-003-03,GOAL-EMP-000130-003,Achieve value for: raise automated test coverage,currency_usd,USD,increase,0,103000,0.3,0,0.0,0.0,,120.0
+KR-GOAL-EMP-000131-002-01,GOAL-EMP-000131-002,Lift quality score for: lower operating cost per unit,score,score (1-5),increase,3.4,4.3,1.0,4.03,70.0,70.0,,120.0
+KR-GOAL-EMP-000132-002-01,GOAL-EMP-000132-002,Reduce cycle time for: reduce outstanding receivables,duration_days,days,decrease,55.0,42.0,1.0,45.1,76.15,76.15,,120.0
+KR-GOAL-EMP-000133-002-01,GOAL-EMP-000133-002,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,9.99,4.57,0.5,8.42,28.97,28.97,,120.0
+KR-GOAL-EMP-000133-002-02,GOAL-EMP-000133-002,Lift quality score for: improve service reliability,score,score (1-5),increase,3.4,4.3,0.5,3.65,27.78,27.78,,120.0
+KR-GOAL-EMP-000134-005-01,GOAL-EMP-000134-005,Achieve value for: reduce process defects,currency_usd,USD,increase,0,301000,0.5,65200,21.66,21.66,,120.0
+KR-GOAL-EMP-000134-005-02,GOAL-EMP-000134-005,Deliver items for: lower operating cost per unit,count,count,increase,3,80,0.5,11,10.39,10.39,,120.0
+KR-GOAL-EMP-000134-006-01,GOAL-EMP-000134-006,Achieve value for: cut order fulfilment time,currency_usd,USD,increase,0,373000,1.0,75500,20.24,20.24,,120.0
+KR-GOAL-EMP-000134-007-01,GOAL-EMP-000134-007,Achieve value for: improve vendor on-time delivery,currency_usd,USD,increase,0,188000,1.0,42100,22.39,22.39,,120.0
+KR-GOAL-EMP-000135-003-01,GOAL-EMP-000135-003,Achieve value for: reduce release cycle time,currency_usd,USD,increase,0,104000,1.0,90400,86.92,86.92,,120.0
+KR-GOAL-EMP-000135-004-01,GOAL-EMP-000135-004,Achieve value for: improve service reliability,currency_usd,USD,increase,0,519000,0.5,169300,32.62,32.62,,120.0
+KR-GOAL-EMP-000135-004-02,GOAL-EMP-000135-004,Raise rate for: reduce release cycle time,percentage,%,increase,32.2,62.0,0.5,56.5,81.54,81.54,,120.0
+KR-GOAL-EMP-000136-003-01,GOAL-EMP-000136-003,Achieve value for: lower operating cost per unit,currency_usd,USD,increase,0,265000,0.6,174500,65.85,65.85,,120.0
+KR-GOAL-EMP-000136-003-02,GOAL-EMP-000136-003,Raise rate for: cut order fulfilment time,percentage,%,increase,36.1,58.4,0.4,46.4,46.19,46.19,,120.0
+KR-GOAL-EMP-000136-004-01,GOAL-EMP-000136-004,Raise rate for: improve vendor on-time delivery,percentage,%,increase,7.2,47.8,0.6,25.3,44.58,44.58,,120.0
+KR-GOAL-EMP-000136-004-02,GOAL-EMP-000136-004,Reduce cycle time for: improve vendor on-time delivery,duration_days,days,decrease,25.0,12.7,0.4,18.9,49.59,49.59,,120.0
+KR-GOAL-EMP-000137-004-01,GOAL-EMP-000137-004,Reduce cycle time for: raise automated test coverage,duration_days,days,decrease,32.0,25.2,0.5,32.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000137-004-02,GOAL-EMP-000137-004,Reduce cycle time for: retire legacy components,duration_days,days,decrease,44.0,25.4,0.5,44.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000137-005-01,GOAL-EMP-000137-005,Reduce cycle time for: raise automated test coverage,duration_days,days,decrease,42.0,28.1,0.5,42.0,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000137-005-02,GOAL-EMP-000137-005,Deliver items for: retire legacy components,count,count,increase,4,83,0.5,4,0.0,0.0,,120.0
+KR-GOAL-EMP-000138-004-01,GOAL-EMP-000138-004,Raise rate for: lower operating cost per unit,percentage,%,increase,6.1,45.9,0.5,25.5,48.74,48.74,,120.0
+KR-GOAL-EMP-000138-004-02,GOAL-EMP-000138-004,Reduce error rate for: lower operating cost per unit,defect_rate_pct,%,decrease,10.35,6.75,0.3,8.72,45.28,45.28,,120.0
+KR-GOAL-EMP-000138-004-03,GOAL-EMP-000138-004,Raise rate for: reduce process defects,percentage,%,increase,17.3,41.4,0.2,25.4,33.61,33.61,,120.0
+KR-GOAL-EMP-000139-002-01,GOAL-EMP-000139-002,Deliver items for: reduce release cycle time,count,count,increase,11,57,1.0,47,78.26,78.26,,120.0
+KR-GOAL-EMP-000139-003-01,GOAL-EMP-000139-003,Reduce cycle time for: reduce release cycle time,duration_days,days,decrease,31.0,16.4,0.4,27.4,24.66,24.66,,120.0
+KR-GOAL-EMP-000139-003-02,GOAL-EMP-000139-003,Achieve value for: improve service reliability,currency_usd,USD,increase,0,392000,0.3,80200,20.46,20.46,,120.0
+KR-GOAL-EMP-000139-003-03,GOAL-EMP-000139-003,Reduce cycle time for: improve service reliability,duration_days,days,decrease,42.0,31.6,0.3,37.8,40.38,40.38,,120.0
+KR-GOAL-EMP-000140-002-01,GOAL-EMP-000140-002,Reduce error rate for: raise customer satisfaction,defect_rate_pct,%,decrease,11.78,7.49,1.0,11.78,-0.0,-0.0,,120.0
+KR-GOAL-EMP-000141-005-01,GOAL-EMP-000141-005,Raise rate for: improve onboarding completion,percentage,%,increase,14.4,40.0,0.5,31.8,67.97,67.97,,120.0
+KR-GOAL-EMP-000141-005-02,GOAL-EMP-000141-005,Lift quality score for: increase renewal rate,score,score (1-5),increase,3.1,3.9,0.3,3.5,50.0,50.0,,120.0
+KR-GOAL-EMP-000141-005-03,GOAL-EMP-000141-005,Achieve value for: improve onboarding completion,currency_usd,USD,increase,0,444000,0.2,256900,57.86,57.86,,120.0
+KR-GOAL-EMP-000142-002-01,GOAL-EMP-000142-002,Raise rate for: increase feature adoption,percentage,%,increase,29.7,68.8,0.4,34.4,12.02,12.02,,120.0
+KR-GOAL-EMP-000142-002-02,GOAL-EMP-000142-002,Raise rate for: improve customer research cadence,percentage,%,increase,30.7,58.3,0.3,33.7,10.87,10.87,,120.0
+KR-GOAL-EMP-000142-002-03,GOAL-EMP-000142-002,Reduce error rate for: ship the planned roadmap features,defect_rate_pct,%,decrease,5.32,2.97,0.3,5.09,9.79,9.79,,120.0
+KR-GOAL-EMP-000143-002-01,GOAL-EMP-000143-002,Raise rate for: expand key accounts,percentage,%,increase,29.7,66.5,0.5,38.3,23.37,23.37,,120.0
+KR-GOAL-EMP-000143-002-02,GOAL-EMP-000143-002,Raise rate for: increase closed revenue,percentage,%,increase,4.8,25.8,0.5,11.6,32.38,32.38,,120.0
+KR-GOAL-EMP-000143-003-01,GOAL-EMP-000143-003,Lift quality score for: increase closed revenue,score,score (1-5),increase,3.5,4.5,1.0,3.92,42.0,42.0,,120.0
+KR-GOAL-EMP-000143-004-01,GOAL-EMP-000143-004,Achieve value for: expand key accounts,currency_usd,USD,increase,0,393000,0.5,49600,12.62,12.62,,120.0
+KR-GOAL-EMP-000143-004-02,GOAL-EMP-000143-004,Raise rate for: increase closed revenue,percentage,%,increase,10.8,64.6,0.5,17.6,12.64,12.64,,120.0
+KR-GOAL-EMP-000144-004-01,GOAL-EMP-000144-004,Raise rate for: ship the planned roadmap features,percentage,%,increase,30.7,68.2,0.5,51.9,56.53,56.53,,120.0
+KR-GOAL-EMP-000144-004-02,GOAL-EMP-000144-004,Raise rate for: ship the planned roadmap features,percentage,%,increase,28.2,67.6,0.3,42.3,35.79,35.79,,120.0
+KR-GOAL-EMP-000144-004-03,GOAL-EMP-000144-004,Deliver items for: ship the planned roadmap features,count,count,increase,9,49,0.2,29,50.0,50.0,,120.0
+KR-GOAL-EMP-000145-004-01,GOAL-EMP-000145-004,Deliver items for: reduce release cycle time,count,count,increase,11,72,0.6,36,40.98,40.98,,120.0
+KR-GOAL-EMP-000145-004-02,GOAL-EMP-000145-004,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.5,4.5,0.4,3.84,34.0,34.0,,120.0
+KR-GOAL-EMP-000146-003-01,GOAL-EMP-000146-003,Lift quality score for: improve campaign conversion,score,score (1-5),increase,3.2,3.9,0.4,3.6,57.14,57.14,,120.0
+KR-GOAL-EMP-000146-003-02,GOAL-EMP-000146-003,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,59.0,41.2,0.3,50.0,50.56,50.56,,120.0
+KR-GOAL-EMP-000146-003-03,GOAL-EMP-000146-003,Achieve value for: improve campaign conversion,currency_usd,USD,increase,0,70000,0.3,46300,66.14,66.14,,120.0
+KR-GOAL-EMP-000146-004-01,GOAL-EMP-000146-004,Reduce cycle time for: improve campaign conversion,duration_days,days,decrease,58.0,35.2,1.0,52.5,24.12,24.12,,120.0
+KR-GOAL-EMP-000147-005-01,GOAL-EMP-000147-005,Reduce error rate for: increase feature adoption,defect_rate_pct,%,decrease,10.57,5.08,0.5,7.39,57.92,57.92,,120.0
+KR-GOAL-EMP-000147-005-02,GOAL-EMP-000147-005,Deliver items for: improve customer research cadence,count,count,increase,15,23,0.3,18,37.5,37.5,,120.0
+KR-GOAL-EMP-000147-005-03,GOAL-EMP-000147-005,Raise rate for: increase feature adoption,percentage,%,increase,14.5,45.1,0.2,35.6,68.95,68.95,,120.0
+KR-GOAL-EMP-000147-006-01,GOAL-EMP-000147-006,Raise rate for: increase feature adoption,percentage,%,increase,10.0,44.0,1.0,24.1,41.47,41.47,,120.0
+KR-GOAL-EMP-000148-003-01,GOAL-EMP-000148-003,Reduce cycle time for: retire legacy components,duration_days,days,decrease,36.0,19.7,0.6,30.5,33.74,33.74,,120.0
+KR-GOAL-EMP-000148-003-02,GOAL-EMP-000148-003,Achieve value for: raise automated test coverage,currency_usd,USD,increase,0,192000,0.4,60900,31.72,31.72,,120.0
+KR-GOAL-EMP-000148-004-01,GOAL-EMP-000148-004,Deliver items for: raise automated test coverage,count,count,increase,20,209,0.6,110,47.62,47.62,,120.0
+KR-GOAL-EMP-000148-004-02,GOAL-EMP-000148-004,Reduce error rate for: reduce release cycle time,defect_rate_pct,%,decrease,5.59,3.0,0.4,5.33,10.04,10.04,,120.0
+KR-GOAL-EMP-000149-002-01,GOAL-EMP-000149-002,Raise rate for: reduce release cycle time,percentage,%,increase,30.8,46.4,0.4,37.0,39.74,39.74,,120.0
+KR-GOAL-EMP-000149-002-02,GOAL-EMP-000149-002,Reduce cycle time for: retire legacy components,duration_days,days,decrease,39.0,20.2,0.3,30.5,45.21,45.21,,120.0
+KR-GOAL-EMP-000149-002-03,GOAL-EMP-000149-002,Reduce cycle time for: retire legacy components,duration_days,days,decrease,43.0,32.8,0.3,41.2,17.65,17.65,,120.0
+KR-GOAL-EMP-000149-003-01,GOAL-EMP-000149-003,Lift quality score for: raise automated test coverage,score,score (1-5),increase,3.8,4.5,1.0,4.02,31.43,31.43,,120.0
+KR-GOAL-EMP-000149-004-01,GOAL-EMP-000149-004,Raise rate for: raise automated test coverage,percentage,%,increase,32.2,51.2,0.6,37.6,28.42,28.42,,120.0
+KR-GOAL-EMP-000149-004-02,GOAL-EMP-000149-004,Lift quality score for: reduce release cycle time,score,score (1-5),increase,3.4,4.3,0.4,3.59,21.11,21.11,,120.0
+KR-GOAL-EMP-000150-001-01,GOAL-EMP-000150-001,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,9.92,5.17,0.6,8.08,38.74,38.74,,120.0
+KR-GOAL-EMP-000150-001-02,GOAL-EMP-000150-001,Achieve value for: strengthen content programme,currency_usd,USD,increase,0,151000,0.4,33200,21.99,21.99,,120.0
+KR-GOAL-EMP-000150-002-01,GOAL-EMP-000150-002,Reduce error rate for: strengthen content programme,defect_rate_pct,%,decrease,8.2,5.65,0.6,7.96,9.41,9.41,,120.0
+KR-GOAL-EMP-000150-002-02,GOAL-EMP-000150-002,Achieve value for: grow qualified leads,currency_usd,USD,increase,0,36000,0.4,3400,9.44,9.44,,120.0
+KR-GOAL-EMP-000150-003-01,GOAL-EMP-000150-003,Raise rate for: improve campaign conversion,percentage,%,increase,36.3,51.7,1.0,43.3,45.45,45.45,,120.0
+KR-GOAL-EMP-000150-004-01,GOAL-EMP-000150-004,Lift quality score for: strengthen content programme,score,score (1-5),increase,3.5,4.2,0.6,3.73,32.86,32.86,,120.0
+KR-GOAL-EMP-000150-004-02,GOAL-EMP-000150-004,Reduce cycle time for: strengthen content programme,duration_days,days,decrease,22.0,16.1,0.4,20.0,33.9,33.9,,120.0

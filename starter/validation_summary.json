@@ -1,0 +1,2300 @@
+{
+ "passed": 278,
+ "total": 278,
+ "all_passed": true,
+ "checks": [
+  {
+   "category": "A. Primary keys",
+   "check": "employees PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "managers PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "manager_assignments PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "review_cycles PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "competencies PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "goals PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "key_results PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "check_ins PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "check_in_kr_values PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "evidence_links PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "reviews PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "reviewer_assignments PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "feedback PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "development_plans PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "state_events PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "A. Primary keys",
+   "check": "ground_truth PK unique & non-null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "employees.manager_id -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "managers.employee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "managers.parent_manager_id -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "manager_assignments.employee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "manager_assignments.manager_id -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "goals.employee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "goals.cycle_id -> review_cycles",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "goals.approved_by -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "key_results.goal_id -> goals",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "check_ins.goal_id -> goals",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "check_ins.employee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "check_ins.submitted_by -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "check_in_kr_values.checkin_id -> check_ins",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "check_in_kr_values.kr_id -> key_results",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "evidence_links.checkin_id -> check_ins",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "reviews.employee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "reviews.cycle_id -> review_cycles",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "reviews.manager_id -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "reviewer_assignments.review_id -> reviews",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "reviewer_assignments.reviewee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "reviewer_assignments.reviewer_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "reviewer_assignments.approved_by -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "feedback.review_id -> reviews",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "feedback.assignment_id -> reviewer_assignments",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "feedback.reviewee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "feedback.reviewer_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "feedback.competency_id -> competencies",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "development_plans.review_id -> reviews",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "development_plans.employee_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "development_plans.competency_id -> competencies",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "development_plans.manager_approver_id -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "development_plans.hr_approver_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "state_events.actor_id -> employees",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "state_events.approved_by -> managers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "state_events.entity_id -> polymorphic parent",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "feedback.evidence_ref_id -> goals/check_ins",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "check_in_kr_values: KR belongs to check-in's goal",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "B. Foreign keys",
+   "check": "SQLite load + PRAGMA foreign_key_check",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.employee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.full_name not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.email not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "employees.department in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.department not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "employees.job_level in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.job_level not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.job_title not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "employees.location in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.location not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.hire_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "employees.employment_status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.employment_status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "employees.system_role in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "employees.system_role not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "managers.manager_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "managers.employee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "managers.department not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "managers.org_level not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "managers.effective_from not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "managers.status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "managers.status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "manager_assignments.assignment_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "manager_assignments.employee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "manager_assignments.manager_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "manager_assignments.effective_from not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "manager_assignments.change_reason in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "manager_assignments.change_reason not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.cycle_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.cycle_name not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.start_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.end_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.goal_setting_deadline not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.review_window_start not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.review_window_end not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "review_cycles.status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "review_cycles.max_progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "competencies.competency_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "competencies.competency_name not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "competencies.category in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "competencies.category not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "competencies.description not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "competencies.rating_scale_min not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "competencies.rating_scale_max not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.goal_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.employee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.cycle_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.title not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.description not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "goals.category in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.category not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.weight_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.start_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.due_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "goals.status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.version not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.created_at not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.updated_at not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "goals.progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.kr_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.goal_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.description not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "key_results.metric_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.metric_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.unit not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "key_results.direction in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.direction not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.baseline_value not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.target_value not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.weight not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.current_value not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.scoring_progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "key_results.max_progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.checkin_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.goal_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.employee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.submitted_by not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.checkin_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "check_ins.checkin_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.checkin_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.cumulative_progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.expected_progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "check_ins.confidence in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.confidence not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.comment not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.evidence_required not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_ins.evidence_count not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_in_kr_values.value_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_in_kr_values.checkin_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_in_kr_values.kr_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_in_kr_values.reported_value not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "check_in_kr_values.progress_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "evidence_links.evidence_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "evidence_links.checkin_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "evidence_links.evidence_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "evidence_links.evidence_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "evidence_links.url not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "evidence_links.added_at not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.review_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.employee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.cycle_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.manager_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "reviews.status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.manager_changed_in_cycle not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.goal_count not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.required_inputs not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.received_inputs not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.completion_pct not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.feedback_conflict_flag not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "reviews.rating_band in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviews.score_as_of not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.assignment_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.review_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.reviewee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.reviewer_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "reviewer_assignments.relationship_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.relationship_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "reviewer_assignments.relationship_basis in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.relationship_basis not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "reviewer_assignments.status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.requested_at not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "reviewer_assignments.due_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.feedback_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.review_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.reviewee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "feedback.feedback_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.feedback_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.competency_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.rating not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.comment not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "feedback.evidence_ref_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.submitted_at not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "feedback.submission_channel in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "feedback.submission_channel not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.dev_plan_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.review_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.employee_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.competency_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "development_plans.plan_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.plan_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "development_plans.activity_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.activity_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.action_description not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.budget_usd not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.created_at not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "development_plans.manager_decision in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.requires_hr_approval not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "development_plans.hr_decision in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.start_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.target_date not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "development_plans.status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "development_plans.status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "state_events.event_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "state_events.entity_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "state_events.entity_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "state_events.entity_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "state_events.event_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "state_events.event_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "state_events.approval_status in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "state_events.approval_status not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "state_events.occurred_at not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "ground_truth.gt_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "ground_truth.entity_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "ground_truth.entity_id not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "ground_truth.issue_type in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "ground_truth.issue_type not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "ground_truth.label_class in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "ground_truth.label_class not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Allowed values",
+   "check": "ground_truth.expected_decision in enum",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "ground_truth.expected_decision not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "C. Required fields",
+   "check": "ground_truth.rule_violated not null",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "employees hire/termination ordering and status consistency",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "managers.effective_from >= hire_date",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "manager_assignments: no overlap/gap, one open row, valid dates",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "employees.manager_id equals open manager_assignments row",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "managers.org_level = parent level + 1 (acyclic hierarchy)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "review_cycles dates and closed state",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "goals: start<=due<=cycle end, created<=approved, draft/cancel markers",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "check-ins within goal window and <= as-of date",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "evidence added on check-in date",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "reviews: self < manager < finalized <= closed_at",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "D. Date ordering",
+   "check": "reviewer_assignments responded >= requested",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "KR weights sum to 1.0 per goal",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "initial goal weights sum to 100 per (owner,cycle)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "KR current/progress/scoring recomputed from check-in values",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "goal progress = sum(weight x KR scoring progress)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "check-in cumulative progress replayed; last equals goal progress",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "evidence_count/required derived; evidence present where required",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "check_in_kr_values progress recomputed",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "check-in type consistent with submitter",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "goals.version = 1 + approved change events (versioned changes)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "G. Lifecycle",
+   "check": "goal status follows documented progress/cycle rule",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "review goal score = weight-weighted goal progress",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "review average ratings recomputed from permitted feedback",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "Feedback without an assignment is excluded from scoring"
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "completion metrics reflect required inputs",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "feedback_conflict_flag recomputed from feedback",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "F. Arithmetic / derived",
+   "check": "final_rating / band formula; null unless finalized",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "G. Lifecycle",
+   "check": "review terminal states and finalization requires self + manager + >=1 peer",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "G. Lifecycle",
+   "check": "state_events chains are contiguous and end in the entity's current status",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "G. Lifecycle",
+   "check": "state_events chronological ids",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "G. Lifecycle",
+   "check": "review permissions: reviewer assignments respect relationships",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "G. Lifecycle",
+   "check": "feedback matches its (submitted) reviewer assignment",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "H. Duplicates",
+   "check": "employees.email unique",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "H. Duplicates",
+   "check": "one review per (employee, cycle)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "H. Duplicates",
+   "check": "one check-in per (goal, date)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "H. Duplicates",
+   "check": "one KR value per (check-in, KR)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "H. Duplicates",
+   "check": "one assignment per (review, reviewer, type)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "H. Duplicates",
+   "check": "one feedback per (assignment, competency)",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "H. Duplicates",
+   "check": "evidence urls unique",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "G. Lifecycle",
+   "check": "development plans: approvals, HR threshold, mandatory rule, dates",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "detector for goal_owner_mismatch == ground_truth labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "labelled=2 detected=2"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "detector for progress_exceeds_scale_no_rationale == ground_truth labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "labelled=2 detected=2"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "detector for reviewer_lacks_relationship == ground_truth labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "labelled=2 detected=2"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "detector for closed_cycle_silent_edit == ground_truth labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "labelled=2 detected=2"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "detector for feedback_untraceable == ground_truth labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "labelled=2 detected=2"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "natural scenario incomplete_review derived == labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "count=13"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "natural scenario conflicting_feedback derived == labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "count=10"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "natural scenario manager_transfer_mid_cycle derived == labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "count=8"
+  },
+  {
+   "category": "I. Anomaly reconciliation",
+   "check": "natural scenario goal_changed derived == labels",
+   "passed": true,
+   "violations": 0,
+   "examples": [],
+   "note": "count=63"
+  }
+ ],
+ "distribution_summary": {
+  "goals_by_status": {
+   "completed": 131,
+   "not_achieved": 137,
+   "cancelled": 3,
+   "active": 228,
+   "draft": 1
+  },
+  "goals_per_employee_cycle_mean": 1.69,
+  "goal_progress_mean": 50.0,
+  "goal_progress_median": 49.8,
+  "goal_progress_stdev": 28.6,
+  "kr_per_goal_mean": 1.92,
+  "checkins_per_goal_mean": 2.0,
+  "checkin_confidence": {
+   "on_track": 589,
+   "off_track": 150,
+   "at_risk": 261
+  },
+  "feedback_rating_distribution": {
+   "1": 40,
+   "2": 133,
+   "3": 387,
+   "4": 529,
+   "5": 294
+  },
+  "review_status_by_cycle": {
+   "CYCLE-2026-H1": {
+    "closed_incomplete": 13,
+    "finalized": 133
+   },
+   "CYCLE-2026-H2": {
+    "not_started": 149
+   }
+  },
+  "final_rating_bands": {
+   "Developing": 37,
+   "Outstanding": 3,
+   "Meets Expectations": 67,
+   "Needs Improvement": 7,
+   "Exceeds Expectations": 19
+  },
+  "kr_over_100_with_rationale": 44,
+  "kr_over_100_without_rationale": 2,
+  "kr_zero_progress": 82,
+  "kr_max_progress": 156.52,
+  "span_of_control_mean": 6.0,
+  "transfers": 8,
+  "dev_plan_status": {
+   "in_progress": 50,
+   "draft": 6,
+   "rejected": 7,
+   "pending_hr": 3,
+   "pending_manager": 2,
+   "approved": 1
+  },
+  "corr_goal_score_vs_manager_rating": 0.456
+ },
+ "anomaly_label_counts": {
+  "goal_owner_mismatch": 2,
+  "progress_exceeds_scale_no_rationale": 2,
+  "reviewer_lacks_relationship": 2,
+  "closed_cycle_silent_edit": 2,
+  "feedback_untraceable": 2,
+  "incomplete_review": 13,
+  "conflicting_feedback": 10,
+  "manager_transfer_mid_cycle": 8,
+  "goal_changed": 63
+ }
+}
